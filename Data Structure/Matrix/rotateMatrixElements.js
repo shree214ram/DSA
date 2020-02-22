@@ -105,3 +105,9 @@ $a = [[1, 2, 3, 4],
                   array(7, 8, 9)); 
 */ rotatematrix($Row, $Column, $a); 
     return 0;  
+
+    // output is :-
+    5   1   2   3 
+    9   10  6   4 
+    13  11  7   8 
+    14  15  16  12

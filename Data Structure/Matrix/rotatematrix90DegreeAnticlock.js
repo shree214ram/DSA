@@ -6,6 +6,17 @@ $N = 4;
 // anti-clockwise direction 
 function rotateMatrix($mat) 
 { 
+    // input is :-
+    // 1   2   3    4
+    // 5   6   7    8 
+    // 9   10  11   12 
+    // 13  14  15   16
+
+    // output is :-
+    // 4   8  12  16 
+    // 3   7  11  15 
+    // 2   6  10  14 
+    // 1   5   9  13 
       
     // Consider all  
     // squares one by one 
@@ -14,8 +25,7 @@ function rotateMatrix($mat)
         // Consider elements  
         // in group of 4 in  
         // current square 
-        for ($y = $x;  
-             $y < $N - $x - 1; $y++) 
+        for ($y = $x; $y < $N - $x - 1; $y++) 
         { 
             // store current cell 
             // in temp variable 
@@ -27,13 +37,11 @@ function rotateMatrix($mat)
   
             // move values from 
             // bottom to right 
-            $mat[$y][$N - 1 - $x] =  
-                $mat[$N - 1 - $x][$N - 1 - $y]; 
+            $mat[$y][$N - 1 - $x] = $mat[$N - 1 - $x][$N - 1 - $y]; 
   
             // move values from  
             // left to bottom 
-            $mat[$N - 1 - $x][$N - 1 - $y] =  
-                         $mat[$N - 1 - $y][$x]; 
+            $mat[$N - 1 - $x][$N - 1 - $y] = $mat[$N - 1 - $y][$x]; 
   
             // assign temp to left 
             $mat[$N - 1 - $y][$x] = $temp; 
@@ -78,3 +86,18 @@ rotateMatrix($mat);
   
 // Print rotated matrix 
 displayMatrix($mat); 
+
+ // input is :-
+    // 1   2   3    4
+    // 5   6   7    8 
+    // 9   10  11   12 
+    // 13  14  15   16
+
+// output is :-
+    // 4 8 12 16 
+
+    // 3 7 11 15 
+
+    // 2 6 10 14 
+
+    // 1 5 9 13 

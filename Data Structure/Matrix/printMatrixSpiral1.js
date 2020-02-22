@@ -3,23 +3,23 @@
 // matrix in spiral form 
  
   
-function spiralPrint($Row, $Column, $a) 
+function spiralPrint($RowLength, $ColumnLength, $a) 
 { 
     $startingRowIndex = 0; 
     $startingColumnIndex = 0; 
   
     /* $startingRowIndex - starting row index 
-        $Row - ending row index 
+        $RowLength - ending row index 
         $startingColumnIndex - starting column index 
-        $Column - ending column index 
+        $ColumnLength - ending column index 
         $i - iterator 
     */
   
-    while ($startingRowIndex < $Row && $startingColumnIndex < $Column) 
+    while ($startingRowIndex < $RowLength && $startingColumnIndex < $ColumnLength) 
     { 
         /* Print the first row from 
            the remaining rows */
-        for ($i = $startingColumnIndex; $i < $Column; ++$i) 
+        for ($i = $startingColumnIndex; $i < $ColumnLength; ++$i) 
         { 
             console.log($a[$startingRowIndex][$i] + " "); 
         } 
@@ -27,28 +27,28 @@ function spiralPrint($Row, $Column, $a)
   
         /* Print the last column  
         from the remaining columns */
-        for ($i = $startingRowIndex; $i < $Row; ++$i) 
+        for ($i = $startingRowIndex; $i < $RowLength; ++$i) 
         { 
-            console.log($a[$i][$Column - 1] + " "); 
+            console.log($a[$i][$ColumnLength - 1] + " "); 
         } 
-        $Column--; 
+        $ColumnLength--; 
   
         /* Print the last row from 
            the remaining rows */
-        if ($startingRowIndex < $Row) 
+        if ($startingRowIndex < $RowLength) 
         { 
-            for ($i = $Column - 1; $i >= $startingColumnIndex; --$i) 
+            for ($i = $ColumnLength - 1; $i >= $startingColumnIndex; --$i) 
             { 
-                console.log($a[$Row - 1][$i] + " "); 
+                console.log($a[$RowLength - 1][$i] + " "); 
             } 
-            $Row--; 
+            $RowLength--; 
         } 
   
         /* Print the first column from 
            the remaining columns */
-        if ($startingColumnIndex < $Column) 
+        if ($startingColumnIndex < $ColumnLength) 
         { 
-            for ($i = $Row - 1; $i >= $startingRowIndex; --$i) 
+            for ($i = $RowLength - 1; $i >= $startingRowIndex; --$i) 
             { 
                 console.log($a[$i][$startingColumnIndex] + " "); 
             } 
@@ -61,9 +61,9 @@ function spiralPrint($Row, $Column, $a)
 $a = [[1, 2, 3, 4, 5, 6], 
            [7, 8, 9, 10, 11, 12], 
            [13, 14, 15, 16, 17, 18]]; 
-$Row = 3; 
-$Column = 6;
-spiralPrint($Row, $Column, $a); 
+$RowLength = 3; 
+$ColumnLength = 6;
+spiralPrint($RowLength, $ColumnLength, $a); 
 
 // Output Will be :- 
 1
