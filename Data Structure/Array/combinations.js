@@ -48,7 +48,7 @@ function combinationUtil($arr, $data, $start, $end, $index, $r) {
     if ($index == $r) {
         for (let $j = 0; $j < $r; $j++)
             console.log($data[$j]);
-        console.log("\n");
+            console.log("\n");
         return;
     }
 

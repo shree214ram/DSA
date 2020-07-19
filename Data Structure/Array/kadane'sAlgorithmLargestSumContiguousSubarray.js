@@ -40,7 +40,7 @@ findMaxSum(myArray)
 
 
 
-// Program for print maximum add of concurn elements 
+// Program for print maximum add of concurn elements and print sub array
 //Written via Sunny 
 
 function maxSumPrint(myArray){

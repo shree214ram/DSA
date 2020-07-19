@@ -84,7 +84,12 @@ console.log(queue.dequeue());
 // prints [30, 40, 50, 60] 
 console.log(queue.printQueue());
 
-// function to generate binary numbers 
+
+
+
+
+
+//######### function to generate binary numbers #########//
 function generatePrintBinary(n) {
   // Create an empty queue of strings 
   var q = new Queue();

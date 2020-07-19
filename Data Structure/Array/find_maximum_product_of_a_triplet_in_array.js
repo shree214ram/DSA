@@ -167,9 +167,7 @@ else {
 
 
 
-
-
-
+// ****************** (O(n) Time, O(1) Space) ****************** //
 
 /* Function to find a maximum product of a triplet 
    in array of integers of size n */

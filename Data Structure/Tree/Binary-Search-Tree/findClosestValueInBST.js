@@ -1,3 +1,10 @@
+//https://www.callicoder.com/find-closest-element-binary-search-tree/
+
+// Find the closest element to a target value in a binary search tree
+
+//First Simple Method 
+// https://www.geeksforgeeks.org/find-closest-element-binary-search-tree/
+
 // Node class 
 class Node {
   constructor(data) {
@@ -104,46 +111,100 @@ class BinaryTree {
     else
       return (this.size(node.left) + 1 + this.size(node.right));
   }
+  findClosestValue( node,  target) {
+    console.log(node,  target)
+    let currentNode = node;
+    let closestValue = currentNode.data;
+    let minDiff = 999999999;
+
+    while(currentNode != null) {
+      let currentDiff = Math.abs(target - currentNode.data);
+    console.log("currentDiff",  currentDiff)
+
+      if(currentDiff < minDiff) {
+        minDiff = currentDiff;
+        closestValue = currentNode.data;
+      }
+      if(target < currentNode.data) {
+        currentNode = currentNode.left;
+      } else if (target > currentNode.data) {
+        currentNode = currentNode.right;
+      } else {
+        break;
+      }
+    }
+    return closestValue;
+  }
 }
 
 // create an object for the BinaryTree 
 var BT = new BinaryTree();
 
 // Inserting nodes to the BinaryTree 
-BT.root = new Node(1);
-BT.root.left = new Node(2);
-BT.root.right = new Node(21);
-BT.root.left.left = new Node(4);
-BT.root.left.right = new Node(49);
-BT.root.left.left.left = new Node(6);
-BT.root.left.left.right = new Node(68);
-BT.root.left.left.left.left = new Node(8);
-BT.root.left.left.left.right = new Node(83);
-
-//          1 
-//         /  \ 
-//        2   21 
-//       / \     
-//      4  49
-//     / \
-//    6  68
-//   / \
-//  8  83
-console.log("leftView of binary tree is ");
-
-BT.leftView();
-
-console.log("rightView of binary tree is ");
-
-BT.rightView();
-
-console.log("Level order traversal of binary tree is ");
-BT.printLevelOrder();
-
-console.log("Height of binary tree is ");
-console.log(BT.height(BT.root));
+// BT.root = new Node(1);
+// BT.root.left = new Node(2);
+// BT.root.right = new Node(21);
+// BT.root.left.left = new Node(4);
+// BT.root.left.right = new Node(49);
+// BT.root.left.left.left = new Node(6);
+// BT.root.left.left.right = new Node(68);
+// BT.root.left.left.left.left = new Node(8);
+// BT.root.left.left.left.right = new Node(83);
 
 
-console.log("size of binary tree is ");
-console.log(BT.size(BT.root));
+BT.root  = new Node(9);
+    BT.root.left = new Node(4);
+    BT.root.right = new Node(17);
 
+    BT.root.left.left = new Node(3);
+    BT.root.left.right = new Node(6);
+    BT.root.left.right.left = new Node(5);
+    BT.root.left.right.right = new Node(7);
+
+    BT.root.right.right = new Node(22);
+    BT.root.right.right.left = new Node(20);
+
+    console.log("==>",BT.findClosestValue(BT.root, 7));
+
+    
+// Input
+// -----
+// Binary Search Tree:
+//      9
+//    /   \
+//   4      17
+//  / \      \
+// 3   6      22
+//    / \     /
+//   5   7   20
+
+// target: 18 
+
+
+// Output
+// ------
+// 17
+
+// console.log("leftView of binary tree is ");
+
+// BT.leftView();
+
+// console.log("rightView of binary tree is ");
+
+// BT.rightView();
+
+// console.log("Level order traversal of binary tree is ");
+// BT.printLevelOrder();
+
+// console.log("Height of binary tree is ");
+// console.log(BT.height(BT.root));
+
+
+// console.log("size of binary tree is ");
+// console.log(BT.size(BT.root));
+
+//findClosestValue( node,  target)
+
+
+// Second Method 
+// https://www.geeksforgeeks.org/find-the-closest-element-in-binary-search-tree-space-efficient-method/
