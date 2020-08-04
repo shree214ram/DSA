@@ -17,7 +17,7 @@
 //     - replace min with bottom right
 //     - bubble down until it meets requirements
 
-// PriorityQueue class 
+// MinHeap class 
 class MinHeap {
 
   // An array is used to implement priority 

@@ -3,7 +3,12 @@ Self-Balancing-Binary-Search-Trees :-
 
     Important function which makes AVL (Self Balance Tree) more important 
     search , insert o(h) h height in BST o(logn) in AVL (Self Balance Tree)
-    https://hajsoftutorial.com/treeset-first-last-lower80-higher20-descendingset/#:~:text=The%20lower()%20method%20returns,there%20is%20no%20such%20element.
+    1. https://hajsoftutorial.com/treeset-first-last-lower80-higher20-descendingset/#:~:text=The%20lower()%20method%20returns,there%20is%20no%20such%20element.
+    2. https://adrianmejia.com/self-balanced-binary-search-trees-with-avl-tree-data-structure-for-beginners/
+    3. http://hg.openjdk.java.net/jdk8/jdk8/jdk/file/687fd7c7986d/src/share/classes/java/util/TreeMap.java
+    http://hg.openjdk.java.net/jdk8/jdk8/jdk/file/687fd7c7986d/src/share/classes/java/util/TreeSet.java
+    3. https://www.geeksforgeeks.org/tag/self-balancing-bst/
+    
 
 Examples :-
     1) Red Black Tree

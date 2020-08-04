@@ -1,4 +1,5 @@
 // https://www.geeksforgeeks.org/find-the-nearest-smaller-numbers-on-left-side-in-an-array/?ref=rp
+// https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/algorithm/nearest-smaller-element-929558b4/
 //Javascript implementation of efficient algorithm to find 
 // smaller element on left side 
 
