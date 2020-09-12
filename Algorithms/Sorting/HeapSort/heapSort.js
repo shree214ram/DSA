@@ -1,5 +1,4 @@
-//https://www.geeksforgeeks.org/heap-sort/
-//https://www.youtube.com/watch?v=Q_eia3jC9Ts
+
 
 // Javascript program for implementation of Heap Sort 
 
