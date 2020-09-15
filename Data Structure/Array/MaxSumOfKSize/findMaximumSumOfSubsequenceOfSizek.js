@@ -27,14 +27,14 @@ function maxSum( $arr, $n, $k)
     for ($i = $k; $i < $n; $i++) 
     { 
         $window_sum += $arr[$i] - $arr[$i - $k]; 
-        $max_sum = max($max_sum, $window_sum); 
+        $max_sum = Math.max($max_sum, $window_sum); 
     } 
   
     return $max_sum; 
 } 
   
     // Driver code 
-    $arr = array(1, 4, 2, 10, 2, 3, 1, 0, 20); 
+    $arr = [1, 4, 2, 10, 2, 3, 1, 0, 20]; 
     $k = 4; 
-    $n = count($arr); 
+    $n = $arr.length; 
     console.log ( maxSum($arr, $n, $k) ); 
