@@ -22,7 +22,7 @@ class MergeSort {
 
 		// Initial indexes of first and second subarrays 
 		let i = 0;
-    let j = 0;
+    	let j = 0;
 
 		// Initial index of merged subarry array 
 		let k = l;
