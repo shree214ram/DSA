@@ -48,9 +48,10 @@ class GFG {
       b) Maximum subarray sum in right half 
       c) Maximum subarray sum such that the 
       subarray crosses the midpo*/
-      return Math.max(Math.max(this.maxSubArraySum(arr, l, m),
-        this.maxSubArraySum(arr, m + 1, h)),
-        this.maxCrossingSum(arr, l, m, h));
+      return Math.max(
+        Math.max(this.maxSubArraySum(arr, l, m), this.maxSubArraySum(arr, m + 1, h)),
+        this.maxCrossingSum(arr, l, m, h)
+      );
     }
   }
   /* Driver program to test maxSubArraySum */
@@ -61,5 +62,4 @@ class GFG {
   
   console.log("Maximum contiguous sum is " +
     max_sum);
-  // This code is contributed by Prerna Saini
   

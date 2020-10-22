@@ -1,0 +1,69 @@
+<script>
+class HashTable {
+    constructor() {
+        this.maxSize = 43;
+        this.size = 0;
+        this.keys = [];
+        this.bucket = [];
+    }
+    set(key, value = null) {
+        this.put(key, value)
+    }
+    put(key, value = null) {
+        const index = this.hashFunc(key)
+        if (!this.bucket[index]) {
+            this.bucket[index] = {}
+            this.size++
+            this.keys.push(key)
+        }
+        this.bucket[index] = { key: key, value: value }
+    }
+    isEmpty() {
+        return this.size == 0
+    }
+    get(key) {
+        const index = this.hashFunc(key)
+        if (this.bucket[index]) {
+            return this.bucket[index]
+        }
+        return false;
+    }
+    containsKey(key){
+        return this.keys.includes(key)
+    }
+    size() {
+        return this.size
+    }
+    bucketResult() {
+        return this.bucket
+    }
+    hashFunc(key) {
+        return key % this.maxSize;
+    }
+}
+
+
+const str = "geeksforgeeks";
+const hash = new HashTable();
+
+for (let i = 0; i < str.length; i++) {
+    console.log(str[i].charCodeAt,'str[i]')
+    const as = str[i]
+    console.log(as,'str[i]')
+    if (hash.containsKey(str[i])) {
+        const value = hash.get(str[i]).value + 1;
+        hash.set(str[i], value)
+    } else {
+        hash.set(str[i], 1)
+    }
+}
+const hashBucket = hash.bucketResult();
+console.log(hashBucket, "hash")
+for (let i = 0; i < hashBucket.length; i++) {
+    if (hashBucket[i].value==1) {
+        console.log("First Non repeating character is ", hashBucket[i].key)
+    } 
+}
+</script>
+
+https://www.youtube.com/watch?v=INaB_TSnXPQ
