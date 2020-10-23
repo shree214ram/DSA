@@ -44,26 +44,36 @@ class HashTable {
 
 
 const str = "geeksforgeeks";
+console.log('Input String is => ',str)
+
 const hash = new HashTable();
 
+const k = 97;
+  const charObject = {};
+  for (let i = 0; i < 26; i++) {
+    const currentObject = String.fromCharCode(k + i);
+    charObject[currentObject] = k + i;
+  }
+
 for (let i = 0; i < str.length; i++) {
-    console.log(str[i].charCodeAt,'str[i]')
-    const as = str[i]
-    console.log(as,'str[i]')
-    if (hash.containsKey(str[i])) {
-        const value = hash.get(str[i]).value + 1;
-        hash.set(str[i], value)
+    const currentKey= charObject[str[i]]
+    if (hash.containsKey(currentKey)) {
+        const value = hash.get(currentKey).value + 1;
+        hash.set(currentKey, value)
     } else {
-        hash.set(str[i], 1)
+        hash.set(currentKey, 1)
     }
 }
 const hashBucket = hash.bucketResult();
-console.log(hashBucket, "hash")
 for (let i = 0; i < hashBucket.length; i++) {
-    if (hashBucket[i].value==1) {
-        console.log("First Non repeating character is ", hashBucket[i].key)
+    if (hashBucket[i] && hashBucket[i].value==1) {
+        for (var prop in charObject) {
+            if (charObject[prop] == hashBucket[i].key) {
+                // your code
+                console.log("First Non repeating character is ", prop);
+                break;
+            }
+        }
     } 
 }
 </script>
-
-https://www.youtube.com/watch?v=INaB_TSnXPQ
