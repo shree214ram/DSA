@@ -1,4 +1,5 @@
 // find-smallest-and-second-smallest-element-in-an-array 
+// https://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/
 // This is same as second max Only the difference is at place of > we will have to use < in If Else Condition . 
 // second mininum elements 
 
@@ -22,7 +23,7 @@ function print2largest($arr, $arr_size)
         // smaller than first 
         // then update both  
         // first and second  
-        if ($arr[$i] > $first) 
+        if ($arr[$i] < $first) 
         { 
             $second = $first; 
             $first = $arr[$i]; 
@@ -32,7 +33,7 @@ function print2largest($arr, $arr_size)
         // between first and  
         // second then update  
         // second  
-        else if ($arr[$i] > $second && 
+        else if ($arr[$i] < $second && 
                  $arr[$i] != $first) 
             $second = $arr[$i]; 
     } 
