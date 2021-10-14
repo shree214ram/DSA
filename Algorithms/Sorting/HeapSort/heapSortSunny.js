@@ -16,6 +16,13 @@ class HeapSort {
     heapSort() {
       const n = this.heapSize;
       //build max heap
+      //n/2 -1 isliye kyonki non leaf noad se start kar rahe he 
+      //       15(1)
+      //   /         \
+      // 5 (2)         20(3)
+      //   /\              / \
+      // 1(4) 17(5)  10(6) 30(7)
+      // parhum 0 se start kar rahe he isliye n/2 -1 
       for (let i = (n / 2) - 1; i >= 0; i--) {
         this.maxHeapify(this.heapArray,n, i)
       }

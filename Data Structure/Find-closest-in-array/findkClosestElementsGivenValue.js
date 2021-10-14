@@ -5,63 +5,78 @@
 // if right elements not available print left all { But only K elements }
 // if left not available then print right all { But only K elements }
 // k 
-function findCrossover(myArray, $target, low, high) {
 
-    // Corner cases  
-    if ($target <= myArray[low])
-        return myArray[0];
-    if ($target >= myArray[high])
-        return myArray[high];
+function findCloser(arr, low, high, pick) {
+  if (arr[high] <= pick) {
+    return high
+  }
+  if (arr[low] >= pick) {
+    return low
+  }
+  const mid = (low + high) / 2;
+  if (arr[mid] <= pick && arr[mid + 1] > pick)
+    return mid;
 
-    // Doing binary search  
-    $i = 0;
-    $j = high + 1;
-    $mid = 0;
-    while ($i < $j) {
-        $mid = ($i + $j) / 2;
+  /* If x is greater than arr[mid],  
+     then either arr[mid + 1] is  
+     ceiling of x or ceiling lies  
+     in arr[mid+1...high] */
+  if (arr[mid] < pick)
+    return findCloser(arr, mid + 1,
+      $high, pick);
 
-        if (myArray[$mid] == $target)
-            return myArray[$mid];
+  return findCloser(arr, low,
+    mid - 1, pick);
 
-        /* If target is less than array element,  
-            then search in left */
-        if ($target < myArray[$mid]) {
-
-            // If target is greater than previous  
-            // to mid, return closest of two  
-            if ($mid > 0 && $target > myArray[$mid - 1])
-                return findCrossover(myArray, $target, myArray[$mid - 1],
-                    myArray[$mid]);
-            /* Repeat for left half */
-            $j = $mid;
-        }
-
-        // If target is greater than mid  
-        else {
-            if ($mid < high &&
-                $target < myArray[$mid + 1])
-                return findCrossover(myArray, $target, myArray[$mid],
-                    myArray[$mid + 1]);
-            // update i  
-            $i = $mid + 1;
-        }
-    }
-
-    // Only single element left after search  
-    return myArray[$mid];
 }
 
-// Method to compare which one is the more close.  
-// We find the closest by taking the difference  
-// between the target and both values. It assumes  
-// that val2 is greater than val1 and target lies  
-// between these two.  
-function getClosest(myArray, k, x) {
-    const l = findCrossover(myArray, k, x, myArray.length)
+function findClosest(arr, pick, howMany) {
+  const $n = arr.length
+  const $l = findCloser(arr, 0, arr.length - 1, pick);
+
+  // Right index to search 
+  const $r = $l + 1;
+
+  // To keep track of count of 
+  // elements already printed 
+  const $count = 0;
+
+  // If x is present in arr[],  
+  // then reduce left index 
+  // Assumption: all elements  
+  // in arr[] are distinct 
+  if (arr[$l] == pick) $l--;
+
+  // Compare elements on left  
+  // and right of crossover 
+  // point to find the k  
+  // closest elements 
+  while ($l >= 0 && $r < $n &&
+    $count < howMany) {
+    if (pick - arr[$l] < arr[$r] - pick)
+      console.log(arr[$l--] + " ");
+    else
+      console.log(arr[$r++] + " ");
+    $count++;
+  }
+
+  // If there are no more 
+  // elements on right side, 
+  // then print left elements 
+  while ($count < howMany && $l >= 0)
+    console.log(arr[$l--] + " ");
+  $count++;
+
+  // If there are no more  
+  // elements on left side,  
+  // then print right elements 
+  while ($count < howMany && $r < $n)
+    console.log(arr[$r++]);
+  $count++;
+
 }
 
-// Driver code  
-const k = 4, x = 35
-const myArray = [12, 16, 22, 30, 35, 39, 42,
-    45, 48, 50, 53, 55, 56];
-getClosest(myArray, k, x);  
+const arr = [12, 16, 22, 30, 35, 39, 42, 
+                45, 48, 50, 53, 55, 56];
+const howMany = 4;
+findClosest(arr, 35, howMany);
