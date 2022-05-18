@@ -5,7 +5,7 @@
 // if nearest greater is not exist then print nearest lower .
 
 
-import AVLTree from '../Tree/Self-Balancing-Tree/AVL-Tree/avlTree';
+import AVLTree from '../../Tree/Self-Balancing-Tree/AVL-Tree/avlTree';
 
 
 const tree = new AVLTree();

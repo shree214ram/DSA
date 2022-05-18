@@ -1,4 +1,9 @@
 // https://www.geeksforgeeks.org/find-closest-number-array/
+
+// Given an array of sorted integers. 
+// We need to find the closest value to the given number. 
+// Array may contain duplicate values and negative numbers. 
+
 //Javascript implementation of efficient algorithm to find 
 // smaller element on left side 
 
@@ -77,7 +82,7 @@ function getClosest($val1, $val2, $target)
 }  
   
 // Driver code  
-$arr = array( 1, 2, 4, 5, 6, 6, 8, 9 );  
-$n = sizeof($arr);  
+$arr = [ 1, 2, 4, 5, 6, 6, 8, 9 ];  
+$n = $arr.length  ;  
 $target = 11;  
-echo (findClosest($arr, $n, $target));  
+console.log (findClosest($arr, $n, $target));  

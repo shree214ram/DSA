@@ -1,70 +1,34 @@
-// Function to print the  
-// second largest elements 
-function insertionSort($arr, $arr_size) 
-{ 
+//https://www.geeksforgeeks.org/insertion-sort/?ref=gcse
+//https://www.youtube.com/watch?v=yCxV0kBpA6M
+/*
+Insertion Sorting work upon an array divided into two parts , one is sorted sub array and another one is unsorted subarray.
+we trace unsorted array and we pickup an element from unsorted array and we insert into sorted sub array .
+Steps :- 
+1. Pick one value from unsorted array .
+2. We are going to findout appropriate place to insert into sorted sub array
+3. after finding appropriate place we insert into sorted subarray 
+*/
+function insertionSort(arr, arr_size) {
     // There should be atleast  1 elements  
-    if ($arr_size < 1) 
-    { 
-        console.log(" Invalid Input "); 
-        return; 
-    } else if ($arr_size === 1) 
-    { 
-        console.log(" Insertion Sort = "+ $arr); 
-        return; 
-    } 
-    for (let $i = 0; $i < $arr_size-1 ; $i++) 
-    { 
-    	let min = $arr[$i];
-        for (let $j = $i+1; $j < $arr_size ; $j++) {
-        	if ($j > min) 
-        	{ 
-            	min = $j
-        	} 
+    if (arr_size < 1) {
+        console.log(" Invalid Input ");
+        return;
+    } else if (arr_size === 1) {
+        console.log(" Insertion Sort = " + arr);
+        return;
+    }
+    for (let i = 1; i < arr.length; i++) {
+        const temp = arr[i];
+        let j = i - 1;
+        while (j >= 0 && arr[j] > temp) {
+            arr[j + 1] = arr[j]
+            j--;
         }
-        if($arr[$i] > min){
-            const $tmp = $arr[$i]; 
-            $arr[$i] = $arr[$min]; 
-            $arr[$min] = $tmp; 
-            }
-    } 
-    console.log("The Insertion Sort = " + $arr + "\n"); 
-} 
+        arr[j + 1] = temp;
+    }
+    console.log("The Insertion Sort = " + arr + "\n");
+}
 // Driver Code 
-var arr = [12, 35, 1, 10, 37, 1]; 
-var n = arr.length; 
-insertionSort(arr, n); 
-
-            
-            
-function selection_sort($arr, $n)  
-{ 
-    for(let $i = 0; $i < $n ; $i++) 
-    { 
-        let $low = $i; 
-        for(let $j = $i + 1; $j < $n ; $j++) 
-        { 
-            if ($arr[$j] < $arr[$low]) 
-            { 
-                $low = $j; 
-            } 
-        } 
-          
-        // swap the minimum value to $ith node 
-        if ($arr[$i] > $arr[$low]) 
-        { 
-            let $tmp = $arr[$i]; 
-            $arr[$i] = $arr[$low]; 
-            $arr[$low] = $tmp; 
-        } 
-    } 
-} 
-  
-// Driver Code 
-const $arr = [64, 25, 12, 22, 11]; 
-$len = $arr.length; 
-selection_sort($arr, $len); 
-console.log( "Sorted array : \n");  
-  
-for (let $i = 0; $i < $len; $i++)  
-    console.log( $arr[$i] + " ");  
-  
+var arr = [12, 35, 1, 10, 37, 1];
+var n = arr.length;
+insertionSort(arr, n);
