@@ -1,3 +1,4 @@
+//https://www.geeksforgeeks.org/quick-sort/
 // Javascript program for implementation of QuickSort 
 /* This function takes last element as pivot, 
 places the pivot element at its correct 
@@ -65,3 +66,6 @@ console.log("sorted array");
 printArray(arr);
 
 /*This code is contributed by Rajat Mishra */
+
+
+
