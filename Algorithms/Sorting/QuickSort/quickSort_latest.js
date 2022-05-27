@@ -92,8 +92,6 @@ function quick_sort(arr, lb, up){
         quick_sort(arr, lb, p1-1)
         quick_sort(arr,  p1+1, up)
     }
-    
-    
 }
 const arr= [56 ,33,88, 67, 1, 60, 2]
 const lb = 0
