@@ -82,7 +82,7 @@ function partition(A,lb,up){
             swap(A, start,end)
         }
     }
-    swap(A, lb , end)
+    swap(A, lb , end) //why its going to be swapped 
     return end
     
 }

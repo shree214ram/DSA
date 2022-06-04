@@ -6,7 +6,8 @@ https://www.geeksforgeeks.org/where-is-heap-sort-used-practically/
 
 https://www.geeksforgeeks.org/applications-of-heap-data-structure/
 
-
+@sunny
+Heap is always a complete binary tree 
 
 Binary Heap
 A Binary Heap is a Binary Tree with following properties.
@@ -32,9 +33,6 @@ Arr[(2*i)+2]	Returns the right child node
 The traversal method use to achieve Array representation is Level Order
 
 
-
-
-
 Please refer Array Representation Of Binary Heap for details.
 
 
@@ -58,9 +56,9 @@ Operations on Min Heap:
 
 3) decreaseKey(): Decreases value of key. The time complexity of this operation is O(Logn). If the decreases key value of a node is greater than the parent of the node, then we don’t need to do anything. Otherwise, we need to traverse up to fix the violated heap property.
 
-
-
-
 4) insert(): Inserting a new key takes O(Logn) time. We add a new key at the end of the tree. IF new key is greater than its parent, then we don’t need to do anything. Otherwise, we need to traverse up to fix the violated heap property.
 
 5) delete(): Deleting a key also takes O(Logn) time. We replace the key to be deleted with minum infinite by calling decreaseKey(). After decreaseKey(), the minus infinite value must reach root, so we call extractMin() to remove the key.
+
+registrationandturistcare.uk.gov.in
+

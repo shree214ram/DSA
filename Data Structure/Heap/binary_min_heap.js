@@ -55,6 +55,14 @@ class MinHeap {
       }
     }
   
+/*
+          1
+      3        9
+  12   23    56  78
+  
+*/ 
+//  [23 , 56 , 12, 1, 3, 78, 9] ==> [1, 3, 9, 12, 23, 56, 78]
+
     // Method to remove minimum element (or root) from min heap 
     extractMin() {
       if (this.heap_size <= 0)
