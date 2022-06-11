@@ -1,5 +1,5 @@
 // https://www.geeksforgeeks.org/print-concatenation-of-zig-zag-string-form-in-n-rows/
-
+// https://leetcode.com/problems/zigzag-conversion/ (6. Zigzag Conversion)
 // Program for zig zag conversion 
 
 // Input: s = "PAYPALISHIRING", numRows = 3
