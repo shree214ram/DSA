@@ -1,7 +1,7 @@
 #Single Link List 
 //https://www.youtube.com/watch?v=dmb1i4oN5oE
 
-##Definition :- 
+## Definition :- 
    Basically Link List  is a lenear Data structure and Dynamic Memory Allocation 
 
    There are some restriction in Array like This is a fixed size A[6]  and type of collection of data , 
@@ -9,9 +9,9 @@
    1. processor will Assign a New Fresh Memory Space of bytes A[7] 
    2. copy all the old memory item to New Memory
 
-   ######But that is a lot of effort and memory wastage process . 
+   ###### But that is a lot of effort and memory wastage process . 
 
-   ###Memory Manager will takes 4 bytes for each elements so 6 * 4 = 24 Bytes Total memory space contigious and consigative  location 
+   ### Memory Manager will takes 4 bytes for each elements so 6 * 4 = 24 Bytes Total memory space contigious and consigative  location 
 ```
                ------------------------------------  
                | 4   | 8   | 0   | 7   | 5   | 1   |
@@ -23,9 +23,9 @@
 
 
 ```
-   ######We can use Link List there is no limit of Array size and we can easily add an element 
+   ###### We can use Link List there is no limit of Array size and we can easily add an element 
 
-   ###Memory Manager will takes 8 bytes (4 for Value another 4 for Address on next(0 if it's last)) for each elements so 8 * 4 = 24 Bytes Total memory space Noncontigious and non-consigative  location 
+   ### Memory Manager will takes 8 bytes (4 for Value another 4 for Address on next(0 if it's last)) for each elements so 8 * 4 = 24 Bytes Total memory space Noncontigious and non-consigative  location 
 ```
                ----------------------------------------------------------------------------   
                | 4 |    |     |     |  8  |     |     |    | 0   |   |  7   | 5 |   | 1   |
