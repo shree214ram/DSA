@@ -42,7 +42,7 @@ Operation :-
     I want to add 9 so 
     1) first i would have to increment Rear++ that will be 3rd Index and 
     2) then Queue[Rear] = 9
-
+```
                -----------------  
                  2     4      6       -----Rear
                -----------------     |
@@ -50,6 +50,7 @@ Operation :-
                  |
                  |
      Front-------
+```
  2. Deletion(Dequeue) :- Always from Front 
    I want to remove 2 so 
     1) first i would have to increment Front++ that will be 1st from 0th Index and 

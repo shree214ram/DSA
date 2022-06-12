@@ -1,15 +1,18 @@
-//Single Link List //https://www.youtube.com/watch?v=dmb1i4oN5oE
+#Single Link List 
+//https://www.youtube.com/watch?v=dmb1i4oN5oE
 
-Definition :- 
+##Definition :- 
    Basically Link List  is a lenear Data structure and Dynamic Memory Allocation 
 
-   There are some restriction in Array like This is a fixed size A[5] and type of collection of data , 
+   There are some restriction in Array like This is a fixed size A[6]  and type of collection of data , 
    If we want to add an elemet then we have to request to processor and in can't be extended . But Below step can doable 
-   1. processor will Assign a New Fresh Memory Space of bytes A[6] 
+   1. processor will Assign a New Fresh Memory Space of bytes A[7] 
    2. copy all the old memory item to New Memory
 
-   But that is a lot of effort and memory wastage process . 
+   ######But that is a lot of effort and memory wastage process . 
 
+   ###Memory Manager will takes 4 bytes for each elements so 6 * 4 = 24 Bytes Total memory space contigious and consigative  location 
+```
                ------------------------------------  
                | 4   | 8   | 0   | 7   | 5   | 1   |
                |     |     |     |     |     |     |       
@@ -19,39 +22,92 @@ Definition :-
                    Memory Allocation Graph Image 
 
 
-                  --Ram---
-                  --shyam---
-                  --puja---
-                  --rani---
-                  --Manoj---
+```
+   ######We can use Link List there is no limit of Array size and we can easily add an element 
 
-   Ram Came in first in Queue so it will take a ticket from counter first and out first that is FIFO.
-   Manoj Came last in Queue so he will go Last in the queue (LILO) List In Last Out
+   ###Memory Manager will takes 8 bytes (4 for Value another 4 for Address on next(0 if it's last)) for each elements so 8 * 4 = 24 Bytes Total memory space Noncontigious and non-consigative  location 
+```
+               ----------------------------------------------------------------------------   
+               | 4 |    |     |     |  8  |     |     |    | 0   |   |  7   | 5 |   | 1   |
+               |   |    |     |     |     |     |     |    |     |   |      |   |   |     |       
+               ----------------------------------------------------------------------------         
+                100 101   102    103  104   105   106   107  108   109  110  111  112  113
+
+                                    Memory Allocation Graph Image 
+
+------------------     
+| 4   | 100      |
+|     | Next     |
+|     | Element  |
+|     | Address  |
+------------------  
+(First Value stored with 4 byte which is of Integer and Second section is Pointer (Address of next element) , Total combination is called Node )
+
+
+Root(Head)
+----------     
+|   100  |
+|        |
+---------- 
+   |
+   |
+   |           ----------     ---------------      -----------          --------------    -------------      ---------------   
+   |           | 4 | 104 |     |  8  |  108 |     |   0 | 110 |         |  7   | 111 |    |   5  | 113 |      |   1   | null|   
+    ------->   |   |     |     |     |      |     |     |     |         |      |     |    |      |     |      |       |     |
+               ----------     ---------------      -----------          --------------    -------------      ---------------  
+                  100               104                  108                  110               111                  113
+                                 
+                                                   Link List Representation Image 
+```
 
 Rules :-
-   Insertion from one end and Deletion from another end . 
-   But in Stack Insertion and Deletion always from same end That's why that is called LIFO 
-   like a DVD Stand first DVD which entered first will go out in last (FILO)
-   
-   |     DVD5      |  |            Delete(Pop)
-   |     DVD4      |  |              |
-   |     DVD3      |  |              |
-   |     DVD2      |  |              |
-   |     DVD1      |Insert(Push)     |
-   -----------------
+   1. We can not access any element directly as like Array becuase in link list our data not added in contigious or consigitive order .
+   2. we may have to traverse for that if that is not first or last elemnt that's why searching may take O(n)
+   3. Insertion and Deletion is easy it may take O(1) only 
 Operation :-
- 1. Insertion(Enqueue) :- Always from Rear 
-    I want to add 9 so 
-    1) first i would have to increment Rear++ that will be 3rd Index and 
-    2) then Queue[Rear] = 9
+ 1. Insertion(Enqueue) :- Anywhere we can insert 
+ ```
+    I want to add 9        --------------   
+                           | 9   | 103  |
+                           --------------
+   in below list 
+   -----------------  
+      2     4      6      
+   -----------------  
+   100     101    102
 
-               -----------------  
-                 2     4      6       -----Rear
-               -----------------     |
-               0th    1st    2nd <---|
-                 |
-                 |
-     Front-------
+
+    1) first i would have to Create a new Node 
+    
+   --------------   
+   | 9   | 103  |
+   --------------
+    2) then i will change next address of 6 from null to address of new element 9 to 103 and Next address of 9 to null because its last elemnt 
+
+----------     
+|   100  |
+|        |
+---------- 
+   |
+   |
+   |           ----------     ---------------      ------------          --------------    -------------      ---------------   
+   |           | 2 | 101 |     |  4  |  102 |     |   6 | null |         |  7   | 111 |    |   5  | 113 |      |   1   | null|   
+    ------->   |   |     |     |     |      |     |     |      |         |      |     |    |      |     |      |       |     |
+               ----------     ---------------      -------------          --------------    -------------      ---------------  
+                  100               101                  102                  110               111                  113
+
+
+----------     
+|   100  |
+|        |
+---------- 
+   |
+   |           ----------     ---------------      ------------         --------------    
+   |           | 2 | 101 |     |  4  |  102 |     |   6 | 103 |         |  9   | null |   
+    ------->   |   |     |     |     |      |     |     |     |         |      |      |  
+               ----------     ---------------      -------------        --------------   
+                  100               101                  102                 103            
+```
  2. Deletion(Dequeue) :- Always from Front 
    I want to remove 2 so 
     1) first i would have to increment Front++ that will be 1st from 0th Index and 
