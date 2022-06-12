@@ -4,7 +4,7 @@ import HashTable from '../Hashing/hashTable';
 
 
 // const LinkedList = require('./linkedList');
-// const HashTable = require('../Hashing/hashTable');
+// const HashTable = require('../Hashing/hashTable'); 
 
 function getIntersection(head1, head2) {
     // HashSet<Integer> hset = new HashSet<>(); 

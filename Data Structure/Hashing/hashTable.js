@@ -28,7 +28,7 @@ class HashTable {
   get(key) {
     let index = this.hash(key);
     if (!this.buckets[index]) return null
-    for (let bucket of this.buckets[index]) {
+    for (let bucket of this.buckets[index]) { 
       console.log(bucket, 'bucket')
       // key
       if (bucket[0] === key) {

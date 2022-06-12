@@ -4,6 +4,8 @@
 ## Definition :- 
    Basically Link List  is a lenear Data structure and Dynamic Memory Allocation 
 
+## Difference Between Array Vs Linked List :- 
+   ### Memory Requirment And Memory utilization
    There are some restriction in Array like This is a fixed size A[6]  and type of collection of data , 
    If we want to add an elemet then we have to request to processor and in can't be extended . But Below step can doable 
    1. processor will Assign a New Fresh Memory Space of bytes A[7] 
@@ -11,7 +13,7 @@
 
    ###### But that is a lot of effort and memory wastage process . 
 
-   ### Memory Manager will takes 4 bytes for each elements so 6 * 4 = 24 Bytes Total memory space contigious and consigative  location 
+   ###### Memory Manager will takes 4 bytes for each elements so 6 * 4 = 24 Bytes Total memory space contigious and consigative  location 
 ```
                ------------------------------------  
                | 4   | 8   | 0   | 7   | 5   | 1   |
@@ -25,7 +27,7 @@
 ```
    ###### We can use Link List there is no limit of Array size and we can easily add an element 
 
-   ### Memory Manager will takes 8 bytes (4 for Value another 4 for Address on next(0 if it's last)) for each elements so 8 * 4 = 32 Bytes Total memory space Noncontigious and non-consigative  location 
+   ###### Memory Manager will takes 8 bytes (4 for Value another 4 for Address on next(0 if it's last)) for each elements so 8 * 4 = 32 Bytes Total memory space Noncontigious and non-consigative  location 
 ```
                ----------------------------------------------------------------------------   
                | 4 |    |     |     |  8  |     |     |    | 0   |   |  7   | 5 |   | 1   |
@@ -61,54 +63,115 @@ Root(Head) which is note a Node its Only a Pointer which keeps address of first 
                                                    Link List Representation Image 
 ```
 
-Rules :-
+   ### Rules :-
    1. We can not access any element directly as like Array becuase in link list our data not added in contigious or consigitive order .
    2. we may have to traverse for that if that is not first or last elemnt that's why searching may take O(n)
    3. Insertion and Deletion is easy it may take O(1) only 
-Operation :-
- 1. Insertion(Enqueue) :- Anywhere we can insert 
- ```
-    I want to add 9        --------------   
-                           | 9   | 103  |
-                           --------------
-   in below list 
-   -----------------  
-      2     4      6      
-   -----------------  
-   100     101    102
+   ### Operation :-
+
+      ###### At Begining O(n):- 
+      1. Array will take O(n) , why becuase If i will add a value at 0th position then all another will swift one position from left to right 
+      ```
+            -----------------  
+            2     4      6      
+            -----------------  
+      |-->  0     1      2
+      |     |     |      |
+      |     |---->|      |
+      |           |      |
+   9---           |------>
+
+         I want to add 9  at Begining then A[0] will be 9 and 2 will be swifted from A[0] to A[1] ,  4 will be swifted from A[1] to A[2] ,  6 will be swifted from A[2] to A[3]
+      2. Linked List will take O(1) , why becuase If i will add a value at 0th position then all another will swift one position from left to right 
+      ```
+      I want to add 9        --------------   
+                              | 9   | 103  |
+                              --------------
+      in below list at Start
+      -----------------  
+         2     4      6      
+      -----------------  
+      100     101    102
 
 
-    1) first i would have to Create a new Node 
-    
-   --------------   
-   | 9   | 103  |
-   --------------
-    2) then i will change next address of 6 from null to address of new element 9 to 103 and Next address of 9 to null because its last elemnt 
+      1) first i would have to Create a new Node 
+      
+      --------------   
+      | 9   | 103  |
+      --------------
+      2) then i will change next address of Root(Head) from 100 to address of new element 9 to 103 and Next address of 9 to 100 because its first element 
 
-----------     
-|   100  |
-|        |
----------- 
-   |
-   |
-   |           ----------     ---------------      ------------    
-   |           | 2 | 101 |     |  4  |  102 |     |   6 | null |    
-    ------->   |   |     |     |     |      |     |     |      |  
-               ----------     ---------------      -------------  
-                  100               101                  102     
+   Before :-
+
+   ----------     
+   |   100  |
+   |        |
+   ---------- 
+      |
+      |           ----------     ---------------      ------------  
+      |           | 2 | 101 |     |  4  |  102 |     |   6 | 103 |   
+      ------->   |   |     |     |     |      |     |     |     |   
+                  ----------     ---------------      -------------    
+                     100               101                  102         
+
+   After :- 
+
+   ----------     
+   |   103  |
+   |        |
+   ---------- 
+      |
+      |
+      |           *----------*       ----------     ---------------      ------------    
+      |           *| 9 | 100 |*     | 2 | 101 |     |  4  |  102 |     |   6 | null |    
+      ------->    *|   |     |*     |   |     |     |     |      |     |     |      |  
+                  *---------- *       ----------     ---------------      -------------  
+                     *103*               100               101                  102        
+   ```
+      ###### At End :-
+   ```
+      I want to add 9        --------------   
+                              | 9   | 103  |
+                              --------------
+      in below list at end
+      -----------------  
+         2     4      6      
+      -----------------  
+      100     101    102
 
 
-----------     
-|   100  |
-|        |
----------- 
-   |
-   |           ----------     ---------------      ------------         --------------    
-   |           | 2 | 101 |     |  4  |  102 |     |   6 | 103 |         |  9   | null |   
-    ------->   |   |     |     |     |      |     |     |     |         |      |      |  
-               ----------     ---------------      -------------        --------------   
-                  100               101                  102                 103            
-```
+      1) first i would have to Create a new Node 
+      
+      --------------   
+      | 9   | 103  |
+      --------------
+      2) then i will change next address of 6 from null to address of new element 9 to 103 and Next address of 9 to null because its last element 
+
+   ----------     
+   |   100  |
+   |        |
+   ---------- 
+      |
+      |
+      |           ----------     ---------------      ------------    
+      |           | 2 | 101 |     |  4  |  102 |     |   6 | null |    
+      ------->   |   |     |     |     |      |     |     |      |  
+                  ----------     ---------------      -------------  
+                     100               101                  102     
+
+
+   ----------     
+   |   100  |
+   |        |
+   ---------- 
+      |
+      |           ----------     ---------------      ------------         --------------    
+      |           | 2 | 101 |     |  4  |  102 |     |   6 | 103 |         |  9   | null |   
+      ------->   |   |     |     |     |      |     |     |     |         |      |      |  
+                  ----------     ---------------      -------------        --------------   
+                     100               101                  102                 103            
+   ```
+   ###### At Ith Position:-
  2. Deletion(Dequeue) :- Always from Front 
    I want to remove 2 so 
     1) first i would have to increment Front++ that will be 1st from 0th Index and 

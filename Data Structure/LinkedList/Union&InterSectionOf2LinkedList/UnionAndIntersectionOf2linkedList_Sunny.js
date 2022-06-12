@@ -100,7 +100,7 @@ class Hashtable {
   llist1.push(15);
   llist1.push(10);
   
-  console.log('Print List First-->');
+  console.log('Print List First-->'); 
   llist1.printList();
   console.log('Size List First-->');
   const size1 = llist1.sizeOfLinkedList();
