@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/smallest-subarray-from-a-given-array-with-sum-greater-than-or-equal-to-k/?ref=gcse

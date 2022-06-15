@@ -7,7 +7,7 @@
 ## Difference Between Array Vs Linked List :- 
    ### Memory Requirment And Memory utilization
    There are some restriction in Array like This is a fixed size A[6]  and type of collection of data , 
-   If we want to add an elemet then we have to request to processor and in can't be extended . But Below step can doable 
+   If we want to add an element then we have to request to processor and in can't be extended . But Below step can doable 
    1. processor will Assign a New Fresh Memory Space of bytes A[7] 
    2. copy all the old memory item to New Memory
 
@@ -122,11 +122,11 @@ Root(Head) which is note a Node its Only a Pointer which keeps address of first 
    ---------- 
       |
       |
-      |           *----------*       ----------     ---------------      ------------    
-      |           *| 9 | 100 |*     | 2 | 101 |     |  4  |  102 |     |   6 | null |    
-      ------->    *|   |     |*     |   |     |     |     |      |     |     |      |  
-                  *---------- *       ----------     ---------------      -------------  
-                     *103*               100               101                  102        
+      |           ----------       ----------     ---------------      ------------    
+      |           | 9 | 100 |     | 2 | 101 |     |  4  |  102 |     |   6 | null |    
+      ------->    |   |     |     |   |     |     |     |      |     |     |      |  
+                  ----------        ----------     ---------------      -------------  
+                     103               100               101                  102        
    ```
       ###### At End :-
    ```
@@ -170,8 +170,12 @@ Root(Head) which is note a Node its Only a Pointer which keeps address of first 
       ------->   |   |     |     |     |      |     |     |     |         |      |      |  
                   ----------     ---------------      -------------        --------------   
                      100               101                  102                 103            
-   ```
+   
    ###### At Ith Position:-
+
+      1. Array O(n) 
+      2. Linked List will take O(n) , why becuase its lineor data structure that will take O(n) time to swift n element 
+
  2. Deletion(Dequeue) :- Always from Front 
    I want to remove 2 so 
     1) first i would have to increment Front++ that will be 1st from 0th Index and 

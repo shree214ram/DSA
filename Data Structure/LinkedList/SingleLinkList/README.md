@@ -5,7 +5,7 @@
    Basically Link List  is a lenear Data structure and Dynamic Memory Allocation 
 
    There are some restriction in Array like This is a fixed size A[6]  and type of collection of data , 
-   If we want to add an elemet then we have to request to processor and in can't be extended . But Below step can doable 
+   If we want to add an element then we have to request to processor and in can't be extended . But Below step can doable 
    1. processor will Assign a New Fresh Memory Space of bytes A[7] 
    2. copy all the old memory item to New Memory
 
