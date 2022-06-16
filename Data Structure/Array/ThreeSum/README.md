@@ -1,4 +1,5 @@
 //https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
+https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/
 
 Basically there are 3 methods same like Two sum 
 1. Itrate 3 loop:-

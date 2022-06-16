@@ -1,4 +1,6 @@
 
+//https://www.geeksforgeeks.org/find-subarray-with-given-sum/?ref=gcse
+//Broute Force Approach
 //Program for print sub array of given sum 
 // Time Complexity : O(n^2) in worst case.
 function findSubArray(myArray,Sum){
@@ -24,7 +26,7 @@ var Sum = 23 ;
 
 findSubArray(myArray,Sum);
 
-
+//Efficient Approach if all elemnts are (+ve)
 //Program for print sub array of given sum 
 // Time Complexity : O(n) in worst case.
 function findSubArrayEfficient(myArray, Sum) {
@@ -52,10 +54,10 @@ function findSubArrayEfficient(myArray, Sum) {
   
   findSubArrayEfficient(myArray, Sum);
 
+  https://www.geeksforgeeks.org/number-subarrays-sum-exactly-equal-k/?ref=gcse
 
 
-
-
+//https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/?ref=gcse
 //Program for print sub array of given sum But handle Negative nuber
 // Time Complexity : O(n) in worst case.
 function findSubArrayNegative(myArray, Sum) {
