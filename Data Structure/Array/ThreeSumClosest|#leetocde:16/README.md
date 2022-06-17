@@ -1,5 +1,6 @@
 //https://www.geeksforgeeks.org/find-a-triplet-in-an-array-whose-sum-is-closest-to-a-given-number/
-
+https://www.youtube.com/watch?v=qBr2hq4daWE
+https://www.youtube.com/watch?v=anuarmFjTGU
 Basically there are 3 methods same like Two sum 
 1. Itrate 3 loop:-
     It takes o(n3) time compaxity

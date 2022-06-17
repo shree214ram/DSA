@@ -1,5 +1,5 @@
 class Hash {
-    constructor() {
+    constructor() { 
         this.size = 0;
         this.keys = {}
         this.bucket = []

@@ -1,6 +1,8 @@
 //https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
 https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/
 
+https://www.youtube.com/watch?v=GmDb7O76QJs
+
 Basically there are 3 methods same like Two sum 
 1. Itrate 3 loop:-
     It takes o(n3) time compaxity
