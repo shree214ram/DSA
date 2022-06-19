@@ -13,4 +13,5 @@ Basically there are 3 methods same like Two sum
 3. Hashing :-
     It takes o(n2) time compaxity, whole array needs  to be traversed 2 times but it simpler than Two pointer  . 
     
-
+Broute Force | Batter | Optimal 
+https://www.youtube.com/watch?v=onLoX6Nhvmg
