@@ -11,3 +11,9 @@ Approach:
 2. Efficient Solution:
 
 Approach: 
+
+https://www.youtube.com/watch?v=C8UjlJZsHBw
+Trapping Rainwater Problem | Leetcode #42
+TECH DOSE
+55K views
+1 year ago
