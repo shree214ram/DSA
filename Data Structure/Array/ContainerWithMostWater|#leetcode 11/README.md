@@ -4,6 +4,13 @@ https://www.youtube.com/watch?v=ZHQg07n_tbg
 Container With Most Water | leetcode 11 | Hindi
 
 
+https://www.youtube.com/watch?v=UuiTKBwPgAo
+Container with Most Water - Leetcode 11 - Python
+NeetCode
+57K views
+1 year ago
+
+
 1. Naive Solution:
 
 Approach: The idea is quite simple and involves checking every pair of boundaries or array element and find out the maximum area under any pair of boundaries.
