@@ -38,4 +38,9 @@ Count Square Submatrices with All Ones | Dynamic Programming | Rolling Hash | Le
 https://www.youtube.com/watch?v=atUJS7ArOY0
 Count number of nice subarrays | LeetCode | Sliding window | Prefix sum | Hashing | DSA
 
+https://www.youtube.com/watch?v=fhyIORFDD0k
+Longest Common Prefix
 
+https://www.youtube.com/watch?v=UsWDLWuBUls
+Count number of strings with given prefix
+8:48
