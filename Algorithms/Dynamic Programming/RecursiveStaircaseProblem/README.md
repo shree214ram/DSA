@@ -8,7 +8,7 @@
 Neetcode nice declare :- Climbing Stairs - Dynamic Programming - Leetcode 70 - Python
 https://www.youtube.com/watch?v=Y0lT9Fck7qI
 
-
+```
 —
 1 step
 ==
@@ -101,7 +101,7 @@ n*n-1
 3(3-1) = 6
 
 1, 2, 3, 5, 8, 12
-
+```
 
 1. BrouteForce-DFS
 2. DP-Memoization
