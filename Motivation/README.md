@@ -44,3 +44,19 @@ Longest Common Prefix
 https://www.youtube.com/watch?v=UsWDLWuBUls
 Count number of strings with given prefix
 8:48
+
+
+
+
+5 mistakes for interview should not do 
+https://www.youtube.com/watch?v=rMj6KnxZu5M
+
+DSA What Quality of Code Required In Google
+
+Approach 
+Brute Force 
+Optimized Solution
+On Time 45 Minute
+Explain each line 
+
+https://www.youtube.com/watch?v=I65quKey1EM
