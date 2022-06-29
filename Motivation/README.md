@@ -60,3 +60,8 @@ On Time 45 Minute
 Explain each line 
 
 https://www.youtube.com/watch?v=I65quKey1EM
+
+
+
+Problem :- 
+https://www.quora.com/I-am-not-able-to-solve-problems-even-after-I-have-practiced-quite-a-bit-I-know-the-basic-algorithms-and-data-structures-but-cannot-think-when-a-new-problem-comes-What-should-I-do

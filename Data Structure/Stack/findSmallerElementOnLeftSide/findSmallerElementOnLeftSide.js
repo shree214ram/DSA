@@ -46,7 +46,7 @@ function printPrevSmaller( $arr, $n)
 // Second  Method Use Stack  
 // Prints smaller elements on  left side of every element 
 // Time complexity of the above solution is O(n).
-import Stack from './Stack';
+import Stack from '../Stack';
 
 function printPrevSmaller(arr, n) {
     // Create an empty stack 
