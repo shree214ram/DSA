@@ -26,7 +26,7 @@ var Sum = 23 ;
 
 findSubArray(myArray,Sum);
 
-//Efficient Approach if all elemnts are (+ve)
+//Efficient Approach if all elements are (+ve)
 //Program for print sub array of given sum 
 // Time Complexity : O(n) in worst case.
 function findSubArrayEfficient(myArray, Sum) {

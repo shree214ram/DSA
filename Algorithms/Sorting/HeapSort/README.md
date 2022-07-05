@@ -26,13 +26,13 @@ function hepify(A,n,i){
     let left = 2i
     let right = 2i +1 
 
-    //Loop should work only left child not more than Total No of elemnt 
+    //Loop should work only left child not more than Total No of element 
     // And current index value A[largest] if smaller than its Left child Or Left child A[left] is greater than  current index then we will replace larget with left child 
     while(left < n && A[left] > A[largest]){
         larget = left
     }
 
-    //Loop should work only right child not more than Total No of elemnt 
+    //Loop should work only right child not more than Total No of element 
     // And current index value A[largest] if smaller than its Left child Or Left child A[left] is greater than  current index then we will replace larget with right child 
     while(right < n && A[right] > A[largest]){
         larget = right

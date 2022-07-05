@@ -12,7 +12,7 @@ S1-> A, B, C, D, G, H
 
 
 Substring :- A,B,C contigious All the element should be adjecent each other . Can not skip any element . 
-Subsequence :- A, D, H Move only one direction -----------> skip elemnts between .
+Subsequence :- A, D, H Move only one direction -----------> skip elements between .
 
 S1-> A, B, C, D, G, H
 S2-> A, E, D, F, H, R

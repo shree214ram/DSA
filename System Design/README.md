@@ -51,7 +51,7 @@ System Design Basics: Horizontal vs. Vertical Scaling
 System Design Primer ⭐️: How to start with distributed systems?
 10:03
 
-========================================================
+========================================================SCALER
 https://www.youtube.com/watch?v=hPoGyTrhzPE
 
 Relational Data Modeling
@@ -71,3 +71,69 @@ Consistent Hashing
 
 What is Caching?
 55:51
+
+
+============Very Good Content (The Code Skool)
+
+```
+I have talked about how to learn System Design or High-Level Design(HLD) as a beginner. I have discussed what are the best resources for learning System Design like how to use educative.io courses. This will help you to transition from an SDE-1 to an SDE-2 role at any company.
+
+I have covered all the concepts that are mandatory to learn system design and the standard problems you need to know before going to the interview. 
+
+Important Concepts
+1. Scalability
+2. Performance
+3. Latency and Throughput
+4. Consistency
+5. Availability
+6. Partition Tolerance
+7. CAP Theorem
+8. Domain Name System
+9. Content Delivery Network
+10. Load Balancers and Reverse Proxy
+11. Microservices
+12. Databases
+13. Caching
+14. Message Queues
+
+System Design Primer - https://github.com/donnemartin/system...
+
+Standard Questions
+1. Pastebin
+2. TinyURL
+3. Uber
+4. BookMyShow
+5. Twitter Feed
+6. Facebook Messenger
+7. Search in Instagram
+8. Video Streaming Service
+
+
+Educative.io course - https://www.educative.io/courses/grok...
+
+System Design template - https://leetcode.com/discuss/career/2...
+
+Netflix Blog - https://netflixtechblog.com/
+
+Uber Engg Blog - https://eng.uber.com/
+
+Google Developers - https://developers.googleblog.com/
+
+High Scalability - http://highscalability.com/
+
+ Subscribe to my channel for more such videos :D
+
+Join my Telegram link for interview preparation material and updates:
+https://t.me/thecodeskool
+
+You can also reach me at:
+
+Instagram: 
+https://www.instagram.com/thecodeskool/
+
+Twitter: 
+https://twitter.com/theCodeSkool
+
+LinkedIn:
+https://www.linkedin.com/in/deevanksh...
+

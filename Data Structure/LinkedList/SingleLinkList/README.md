@@ -63,7 +63,7 @@ Root(Head) which is note a Node its Only a Pointer which keeps address of first 
 
 Rules :-
    1. We can not access any element directly as like Array becuase in link list our data not added in contigious or consigitive order .
-   2. we may have to traverse for that if that is not first or last elemnt that's why searching may take O(n)
+   2. we may have to traverse for that if that is not first or last element that's why searching may take O(n)
    3. Insertion and Deletion is easy it may take O(1) only 
 Operation :-
  1. Insertion(Enqueue) :- Anywhere we can insert 
@@ -83,7 +83,7 @@ Operation :-
    --------------   
    | 9   | 103  |
    --------------
-    2) then i will change next address of 6 from null to address of new element 9 to 103 and Next address of 9 to null because its last elemnt 
+    2) then i will change next address of 6 from null to address of new element 9 to 103 and Next address of 9 to null because its last element 
 
 ----------     
 |   100  |

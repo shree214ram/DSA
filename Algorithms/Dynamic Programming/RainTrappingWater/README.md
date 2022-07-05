@@ -17,3 +17,7 @@ Trapping Rainwater Problem | Leetcode #42
 TECH DOSE
 55K views
 1 year ago
+
+1. Navie Approach 
+2. Otimal Solution 
+3. Batter Optimal Solution 

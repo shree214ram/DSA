@@ -10,4 +10,10 @@ Input: s = "leetcode", wordDict = ["leet","code"]
 Output: true
 Explanation: Return true because "leetcode" can be segmented as "leet code".
 
+Neet Code :- 
+https://www.youtube.com/watch?v=Sx9NNgInc3A
 
+
+
+Tech Dose:- 
+https://www.youtube.com/watch?v=th4OnoGasMU&list=RDCMUCnxhETjJtTPs37hOZ7vQ88g&start_radio=1&rv=th4OnoGasMU&t=355

@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=S6Xg-0uaODc
 //    2 + 3 + 1 + 2    =  8(we will stop because 8 > 7)
 
 
-//    3. Once Second condition not proved we will remove  elemnts from left of window untill(sum >= Target) of window and
+//    3. Once Second condition not proved we will remove  elements from left of window untill(sum >= Target) of window and
 //    if (sum >= target) {
 //       while (sum >= target) {
 //          sum = sum - Arr[left]

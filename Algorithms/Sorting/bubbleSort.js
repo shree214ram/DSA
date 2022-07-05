@@ -5,7 +5,7 @@ Bubble Sorting work upon repeatedly two adjecent element compare each other and 
 This steps not good for very long data because comration will be so much and then time complexity will be High 
 Steps :- 
 
-1. Pick two elemnt from array from left side and .
+1. Pick two element from array from left side and .
 2. compare if not in correct order then swap 
 3. Again pickup next adjecent element and repeat step 1 and 2 
 

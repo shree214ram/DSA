@@ -1,7 +1,7 @@
 //https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/?ref=rp
 
 // https://www.youtube.com/watch?v=aXJ-p3Qa4TY
-
+// Kth largest element in an array | Kth smallest element in an array
 // Find the Kth smallest element from an array 
 [8,3,4,5,1,9, 2] => [1,2, 3,4,5,8,9]
 k=3
@@ -11,11 +11,11 @@ Solutions :-
    1. first sort an array 
    2. then find the kth smalest element like A[k-1]
 
-1. using merge sort o(nlogn)  :-
+2. using merge sort o(nlogn)  :-
    1. first sort an array 
    2. then find the kth smalest element like A[k-1]
 
-2. using Heap :-
+3. using Heap :-
    
    1. Min Heap :-
       1. Insert element O(n)
@@ -34,7 +34,7 @@ Solutions :-
 
       lergest  Min 
 
-
+```
                 Kth Largest Element 
     Max Heap ------------------------>   O(n       +       k            log n )
                                              |               |              |
@@ -45,9 +45,15 @@ Solutions :-
                                              |               |              |
                                              Build          Taking Out     Hepify 
                                              Heap          (Delete)        Method
-
+```
 
     For example we have 100 element and we need 97th largest element 
 
     max heap se 97 times we have to Out element
     but from Min Hip only 3 times we have to out the element 
+
+4. Quick Select O(n) https://www.youtube.com/watch?v=BP7GCALO2v8
+  
+   https://www.youtube.com/watch?v=XEmy13g1Qxc
+
+   Leetcode 215
