@@ -15,4 +15,16 @@ Most important Algorithms for Interview
 8. Custom Data Structure :- suffix 
 9. Binary Search :- 
     
+## Available Challenges Categories for DSA  
 
+1. Arrays and Strings - 10
+2. Linked Lists - 8
+3. Stacks and Queues - 8
+4. Graphs and Trees - 21
+5. Sorting - 10
+6. Recursion and Dynamic Programming - 17
+7. Mathematics and Probability - 6
+8. Bit Manipulation - 8
+9. Online Judges - 16
+10. System Design - 8
+11. Object Oriented Design - 8
