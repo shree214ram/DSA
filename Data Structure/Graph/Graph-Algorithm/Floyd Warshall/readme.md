@@ -89,3 +89,15 @@ https://www.youtube.com/watch?v=Gc4mWrmJBsw
 <img src="Floyd-warshall-Algo.png">
 </br>
 </p>
+
+###TechDode Explanation
+<p>
+<img src="TechDose1.png">
+</br>
+<img src="TechDose2.png">
+</br>
+<img src="TechDose3.png">
+</br>
+<img src="TechDose4.png">
+</br>
+</p>
