@@ -79,31 +79,31 @@ The simple idea of Kadane’s algorithm is to look for all positive contiguous s
 
 * https://www.youtube.com/watch?v=MSkk49c0U04
 
-# Step 1 :- 
+# Step 1 printCurrent if latest sum is smaller than previous :- 
 <p align="center">
 <img src="K1-printCurrent.png">
 </br>
 </p>
 
-# Step 2 :- 
+# Step 2 PrintLatestMaxSum if latest sum is greater than previous :- 
 <p align="center">
 <img src="K2-PrintLatestMaxSum.png">
 </br>
 </p>
 
-# Step 3 :- 
+# Step 3 without Dynamic Programming:- 
 <p align="center">
 <img src="K3-WithoutDynamicProgramming.png">
 </br>
 </p>
 
-# Step 4 :- 
+# Step 4 With Dynamic Programming:- 
 <p align="center">
 <img src="K4-WithDynamocProgramming.png">
 </br>
 </p>
 
-# Step 5 :- 
+# Step 5 Code:- 
 <p align="center">
 <img src="K5-code.png">
 </br>
