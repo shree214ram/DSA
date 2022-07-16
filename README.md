@@ -28,3 +28,8 @@ Most important Algorithms for Interview
 9. Online Judges - 16
 10. System Design - 8
 11. Object Oriented Design - 8
+
+## Important Problems for DSA  
+
+https://docs.google.com/spreadsheets/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/edit#gid=0
+
