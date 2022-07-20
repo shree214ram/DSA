@@ -6,7 +6,7 @@ https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/
 </p>
 
 # Approach 1:- 
-1. ittrative method :-
+1. ittrative method (2 pointer):-
    1. Ittrate a for loop 
    2. Initialize a start at 0 and end to n-1
    3. while loop till start < end

@@ -33,3 +33,6 @@ Most important Algorithms for Interview
 
 https://docs.google.com/spreadsheets/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/edit#gid=0
 
+merging meetings :-
+
+https://medium.com/@omergoldberg/merging-meetings-6b6c35ee1326

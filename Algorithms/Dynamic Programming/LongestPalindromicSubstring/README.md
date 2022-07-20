@@ -17,7 +17,7 @@ Basically there are 2 methods
 2. Method 2: Dynamic Programming.
     Approach: The time complexity can be reduced by storing results of sub-problems. 
 
-    Maintain a boolean table[n][n] that is filled in bottom up manner.
+    ### Maintain a boolean table[n][n] that is filled in bottom up manner.
     The value of table[i][j] is true, if the substring is palindrome, otherwise false.
     To calculate table[i][j], check the value of table[i+1][j-1], if the value is true and str[i] is same as str[j], then we make table[i][j] true.
     Otherwise, the value of table[i][j] is made false.
@@ -30,5 +30,8 @@ Basically there are 2 methods
     Matrix of size n*n is needed to store the dp array.
 
     //********** https://www.youtube.com/watch?v=UflHuQj6MVA ************//
-    
+    <p>
+    <img src="Longest-Palindromic-substring.png">
+    </br>
+    </p>
 
