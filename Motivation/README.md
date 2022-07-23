@@ -46,6 +46,15 @@ Count number of strings with given prefix
 8:48
 
 
+https://www.youtube.com/watch?v=8f_JcbwoBQY
+Longest Prefix Suffix | Rabin Karp Rolling Hash | Text Processing
+
+
+
+
+https://www.youtube.com/watch?v=LSFcmgq0HYY
+Sum of Odd Length Subarrays | O(n) | Hindi | LeetCode | Problem Solving | FAANG | Shashwat Tiwari
+
 
 
 5 mistakes for interview should not do 

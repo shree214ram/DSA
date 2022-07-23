@@ -1,6 +1,7 @@
   // A JavaScript program for Floyd Warshall All
   // Pairs Shortest Path algorithm.
 
+  
   var INF = 99999;
   class AllPairShortestPath {
     constructor() {

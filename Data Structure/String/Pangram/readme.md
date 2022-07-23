@@ -2,6 +2,9 @@
 
 ### string is pangram if all the character from A to Z is present . 
 
+1. Find pangram https://www.geeksforgeeks.org/pangram-checking/
+
+
 * The quick brown fox jumps over the lazy dog
 
 Steps :-

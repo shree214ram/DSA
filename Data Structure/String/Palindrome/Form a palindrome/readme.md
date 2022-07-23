@@ -4,6 +4,7 @@ Lamp
 This problem is part of GFG SDE Sheet. Click here to view more.  
 
 Given a string, find the minimum number of characters to be inserted to convert it to palindrome.
+
 For Example:
 ab: Number of insertions required is 1. bab or aba
 aa: Number of insertions required is 0. aa

@@ -2,9 +2,9 @@ https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/
 
 https://www.youtube.com/watch?v=fYgU6Bi2fRg
 
-Find All Anagrams in a String | Sliding window | Leetcode #438
+# Find All Anagrams in a String | Sliding window | Leetcode #438
 
-Broute Force :-
+### Broute Force :-
 1. 2 For Loop
 2. add new word in final starting , sort and then compare 
 ```
@@ -46,6 +46,32 @@ search(pat, txt);
 </script>
 
 ```
+Time Complexity : O(mlogm) + O( (n-m+1)(m + mlogm + m) ) 
 
-Optimised :- 
-Sliding Window and charCodeAt(0)
+mlogm for sorting pat. So O(mlogm)
+
+The for loop runs for n-m+1 times in each iteration we build string temp, which takes O(m) time, and sorting temp, which takes O(mlogm) time, and comparing sorted pat and sorted substring, which takes O(m). So time complexity is O( (n-m+1)*(m+mlogm+m) ) 
+
+Total Time complexity :  O(mlogm) + O( (n-m+1)(m + mlogm + m) ) 
+
+Space Complexity : O(m) As we are using Extra space for strings temp and sortedpat
+
+
+
+### Approach 2 (Optimised):
+We can not use directly Rabin Karp Algorithm because, we have to modification in it . 
+##### Sliding Window and 2 Hash table counter 
+
+1. two hash table CountP and CountS with length of 26 character 
+2. take window with pattern length 
+   1. for loop with first window with M length (o to M-1)
+   2. fill CountS Hash table from current slide window character code 0 to M 
+   3. fill CountP with pattern character code length M
+3. for loop start from M , why because in upper loop we have already checked for 0 to M  
+	1. Compare CountS and CountP if true then Add (i-M) index to result array
+	2. move one by one sliding window in given string 
+	3. Add current i'th index value to next window and Remove (i-M) from previous window (Window Sliding Concept)
+	3. fill CountS Hash table from current slide window character code 
+	4. Compare CountS and CountP
+
+https://gist.github.com/SuryaPratapK/93905c88c3e23477e4c3451d0db90a82

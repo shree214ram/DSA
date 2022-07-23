@@ -23,6 +23,11 @@
 
 ### Transitive Closuer in Graph using DFS 
 
-### Find a circle in Directed Graph 
+### Find a circle in Directed Graph :-
+
+1. Find Cycle in indirected graph
+    https://www.youtube.com/watch?v=vXrv3kruvwE
+2. Find Cycle in directed graph
+    https://www.youtube.com/watch?v=AK7BuT5MgU0
 
 

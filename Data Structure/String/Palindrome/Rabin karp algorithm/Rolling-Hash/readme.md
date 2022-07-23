@@ -1,18 +1,4 @@
 
-
-https://www.youtube.com/watch?v=FQ8hcOOzQMU
-
-Longest Duplicate Substring | TRIE | Rolling Hash | Binary Search | Leetcode #1044
-TECH DOSE
-29K views
-2 years ago
-
-Problems 
-1. https://www.geeksforgeeks.org/palindrome-substring-queries/
-2. https://www.geeksforgeeks.org/online-algorithm-for-checking-palindrome-in-a-stream/
-
-
-
 https://www.youtube.com/watch?v=BQ9E-2umSWc
 Rolling hash | Rabin karp algorithm | Pattern searching
 

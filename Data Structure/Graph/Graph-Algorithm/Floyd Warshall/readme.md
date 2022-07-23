@@ -3,6 +3,7 @@ https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
 
 1. Introduction :-  
 
+
 ### 
 The Floyd Warshall Algorithm is for solving the All Pairs Shortest Path problem. The problem is to find shortest distances between every pair of vertices in a given edge weighted directed Graph. 
 
@@ -22,7 +23,7 @@ which represents the following graph
        \|/         |
        (1)------->(2)
             3       
-Note that the value of graph[i][j] is 0 if i is equal to j 
+Note that the value of graph[i][j] is always 0 , if i is equal to j . Because there is no any self loop like [1,1]
 And graph[i][j] is INF (infinite) if there is no edge from vertex i to j.
 
 Output:

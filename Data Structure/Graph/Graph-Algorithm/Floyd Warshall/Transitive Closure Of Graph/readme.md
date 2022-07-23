@@ -11,6 +11,7 @@ For example, consider below graph
   <br/>
 </p>
 
+
 ### Transitive closure of above graphs is 
 ```
      1 1 1 1 
