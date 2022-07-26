@@ -51,6 +51,13 @@ System Design Basics: Horizontal vs. Vertical Scaling
 System Design Primer ⭐️: How to start with distributed systems?
 10:03
 
+
+https://www.youtube.com/watch?v=5faMjKuB9bc
+What is Database Sharding?
+Gaurav Sen
+745K views
+3 years ago
+
 ========================================================SCALER
 https://www.youtube.com/watch?v=hPoGyTrhzPE
 
@@ -137,3 +144,23 @@ https://twitter.com/theCodeSkool
 LinkedIn:
 https://www.linkedin.com/in/deevanksh...
 
+######### Scaler Mohit Yadav #######
+https://www.youtube.com/watch?v=mswjnBHHd1M
+Load Balancing and Traffic Routing Strategies Simplified | System Design Fundamentals 2022
+
+
+https://www.youtube.com/watch?v=q7hEUcgJfZE
+Stateless vs Stateful Systems | System Design Fundamentals | Scaler Academy
+SCALER
+10K views
+1 year ago
+
+
+https://www.youtube.com/watch?v=a0rFl3_BAt0
+Load Balancing in Stateful Systems | System Design Fundamentals | Scaler Academy
+SCALER
+3.6K views
+1 year ago
+
+https://www.youtube.com/watch?v=NFzHTqbd8GU
+Caching Simplified for Beginners 2021 | Introduction to Caching | System Design Fundamentals

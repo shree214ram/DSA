@@ -83,8 +83,9 @@ https://www.youtube.com/watch?v=dis_c84ejhQ
     </br>
 </p>
 
-# Course schedule 2 | Leetcode #210 
-
+# Course schedule 2 | Leetcode #210 Code 
+Topological sort | Cource Schedule 2 
+https://gist.github.com/SuryaPratapK/3282bcb7bfd16c88a99f2a524be6fb81
 <p align="center">
     <img src="Surya6.png">
     </br>

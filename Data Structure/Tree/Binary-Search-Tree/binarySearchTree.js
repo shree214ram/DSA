@@ -127,7 +127,7 @@ class BinarySearchTree {
       }
 
       // Deleting rootNode with two children 
-      // minumum rootNode of the rigt subtree 
+      // minumum rootNode of the right subtree 
       // is stored in aux 
       var aux = this.findMinNode(rootNode.right);
       rootNode.data = aux.data;

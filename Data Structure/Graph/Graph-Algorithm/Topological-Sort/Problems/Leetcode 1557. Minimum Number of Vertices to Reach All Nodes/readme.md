@@ -1,9 +1,12 @@
 https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/
 https://www.geeksforgeeks.org/smallest-set-of-vertices-to-visit-all-nodes-of-the-given-graph/?ref=gcse
 
+https://www.youtube.com/watch?v=wpRvIzZA2Gs :- minimum number of vertices to reach all nodes leetcode | leetcode 1557 | graph
+
 Leetcode 1557. Minimum Number of Vertices to Reach All Nodes
 
 https://www.youtube.com/watch?v=KnMkXLydu7g
+LeetCode 1557 Minimum Number of Vertices to Reach All Nodes - Google Question Solved By Graph
 
 <p align="center">
 <img src="graph.png">
@@ -30,10 +33,12 @@ https://www.youtube.com/watch?v=KnMkXLydu7g
     size: 4
    ``` 
 4. Fill Indegree Map with the help of current vertex adge array "value" [0,1] mean "1" 
-   if(exist DT[1]) then increment 1 in existing other wise add 1
+   if(exist DT[value means 1]) then increment 1 in existing other wise add 1
 5. } // for loop end 
-6. Now ittrate the graph map entries {
+6. Now ittrate the graph map entries 
+    for(const dt of graph.entries()){
     current entry = [key,value]
      and check if entry key is not exist in "Indegree" keys then 
      Push in Result
+    }
 7. print the Result Array .

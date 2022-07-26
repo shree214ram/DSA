@@ -16,7 +16,7 @@ https://www.geeksforgeeks.org/finding-in-and-out-degrees-of-all-vertices-in-a-gr
    1. first for loop (i to lenth of Adge Array)
       and push one by one current index Array size to outdegree
       like at index i = 0 value is [1,2] and the lenth of this value array is 2
-      like at index i = 1 value is [13] and the lenth of this value array is 1
+      like at index i = 1 value is [3] and the lenth of this value array is 1
       outdegree[2,1,3,2,2,2,1]
     2. second loop (j=0 to length of AdgeArray[i])
        like 

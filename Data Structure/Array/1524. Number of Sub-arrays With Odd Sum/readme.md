@@ -1,8 +1,20 @@
+https://www.geeksforgeeks.org/number-of-subarrays-with-odd-sum/?ref=gcse
+
+https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/
+
+1524. Number of Sub-arrays With Odd Sum
+
+https://www.youtube.com/watch?v=kK7eiqMwmjc
+
+Number of Sub-arrays With Odd Sum (Leetcode 1524)
+
+https://www.youtube.com/watch?v=svvIB5pPc2E
+
 Given an array of integers arr, return the number of subarrays with an odd sum.
 
 Since the answer can be very large, return it modulo 109 + 7.
 
- 
+ https://github.com/pravhub/Coding-Interviews/blob/aca3845aa73ee44ef435e24a4a6742d6583d71c4/lc1524.cs
 
 Example 1:
 
