@@ -1,4 +1,4 @@
-Dynamic Programming 
+# Dynamic Programming 
 
 
 What is Dynamic Programming :- 
@@ -15,6 +15,12 @@ https://www.youtube.com/watch?v=lVR2u9lsxl8
 O(M*N) rather than n*n 
 
 
+# How to Start and Complete Rodmap for DP :-
+https://www.youtube.com/watch?v=Zwp6M5sl36Q
+Yogesh & Shailesh 
+
+https://www.youtube.com/watch?v=Lw4_BOwSOcA&list=PLDdcY4olLQk3Z2Gyo3-VN8gvi7DRKK-YY
+Yogesh & Shailesh  : DP Questions 
 
 
 word break problem :-

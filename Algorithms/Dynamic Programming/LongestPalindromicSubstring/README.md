@@ -34,4 +34,44 @@ Basically there are 2 methods
     <img src="Longest-Palindromic-substring.png">
     </br>
     </p>
+    <p>
+    <img src="palingdrome.png">
+    </br>
+    </p>
+        aa = palingdrome S[i] == S[i+1]
+
+        a   a   b   a   a
+        |   |
+        i   j  index
+
+         a = palingdrome (i=j=same)
+        i,j
+        a a = palingdrome S[i] == S[i+1]
+        i i+1
+        a   b   a = palingdrome (S[i] == S[j] && DP[i+1][j-1] = {b which is a palingdrome} )
+        i       j   
+    1. if S[i] == S[i+1] both index value are same then true (Digonal of DP Table) for length 1 string 
+        means S[i] , S[i+1] i=j=o then fill true because single element itself palimdrome 
+        for(i=0;i<n;i++){
+            DP[i][i] = true
+        }
+    2. if S[i] == S[j] then true for length 2  like a , a true for i =0 j =1 
+        i=1 j =2 a , b then false 
+        for(i=0;i<n;i++){
+            (S[i] == S[i+1] ){
+                DP[i][i+1] = true
+                maxLength = 2;
+            }
+        }
+    3. if string length more than 2 , if S[i] == S[j] then true for length 2  like a , a true for i =0 j =1 
+        i=1 j =2 a , b then false 
+        for(i=0;i<n;i++){
+            for(j=1;i<n;i++){
+                (S[i] == S[j] && DP[i+1][j-1]){
+                    DP[j][j] = true
+                 }
+                }
+            }
+        }
+
 

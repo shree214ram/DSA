@@ -255,10 +255,12 @@ class Node {
         // node with only one child or no child
         if (root.left == null || root.right == null) {
           let temp = null;
-          if (temp == root.left) temp = root.right;
+          //if left node is null then set root to right Other wise left node assign to Root 
+          if (root.left === null ) 
+            temp = root.right;
           else temp = root.left;
   
-          // No child case
+          // No child available case
           if (temp == null) {
             temp = root;
             root = null;

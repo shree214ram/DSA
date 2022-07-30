@@ -21,10 +21,10 @@ Output -> A, D, H
 
 Broute Force Approach :- 
 
-1. we will pickup all the character from first string S1 and compare to second string S2 check which is Longest Subsequence 2^n1
+1. we will pickup all the character from first string S1 and compare to second string S2 check which is Longest Subsequence 2^n1 (2 to the power n1)
    A
    A, E, D, F, H, R
-2. we will pickup all the character from second string S2 and compare to first S1 string check which is Longest Subsequence 2^n1
+2. we will pickup all the character from second string S2 and compare to first S1 string check which is Longest Subsequence 2^n2 (2 to the power n2)
     A, B, C, D, G, H
     A
 Total Time complaxity => 2^n1 * 2^n2 = 2^n1+n2
@@ -34,37 +34,37 @@ Dynamic Problem Method :-
 1. Arrange S1 as ith Index in 2D Array and S2 as jth index
 2. we will pickup all the character from second string S2 and compare to first S1 string check which is Longest Subsequence 2^n1
 
-                    0           A,          E,          D,      F,      H,      R
-                --------------------------------------------------------------------- 
-                |    0      | 0         | 0         | 0     |  0    |   0   |     0 |
-          0     |           |           |           |       |       |       |       |
-                |           |           |           |       |       |       |       |
+                    0           A,          E,              D,          F,      H,      R
+                ------------------------------------------------------------------------ 
+                |    0      | 0         | 0           | 0         |  0    |   0   |     0 |
+          0     |           |           |             |           |       |       |       |
+                |           |           |             |           |       |       |       |
                 -------------------------------------------------------------------- 
-                | 0         | i=A,j=A   |  i=A,j=E  |       |       |       |       |
-          A     |           | Are Same  |  Are      |   1   |  1    |  1    |  1    |
-                |           | "A" so    | Different |       |       |       |       |
-                |           |1+(0)Digona| max(left, |       |       |       |       |
-                |           | 1         | upper )1  |       |       |       |       |
+                | 0         | i=A,j=A   |  i=A,j=E    |           |       |       |       |
+          A     |           | Are Same  |  Are        |   1       |  1    |  1    |  1    |
+                |           | "A" so    | Different   |           |       |       |       |
+                |           |1+(0)Digona| max(left(1),|           |       |       |       |
+                |           | =1        | upper(0))=1 |           |       |       |       |
                 --------------------------------------------------------------------- 
-                | 0         |           |           |       |       |       | 0     |
-          B     |           |           |           |       |       |       |       |
-                |           |           |           |       |       |       |       |
+                | 0         |           |             |           |       |       | 0     |
+          B     |           |           |             |           |       |       |       |
+                |           |           |             |           |       |       |       |
                 ---------------------------------------------------------------------    
-                | 0         |           |           |       |       |       |   0   |
-          C     |           |           |           |       |       |       |       |
-                |           |           |           |       |       |       |       |
+                | 0         |           |             |           |       |       |   0   |
+          C     |           |           |             |           |       |       |       |
+                |           |           |             |           |       |       |       |
                 --------------------------------------------------------------------    
-                | 0         |           |           |       |       |       |  0    |
-          D     |           |           |           |       |       |       |       |
-                |           |           |           |       |       |       |       |
+                | 0         |           |             |           |       |       |  0    |
+          D     |           |           |             |           |       |       |       |
+                |           |           |             |           |       |       |       |
                 --------------------------------------------------------------------    
-                | 0         |           |           |       |       |       |  0    |
-          G     |           |           |           |       |       |       |       |
-                |           |           |           |       |       |       |       |
+                | 0         |           |             |           |       |       |  0    |
+          G     |           |           |             |           |       |       |       |
+                |           |           |             |           |       |       |       |
                 --------------------------------------------------------------------    
-                | 0         |           |           |       |       |       |  0    |
-          H     |           |           |           |       |       |       |       |
-                |           |           |           |       |       |       |       |
+                | 0         |           |             |           |       |       |  0    |
+          H     |           |           |             |           |       |       |       |
+                |           |           |             |           |       |       |       |
                 --------------------------------------------------------------------   
 
 
@@ -75,3 +75,10 @@ if(same){
 } else {
      DP[i][j]=Max(DP[i-1][j],DP[i][j-1])
 }
+
+# Code :- 
+### Count Of Longest Common Subsequence :-
+https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/
+
+### Printing of Longest Common Subsequence :-
+https://www.geeksforgeeks.org/printing-longest-common-subsequence/

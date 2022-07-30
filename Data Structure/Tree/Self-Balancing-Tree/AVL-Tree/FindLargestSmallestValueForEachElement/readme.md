@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/find-closest-smaller-value-for-every-element-in-array/

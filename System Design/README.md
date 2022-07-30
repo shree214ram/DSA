@@ -42,7 +42,7 @@ Database Design Tips | Choosing the Best Database in a System Design Interview
 VIEW FULL PLAYLIST
 
 
-========================================================
+========================================================Gaurav Sen 
 https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
 System Design
 Gaurav Sen
@@ -58,30 +58,16 @@ Gaurav Sen
 745K views
 3 years ago
 
-========================================================SCALER
-https://www.youtube.com/watch?v=hPoGyTrhzPE
-
-Relational Data Modeling
-0:00
-
-Horizontal vs Vertical Scaling
-14:20
-
-Stateless vs Stateful Systems
-38:06
-
-Load Balancing in Stateful Systems
-43:38
-
-Consistent Hashing
-51:12
-
-What is Caching?
-55:51
+https://www.youtube.com/watch?v=iRhSAR3ldTw
+System Design of Doordash: Geo-Hashing and WebSockets for Location Based Services
+Gaurav Sen
+12K views
+2 days ago
+New
 
 
 ============Very Good Content (The Code Skool)
-
+https://www.youtube.com/watch?v=SsPSJvH2mew&t=433s
 ```
 I have talked about how to learn System Design or High-Level Design(HLD) as a beginner. I have discussed what are the best resources for learning System Design like how to use educative.io courses. This will help you to transition from an SDE-1 to an SDE-2 role at any company.
 
@@ -145,6 +131,28 @@ LinkedIn:
 https://www.linkedin.com/in/deevanksh...
 
 ######### Scaler Mohit Yadav #######
+
+https://www.youtube.com/watch?v=hPoGyTrhzPE
+
+Relational Data Modeling
+0:00
+
+Horizontal vs Vertical Scaling
+14:20
+
+Stateless vs Stateful Systems
+38:06
+
+Load Balancing in Stateful Systems
+43:38
+
+Consistent Hashing
+51:12
+
+What is Caching?
+55:51
+
+
 https://www.youtube.com/watch?v=mswjnBHHd1M
 Load Balancing and Traffic Routing Strategies Simplified | System Design Fundamentals 2022
 
@@ -166,3 +174,5 @@ https://www.youtube.com/watch?v=NFzHTqbd8GU
 Caching Simplified for Beginners 2021 | Introduction to Caching | System Design Fundamentals
 
 
+https://www.youtube.com/watch?v=8UryASGBiR4
+CAP Theorem Simplified 2021 | System Design Fundamentals | Distributed Systems | Scaler Academy

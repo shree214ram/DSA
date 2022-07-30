@@ -1,4 +1,45 @@
-AVL Tree :- 
+# AVL Tree :- 
+https://www.youtube.com/watch?v=bBIhFbvavLk
+<p align="center">
+<img src="AVL-Tree.jpeg">
+</p>
+
+### Insert an element :-
+https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+1. insert 
+2. find balance 
+3. rotation perform according to balance 
+    if (balance>1 && key < root.left.data){
+        perform Left Rotation
+    }
+    if (balance>1 && key > root.left.data){
+        perform Right Left Rotation
+    }
+    if (balance< -1 && key > root.right.data){
+        perform Right Rotation
+    }
+    if (balance< -1 && key < root.right.data){
+        perform Left Rotation
+    }
+4. update height 
+
+insert(root,val){
+    if root==null return new Node(val)
+    if(root.data>val){
+        root.left = insert(root.left,val)
+    } else {
+        root.right = insert(root.left,val)
+    }
+}
+5. leftRotate 
+<p align="center">
+<img src="Rotation.jpeg">
+</p>
+
+### Delete a element in AVL Tree :- 
+<p align="center">
+<img src="Delete.jpeg">
+</p>
     https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree/avl-tree
     
     // STEP 1: PERFORM STANDARD BST DELETE  :- All the functions's Steps are very similar to BST only step 2 and 3 is new 
