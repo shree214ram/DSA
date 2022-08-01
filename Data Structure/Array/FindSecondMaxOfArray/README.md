@@ -9,13 +9,13 @@ Basically there are 3 methods
     Auxiliary space: O(1). 
     As no extra space is required.
 2. Better Solution: 
-    Approach: The approach is to traverse the array twice. In the first traversal find the maximum element. In the second traversal find the greatest element less than the element obtained in the first traversal.
+    Approach: The approach is to traverse the array "twice". In the first traversal find the maximum element. In the second traversal find the greatest element less than the element obtained in the first traversal.
     Time Complexity: O(n). 
     Two traversals of the array is needed.
     Auxiliary space: O(1). 
     As no extra space is required.
 3. Efficient Solution 
-    Approach: Find the second largest element in a single traversal. 
+    Approach: Find the second largest element in a "single traversal". 
     Below is the complete algorithm for doing this:  
 
     1) Initialize two variables first and second to INT_MIN as

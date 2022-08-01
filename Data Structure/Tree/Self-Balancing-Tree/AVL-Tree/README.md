@@ -10,16 +10,16 @@ https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
 2. find balance 
 3. rotation perform according to balance 
     if (balance>1 && key < root.left.data){
-        perform Left Rotation
-    }
-    if (balance>1 && key > root.left.data){
-        perform Right Left Rotation
-    }
-    if (balance< -1 && key > root.right.data){
         perform Right Rotation
     }
-    if (balance< -1 && key < root.right.data){
+    if (balance>1 && key > root.left.data){
+        perform  Left Right Rotation
+    }
+    if (balance< -1 && key > root.right.data){
         perform Left Rotation
+    }
+    if (balance< -1 && key < root.right.data){
+        perform  Right Left Rotation
     }
 4. update height 
 
@@ -46,7 +46,7 @@ insert(root,val){
 
     // STEP 2: UPDATE HEIGHT OF THE CURRENT NODE 
 
-    // STEP 3: GET THE BALANCE FACTOR OF THIS NODE (to check whether  this node became unbalanced)
+    // STEP 3: ROTATION:- GET THE BALANCE FACTOR OF THIS NODE (to check whether  this node became unbalanced)
 
         // Left Left Case  
         if (balance > 1 && this.getBalance(root.left) >= 0)  

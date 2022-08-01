@@ -14,7 +14,6 @@ GeeksforGeeks
 GeeksforGeeks
 GeeksforGeeks
 
-Dynamic Programming  
 
 Basically there is only  1 methods 
 1. Itrate 1 times loop:-
@@ -26,5 +25,14 @@ Basically there is only  1 methods
        if current row < k(size of required rows ) { down == true }
        
     2. decrese the row number if rows lenth reches to the k(size of required rows )
-    
+ 
+3. Dynamic Programming :-
 
+https://www.youtube.com/watch?v=YbanXpPqW1g
+
+   1. set a DP String As Row and pattern as column 
+   2. check if A[i] == P[j]{
+      DP[i][j] = DP[i-1][j] + DP[i-1][j-1]
+   } else {
+      DP[i][j] = DP[i-1][j]
+   }

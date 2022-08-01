@@ -5,9 +5,7 @@
         sorted arrays 
         Both have n elements */
 
-function getMedian(
-    a, b, startA,
-    startB, endA, endB) {
+function getMedian( a, b, startA, startB, endA, endB) {
     if (endA - startA == 1) {
         return (
             Math.max(a[startA],
@@ -52,8 +50,7 @@ ar2[m2...] */
 
 /* Function to get median 
 of a sorted array */
-function median(
-    arr, start, end) {
+function median( arr, start, end) {
     n = end - start + 1;
     if (n % 2 == 0) {
         return (

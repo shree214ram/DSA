@@ -76,7 +76,9 @@ console.log($miss);
     // Time Complexity: O(m log n)
 
 // Method 2 (Linear Search)
-    // If arr[0] is not 0, return 0. Otherwise traverse the input array starting from index 0, and for each pair of elements a[i] and a[i+1], find the difference between them. if the difference is greater than 1 then a[i]+1 is the missing number.
+    // If arr[0] is not 0, return 0. Otherwise traverse the input array starting from index 0, 
+    // and for each pair of elements a[i] and a[i+1], find the difference between them.
+    // if the difference is greater than 1 then a[i]+1 is the missing number.
 
     // Time Complexity: O(n)
 
@@ -115,7 +117,7 @@ function findFirstMissing($array, $start, $end)
 
 
 // Find the smallest positive number missing from an unsorted array | Set 1
-
+//TimeO(n) SpaceO(1)
 // You are given an unsorted array with both positive and negative elements. 
 // You have to find the smallest positive number missing from the array in O(n) time 
 // using constant extra space. You can modify the original array.

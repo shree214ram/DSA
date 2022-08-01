@@ -1,5 +1,17 @@
 // https://www.geeksforgeeks.org/window-sliding-technique/
 //https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
+
+
+https://www.youtube.com/watch?v=wiGpQwVHdE0 
+Neetcode 
+
+
+https://www.youtube.com/watch?v=L6cffskouPQ
+
+
+Set map with current window 
+
+
 k = size of sub sequent 
 n = size of array
 

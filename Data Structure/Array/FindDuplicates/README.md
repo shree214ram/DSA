@@ -1,4 +1,5 @@
-1. https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/ :- Time Complexity: O(n), only one traversal is needed, so time complexity is O(n)
+1. https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/ :- 
+Time Complexity: O(n), only one traversal is needed, so time complexity is O(n)
 Auxiliary Space: O(1), no extra space is required, so space complexity is constant.
 
 ****But there is a problem in the above approach. It prints the repeated number more than once.****

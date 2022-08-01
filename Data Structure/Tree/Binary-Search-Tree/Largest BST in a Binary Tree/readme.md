@@ -6,7 +6,9 @@ CodeLibrary - by Yogesh & Shailesh
 
 https://www.geeksforgeeks.org/largest-bst-binary-tree-set-2/?ref=gcse
 
+# Largest BST in BT
 ### Steps:-
+
 1. LargestBST(root){
     Set 4 parameter at each node via In Order Traversing (isBST,size,min,max)
 2. if root null then 
@@ -29,3 +31,23 @@ https://www.geeksforgeeks.org/largest-bst-binary-tree-set-2/?ref=gcse
     //if total tree is not bst 
     result.size = Math.max(left.size,right.size)+1
     result.isBST = false
+5. newNode{
+    constructor(isBST,size,min,max){
+        this.isBST = isBST
+        this.size = size
+        this.min = min
+        this.max = max
+    }
+}
+
+# Total No Of BST 
+### Steps ;- code and all the steps will same like largest bst only one small difference will be that at place of size number of bst flag will be there and we will increase the counter like if both child are BST then 
+        bst.num_BST = 1 + L.num_BST + R.num_BST;
+5. newNode{
+    constructor(isBST,num_BST,min,max){
+        this.isBST = isBST
+        this.num_BST = num_BST
+        this.min = min
+        this.max = max
+    }
+}

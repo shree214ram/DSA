@@ -8,3 +8,7 @@
 // Deqeue : Need to understand if (-ve) elements exist for Monotenically Graph 
 
 // https://ttzztt.gitbooks.io/lc/content/combination/shortest-subarray-with-sum-at-least-k.html
+
+https://www.javatpoint.com/ds-deque 
+
+Dequeue is a special type of queue in which Insertion and deletion can be perform from both the end . 

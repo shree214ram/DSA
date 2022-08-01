@@ -24,7 +24,7 @@ Binary Tree Level Order Traversal - BFS - Leetcode 102
 
 ### Using queue O(n)
     1. Create an empty queue 
-    2. push root if not null
+    2. push root to queue if not null
     3. while(q.length !== 0){
         const temp = q.shift
         if(temp.left){

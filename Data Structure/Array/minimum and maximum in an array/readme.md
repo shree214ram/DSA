@@ -1,6 +1,7 @@
 // https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/
 
-Write a C function to return minimum and maximum in an array. Your program should make the "minimum" number of comparisons.
+Write a C function to return minimum and maximum in an array. 
+Your program should make the "minimum" number of comparisons.
 
 1. Ittrative Method 
     1. Initiallized min and max variable 
@@ -74,7 +75,8 @@ https://www.youtube.com/watch?v=p_Gvzo0iNPE
 
          while(i<Arr.length-1){
              i is 2 so 
-             1. check if A[i] < A[i+1]
+             1. (Jo bada hoga usko max se compare and jo chota hoga usko min se compare )
+                check if A[i] < A[i+1]
                 {
                     min = Math.Min(min,A[i])
                     max = Math.Min(max,A[i+1])
