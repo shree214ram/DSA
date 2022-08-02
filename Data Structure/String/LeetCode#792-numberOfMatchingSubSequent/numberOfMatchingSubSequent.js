@@ -1,7 +1,6 @@
-// https://www.geeksforgeeks.org/given-two-strings-find-first-string-subsequence-second/
-
 // 792. https://leetcode.com/problems/number-of-matching-subsequences/
-// Given string S and a dictionary of words words, find the number of words[i] that is a subsequence of S.
+// Given string S and a dictionary of words words, find the number of words[i] that is a 
+// subsequence of S.
 
 // Example :
 // Input: 
@@ -9,6 +8,8 @@
 // words = ["a", "bb", "acd", "ace"]
 // Output: 3
 // Explanation: There are three words in words that are a subsequence of S: "a", "acd", "ace".
+
+
 
 
 const  S = "abcde" //Str2

@@ -31,7 +31,7 @@ Dev ga
  hash 
  window sliding
  2 pointer 
- dynamic
+ dynamic programming
  tree
  binary search
  devide and conqure 
@@ -42,3 +42,20 @@ Dev ga
  string :- Pattern matching (Robin karp , rolling hash) , reverse , pangram , anagram , palimdrome
  Array :- kadane algo , comulative sum array 
  graph :- Floyd warshall(transitive clouser), dijkstra , 
+
+
+
+ Remaining :-
+
+ /Users/300041371/Desktop/backup/shree/DSA/Data Structure/String/Palindrome/checking palindrome in a stream/readme.md
+
+ /Users/300041371/Desktop/backup/shree/DSA/Algorithms/Window Sliding/Sortest Sub array with sum at least K || Leetcode 862/README.md
+
+ Minimum spanning Tree (Prims Algo)
+
+ Gredy 
+
+ /Users/300041371/Desktop/backup/shree/DSA/Data Structure/String/LeetCode#792-numberOfMatchingSubSequent/numberOfMatchingSubSequent.js
+
+ https://www.geeksforgeeks.org/longest-repeating-and-non-overlapping-substring/?ref=gcse
+ 

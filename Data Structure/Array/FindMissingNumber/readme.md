@@ -1,3 +1,4 @@
+# Find Missing number In O(n) O(1) :-
 Time, Space :-
 
 1. Traverse two for loop O(n2) ( Sorted/Unsorted and +ve/-ve number)
@@ -17,4 +18,13 @@ Time, Space :-
 
 https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/?ref=gcse
 
-O(n) O(1)
+
+
+
+
+
+// Find the smallest positive number missing from an unsorted array | Set 1
+//TimeO(n) SpaceO(1)
+// You are given an unsorted array with both positive and negative elements. 
+// You have to find the smallest positive number missing from the array in O(n) time 
+// using constant extra space. You can modify the original array.

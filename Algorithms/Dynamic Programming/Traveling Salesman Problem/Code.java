@@ -47,9 +47,7 @@ public class TSE {
 
     for (int j = 1; j <= n; j++)
       if ((mask & (1 << j)) != 0 && j != i && j != 1)
-        res = Math.min(res,
-              fun(j, mask & (~(1 << i)))
-                + dist[j][i]);
+        res = Math.min(res, fun(j, mask & (~(1 << i)))+ dist[j][i]);
     return memo[i][mask] = res;
   }
 

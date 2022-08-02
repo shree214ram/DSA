@@ -24,7 +24,7 @@ function search(pat, txt)
 	let temp;
 	for (let i = 0; i <= n - m; i++) {
 		temp = "";
-		for (let k = i; k <br m + i; k++)
+		for (let k = i; k < m + i; k++)
 			temp += txt[k];
 		temp = temp.split("").sort().join("");
 		/*checking whether sorted versions are equal or
@@ -59,7 +59,18 @@ Space Complexity : O(m) As we are using Extra space for strings temp and sortedp
 
 
 ### Approach 2 (Optimised):
-We can not use directly Rabin Karp Algorithm because, we have to modification in it . 
+
+#### We can not use directly "Rabin Karp Algorithm" because, we have to "modification" in it . 
+
+1. please Read Rabin Carp First then comes again here to solve this 
+
+2. We can use Normal Hash function because we are checking for "Anagram" Not Excectly matched "Pattern"
+
+3. In Exectely matched pattern required a special Hash Function 
+
+4. But Program wil be same to same
+
+
 ##### Sliding Window and 2 Hash table counter 
 
 1. two hash table CountP and CountS with length of 26 character 

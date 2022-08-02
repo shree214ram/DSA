@@ -24,6 +24,8 @@ See Image Screenshot DynamicProgrammingSolution.png
 2. Dynamic Programming :- If we will go from Bottom to top So there are so many sub problem result can be reuse for saving time complaxity 
    1) we will store the result of sub problem in DP 
 
+Formula :-  C(S, i) = min { C(S-{i}, j) + dis(j, i) }
+
+Time Compaxity :- O(n2*2n) 
 
 
-O(n2*2n)
