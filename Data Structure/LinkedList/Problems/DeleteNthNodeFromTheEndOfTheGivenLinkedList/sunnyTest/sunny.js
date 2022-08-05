@@ -32,6 +32,8 @@ class LinkList {
             }
             second = second.next;
         }
+
+        
         while (second.next != null) {
             first = first.next
             second = second.next

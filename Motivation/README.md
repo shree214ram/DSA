@@ -74,3 +74,16 @@ https://www.youtube.com/watch?v=I65quKey1EM
 
 Problem :- 
 https://www.quora.com/I-am-not-able-to-solve-problems-even-after-I-have-practiced-quite-a-bit-I-know-the-basic-algorithms-and-data-structures-but-cannot-think-when-a-new-problem-comes-What-should-I-do
+
+
+https://www.youtube.com/watch?v=qO3aNAovBCU
+//1 cr package 
+https://www.sibros.com/
+
+https://www.youtube.com/watch?v=oHzGUSprgMY
+Rohit Nagi 
+
+
+https://www.youtube.com/watch?v=c9IhX_rkrZ8
+
+Companies paying more than FAANG! 🔥💯 | 15 Alternatives to FAANG 😎 | CTC Breakup

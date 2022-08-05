@@ -1,49 +1,70 @@
-https://www.youtube.com/watch?v=vge7qwCR1dA&list=PLt4nG7RVVk1g_LutiJ8_LvE914rIE5z4u
-Basics of System Design
-Coding Simplified
-System Design - Load Balancers
-10:25
-System Design - Cache | Caching | Cache Invalidation | Cache Eviction
-18:27
-VIEW FULL PLAYLIST
-
-=========================================================
-https://www.youtube.com/watch?v=bUHFg8CZFws
-System Design Interview – Step By Step Guide
-
-========================================================
-https://www.youtube.com/watch?v=OyTEd9h_CVQ&list=PLkQkbY7JNJuAhePp7E_WSpfFqjQp6RniV
-System design tutorial
-Tech Dummies Narendra L
-Learn System design : Distributed Systems Introduction | Horizontal scaling vertical scaling
-17:20
-Learn System design : Distributed datastores | RDBMS scaling problems | CAP theorem
-21:08
-VIEW FULL PLAYLIST
-
-========================================================
-https://www.youtube.com/watch?v=4hDaQNWqSHA
-System Design - How to design a system
-
-
-========================================================
-https://www.youtube.com/watch?v=3loACSxowRU&list=PLhgw50vUymycJPN6ZbGTpVKAJ0cL4OEH3
-
-
-14
-NOW PLAYING
-PLAY ALL
-System Design Interview Preparation Series
-codeKarle
-System Design and Architecture Interview Preparation Series by FAANG Engineers
-0:39
-Database Design Tips | Choosing the Best Database in a System Design Interview
-23:28
-VIEW FULL PLAYLIST
-
 
 ========================================================Gaurav Sen 
-https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
+
+# https://www.youtube.com/watch?v=SqcXvc3ZmRU
+
+All the important term explain in term of Pizza Shop 
+1. Vertical Scalling (Single Chef)
+2. Pre Request Preparation (Single Chef with more work in extra working hours and give hime extra {Cron Jobs})
+3. Master Slave Architecture (Backup) (Keep one temperory chef who will support when Main Chef sick)
+4. Horizontal Scalling (Keep 3 Main Chefs and 3 Backup chefs)
+5. Microservices (Keep sapertae request according to their speciallity 1 chefs for Garlic Pizza , 1 for Onion Pizza , 1 for Garlic Bread )
+6. Distrubuted System (2 more shops so we will not blocker because of 1 system )
+7. Load balancer (Route the request according to system nearest(Time) and avalability status )
+8. Decoupling (According to Item send the request in their shop means a shop having burger available so will take the order and send back to shop2 )
+9. Logging and Matrics calculation (Any blocker like bike is got stuck , system will see the logs and findout the issue event by event debugging )
+10. Extensible (System should be large extensiable like in future any new category comes so system will easily manage . Example Swiggy easily started Swiggy Instamart because it has already system only they have to Keep some small inhancement and they were succeed )
+
+# https://www.youtube.com/watch?v=m4q7VkgDWrM
+Data Consistency and Tradeoffs in Distributed Systems
+1. Consistency
+2. Availability
+3. Partition Tolerance
+
+Commit And Rollback 
+
+# https://www.youtube.com/watch?v=U3RkDLtS7uY
+What is Distributed Caching? Explained with Redis!
+
+1. To Save Network Call
+2. To Avoid Recomputation 
+3. ToReduce DB Load 
+Redis :-
+LRU 
+1. Server Cheche 
+2. Database Cheche 
+3. Globle Chache 
+
+    Write Through 
+    Write Back
+
+# https://www.youtube.com/watch?v=oUJbuFMyBDk
+What is a Message Queue and Where is it used?
+
+With Pizza shop example and Load balancer , there is a very important thing in Sysytem Design is 
+Task/Message Queue :- 
+
+
+Load Balancing 
+# https://www.youtube.com/watch?v=K0Ta65OqQkY
+What is Load Balancing? ⚖️
+Gaurav Sen
+695K views
+4 years ago
+
+# https://www.youtube.com/watch?v=rJHTK2TfZ1I
+What's an Event Driven System?
+Gaurav Sen
+237K views
+4 years ago
+
+# https://www.youtube.com/watch?v=zaRkONvyGr8
+What is Consistent Hashing and Where is it used?
+Gaurav Sen
+567K views
+4 years ago
+
+# https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
 System Design
 Gaurav Sen
 System Design Basics: Horizontal vs. Vertical Scaling
@@ -52,21 +73,21 @@ System Design Primer ⭐️: How to start with distributed systems?
 10:03
 
 
-https://www.youtube.com/watch?v=5faMjKuB9bc
+# https://www.youtube.com/watch?v=5faMjKuB9bc
 What is Database Sharding?
 Gaurav Sen
 745K views
 3 years ago
 
-https://www.youtube.com/watch?v=iRhSAR3ldTw
+# https://www.youtube.com/watch?v=iRhSAR3ldTw
 System Design of Doordash: Geo-Hashing and WebSockets for Location Based Services
 Gaurav Sen
 12K views
 2 days ago
 New
+========================================================Gaurav Sen 
 
-
-============Very Good Content (The Code Skool)
+====================================== Very Good Content (The Code Skool) High Level System ======================
 https://www.youtube.com/watch?v=SsPSJvH2mew&t=433s
 ```
 I have talked about how to learn System Design or High-Level Design(HLD) as a beginner. I have discussed what are the best resources for learning System Design like how to use educative.io courses. This will help you to transition from an SDE-1 to an SDE-2 role at any company.
@@ -130,7 +151,24 @@ https://twitter.com/theCodeSkool
 LinkedIn:
 https://www.linkedin.com/in/deevanksh...
 
-######### Scaler Mohit Yadav #######
+============================================ Low Level Sysytem Design=================
+https://www.youtube.com/watch?v=W-aJ1Kp_0P8
+Low-Level System Design RoadMap | Object-Oriented Programming | OOPS | SDE1 to SDE2
+
+https://www.youtube.com/watch?v=Q239RHZKO7w
+Best System Design Roadmap for FRESHERS | Low Level Design | OOPS | System Design Interview
+
+
+Basic Requirments for System Design :-
+1. OS 
+2. DBMS
+3. Network 
+https://www.youtube.com/watch?v=YD1GR5Z3UpU
+Learn System Design For FREE | Best System Design Roadmap | How To Learn System Design?
+
+
+##################################################### Scaler Mohit Yadav ######################################
+https://www.interviewbit.com/system-design-interview-questions/
 
 https://www.youtube.com/watch?v=hPoGyTrhzPE
 
@@ -176,3 +214,65 @@ Caching Simplified for Beginners 2021 | Introduction to Caching | System Design 
 
 https://www.youtube.com/watch?v=8UryASGBiR4
 CAP Theorem Simplified 2021 | System Design Fundamentals | Distributed Systems | Scaler Academy
+
+Consistency :- 
+Availability :- 
+Letency :- 
+
+
+https://www.youtube.com/watch?v=P_eh1b6vE-4 
+
+https://www.youtube.com/watch?v=mswjnBHHd1M&t=40s
+Load Balancing and Traffic Routing Strategies Simplified | System Design Fundamentals 2022
+
+
+
+
+
+
+
+-------------------Others-----------------------
+
+https://www.youtube.com/watch?v=vge7qwCR1dA&list=PLt4nG7RVVk1g_LutiJ8_LvE914rIE5z4u
+Basics of System Design
+Coding Simplified
+System Design - Load Balancers
+10:25
+System Design - Cache | Caching | Cache Invalidation | Cache Eviction
+18:27
+VIEW FULL PLAYLIST
+
+=========================================================
+https://www.youtube.com/watch?v=bUHFg8CZFws
+System Design Interview – Step By Step Guide
+
+========================================================
+https://www.youtube.com/watch?v=OyTEd9h_CVQ&list=PLkQkbY7JNJuAhePp7E_WSpfFqjQp6RniV
+System design tutorial
+Tech Dummies Narendra L
+Learn System design : Distributed Systems Introduction | Horizontal scaling vertical scaling
+17:20
+Learn System design : Distributed datastores | RDBMS scaling problems | CAP theorem
+21:08
+VIEW FULL PLAYLIST
+
+========================================================
+https://www.youtube.com/watch?v=4hDaQNWqSHA
+System Design - How to design a system
+
+
+========================================================
+https://www.youtube.com/watch?v=3loACSxowRU&list=PLhgw50vUymycJPN6ZbGTpVKAJ0cL4OEH3
+
+
+14
+NOW PLAYING
+PLAY ALL
+System Design Interview Preparation Series
+codeKarle
+System Design and Architecture Interview Preparation Series by FAANG Engineers
+0:39
+Database Design Tips | Choosing the Best Database in a System Design Interview
+23:28
+VIEW FULL PLAYLIST
+

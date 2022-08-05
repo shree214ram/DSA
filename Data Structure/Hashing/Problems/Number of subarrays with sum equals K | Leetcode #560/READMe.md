@@ -20,3 +20,21 @@ Steps:-
    "currentSum-TargetSum" is already there then increment Counter 
 7. check if currentSum is already exist in HashTable then set currentSum to currentSum++
 8. Return Counter  
+
+counter = 0
+for(){
+   currentSum  +=A[i]
+   if(currentSum==Target){
+      counter++
+   }
+
+   if(currentSum-Target exist in Map){
+      counter=get(currentSum-Target)+1)
+   } 
+
+   if(currentSum exist in Map){
+      map.set(currentSum,(get(currentSum)+1))
+   } else {
+      map.set(currentSum,1)
+   }
+}

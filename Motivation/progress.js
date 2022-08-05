@@ -24,7 +24,7 @@ TECH DOSE
 6.5K views
 1 year ago
 
-Dev ga
+Dev gadhvi 
 
 
 **************** Covered Topic ****************
@@ -58,4 +58,6 @@ Dev ga
  /Users/300041371/Desktop/backup/shree/DSA/Data Structure/String/LeetCode#792-numberOfMatchingSubSequent/numberOfMatchingSubSequent.js
 
  https://www.geeksforgeeks.org/longest-repeating-and-non-overlapping-substring/?ref=gcse
+
+ https://www.geeksforgeeks.org/smallest-subarray-from-a-given-array-with-sum-greater-than-or-equal-to-k/?ref=gcse
  

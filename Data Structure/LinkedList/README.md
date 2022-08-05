@@ -238,7 +238,7 @@ class QueueClass {
       }
    }
 
-   function dequeue(val){
+   function dequeue(){
       if(this.front == -1 && this.rear == -1){
          console.log("UnderFlow)
       }else if(this.front == this.rear){
