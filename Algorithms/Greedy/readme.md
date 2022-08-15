@@ -11,3 +11,9 @@ https://medium.com/@TheGeekiestOne/greedy-algorithms-the-car-fueling-problem-a35
 https://afteracademy.com/blog/gas-station-problem
 
 https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/?ref=gcse
+
+
+
+https://www.youtube.com/watch?v=w1t_ZDwLPwg
+1. Most Banificial Item Pick in 15 kg Beg
+2. Most Activity selection 

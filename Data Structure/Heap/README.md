@@ -56,9 +56,63 @@ Operations on Min Heap:
 
 3) decreaseKey(): Decreases value of key. The time complexity of this operation is O(Logn). If the decreases key value of a node is greater than the parent of the node, then we don’t need to do anything. Otherwise, we need to traverse up to fix the violated heap property.
 
-4) insert(): Inserting a new key takes O(Logn) time. We add a new key at the end of the tree. IF new key is greater than its parent, then we don’t need to do anything. Otherwise, we need to traverse up to fix the violated heap property.
+4) insert(): Inserting a new key takes O(Logn) time. We add a new key at the "###### End of the tree #######". IF new key is greater than its parent, then we don’t need to do anything. Otherwise, we need to traverse up to fix the violated heap property.
 
 5) delete(): Deleting a key also takes O(Logn) time. We replace the key to be deleted with minum infinite by calling decreaseKey(). After decreaseKey(), the minus infinite value must reach root, so we call extractMin() to remove the key.
+We delete a  key at the "###### beginning of the tree #######".
 
 registrationandturistcare.uk.gov.in
 
+# Implement Max Heap with Hepify Method :- 
+
+# Some important problems on Heap :- 
+Lecture 75: Heaps in C++ || Interview Questions || Part - 1
+https://www.youtube.com/watch?v=_9F2VgZcvdw
+1. Find kth smallest and largest in array
+    Steps :-
+    1. make max heap for first k elements 
+    2. if remaining "element" is less than Heap Top {
+        // Agar bache hue "elements" me se aane wala current element agar Root Node se chota ho to 
+        1. Heap Pop (Delete Top)
+        2. Heap Push (element)
+      }
+2. Merge 2 max heap 
+3. Check is Binary Tree is Heap
+4. Minimum cost of Ropes 
+5. Convert BST To Min Hip
+6. Kth Largest Sum 
+
+https://www.youtube.com/watch?v=eccAKrmffh8
+Lecture 76: Heaps in C++ || Interview Questions || Part - 2
+CodeHelp - by Babbar
+19K views
+4 months ago
+
+1. Merge K Sorted Array
+2. Merge k Sorted Link List 
+
+https://www.youtube.com/watch?v=RrxpTWqj97A
+Lecture 77: Heaps Hard Interview Questions || Part - 3
+
+1. Smallest Range from K Sorted List , in which at least one element from each list .  
+2. Find Median In Stream 
+
+https://www.youtube.com/watch?v=-VhasEYfeT0
+Heap | Data Structure and Algorithms | Interviews Question | Coding Tutorial | Hello World Prince
+
+
+https://www.youtube.com/watch?v=3hvbRwnEfGg
+Popular Coding Interview Question - Minimum Meeting Rooms (Sorting, Heaps)
+
+
+
+### Need to implement custom Max/Min Heap why becuase in JS there is no any inbuilt libraray for Heap 
+
+##### Try to build custom Array Implementation for Heap 
+https://leetcode.com/discuss/general-discussion/545271/javascript-using-heappriorityqueue-during-coding-interview
+
+https://stackoverflow.com/questions/64833672/javascript-and-priority-queues-in-coding-interviews
+
+https://stackoverflow.com/questions/42919469/efficient-way-to-implement-priority-queue-in-javascript
+
+https://www.digitalocean.com/community/tutorials/js-binary-heaps

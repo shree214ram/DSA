@@ -276,3 +276,6 @@ Database Design Tips | Choosing the Best Database in a System Design Interview
 23:28
 VIEW FULL PLAYLIST
 
+
+https://www.youtube.com/watch?v=T6n5PCYLSr0
+HLD CheatSheet of Questions to ask|High Level System Design Interview|Extensive list of Quess to ask
