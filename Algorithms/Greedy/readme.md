@@ -17,3 +17,5 @@ https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorit
 https://www.youtube.com/watch?v=w1t_ZDwLPwg
 1. Most Banificial Item Pick in 15 kg Beg
 2. Most Activity selection 
+3. Yoga mat Ram dev problem
+4. Vote box exchange Problem 

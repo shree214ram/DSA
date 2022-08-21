@@ -2,7 +2,7 @@
 <script>
 
 
-class Node {
+class CustomNode {
 
     constructor(value, row, col) {
         this.data = value
@@ -23,9 +23,15 @@ class minHeap {
         return newObj;
     }
     add(value) {
+    const AA = []
         console.log(this.heap,"this.heap before add new element node ");
         console.log(value,"value");
-        this.heap.push(value);
+        //this.heap.push(value);
+        AA.push(value)
+       // AA.push(value)
+        
+        console.log(AA,"AA");
+        this.heap =  this.heap.concat(AA) ;
         console.log(this.heap,"this.heap after push new element in min heap");
         const lastIndex = this.heap.length - 1;
         console.log(lastIndex,"lastIndex");
@@ -91,7 +97,7 @@ const k = 3
 //prepare min Heap
 const mh = new minHeap();
 for (let i = 0; i < k; i++) {
-    const newNode = new Node(arr[i][0], i, 0)
+    const newNode = new CustomNode(arr[i][0], i, 0)
     console.log(newNode,"newNode");
     mh.add(newNode)
     console.log(mh.heap,"mh.heap Aftrer Add ");
@@ -112,4 +118,5 @@ while (i < k) {
 }
 console.log(Answer,"result Answer")
 </script>
+
 

@@ -3,6 +3,25 @@ System Design
 
 Amazon / Google / Facebook / Uber / salesforce / flipkart / Apple 
 
+
+Amazon
+Citicorp
+Informatica
+MakeMyTrip
+Morgan Stanley
+Oracle
+Oxigen Wallet
+Snapdeal
+
+
+
+
+
+
+
+Snapdeal
+
+
 1
 1 1
 1 1 1
