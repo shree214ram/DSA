@@ -10,9 +10,11 @@ function max(a, b)
 		return b;
 }
 
+
 // Returns length of LCS for X[0..m-1], Y[0..n-1]
 function lcs(X, Y, m, n)
 {
+	//Make a DP 
 	var L = new Array(m + 1);
 	for(var i = 0; i < L.length; i++)
 	{

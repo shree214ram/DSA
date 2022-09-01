@@ -1,10 +1,19 @@
 DSA 
 System Design 
 
-Amazon / Google / Facebook / Uber / salesforce / flipkart / Apple 
 
+####Company List :- #####
 
-Amazon
+Amazon / 
+Google / 
+Facebook / Meta
+Uber / OLA
+Attlassion /
+salesforce / 
+flipkart / 
+Apple 
+Microsoft
+Swiggy / Zomatto /  
 Citicorp
 Informatica
 MakeMyTrip
@@ -12,14 +21,37 @@ Morgan Stanley
 Oracle
 Oxigen Wallet
 Snapdeal
+Accolite
+Adobe
+D-E-Shaw
+Payu
+GamesCraft 
+Takion 
+Cisco
+Byjus
+
+
+==
+You can target companies :
+
+Google (Hard) - L5 level
+Amazon (Medium) - SDE3
+Oracle cloud infrastructure (medium) - IC4
+Microsoft (medium) - L63/L64
+Apple (medium) ICT4
+Confluent (medium) - SDE3
+Intuit (easy - medium) - Staff Software Engineer
+Adobe - Senior Computer Scientists 1/2
+Airbnb
+Uber - L5b/ l5a SDE
+Salesforce - LMTS
+Rippling
+Rubrik
+Cohesity
+==
 
 
 
-
-
-
-
-Snapdeal
 
 
 1
@@ -61,6 +93,7 @@ Dev gadhvi
  string :- Pattern matching (Robin karp , rolling hash) , reverse , pangram , anagram , palimdrome
  Array :- kadane algo , comulative sum array 
  graph :- Floyd warshall(transitive clouser), dijkstra , 
+ Gredy
 
 
 

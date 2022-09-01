@@ -1,6 +1,8 @@
 	// Javascript program to find the longest repeating
 	// subsequence
 	
+	
+
 	// This function mainly returns LCS(str, str)
 	// with a condition that same characters at
 	// same index are not considered.
@@ -25,8 +27,7 @@
 		{
 			for (var j=1; j<=n; j++)
 			{
-				// If characters match and indexes are
-				// not same
+				// If characters match and indexes are not same
 				if ((str[i-1] == str[j-1]) && (i != j))
 					dp[i][j] = 1 + dp[i-1][j-1];		
 						

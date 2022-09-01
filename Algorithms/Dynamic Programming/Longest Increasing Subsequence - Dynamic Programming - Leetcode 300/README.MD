@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=mouCn3CFpgg
 break inro sub problem 
 reuse repeaded sub problem 
 
-
+https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
 
 
 

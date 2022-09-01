@@ -1,4 +1,20 @@
-import Queue from './Queue';
+class Queue{
+	constructor() {
+    this.list = []
+  }
+  enqueue(value){
+  	this.list.unshift(value)
+  }
+  dequeue(){
+  	const last = this.list[this.list.length-1]
+  	this.list.pop()
+    return last;
+  }
+  isEmpty(){
+  	return this.list.length == 0
+  }
+ 
+}
 // create a graph class 
 class Graph {
   // defining vertex array and 
@@ -156,3 +172,4 @@ g.bfs('A');
 // A B C E D F 
 console.log("DFS"); 
 g.dfs('A');
+

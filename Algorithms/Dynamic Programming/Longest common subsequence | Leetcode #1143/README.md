@@ -79,6 +79,7 @@ if(same){
 # Code :- 
 ### Count Of Longest Common Subsequence :-
 https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/
-
+1. Recursion 
+2. DP 
 ### Printing of Longest Common Subsequence :-
 https://www.geeksforgeeks.org/printing-longest-common-subsequence/

@@ -77,7 +77,7 @@ https://www.youtube.com/watch?v=_9F2VgZcvdw
         2. Heap Push (element)
       }
 2. Merge 2 max heap 
-3. Check is Binary Tree is Heap
+3. Check is Binary Tree is Heap (1. chechCompleteBinaryTree 2. checkIsHeap)
 4. Minimum cost of Ropes 
 5. Convert BST To Min Hip
 6. Kth Largest Sum 

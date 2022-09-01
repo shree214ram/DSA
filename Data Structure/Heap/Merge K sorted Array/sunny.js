@@ -1,7 +1,4 @@
 
-<script>
-
-
 class CustomNode {
 
     constructor(value, row, col) {
@@ -117,6 +114,5 @@ while (i < k) {
     }
 }
 console.log(Answer,"result Answer")
-</script>
 
 
