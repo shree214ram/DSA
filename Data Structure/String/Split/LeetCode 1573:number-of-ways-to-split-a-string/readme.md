@@ -21,11 +21,13 @@ number of ways to split a string leetcode | leetcode 1573 | string java
 5. if(TotalNoOfZero == 0) return  (n-1)(n-2)/2
 6. if(modOfTotalNoOfZero != 0) = return 0 
 7. for(i=0;i<n){
-    sum+=A[i]
-    if(sum == ZeroInEachSubstring){
+    if(A[i]==0){
+        count++
+    }
+    if(count == ZeroInEachSubstring){
         firstCut++
     }
-    if(sum == 2 * ZeroInEachSubstring){
+    if(count == 2 * ZeroInEachSubstring){
         secondCut++
     }
 }

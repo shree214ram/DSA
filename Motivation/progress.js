@@ -29,6 +29,18 @@ GamesCraft
 Takion 
 Cisco
 Byjus
+Bloomberg
+Uber
+ByteDance
+Goldman Sachs
+Yahoo
+LinkedIn
+tiktok
+Snapchat
+VMware
+eBay
+Walmart Global Tech
+Twitter
 
 
 ==
