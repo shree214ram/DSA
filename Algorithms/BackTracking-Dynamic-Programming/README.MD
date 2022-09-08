@@ -19,3 +19,8 @@ Minimum edit distance | Dynamic programming | Backtracking
     https://www.youtube.com/watch?v=S3rnLLHl0PM
     https://www.youtube.com/watch?v=MHXR4PCY8c0
     https://www.geeksforgeeks.org/backtracking-algorithms/?ref=shm
+
+##### Imprtant Steps for solve all backtracking problems :- 
+    1. set 
+    2. Recursion 
+    3. backtrack

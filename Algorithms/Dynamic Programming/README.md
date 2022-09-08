@@ -33,8 +33,7 @@ https://www.youtube.com/watch?v=duCx_62nMOA
 Road Cutting problem Unbounded Knapsack
 https://www.youtube.com/watch?v=nYJDp0Hj7M4
 
-all permitution of string 
-https://www.youtube.com/watch?v=GuTPwotSdYw&list=RDCMUCnxhETjJtTPs37hOZ7vQ88g&start_radio=1
+
 
 
 https://www.youtube.com/watch?v=Y0lT9Fck7qI
@@ -79,5 +78,9 @@ Distinct Subsequences	            https://youtu.be/-RDzMJ33nx8	            https
 Longest Palindromic Substring	    https://youtu.be/XYQecbcd6_c	            https://leetcode.com/problems/longest-palindromic-substring
 Palindromic Substrings	            https://youtu.be/4RACzI5-du8	            https://leetcode.com/problems/palindromic-substrings/
 Longest Palindromic Subsequence		                                            https://leetcode.com/problems/longest-palindromic-subsequence/
+
+
+
+
 
 

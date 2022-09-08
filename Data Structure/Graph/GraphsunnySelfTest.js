@@ -1,4 +1,3 @@
-<script>
 class Queue{
 	constructor(){
     	this.data=[]
@@ -106,4 +105,3 @@ gp.addAdjency("C","E")
 gp.printGraph();
 console.log("BFS VIEW ")
 gp.BFS("A");
-</script>

@@ -19,3 +19,7 @@ https://www.youtube.com/watch?v=w1t_ZDwLPwg
 2. Most Activity selection 
 3. Yoga mat Ram dev problem
 4. Vote box exchange Problem 
+
+
+https://www.youtube.com/watch?v=dxVcMDI7vyI
+Minimum Platform Greedy 

@@ -11,3 +11,14 @@ number of ways to split "abb" into
 2 partition with distinct starting 
 character is 2 that are {a, bb} and
 {ab, b}.
+
+ab b
+a bb 
+a b b 
+
+
+for(let i=0;i<str.length;i++){
+    for(let j=1;j<str.length;j++){
+
+    }
+}
