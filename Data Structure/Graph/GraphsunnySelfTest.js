@@ -45,9 +45,7 @@ class Graph{
         for(let i=0;i<this.noOfVertices.length;i++){
         	visited[i]=false
         }
-        
         this.dfsUtill(start,visited)
-        
     }
     
     dfsUtill(start,visited){

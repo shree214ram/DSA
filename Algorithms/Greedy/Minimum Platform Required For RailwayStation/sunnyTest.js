@@ -1,4 +1,4 @@
-//Popular Coding Interview Question - Minimum Meeting Rooms (Sorting, Heaps)
+//Popular Coding Interview Question - Minimum Platform Required for Train (Sorting, Heaps)
 
 class minHeap {
 
@@ -63,8 +63,8 @@ class minHeap {
         this.bubbleDown(0)
     }
 }
-const GivenArray = [[1, 3], [2, 4], [3, 7], [4, 6], [5, 6], [2, 3]]
-                //    R1     R3      R1    R2      R3    R2
+const GivenArray = [[900, 910],[940, 1200],[950, 1120],[1100, 1130],[1500, 1900],[1800, 2000]]
+//    R1     R3      R1    R2      R3    R2
 
 //first sort all the interval according to start time 
 const sortedInterval = GivenArray.sort((a, b) => {
@@ -75,10 +75,10 @@ const sortedInterval = GivenArray.sort((a, b) => {
 const mh = new minHeap()
 mh.add(sortedInterval[0][1])
 for (let i = 1; i < sortedInterval.length; i++) {
-    const Top = mh.heap[0] // Old bande ka ending Time 
+    const Top = mh.heap[0] // Old Train ka ending Time 
     //if current interval start time is greater then Top Element End Time 
 
-    // Current Bande ka start time agar old bande ka ending Time se agar bada he means we can reuse the same Room 
+    // Current Train ka start time agar old Train ka ending Time se agar bada he means we can reuse the same Room 
     if (sortedInterval[i][0] >= Top) {
         mh.removeTop()
     }
