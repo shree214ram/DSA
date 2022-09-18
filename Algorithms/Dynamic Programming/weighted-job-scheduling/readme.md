@@ -19,3 +19,12 @@ Output: The maximum profit is 250.
 We can get the maximum profit by scheduling jobs 1 and 4.
 Note that there is longer schedules possible Jobs 1, 2 and 3 
 but the profit with this schedule is 20+50+100 which is less than 250.
+
+//steps
+1. sort via profit (NlogN)
+2. pickup max one and set oldStart = start, oldEnd= end , MaxProfit = profit of first pickup
+3. for next just check if (current end < old start && current start < current Add ) {maxProfit+=current profit}
+Job 1:  {1, 2, 50} 
+       Job 2:  {3, 5, 20}
+       Job 3:  {6, 19, 100}
+       Job 4:  {2, 100, 200}

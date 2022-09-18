@@ -5,11 +5,7 @@ https://www.youtube.com/watch?v=1cSzxlhxOw8
 detect cycle in undirected graph using BFS/DFS
 
 
-https://www.youtube.com/watch?v=Tl5qbEmEQyY
-detect cycle in directed graph using DFS 
-
-
-
+https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
 https://www.geeksforgeeks.org/check-given-graph-tree/
 check if graph is tree or not ?
 it must followed 
