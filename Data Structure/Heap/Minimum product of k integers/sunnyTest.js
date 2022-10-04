@@ -27,3 +27,11 @@ for(let i=0;i<Input.length-k;i++){
 
 }
 console.log(minimum,"minimum final ====")
+
+//Optimised Method Min Heap 
+/*
+1. Add k element in Heap
+2. keep adding in Heap if new elemnt is smaller than top element 
+3. in last 3 smaller values will  be there 
+4. multiply them 
+*/

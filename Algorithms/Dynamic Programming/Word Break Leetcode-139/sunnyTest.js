@@ -8,10 +8,9 @@ function solve(s,wordDict){
     for(let i=0;i<s.length;i++){
         const lString = s.slice(0,i)
         const rString = s.slice(index,s.length)
-        if(wordDict.includes(lString)){
-            if(solve(rString,wordDict)){
+        //left wala bhi match ho jaye and right wala bhi Include ho jaye to return true 
+        if(wordDict.includes(lString) && solve(rString,wordDict)){
                 return DP[s]=true;
-            }
         } else{
             return DP[s]=false;
         }

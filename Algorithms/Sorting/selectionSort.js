@@ -19,6 +19,7 @@ function selection_sort($arr, $n) {
         }
 
         // swap the minimum value to $ith node 
+        // Agar right side array ki minimum value agar left side ke ith index vale se bhi choti he to replace kar do 
         if ($arr[$i] > $arr[$low]) {
             let $tmp = $arr[$i];
             $arr[$i] = $arr[$low];
