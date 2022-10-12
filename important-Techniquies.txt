@@ -1,0 +1,4 @@
+1. 
+    1. currentSum == sum {res++} , 
+    2. if( currentSum - sum ) {res +=  get(currentSum - sum) }  
+    3. if( currentSum  ) {set((currentSum - sum), get(currentSum - sum)+1) } 
