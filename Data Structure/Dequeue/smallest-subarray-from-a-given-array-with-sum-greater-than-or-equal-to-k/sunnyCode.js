@@ -1,4 +1,3 @@
-
 // DeQueue class 
 class DeQueue {
     // Array is used to implement a DeQueue 
@@ -78,36 +77,38 @@ class DeQueue {
 
 class Solution {
     shortestSubarray(nums, Target) {
-        const n = nums.size();
+        const n = nums.length;
         // creating object for queue class 
         var dq = new DeQueue(); //index,sum
         let sum = 0;
-        let shortest = Integer.MAX_VALUE;
+        let shortest = Number.MAX_VALUE;
 
         for (let i = 0; i < n; ++i) {
             sum += nums[i];
-            if (sum >= Target) shortest = min(shortest, i + 1);//Sum from start to i-th index
+            if (sum >= Target) shortest = Math.min(shortest, i + 1);//Sum from start to i-th index
 
             //Reduce window size to find minimum window with sum>=Target
-            let curr = { first: Integer.MAX_VALUE, second: Integer.MAX_VALUE };
+            let curr = { first: Number.MAX_VALUE, second: Number.MAX_VALUE };
             while (!dq.isEmpty() && (sum - dq.getFront().second >= Target)) {
                 curr = dq.getFront();
                 dq.deleteFront();
             }
             //Calculate new shortest (if possible)
-            if (curr.second != Integer.MAX_VALUE)
-                shortest = min(shortest, (i - curr.first));
+            if (curr.second != Number.MAX_VALUE)
+                shortest = Math.min(shortest, (i - curr.first));
 
             //Maintain monotonically non-decreasing order of deque
-            while (!dq.isEmpty() && sum <= dq.back().second)
+            while (!dq.isEmpty() && sum <= dq.getRear().second){
                 dq.deleteLast();
+            }
             dq.insertLast({ first: i, second: sum });//Push i-th sum
         }
-        return shortest == Integer.MAX_VALUE ? -1 : shortest;
+        return shortest == Number.MAX_VALUE ? -1 : shortest;
     }
 };
 var sp = new Solution();
-
-const A = [2, 1, 1, -4, 3, 1, -1, 2], Target = 5
+//const A = [2, -1, 2], Target = 3 //Output 3
+const A = [2, 1, 1, -4, 3, 1, -1, 2], Target = 5 //output 4
 const res=sp.shortestSubarray(A, Target)
 console.log(res,"res")
+
