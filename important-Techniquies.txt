@@ -1,4 +1,31 @@
-1. 
-    1. currentSum == sum {res++} , 
-    2. if( currentSum - sum ) {res +=  get(currentSum - sum) }  
-    3. if( currentSum  ) {set((currentSum - sum), get(currentSum - sum)+1) } 
+1. Two Sum whose sum is equal to target
+    1.  let temp = targetSum - myArray[i]
+    2. if(hashObj.contains(temp)){
+            parisOfTwoSum.push(temp+","+myArray[i])
+        } else {
+            hashObj.add(myArray[k])
+        }
+2. Three Sum whose sum is equal to target
+    1.  let first = myArray[i] for i=0
+    2.  let second = myArray[j] for j=i+1
+    3.  let temp = targetSum - (first+second)
+    4. if(hashObj.contains(temp)){
+            parisOfTwoSum.push(temp+","+first+","+second)
+        } else {
+            hashObj.add(myArray[j])
+        }
+3. Find Longest Sub array whose sum is equal to target 
+    1. currentSum == Target {maxLength=Math.max(maxLength,i+1)} , 
+    2. if( currentSum - Target ) {maxLength=Math.max(maxLength,i-get(currentSum - Target))}  
+    3. if( !currentSum  )  {set((currentSum), 1)} 
+4. Count no of sub array whose sum is equal to target
+    1. currentSum == Target {res++} , 
+    2. if( currentSum - Target ) {res +=  get(currentSum - Target) }  
+    3. if( currentSum  ) {set((currentSum), get(currentSum)+1) } else {set((currentSum), 1)} 
+3. Find Longest Sub array whose sum is equal to target 
+    1. currentSum == Target {maxLength=Math.max(maxLength,i+1)} , 
+    2. if( currentSum - Target ) {maxLength=Math.max(maxLength,i-get(currentSum - Target))}  
+    3. if( !currentSum  )  {set((currentSum), 1)} 
+
+
+    

@@ -47,6 +47,7 @@ https://www.geeksforgeeks.org/number-subarrays-sum-exactly-equal-k/?ref=gcse
         return res;
     }
      
+    
     let arr = [10, 2, -2, -20, 10];
     let sum = -10;
     let n = arr.length;
