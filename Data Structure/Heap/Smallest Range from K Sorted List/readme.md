@@ -10,6 +10,7 @@
 3. update smallest difference range O(n*k)
 
 ### Approach 3:- 
+https://www.geeksforgeeks.org/find-smallest-range-containing-elements-from-k-lists/
 1. Make a minHeap 
 2. put all the arrays first element 
 3. findout min and max O(1)

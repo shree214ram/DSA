@@ -143,7 +143,6 @@ BT.printLevelOrder();
 console.log("Height of binary tree is ");
 console.log(BT.height(BT.root));
 
-
 console.log("size of binary tree is ");
 console.log(BT.size(BT.root));
 

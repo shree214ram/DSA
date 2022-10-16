@@ -1,3 +1,4 @@
+######## Hashing ###########
 1. Two Sum whose sum is equal to target
     1.  let temp = targetSum - myArray[i]
     2. if(hashObj.contains(temp)){
@@ -26,6 +27,29 @@
     1. currentSum == Target {maxLength=Math.max(maxLength,i+1)} , 
     2. if( currentSum - Target ) {maxLength=Math.max(maxLength,i-get(currentSum - Target))}  
     3. if( !currentSum  )  {set((currentSum), 1)} 
+
+######## Heap ###########
+1. Kth Smallest in array (Max Heap)
+    1. Add k element in Max Heap
+    2. keep adding in max Heap if new elemnt is smaller than top element 
+    3. in last k smaller values will  be there 
+    4. print maxHeap[0]
+2. Kth Largest in array  (Min Heap)
+    1. Add k element in Min Heap
+    2. keep adding in min Heap if new elemnt is greater than top element 
+    3. in last k greater values will  be there 
+    4. print minHeap[0]
+3. Minimum product of k integer (Max Heap)
+    1. Add k element in max Heap
+    2. keep adding in max Heap if new elemnt is smaller than top element 
+    3. in last k smaller values will  be there 
+    4. multiply them 
+4. Minimum Room for multiple metings (Min Heap)
+    1. sort the array as per start time 
+    2. Add first element's end time in min Heap
+    2. keep removing top element in min Heap if new elemnt's start time  is greater than top element 
+    2. keep adding in min Heap current element end time 
+    3. in last print the length of min heap remaining elements that will be the maximum room used for that meetings 
 
 
     
