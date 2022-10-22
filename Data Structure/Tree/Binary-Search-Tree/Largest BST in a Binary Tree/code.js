@@ -221,11 +221,11 @@ class Node {
     // number of BST's it has 
     NumberOfBST(root) {
       // Base case  
-      // console.log(Integer.MIN_VALUE)
+      var MAX = Number.MAX_VALUE;
+      var MIN = Number.MIN_VALUE;
       if (root == null)
-        return new Info(0, 0,
-          0, true);
-  
+        return new Info(0, MIN, MAX, true);
+      
       // If leaf node then return 
       // from function and store 
       // information about the leaf node 

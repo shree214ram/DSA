@@ -40,4 +40,5 @@ for(let i=0;i<arr.length;i++){
     st.add(current)
 }
 console.log(result,"result ")
+// [-1,1,1,4,1,2]
 

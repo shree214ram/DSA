@@ -19,30 +19,30 @@ class GFG {
             // Two pointers initially pointing at 
             // the last and the element 
             // next to the fixed element 
-            let ptr1 = i + 1, ptr2 = arr.length - 1;
+            let left = i + 1, right = arr.length - 1;
 
             // While there could be more pairs to check 
-            while (ptr1 < ptr2) {
+            while (left < right) {
 
                 // Calculate the sum of the current triplet 
-                let sum = arr[i] + arr[ptr1] + arr[ptr2];
+                let currentSum = arr[i] + arr[left] + arr[right];
 
                 // If the sum is more closer than 
                 // the current closest sum 
-                if (Math.abs(x - sum) < Math.abs(x - closestSum)) {
-                    closestSum = sum;
+                if (Math.abs(x - currentSum) < Math.abs(x - closestSum)) {
+                    closestSum = currentSum;
                 }
 
                 // If sum is greater then x then decrement 
                 // the second pointer to get a smaller sum 
-                if (sum > x) {
-                    ptr2--;
+                if (currentSum > x) {
+                    right--;
                 }
 
                 // Else increment the first pointer 
                 // to get a larger sum 
                 else {
-                    ptr1++;
+                    left++;
                 }
             }
         }

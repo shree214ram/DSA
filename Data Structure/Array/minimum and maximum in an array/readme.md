@@ -3,7 +3,7 @@
 Write a C function to return minimum and maximum in an array. 
 Your program should make the "minimum" number of comparisons.
 
-1. Ittrative Method 
+1. Ittrative Method {Maximum and minimum of an array using Linear search:}
     1. Initiallized min and max variable 
     2. compare from 1st and 2nd element and      
     3. starts from 3 rd and compare repetiadly 
@@ -51,7 +51,9 @@ Your program should make the "minimum" number of comparisons.
         return the pair of max and min
     ```
 
-3. Compare in Pairs :-
+    Time Complexity: O(n)
+    Auxiliary Space: O(log n) as the stack space will be filled for the maximum height of the tree formed during recursive calls same as a binary tree.
+3. Compare in Pairs {Maximum and minimum of an array by comparing in pairs:}:-
 
 https://www.youtube.com/watch?v=p_Gvzo0iNPE
 

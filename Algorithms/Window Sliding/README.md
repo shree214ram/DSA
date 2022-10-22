@@ -5,6 +5,7 @@ n = size of array
 //Maximum Sum SubArray Of Size K //https://www.youtube.com/watch?v=__guhvzO540
 
 
+
 Basically there are 2 methods 
 1. Itrate k times loop(Brute Force Method):-
     It takes o(n to the power of k) time compaxity
@@ -28,7 +29,7 @@ Basically there are 2 methods
    }
 
    const Arr = [2, 7, 0, 6, 1, 3]
-   const k = 2 
+   const k = 3 
    Brute_Force_Method(Arr,k)
 
 2. Window Sliding Method :- 
@@ -40,11 +41,12 @@ Basically there are 2 methods
            max sum += Array[i] 
        }
     2. Loop will start 
-       for (i = k; i< n ; k++)
+       for (j = k; j< n ; j++)
+         currentMax  += myArray[j] - myArray[j-k] // [2,7,0] remove 1 from left side and add 6 in right side 
     2. compare current sum with Old max Sum 
        1. if current sum < Old Max , then dont change Max Sum 
        2. If current sum > Old Max then change Max Sum like 
-          Max sum = max sum + Array[i] - Array [i - k]
+          Maxsum = Math.max(MaxSum,currentMax)
 
 
    2, 7, 0, 6, 1, 3

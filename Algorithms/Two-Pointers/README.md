@@ -40,6 +40,7 @@ find2Sum(Arr,X)
 
 More problems based on two pointer technique. 
 
+
 1. Find the closest pair from two sorted arrays
 2. Find the pair in array whose sum is closest to x
 3. Find all triplets with zero sum

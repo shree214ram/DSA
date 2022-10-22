@@ -1,7 +1,7 @@
 # Minimun Size Subarray Sum || Leetcode 209
 https://www.youtube.com/watch?v=S6Xg-0uaODc
 
-1. Two Pointer {Left and right}, MinimumSum = 99999 
+1. Two Pointer {Left and right} [initially 0 both], MinimumSum = 99999 
 2. for(i to n array){
 3. Sliding Window { variable size of window}
 4. initialised a sum for every window if window sum , 

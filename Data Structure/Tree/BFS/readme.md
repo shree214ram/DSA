@@ -28,6 +28,7 @@ Binary Tree Level Order Traversal - BFS - Leetcode 102
     2. push root to queue if not null
     3. while(q.length !== 0){
         const temp = q.shift
+        console.log(temp.data)
         if(temp.left){
             q.push(temp.left)
         }

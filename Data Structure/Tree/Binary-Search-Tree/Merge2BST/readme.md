@@ -13,7 +13,7 @@ Efficient Approach (Inorder Traversing):-
 3. A3 will be an sorted array 
 4. Convert Sorted array {which is a Normal BST} to Balanced BST 
     conBST(root,start,end)
-    1. Mid 
+    1. find Mid index
     2. root.data= Result[mid]
     3. call same function again for left sub tree conBST(root.left,start,mid)
     3. call same function again for right sub tree conBST(root.right,mid+1,end)

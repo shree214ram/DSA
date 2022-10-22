@@ -20,7 +20,7 @@ let currentMax = max
 
 for(let j = k ; j< myArray.length ; j++){
   // if(){
-    currentMax  += myArray[j] - myArray[j-k]
+    currentMax  += myArray[j] - myArray[j-k] // [1,4,2] remove 1 from left side and add 10 in right side 
   // }
   max = Math.max(max,currentMax)
 }

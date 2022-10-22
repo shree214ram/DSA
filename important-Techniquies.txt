@@ -51,5 +51,25 @@
     2. keep adding in min Heap current element end time 
     3. in last print the length of min heap remaining elements that will be the maximum room used for that meetings 
 
+######## Tree ###########
+
+## Generic Tree ##
+1. find min path sum in  tree 
+
+## Binary Tree ##
+1. Print Level Order traversing 
+2. Print Left View Of Tree 
+3. Print Right View Of Tree 
+4. Print Height of tree 
+5. find max path sum in binary tree 
+
+## Binary Search Tree ##
+1. BT to BST
+2. Check BT is BST Or not ? 
+3. Check BST contains dead end 
+4. Print Height of tree 
+5. find max path sum in binary tree 
+
+
 
     

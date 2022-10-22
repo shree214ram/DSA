@@ -43,7 +43,8 @@ Walmart Global Tech
 Twitter
 Tesco
 Citrix 
-
+Arcesium
+SAP Ariba
 ==
 You can target companies :
 
@@ -136,3 +137,24 @@ Dev gadhvi
 
  https://www.geeksforgeeks.org/smallest-subarray-from-a-given-array-with-sum-greater-than-or-equal-to-k/?ref=gcse
  
+
+ Remove K digits
+ find max path sum in binary tree 
+ Check whether BST contains Dead End
+
+ triplate max product ?
+ find-if-array-can-be-divided-into-two-subarrays-of-equal-sum ??
+  split-the-given-array-into-k-sub-arrays-such-that-maximum-sum-of-all-sub-arrays-is-minimum/?ref=rp
+  https://www.youtube.com/watch?v=c9imv2LvgWk  Find equilibrium point in an array
+  https://www.youtube.com/watch?v=oTfPJKGEHcc  Search in rotated sorted array | Leetcode #33
+
+  Array Rotate Left {Juggling Method}
+ // Program to print all  combination of size r  in an array of size n 
+
+ Merge 2 Sorted Array so A1 will have all smaller than A2 elements 
+
+ Find Duplicate {XOR O(n),O(1) (Non 0 and Non repeated more than 2 value )
+    5. Method 5 (Use array elements as index) } And 
+    
+ Find Missing {SUM Formula , XOR Method , Binary Search  }
+  

@@ -4,12 +4,21 @@ https://www.youtube.com/watch?v=anuarmFjTGU
 Basically there are 3 methods same like Two sum 
 1. Itrate 3 loop:-
     It takes o(n3) time compaxity
-    closestSum = 0
+    closestSum = Number.MAX_VALUE
     <!-- three for loop -->
     for (i){
         for(j){
             for(k){
-                if(abs(X-closestSum) > abs(X-(array[i]+array[j]+array[k]))
+                //we will store the old closest sum and compare the difference with Target With Latest closest sum difference who will be minimum from current closest Or Old closest  
+                if (Math.Abs(x - closestSum) >
+                    Math.Abs(x - ((int)arr[i] +
+                   (int)arr[j] + (int)arr[k])))
+                {
+                    closestSum = ((int)arr[i] +
+                                  (int)arr[j] +
+                                  (int)arr[k]);
+                }
+
             }
         }
     }

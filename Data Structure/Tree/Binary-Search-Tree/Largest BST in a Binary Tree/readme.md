@@ -9,10 +9,11 @@ https://www.geeksforgeeks.org/largest-bst-binary-tree-set-2/?ref=gcse
 # Largest BST in BT
 ### Steps:-
 
+
 1. LargestBST(root){
     Set 4 parameter at each node via In Order Traversing (isBST,size,min,max)
 2. if root null then 
-        return newNode(1,0,Math.min,Math.max)
+        return newNode(1,0,Number.MIN_VALUE,Number.MAX_VALUE)
 3. if root not null but left and right are null then 
         return newNode(1,1,root.data,root.data)
 4. const result = newNode()

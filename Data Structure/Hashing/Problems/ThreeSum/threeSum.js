@@ -43,3 +43,4 @@ for (let i=0;i<myArray.length-2;i++){
         }
     }
 }
+//It takes o(n2) time compaxity and o(n) extra space for Hash, whole array needs  to be traversed 2 times but it simpler than Two pointer  . 
