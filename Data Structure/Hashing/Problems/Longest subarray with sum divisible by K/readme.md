@@ -42,3 +42,5 @@ for(let i=1;i<arr.length-1;i++){
 start from 1 
 
 remove back add next 
+
+https://www.youtube.com/watch?v=GrV3MTR_Uk0

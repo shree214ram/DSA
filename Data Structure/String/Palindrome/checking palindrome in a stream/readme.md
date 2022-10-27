@@ -1,5 +1,5 @@
 
-4. Online algorithm for checking palindrome in a stream
+## Online algorithm for checking palindrome in a stream
 https://www.geeksforgeeks.org/online-algorithm-for-checking-palindrome-in-a-stream/
 
 Difficulty Level : Expert
@@ -14,10 +14,11 @@ AAB No
 AABA No
 AABAA Yes
 
-Steps :- 
+#### Steps :- 
 
 1) The first character is always a palindrome, so print yes for 
      first character.
+
 
 2) Initialize reverse of first half as "a" and second half as "b".  
      Let the hash value of first half reverse be 'firstr' and that of 
@@ -39,3 +40,26 @@ Steps :-
            If 'i' is odd,  then keep 'firstr' as it is, remove leading 
                            character from second and append a next 
                            character at end.
+
+
+
+#### Let us see all steps for example :- 
+
+string “abcba” Initial values of ‘firstr’ and ‘second’      
+
+firstr’ = hash(“a”), ‘second’ = hash(“b”) Start from second character, i.e., i = 1      
+
+Compare ‘firstr’ and ‘second’, they don’t match, so print no.     
+Calculate hash values for next iteration, i.e., i = 2      
+Since i is odd, ‘firstr’ is not changed and ‘second’ becomes hash(“c”) i = 2      
+
+Compare ‘firstr’ and ‘second’, they don’t match, so print no.     
+Calculate hash values for next iteration, i.e., i = 3      
+Since i is even, ‘firstr’ becomes hash(“ba”) and ‘second’ becomes hash(“cb”) i = 3      
+
+Compare ‘first’ and ‘second’, they don’t match, so print no.      
+Calculate hash values for next iteration, i.e., i = 4      
+Since i is odd, ‘firstr’ is not changed and ‘second’ becomes hash(“ba”) i = 4     
+
+‘firstr’ and ‘second’ match, compare the whole strings, they match, so print yes      
+We don’t need to calculate next hash values as this is last index The idea of using rolling hashes is, next hash value can be calculated from previous in O(1) time by just doing some constant number of arithmetic operations. Below are the implementations of above approach. 

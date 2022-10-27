@@ -84,17 +84,20 @@ class AvlTree {
 
         //adjust height
         const balance = this.getBalance(root);
-
+        //Right Roration
         if(balance > 1 && data < root.data){  (mistake)
             this.rightRotate(root)
         }
+        //Left Roration
         if(balance < -1 && data > root.data){ (mistake)
             this.leftRotate(root)
         }
+        //Right Left Roration
         if(balance > 1 && data < root.left.data){ (mistake)
             this.rightRotate(root) (mistake)
             this.leftRotate(root) (mistake)
         }
+        //Left Right Roration
         if(balance < -1 && data > root.right.data){ (mistake)
             this.leftRotate(root) (mistake)
             this.rightRotate(root) (mistake)

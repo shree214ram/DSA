@@ -75,6 +75,7 @@ class AVLTree {
     return this.height(N.left) - this.height(N.right);
   }
 
+  
 
   insert(node, data) {
 

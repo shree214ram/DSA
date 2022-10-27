@@ -157,4 +157,37 @@ Dev gadhvi
     5. Method 5 (Use array elements as index) } And 
     
  Find Missing {SUM Formula , XOR Method , Binary Search  }
-  
+
+Find K Closest Elements - Leetcode 658 - Python
+Count of Smaller Numbers After Self | Leetcode June Challenge | Leetcode 315
+1524 : numbers of sub arrays with odd sum 
+chocklate distribution 1 and 2 
+sum 4 : 18 
+
+Permutation in String | Anagram of string s1 in string s2 | Leetcode #567
+
+https://www.geeksforgeeks.org/given-two-strings-find-first-string-subsequence-second/
+
+First non repeating character in a stream | Leetcode #387
+Group anagrams | Leetcode #49 
+
+https://www.youtube.com/watch?v=G2y5bCDAzJk  Longest Word in Dictionary through Deleting | Live Coding with Explanation | Leetcode - 524
+
+
+https://www.youtube.com/watch?v=EmvsBM7o-5k  Word Search II | DFS + Map | DFS + TRIE | Leetcode #212
+
+https://www.youtube.com/watch?v=AuYujVj646Q Minimum edit distance | Dynamic programming | Backtracking
+
+checking palindrome in a stream ? approach samajh me aa gayi only Even And Odd me {firstr and second r ko update kese kare}
+Given a string, find the minimum number of characters to be inserted to convert it to palindrome.
+
+Longest Duplicate Substring | TRIE | Rolling Hash | Binary Search | Leetcode #1044
+
+Ways to split string such that each partition starts with distinct character
+
+divide-a-string-in-n-equal-parts
+// https://www.geeksforgeeks.org/divide-a-string-in-n-equal-parts/
+
+Next permitution of string 
+
+Tower of hanoi

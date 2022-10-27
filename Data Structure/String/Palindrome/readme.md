@@ -4,7 +4,7 @@
 2. while(l<h){
     check if l==h
         increase low and decrease high
-   check if l!==h
+    check if l!==h
         "There is no any Palingdrome"
 }
 

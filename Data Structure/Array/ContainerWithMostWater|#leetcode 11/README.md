@@ -38,3 +38,10 @@ Run a loop until first is less than the last.
 Update the max_area with maximum of max_area and min(array[first] , array[last])*(last-first)
 if the value at array[first] is greater tha array[last] then update last as last – 1 else update first as first + 1
 Print the maximum area.
+
+/* Note :-  
+1. loop while from left to right as like two pointer method 
+2. if Array[left] > Array[right] { r--} 
+3. if Array[left] < Array[right] { l++} 
+4. compare maxArea in each itteration and update with max 
+*/

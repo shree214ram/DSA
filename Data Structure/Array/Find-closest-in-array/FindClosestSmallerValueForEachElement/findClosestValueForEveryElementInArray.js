@@ -20,6 +20,7 @@ const myArray = [10, 5, 11, 6, 20, 12, 10 ];
 //.     7
 // output should be  10 6 12 5 12 11 10
 
+
 let treeRoot = tree.root;
 for (let i = 0; i < myArray.length; i++) {
     // A value "True" means that the key 

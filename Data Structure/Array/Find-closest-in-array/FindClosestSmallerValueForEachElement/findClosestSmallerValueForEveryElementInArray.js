@@ -43,6 +43,7 @@ for (let i = 0; i < myArray.length; i++) {
   }
 }
 
+
 console.log('Given testArray = 10, 5, 11, 6, 20, 12,3, 7');
 console.log('Required finalArray = 7, 3, 10,  5, 12, 11, -1,6');
 console.log('result finalArray = ' + finalArray);

@@ -70,6 +70,22 @@
 4. Print Height of tree 
 5. find max path sum in binary tree 
 
+######## Window Sliding ###########
 
+######## Two Pointer ###########
 
+######## Stack  ###########
+######## Queue  ###########
+######## Array  ###########
+######## Strings  ###########
+
+######## Recursion  ###########
+######## DP  ###########
+######## Backtracking  ###########
+
+######## Greedy Method  ###########
+######## Graph  ###########
+
+######## Searching   ###########
+######## Sorting   ###########
     

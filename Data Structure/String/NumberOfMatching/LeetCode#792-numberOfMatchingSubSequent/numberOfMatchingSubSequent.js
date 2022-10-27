@@ -11,7 +11,6 @@
 
 
 
-
 const  S = "abcde" //Str2
 const  words = ["a", "bb", "acd", "ace"] //str1
 // Output: 3
@@ -26,7 +25,7 @@ for (let i = 0 ; i< words.length ; i++){
             k++;
         }
     }
-    if(word.length==k){
+    if(word.length==k){ // k ki length agar word ki length ke barabar ho to matlab ye word string S me moujud he 
         result.push(word)
     }
 }
