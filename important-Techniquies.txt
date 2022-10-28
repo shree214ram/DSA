@@ -84,6 +84,11 @@
 ######## Backtracking  ###########
 
 ######## Greedy Method  ###########
+1. minimum room :- 
+    1. sort via start time {agar next ane wala meeting ka start time agar purane ke end time se bada Ya Barabar he to Hum usi room me 
+    meeting kar sakte he } (Min Heap Ka use karenge )
+2. Activity selection maximum :-
+    1. sort via end time {jitni jaldi first activity end hogi utni jaldi hum dusri activity shuru kar payenge}
 ######## Graph  ###########
 
 ######## Searching   ###########

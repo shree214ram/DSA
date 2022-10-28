@@ -15,3 +15,4 @@ const sorted array  = [[1,2], [1,3],[1,4],[3,4],[4,5],[5,6],[4,7]]
         old = currelement
     }
 
+//output will be 4

@@ -1,4 +1,3 @@
-<script >
 //12:10
 class maxheap {
     constructor() {
@@ -30,9 +29,10 @@ class maxheap {
 
         let currentIndex = i
         while (currentIndex > 0) {
-            let currentIndexxValue = this.Heap[currentIndex]
+        	console.log(this.heap,"this.heap")
+            let currentIndexxValue = this.heap[currentIndex]
             const parentIndex = this.parent(currentIndex)
-            const parentIndexValue = this.Heap[parentIndex];
+            const parentIndexValue = this.heap[parentIndex];
             if (parentIndexValue < currentIndexxValue) {
                 this.swap(parentIndex, currentIndex);
                 currentIndex = parentIndex
@@ -47,10 +47,10 @@ class maxheap {
     }
     bubbledDown(i) {
         let currentIndex = i
-        let currentIndexxValue = this.Heap[currentIndex]
+        let currentIndexxValue = this.heap[currentIndex]
 
         let leftIndex = this.left(currentIndex)
-        let leftIndexValue = this.Heap[leftIndex]
+        let leftIndexValue = this.heap[leftIndex]
         let rightIndex = this.right(currentIndex)
         let rightIndexValue = this.Heap[rightIndex]
         let latestCurrent = currentIndex
@@ -84,15 +84,26 @@ let Arr = [
 
 // Max Heap 
 
-//Sort according to Deadline 
+//Sort asc according to Deadline 
 Arr.sort((a, b) => a[1] - b[1])
+
+/* sorted as per deadline 
+[
+    [2, 1, 19],
+    [4, 1, 25],
+    [5, 1, 15]
+    [3, 2, 27],
+    [1, 2, 100],
+]
+*/
 
 //Max Heap 
 const mh = new maxheap();
 //Add Max Deadline Value in Heap and then check 
 mh.add(Arr[Arr.length - 1][2])
+console.log(mh,"mh")
 // if any next element profit is greater than current so remove it and push also in 
-for (let i = mh.heap.length - 1; i > 0; i--) {
+for (let i = Arr.length - 1; i > 0; i--) {
     const currentValue = Arr[i][2]
     while (!mh.empty()) {
         const Top = mh.heap[0]
@@ -102,4 +113,4 @@ for (let i = mh.heap.length - 1; i > 0; i--) {
         mh.add(currentValue)
     }
 }
-</script>
+console.log(mh)

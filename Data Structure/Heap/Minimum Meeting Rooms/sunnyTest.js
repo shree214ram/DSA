@@ -64,7 +64,7 @@ class minHeap {
     }
 }
 const GivenArray = [[1, 3], [2, 4], [3, 7], [4, 6], [5, 6], [2, 3]]
-                //    R1     R3      R1    R2      R3    R2
+                //    R1     R3      R1    R2      R3    R2 
 
 //first sort all the interval according to start time 
 const sortedInterval = GivenArray.sort((a, b) => {
