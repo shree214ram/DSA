@@ -3,8 +3,8 @@
 function maxPublic(mat,room){
 //Li/l * Bi/b 
 	return Math.max(
-      Math.floor(room[0]/mat[0])*Math.floor(room[1]/mat[1]),
-      Math.floor(room[0]/mat[1])*Math.floor(room[1]/mat[0])
+      Math.floor(room[0]/mat[0]) * Math.floor(room[1]/mat[1]) ,
+      Math.floor(room[0]/mat[1]) * Math.floor(room[1]/mat[0])
     )
 }
 

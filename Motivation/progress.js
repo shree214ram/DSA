@@ -200,3 +200,5 @@ Phone Keypad problem
 permutation of string 
 Next Permutation Of a Numeric Sequence 
 Subset/Subsequence of strinng 
+
+Largest rectangle in Histogram | Leetcode #84

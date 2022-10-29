@@ -9,6 +9,9 @@ Best Explanation :- https://www.youtube.com/watch?v=LjPx4wQaRIs
 #### First very important Task is that we need to understand the problem itself then solution 
 
 ###### Broute Force Method :- 
+Time Complexity: O(N2)
+Auxiliary Space: O(N)
+
 1. sort array desc according to profeet as our mind force to use Greedy Approach
 2. pick first and try to set as last as possible like [1,2,100] {will set hundred to last deadline day like 2nd }
 3. pick second and try to set as last as possible like [3, 2, 27] {will set 27 to last deadline day like 2nd but On second day 100 is already setup so will set it to 1 }
@@ -108,6 +111,8 @@ Answer ==> "322"
 https://www.geeksforgeeks.org/job-sequencing-problem/
 
 ###### Max Heap Method :- 
+Time Complexity: O(N log N)
+Auxiliary Space: O(N)
 
 Sort the jobs based on their deadlines.
 Iterate from the end and calculate the available slots between every two consecutive deadlines. 
@@ -130,7 +135,7 @@ Sort the result array based on their deadlines.
             ('a', 2, 100),
             ('c', 2, 27),
             ('e', 3, 15),
-            ]
+        ]
         slot_available
         1              'i=' 4
         0              'i=' 3

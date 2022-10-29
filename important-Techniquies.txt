@@ -84,11 +84,31 @@
 ######## Backtracking  ###########
 
 ######## Greedy Method  ###########
-1. minimum room :- 
+1. minimum room (Min Heap + Greedy):- 
     1. sort via start time {agar next ane wala meeting ka start time agar purane ke end time se bada Ya Barabar he to Hum usi room me 
     meeting kar sakte he } (Min Heap Ka use karenge )
-2. Activity selection maximum :-
+    2. print the min heap size that will be the Minimum Room Required 
+2. minimum platform (Min Heap + Greedy):- 
+    1. sort via start Arrival time {agar next ane wala train ka start time agar purane ke Departure time se bada Ya Barabar he to 
+    Hum usi platform me train ko Ruka sakte he } (Min Heap Ka use karenge )
+    2. print the min heap size that will be the Minimum Platform Required 
+3. Maximum Activity selection  (No Heap Only Greedy):-
     1. sort via end time {jitni jaldi first activity end hogi utni jaldi hum dusri activity shuru kar payenge}
+4. Maximum Profit As per deadlines given{Job Sequencing Problem}  (Via GreedyMethod ) O(N*N) Time Complexity: O(N2):-
+    1. sort via Profit .
+    2. choose max profit and setup them their Deadline day 
+    3. If max profitable Job Deadline day is already filledup than find laser deadline day and setup their    
+    Maximum Profit As per deadlines given{Job Sequencing Problem}  (Via Max Heap ) O(N) Time Complexity: O(N):-
+    1. sort via Deadline .
+    2. choose max Deadline in Max Heap 
+    3. slot_Available = if(i>0) ? current element (deadline)  - previous element (deadline) : current element (deadline)
+        if(slot_Available>0 && Heap in not empty){
+            top = removeTop
+            slot_Available--
+            Result.push(top) 
+        }
+    4. sort Result as per deadline 
+    5. print Result => obj.jobId
 ######## Graph  ###########
 
 ######## Searching   ###########
