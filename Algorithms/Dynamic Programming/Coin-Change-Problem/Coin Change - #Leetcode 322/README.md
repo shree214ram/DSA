@@ -8,6 +8,10 @@ Coin Change - Dynamic Programming Bottom Up - Leetcode 322
 
 https://www.youtube.com/watch?v=ZI17bgz07EE&list=RDCMUCnxhETjJtTPs37hOZ7vQ88g&index=2
 
+
+https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
+
+
 You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
 
 Return the "fewest number of coins" that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
@@ -21,6 +25,7 @@ possible combinations are :- {9,1,1},{5,6},{5,5,1}, {1,1,1,1,1,6}, {1,1,1,1,1,1,
 Greedy Solution is :- 
 1) Most element coins will be choosen first then remaining like (9,1,1) but this is not Optimal Solution 
 2) Some time solution does not exist (One more drawback of Greedy)
+
 
 
 
@@ -78,5 +83,7 @@ function coinChangeProblem(givenCoins,Target){
 const givenCoins = [1,5,6,9]
 const Target = 11
 coinChangeProblem(givenCoins,Target)
+
+
 
 

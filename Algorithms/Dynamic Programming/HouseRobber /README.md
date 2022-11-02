@@ -5,11 +5,17 @@
 
 //https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
 
-##### Steps :- 
+#### Steps :- 
+
 ###### Recursion
+
+
 const Arr = [2,7,9,3,1]
 
-1. will start by end 
+1. will start by End 
+    Basic Case :-
+    1. if n<0 {return 0}
+    2. if n==0 {return Arr[0]}
 2. there are 2 possibility 
     1. if we will select current
         //self add and recursive function for next element which will skip next 
@@ -21,13 +27,21 @@ const Arr = [2,7,9,3,1]
          NotPickedup=solve(Arr,n-1)
 3. Print Math.max(NotPickedup,Pickedup) // this will return max value 
 
+```
 Time Complexity:  O(2N). Every element has 2 choices to pick and not pick
 Space Complexity: O(2N). A recursion stack space is required of size 2n, so space complexity is O(2N).
+
+==> 2 to the power N 
+
+```
 
 ###### DP {Reduce time compaxity and sapce also }
 all the steps will be remain same only a small difference will be added here 
 
 1. define DP 
+    Basic Case :-
+    1. if n<0 {return 0}
+    2. if n==0 {return Arr[0]}
 2. send DP in solve function 
     solve(Arr,n,DP)
 3. check if (DP[n]!==-1){
@@ -35,5 +49,7 @@ all the steps will be remain same only a small difference will be added here
 }
 
 
+```
 Time Complexity: O(n) . Only one traversal of original array is needed. So the time complexity is O(n)
 Space Complexity:  O(n). Recursive stack space is required of size n, so space complexity is O(n).
+```

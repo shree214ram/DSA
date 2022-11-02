@@ -1,3 +1,4 @@
+https://www.geeksforgeeks.org/find-minimum-maximum-amount-buy-n-candies/
 Navie Approach :- 
 Sorting and Greedy 
 1. Sort asc array 

@@ -30,10 +30,13 @@ function lcs(X, Y, m, n)
 	{
 		for(j = 0; j <= n; j++)
 		{
+			//If row and column value is 0 then 0
 			if (i == 0 || j == 0)
 				L[i][j] = 0;
+			//If left and upper values are equal than 1+ Digonal
 			else if (X[i - 1] == Y[j - 1])
 				L[i][j] = L[i - 1][j - 1] + 1;
+			//If left and upper values are not equal Max(left,upper)
 			else
 				L[i][j] = max(L[i - 1][j], L[i][j - 1]);
 		}
@@ -41,7 +44,7 @@ function lcs(X, Y, m, n)
 	
 	/* L[m][n] contains length of LCS
 	for X[0..n-1] and Y[0..m-1] */
-	return L[m][n];
+	return L[m][n]; // Last element of this table will be the Longest common subsequence 
 }
 
 // Driver code

@@ -26,8 +26,8 @@ https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
          |       |   = 2
              |   |   = 2
 ### Recursion Method :- 
-1. call recursive function with initial value LIS(Arr,Arr.length) // suruat me total length hi 1 hoga 
-   1. global variable FinalMaxLength = 1;
+1. call recursive function with initial value LIS(Arr,Arr.length) // suruaat me total length hi 1 hoga 
+   1. global variable finalMaxLength = 1;
 2. call Make a recursive function LIS(Arr,n)
 3. 
 
@@ -37,15 +37,29 @@ in every recursive function again start from 0 to i and
     //let say i=2 then comparation will start like A[0] < A[2] 0 to 2   {0,1,2} 
     //let say i=3 then comparation will start like A[0] < A[2] 0 to 3   {0,1,2,3} 
 
-    let OldIndexMaxLength = 1 ;
+    let currentFnMaxLength = 1 ;
 
     for(i=1;i<n;i++){
         let currentIndexMaxLength = LIS(Arr,i) {i will be n in recursive function 2 means comparasion will be starts from 0 to 2}
 
         if(A[i-1] {i-1 means 1 index back like starts from 0 if i =1 , 1 if i=2} 
             < A[n-1] {n-1 means 1 index back like starts from 0 if i =1 , 1 if i=2} 
-            && currentIndexMaxLength+1 > )
+            && 
+            currentIndexMaxLength+1 > currentFnMaxLength){
+                currentFnMaxLength+=1
+            }
     }
+    if(finalMaxLength < currentFnMaxLength){
+        finalMaxLength = currentFnMaxLength
+    }
+    return currentFnMaxLength
+
+4. finalMaxLength will be the final answer 
+
+###### Complexity Analysis: 
+
+Time Complexity: The time complexity of this recursive approach is exponential as there is a case of overlapping subproblems as explained in the recursive tree diagram above.
+Auxiliary Space: O(1). No external space used for storing values apart from the internal stack space.
 
 ### DP Method :- 
 https://www.youtube.com/watch?v=aPQY__2H3tE

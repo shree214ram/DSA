@@ -12,6 +12,7 @@ Input : arr[] = {12, 13, 1, 5, 4, 7, 8, 10, 10, 11}
 Output : 4
 The subarray is {4, 7, 8, 10} 
 
+
 Approach :- 
     currentMax = 1 
     finalMax = 1 

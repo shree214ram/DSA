@@ -9,6 +9,7 @@ Google /
 Facebook / Meta
 Uber / OLA
 Attlassion /
+Atlassian /
 salesforce / 
 flipkart / 
 Apple 
@@ -25,6 +26,7 @@ Accolite
 Adobe
 D-E-Shaw
 Payu
+Zoho
 GamesCraft 
 Takion 
 Cisco
@@ -45,6 +47,10 @@ Tesco
 Citrix 
 Arcesium
 SAP Ariba
+Servicenow
+F5
+Exilon Product Base 
+
 ==
 You can target companies :
 
@@ -202,3 +208,30 @@ Next Permutation Of a Numeric Sequence
 Subset/Subsequence of strinng 
 
 Largest rectangle in Histogram | Leetcode #84
+
+knapsap problem 
+
+Check if it is possible to survive on Island
+
+Algorithms/Dynamic Programming/Coin-Change-Problem/Coin Change 2 | Leetcode #518/README.md
+
+https://www.geeksforgeeks.org/given-two-strings-find-first-string-subsequence-second/
+
+Algorithms/Dynamic Programming/Longest Common Substring/readme.md
+
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Longest Repeating Character Replacement - Leetcode 424/README.md
+
+
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Longest Repeating SubString/readme.md
+
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Matrix-Chain-Multiplication/readme.md
+
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/MaxHeightInBoxArrangeProblem/readme.md again we have to see why code is not working
+
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Maximum Sum Of Non Adjecent element /readme.md
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Maximum Sum Rectangle in a 2D Matrix/readme.md
+
+https://www.youtube.com/watch?v=HddgLcq9Efs
+Minimum Operations to Reduce X to Zero | Dynamic Programming | Leetcode #1658
+TECH DOSE
+16K views 1 year ago

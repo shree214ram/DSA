@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=YbanXpPqW1g
 
    1. set a DP String As Row and pattern as column 
    2. check if A[i] == P[j]{
-      DP[i][j] = DP[i-1][j] + DP[i-1][j-1]
+      DP[i][j] = DP[i-1][j] + DP[i-1][j-1] {Upper+Digonal}
    } else {
-      DP[i][j] = DP[i-1][j]
+      DP[i][j] = DP[i-1][j] {Upper}
    }
