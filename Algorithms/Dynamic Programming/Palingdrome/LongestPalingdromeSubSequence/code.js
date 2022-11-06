@@ -39,7 +39,7 @@ function countPS(str) {
 	}
 
 	// return total palindromic subsequence
-	return dp[0][N - 1];
+	return dp[0][N - 1]; 
 }
 
 // Driver program

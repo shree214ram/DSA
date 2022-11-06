@@ -1,5 +1,5 @@
 function solve(s,wordDict){
-    if(s.lenght==0 || s.lenght==null){
+    if(s.length==0 || s.length==null){
         return true;
     }
     if(DP[s]==true){
@@ -20,3 +20,7 @@ function solve(s,wordDict){
 const s = "leetcode" 
 const wordDict = ["leet","code"]
 console.log("result=>",solve(s,wordDict))
+
+
+
+

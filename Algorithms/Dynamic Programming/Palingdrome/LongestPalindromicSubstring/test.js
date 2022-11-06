@@ -3,13 +3,13 @@
 const str = "forgeeksskeegfor";
 
 const table = []
-	let dp = new Array(N);
+	let dp = new Array(str.length);
     //for length 1
 let maxLength = 1
 for (let i = 0; i < str.length ; i++) {
   table[i] = []
   table[i][i] = true;
-  dp[i][j] = 0;
+  dp[i][i] = 0;
 }
 
 let start = 0
@@ -47,9 +47,12 @@ for (let gap = 2; gap <= str.length ; gap++) {
     }
   }
 }
-console.log( dp[0][N - 1],"HAY");
+console.log( dp[0][str.length - 1],"HAY");
 
 //geeksskeeg
 console.log("Longest palindrome substring is; ");
 const subStr = str.substring(start, start + maxLength);
 console.log(subStr);
+
+
+

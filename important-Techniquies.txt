@@ -83,6 +83,7 @@
 ######## DP  ###########
 ######## Backtracking  ###########
 
+
 ######## Greedy Method  ###########
 1. minimum room (Min Heap + Greedy):- 
     1. sort via start time {agar next ane wala meeting ka start time agar purane ke end time se bada Ya Barabar he to Hum usi room me 
@@ -109,6 +110,14 @@
         }
     4. sort Result as per deadline 
     5. print Result => obj.jobId
+5. weighted-job-scheduling:- https://www.geeksforgeeks.org/weighted-job-scheduling can not use greedy because 
+   1. there is no Deadline there 
+   are start and end time with profit in {Job Sequencing Problem} :- Deadline and Profit was given 
+   2. As like Activity selection there are start and end time But in this Problem {Profit is there }
+   3. So this is the combination of Activity selection and Job Sequencing 
+   [1. That will be done via Recursion {Max(Include current Job,Exclude current Job)}
+    2. Or Dynamic Programming for optimal 
+   ] 
 ######## Graph  ###########
 
 ######## Searching   ###########

@@ -50,7 +50,9 @@ SAP Ariba
 Servicenow
 F5
 Exilon Product Base 
-
+InMobi
+United Health Group
+aptiv
 ==
 You can target companies :
 
@@ -235,3 +237,5 @@ https://www.youtube.com/watch?v=HddgLcq9Efs
 Minimum Operations to Reduce X to Zero | Dynamic Programming | Leetcode #1658
 TECH DOSE
 16K views 1 year ago
+
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Maximum Sum Of Non Adjecent element /readme.md

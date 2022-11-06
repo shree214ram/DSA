@@ -30,7 +30,7 @@ for(let gap=2;gap<=s.length;gap++){
     const j = i+gap-1;
 	if(s[i]==s[j]){
 	//if(s[i]==s[j]){
-		DP[i][j]=1 + DP[i][j-1] + DP[i+1][j] 
+		DP[i][j]= 1 + DP[i][j-1] + DP[i+1][j] 
         countP++
     } else {
 		DP[i][j]=DP[i][j-1] + DP[i+1][j] - DP[i+1][j-1]

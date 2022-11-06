@@ -62,7 +62,7 @@ Basically there are 2 methods
                 DP[i][i+1] = true
                 maxLength = 2;
             }
-        }
+        } 
     3. if string length more than 2 , if S[i] == S[j] then true for length 2  like a , a true for i =0 j =1 
         i=1 j =2 a , b then false 
         for(i=0;i<n;i++){
