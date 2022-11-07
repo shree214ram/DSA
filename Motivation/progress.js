@@ -6,19 +6,19 @@ System Design
 
 Amazon / 
 Google / 
-Facebook / Meta
+Facebook / Meta / Twitter
 Uber / OLA
 Attlassion /
 Atlassian /
 salesforce / 
-flipkart / 
+flipkart / Myntra / Jabong
 Apple 
 Microsoft
 Swiggy / Zomatto /  
 Citicorp
 Informatica
 MakeMyTrip
-Morgan Stanley
+Morgan Stanley / Wells Fargo / JP Morgen / DBS 
 Oracle
 Oxigen Wallet
 Snapdeal
@@ -29,10 +29,9 @@ Payu
 Zoho
 GamesCraft 
 Takion 
-Cisco
-Byjus
+Cisco / Tesco 
+Byjus/ UpGrad / Udamy 
 Bloomberg
-Uber
 ByteDance
 Goldman Sachs
 Yahoo
@@ -42,8 +41,7 @@ Snapchat
 VMware
 eBay
 Walmart Global Tech
-Twitter
-Tesco
+
 Citrix 
 Arcesium
 SAP Ariba
@@ -53,7 +51,22 @@ Exilon Product Base
 InMobi
 United Health Group
 aptiv
+
+Hotstar/ Netflix/ Sony
+Paytm / Phonepay / Airtel 
+
+Jabong
+
+verizon
+T-Mobile
+AT & T 
+Directi
+Nike 
+https://www.spoj.com/
+
 ==
+
+
 You can target companies :
 
 Google (Hard) - L5 level
@@ -238,4 +251,46 @@ Minimum Operations to Reduce X to Zero | Dynamic Programming | Leetcode #1658
 TECH DOSE
 16K views 1 year ago
 
+
+
+
 /Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Maximum Sum Of Non Adjecent element /readme.md
+
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Traveling Salesman Problem/gfgSolution.js
+
+/Users/300041371/Desktop/backup/shree/DSA/Algorithms/Dynamic Programming/Shortest Common Supersequence/README.md
+
+=====
+https://www.youtube.com/watch?v=9aGx9hoIBjI
+
+Minimum Operations to Make Array Equal | Live Coding with Explanation | Leetcode - 1551
+====
+https://www.youtube.com/watch?v=03ZepmoVJGI
+Find minimum operations 
+Minimum Operations to convert 0 to n 
+===
+https://www.youtube.com/watch?v=iVd7KWccHYQ
+
+===
+https://www.geeksforgeeks.org/minimum-number-of-array-elements-from-either-ends-required-to-be-subtracted-from-x-to-reduce-x-to-0/
+
+
+=====
+https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+1342. Number of Steps to Reduce a Number to Zero
+https://www.youtube.com/watch?v=M7eN-B08xvU
+
+https://www.youtube.com/watch?v=iVd7KWccHYQ
+
+
+https://www.geeksforgeeks.org/directi-interview-experience-set-18-campus/
+
+
+
+https://www.geeksforgeeks.org/minimum-distance-travel-cover-intervals/
+https://www.geeksforgeeks.org/place-k-elements-such-that-minimum-distance-is-maximized/
+
+https://www.youtube.com/watch?v=rw4s4M3hFfs&t=1822s select a minimum distance aprtment 
+
+sub array sum equal K
+Perfect sub array 
