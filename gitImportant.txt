@@ -1,0 +1,261 @@
+< (less than)
+> (greater than)
+: (colon)
+" (double quote)
+/ (forward slash)
+\ (backslash)
+| (vertical bar or pipe)
+? (question mark)
+* (asterisk)
+
+-#
+
+
+How to Reane Folder at git hub	
+How to change folder name in GitHub? - deBUG.to
+Moving a file to a new location - GitHub Docs
+Update Node version specific version 
+  
+https://medium.com/@katopz/how-to-install-specific-nodejs-version-c6e1cec8aa11
+
+
+Make the current Git branch a master branch  
+git checkout better_branch 
+git merge --strategy=ours master # keep the content of this branch, but record a merge 
+git checkout master 
+git merge better_branch # fast-forward master up to the merge
+https://stackoverflow.com/questions/2763006/make-the-current-git-branch-a-master-branch
+Make a Empty Branch in GIT 
+
+git checkout --orphan empty-branch
+Then you can remove all the files you'll have in the staging area (so that they don't get committed):
+git rm -rf .
+At this point you have an empty branch, on your machine.
+Before you can push to GitHub (or any other Git repository), you will need at least one commit, even if it does not have any content on it (i.e. empty commit), as you cannot push an empty branch
+git commit --allow-empty -m "root commit"
+Finally, push it to the remote, and crack open a beer
+git push origin empty-branch
+
+
+https://stackoverflow.com/questions/34100048/github-create-empty-branch/34100189
+
+
+Git Config user and password and URL Set  
+
+Change Registry of npm
+npm config set registry="http://registry.myntra.com:8000"
+
+npm config set registry="https://registry.myntra.com" https://registry.myntra.com/  latest
+
+npm config set registry="https://registry.myntra.com"
+
+
+npm config set registry="https://registry.npmjs.org"
+
+
+
+Git configuration 
+git config --global user.email "sunny.parmar@myntra.com"
+git config --global user.name "sunny_parmar_300041371"
+git config --global user.password "Sunny@123"
+
+git config --global --unset-all user.name
+====
+git config --global user.email "kamini.parmar.dev@gmail.com"
+git config --global user.name "kaminiDevelopmentHub"
+git config --global user.password "attituderocks43"
+
+
+
+git config user.email "kamini.parmar.dev@gmail.com"
+git config user.name "kaminiDevelopmentHub"
+git config user.password "attituderocks43"
+
+====
+git config --global user.name "shree214ram"
+git config user.email "shree214ram@gmail.com"
+git config --global user.password "thedateisset_123"
+
+git config --global user.name "kaminiDevelopmentHub"
+git config --global user.password "attituderocks43"
+git config --global user.name "kaminiDevelopmentHub"
+
+Sunny
+git remote set-url origin https://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@github.com/shree214ram/FlightSearchSystem
+https://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@github.com/shree214ram/DSA
+
+https://levelup.gitconnected.com/fix-password-authentication-github-3395e579ce74
+https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
+
+emote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/shree214ram/DSA/'
+BLRM-300041371:DSA 300041371$ git remote set-url origin https://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@github.com/shree214ram/DSA
+BLRM-300041371:DSA 300041371$ sudo git push origin master
+Password for 'https://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@github.com':
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+
+
+git remote set-url origin https://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@github.com/shree214ram/DSA
+
+
+Kamini 
+
+git remote set-url origin https://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@github.com/kaminiDevelopmentHub/k_FlightSearchSystem
+ 
+ 
+ 
+ 
+
+
+git remote set-url origin https://sunny_parmar_300041371@bitbucket.org/myntra/assortment-plan.git
+
+
+https://help.github.com/en/articles/setting-your-username-in-git
+git config --global user.name "sunny_parmar_300041371"
+
+
+git remote set-url origin https://sunny_parmar_300041371@bitbucket.org/myntra/spectrum-jeeves.git
+
+git config --list
+git config --global --edit
+git config --global --edit
+
+git remote set-url origin https://EplusTestUser2/gitlab.ed-space.net/ed-admin/edana_ui.git
+
+git remote set-url origin https://sunny_parmar_300041371@bitbucket.org/myntra/assortment-plan.git
+
+https://sunny_parmar_300041371@bitbucket.mynt.myntra.com/projects/MYN/repos/fleet-api/browse
+
+Latest:- 
+git remote set-url origin https://bitbucket.mynt.myntra.com/scm/unity/spectrum-partner-portal.git
+
+git remote set-url origin https://bitbucket.mynt.myntra.com/scm/unity/spectrum-babylon.git
+
+git remote set-url origin https://bitbucket.mynt.myntra.com/scm/unity/spectrum-server.git
+
+git remote set-url origin https://bitbucket.mynt.myntra.com/scm/unity/shazam.git
+
+
+Delete Commit From  Branch 
+
+https://stackoverflow.com/questions/1338728/delete-commits-from-a-branch-in-git
+
+
+Delete Last  Commit code in a Branch 
+git reset --hard HEAD^
+Git push origin branchName --force
+https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
+
+Take a Till particular Commit code in New Branch 
+git checkout -b "master_old" 512719d
+Reset commits from top to particular commit Id 
+Command to reset head to the commit log id :
+git reset --hard  b6045228b5d1a9b643b08e7721d451904b689f53
+
+Git Delete Of a Particular branch 
+
+git remote set-url origin https://sunny_parmar_300041371@bitbucket.org/myntra/spectrum-server.git
+git branch -d release
+
+Git Clone Of a Particular branch 
+
+git clone -b release https://sunny_parmar@bitbucket.org/myntra/spectrum-server.git
+                                                                    OR
+git fetch && git checkout release-m-64-comment-service
+
+git clone -b release-m-61 https://sunny_parmar@bitbucket.org/myntra/spectrum-server.git
+A) Simple Pull , commit and Push Code :- 
+1. Go to App Folder  "cd/project/spectrum-jeeves"
+2. Git pull origin "Branch Name"
+3. Git Add "Folder/file Name"
+4. Git commit -m "Comment"
+5. Git push origin "Branch Name"
+
+B) Create a New Branch From Latest/Crruent(A) Branch :- 
+1. Go to App Folder  "cd/project/spectrum-jeeves"
+2. git checkout -b "New Branch Name(C)"
+If Required, You want merge with Another branch 
+3. git checkout -b "Another branch Name(B)"
+4. Git pull origin "Another branch Name(B)"
+       If there are some conflicts then Solve it And Add,Commit Locally Not Push to git .
+       Because it is Local branch of same name of  "Another branch Name(B)"
+GO Back to My new Branch (I was doing Mistake here)
+5. git checkout  "New Branch Name(C)"
+6. git merge  "Another branch Name(B)"
+       If there are some conflicts then Solve it 
+7. Follow A) -> 3,4,5 steps 
+
+
+C) Create a New Branch From Any Other Branch (Not current) :- 
+1. Go to App Folder  "cd/project/spectrum-jeeves"
+2. git checkout -b "Other Branch Name(Master)"
+3. Git pull origin "Other branch Name(Master)"
+       If there are some conflicts then Solve it And Add,Commit Locally Not Push to git .
+       Because it is Local branch of same name of  "Other branch Name(Master)"
+4. git checkout -b "New Branch Name(masterSalesReport)"
+If Required, You want merge with Another branch 
+5. git checkout -b "Another branch Name(salesReportGrid)"
+6. Git pull origin "Another branch Name(salesReportGrid)"
+       If there are some conflicts then Solve it And Add,Commit Locally Not Push to git .
+       Because it is Local branch of same name of  "Another branch Name(salesReportGrid)"
+GO Back to My new Branch 
+7. git checkout  "New Branch Name(masterSalesReport)"
+8. git merge "Another branch Name(salesReportGrid)"
+       If there are some conflicts then Solve it 
+9. Follow A) -> 3,4,5 steps 
+
+Deploy To Any Cluster For test our UI Branch
+npm run build:prod && npm run deploy:qa4;
+URL :- http://jeeves_ui4-spectrumstatic.dockins.myntra.com/FinancialPlanner
+
+
+
+
+
+
+
+
+Dynamic Programming/HouseRobber /
+Dynamic Programming/coin change 
+: invalid path 'Algorithms/Dynamic Programming/HouseRobber /HouseRobber.js'
+-------------------------------------
+error: invalid path 'Algorithms/Dynamic Programming/Longest common subsequence | Leetcode #1143/LongestCommonSubSequence.jpeg'
+
+
+LongestCommonSubSequence.jpeg
+Dynamic Programming Practiced
+3 months ago
+Screenshot 2022-06-25 at 1.00.58 PM.png
+String Problems
+4 months ago
+Screenshot 2022-06-25 at 1.01.26 PM.png
+---------------------------------------------------------------------
+Window Sliding/Minimun Size Subarray Sum || Leetcode 209/
+
+
+
+BrouteForce.png
+Some Array Problems Practiced
+3 months ago
+SlidingWindow.png
+Some Array Problems Practiced
+3 months ago
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+
+-----------------------
+
+DSA/Data Structure/String/Palindrome/Rabin karp algorithm: Pattern Matching/RabinKarp.png
+DSA/Data Structure/String/Palindrome/Rabin karp algorithm: Pattern Matching/Rolling-Hash/Screenshot 2022-07-21 at 12.44.38 AM.png
+
+Data Structure/String/Palindrome/Rabin karp algorithm: Pattern Matching/Rolling-Hash/Screenshot 2022-07-21 at 12.44.38 AM.png
+Data Structure/String/Palindrome/Rabin karp algorithm: Pattern Matching/RabinKarp-Important-Problems.jpeg
+
+Data Structure/String/Palindrome/Rabin karp algorithm: Pattern Matching/RabinKarp.png
+
+
+
+Data Structure/String/Palindrome/Rabin karp algorithm: Pattern Matching/.DS_Store
