@@ -1,1 +1,0 @@
-// https://www.geeksforgeeks.org/divide-a-string-in-n-equal-parts/

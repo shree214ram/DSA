@@ -1,1 +1,0 @@
-https://www.geeksforgeeks.org/count-palindrome-sub-strings-string/
