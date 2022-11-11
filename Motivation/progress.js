@@ -64,6 +64,14 @@ Directi
 Nike 
 https://www.spoj.com/
 
+
+Airbus
+boing air 
+
+cleartrip
+Epsilon
+Philips
+Samsung 
 ==
 
 

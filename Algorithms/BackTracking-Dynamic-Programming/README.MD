@@ -21,6 +21,7 @@ Minimum edit distance | Dynamic programming | Backtracking
     https://www.geeksforgeeks.org/backtracking-algorithms/?ref=shm
 
 ##### Imprtant Steps for solve all backtracking problems :- 
-    1. set 
+    1. set 8*8 or 4*4 
+    
     2. Recursion 
     3. backtrack

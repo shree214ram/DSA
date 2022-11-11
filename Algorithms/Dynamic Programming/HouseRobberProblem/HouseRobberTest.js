@@ -13,7 +13,7 @@ function solve(Arr,n){
     //take current 
     let takeCurrent = Arr[n] + solve(Arr,n-2)
     let leaveCurrent = solve(Arr,n-1)
-    return Math.min(takeCurrent,leaveCurrent)
+    return Math.max(takeCurrent,leaveCurrent)
 }
 const Arr = [2,7,9,3,1]
 solve(Arr,Arr.length)

@@ -108,3 +108,17 @@ n*n-1
 3. DP-Table
 4. DP-Bottom-up
 5. Code with 2 variable O(n)
+
+### Recursive Solution 
+1. we will think in reverse direction 
+2. solve(n){
+	// if only 2 way either 1 step or 2 
+	if(n<=1) return n
+	return solve(n-1) + solve(n-2)
+	//But  if there are more than  2 way either 1 step or 2 step or 3 step or 4 step 
+	//then we have to generalize the solution 
+	let result =0
+	for(let i=1;i<possiblewaysOfStep;i++){
+		result+=solve(n-i)//i is the no of staires is used in sigle step like 1 or 2 or 3 staire in singl step
+	}
+}

@@ -22,7 +22,7 @@ TECH DOSE
 
 https://www.geeksforgeeks.org/trapping-rain-water/
 Main Logic :- Hame left max nikalna padta he and right max , and Dono ka jo min hota he usko final Minimum man kar usme se current element ki height ko minus karte he to water level nikal aata he current building ka 
-### 1. Navie Approach O(N*N),O(N*N)
+### 1. Navie Approach O(N*N),O(1)
     2 for loop :- 1 for outer for all elements of array second for set left Max and right Max 
     for(i=1){
         left = A[i]
@@ -67,5 +67,6 @@ Main Logic :- Hame left max nikalna padta he and right max , and Dono ka jo min 
 
         }
     }
+ product 
 
     Or samajhna padega Deep me 

@@ -35,7 +35,7 @@ console.log("Total Profit is ", max - min)
 // value if the array is sorted in
 // decreasing order.Returns 0 if
 // elements are equal
-function maxDiff(arr, arr_size) {
+function maximumProfit(arr, arr_size) {
     let max_diff = arr[1] - arr[0];
     let min_element = arr[0];
     let i;
@@ -51,19 +51,21 @@ function maxDiff(arr, arr_size) {
 const arr = [4, 5, 2, 1, 6, 10, 4, 9, 11]
 // let arr = [ 1, 2, 90, 10, 110 ];
 let size = arr.length;
-document.write("Maximum difference is " + maxDiff(arr, size));
+document.write("Maximum difference is " + maximumProfit(arr, size));
 
 // Sunny Code
+//need to keep instance of min and maximumProfit
+
 const A = [4, 5, 2, 1, 6, 10, 4, 9, 11]
-let oldMin = A[0]
-let maxDiff = A[1] - A[0]
+let min = A[0]
+let maximumProfit = A[1] - A[0]
 for (let i = 1; i < A.length; i++) {
-    if (A[i] - oldMin > maxDiff) {
-        maxDiff = A[i] - oldMin
+    if (A[i] - min > maximumProfit) {
+        maximumProfit = A[i] - min
     }
-    if (A[i] < oldMin) {
-        oldMin = A[i]
+    if (A[i] < min) {
+        min = A[i]
     }
 }
-console.log(maxDiff)
+console.log(maximumProfit)
 

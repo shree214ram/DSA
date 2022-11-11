@@ -39,6 +39,7 @@ let left = 0;
 let right = Arr.length-1;
 while(left<right){
     if(leftMax < rightMax){
+        
         if(leftMax<Arr[left]){
             leftMax = Arr[left]
         } else {
