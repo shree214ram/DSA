@@ -1,0 +1,19 @@
+#### Todays work 12 november 2022
+
+1. Backtracking 
+2. Rate on Maze 
+3. Comination Sum : understood need to code on it 
+
+Recursion
+DP 
+
+Fabonachi 
+stairs 
+
+#### Tomorrows Work :- 
+1. react Redux Javascript With the Help of Kamini 
+2. Practice on Backtracking 
+    1. knight mare 
+    2. shortest path for Rate on Maze 
+    3. N queen 
+    4. https://www.geeksforgeeks.org/power-set/

@@ -9,3 +9,6 @@ https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/job/IND---Bangalore-
 https://jobs.smartrecruiters.com/oneclick-ui/company/Visa/publication/57fe4b1e-a102-45a1-8717-c36e120202c3/screening?dcr_ci=Visa
 
 paypal
+
+: Java, Microservices, Spring, Hibernate, Multithreading
+
