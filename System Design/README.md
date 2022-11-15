@@ -5,8 +5,52 @@ goole syaytem design interview
 # https://www.youtube.com/watch?v=SqcXvc3ZmRU
 
 All the important term explain in term of Pizza Shop 
+
+Systems design is the use of computer engineering principles to build large scale distributed systems. It involves converting business problems and requirements into technical solutions. Senior engineers use system design patterns to make reliable, scalable and maintainable systems.
+
+We mention 10 tips/terms used by engineers when designing systems:
+
+00:00 Intro
+00:38 Vertical scaling
+01:07 Preprocessing using cron jobs
+01:31 Backup servers
+02:12 Horizontal scaling
+02:37 Microservices
+04:00 Distributed Systems
+05:24 Load Balancing
+06:39 Decoupling
+07:15 Logging and metrics calculation
+07:45 Extensibility
+08:38 Low level system design
+
+Looking to ace your next interview? Try this System Design video course! 🔥
+https://get.interviewready.io?source_id=sdbasics
+
+Course chapters: 
+1) Design an email service like Gmail
+2) Design a rate limiter
+3) Design an audio search engine
+4) Design a calling app like WhatsApp
+5) Design and code a payment tracking app like Splitwise
+6) Machine coding a cache
+7) Low level design of an event bus
+
+The chapters have architectural diagrams and capacity estimates, along with subtitled videos. Use the coupon code of 'earlybird' to get a 20% discount!
+
+References:
+Scalability Basics: https://youtu.be/xpDnVSmNFX0
+Load Balancing: https://youtu.be/K0Ta65OqQkY
+Microservices: https://youtu.be/qYhRvH9tJKw
+Single Point of Failure: https://youtu.be/-BOysyYErLY
+Backups: https://youtu.be/GeGxgmPTe4c
+Health checks: https://youtu.be/lWE_UIbm8NA
+Designing Data Intensive Applications - https://amzn.to/2yQIrxH
+
+System Design Playlist: https://www.youtube.com/playlist?list...
+
+
 1. Vertical Scalling (Single Chef)
-2. Pre Request Preparation (Single Chef with more work in extra working hours and give hime extra {Cron Jobs})
+2. Pre Request Preparation (Single Chef with more work in extra working hours and give him extra {Cron Jobs})
 3. Master Slave Architecture (Backup) (Keep one temperory chef who will support when Main Chef sick)
 4. Horizontal Scalling (Keep 3 Main Chefs and 3 Backup chefs)
 5. Microservices (Keep sapertae request according to their speciallity 1 chefs for Garlic Pizza , 1 for Onion Pizza , 1 for Garlic Bread )
@@ -65,13 +109,7 @@ Gaurav Sen
 567K views
 4 years ago
 
-# https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
-System Design
-Gaurav Sen
-System Design Basics: Horizontal vs. Vertical Scaling
-7:56
-System Design Primer ⭐️: How to start with distributed systems?
-10:03
+
 
 
 # https://www.youtube.com/watch?v=5faMjKuB9bc
@@ -86,20 +124,32 @@ Gaurav Sen
 12K views
 2 days ago
 New
-========================================================Gaurav Sen 
+============================= Very Good Content (The Code Skool) High Level System ======================
 
-====================================== Very Good Content (The Code Skool) High Level System ======================
+#### Introduction of System Design 
 https://www.youtube.com/watch?v=SsPSJvH2mew&t=433s
+
 ```
 I have talked about how to learn System Design or High-Level Design(HLD) as a beginner. I have discussed what are the best resources for learning System Design like how to use educative.io courses. This will help you to transition from an SDE-1 to an SDE-2 role at any company.
 
 I have covered all the concepts that are mandatory to learn system design and the standard problems you need to know before going to the interview. 
+```
+#### Important Concepts
+1. Scalability :- How we can scale our system Or how we can build a system so millions of user can use in single time And How can so much traffic can be handle on system
+   1. Horizontal
+   2. Vertical Scaling
+   ###### https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
+    System Design
+    Gaurav Sen
+    System Design Basics: Horizontal vs. Vertical Scaling
+   
+2. Performance:- How we can increase the  performance of our system in terms of scability and traffic control 
+3. Latency and Throughput :- Response time of system and how its impacted in terms of scability and performance . Howmuch numbers of request comming in system 
+4. Consistency :- is our system consistent or not , Is our system returning same data for every api call 
+    1. strongly consistent 
+    2. weekly consistent 
+    3. eventualy consistent 
 
-Important Concepts
-1. Scalability
-2. Performance
-3. Latency and Throughput
-4. Consistency
 5. Availability
 6. Partition Tolerance
 7. CAP Theorem
@@ -152,7 +202,7 @@ https://twitter.com/theCodeSkool
 LinkedIn:
 https://www.linkedin.com/in/deevanksh...
 
-============================================ Low Level Sysytem Design=================
+============================================ Low Level Sysytem Design==========================================
 https://www.youtube.com/watch?v=W-aJ1Kp_0P8
 Low-Level System Design RoadMap | Object-Oriented Programming | OOPS | SDE1 to SDE2
 

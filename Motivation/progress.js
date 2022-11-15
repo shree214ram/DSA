@@ -11,14 +11,14 @@ Uber / OLA
 Attlassion /
 Atlassian /
 salesforce / 
-flipkart / Myntra / Jabong
+flipkart / Myntra / Jabong / Jabong
 Apple 
 Microsoft
 Swiggy / Zomatto /  
 Citicorp
 Informatica
-MakeMyTrip
-Morgan Stanley / Wells Fargo / JP Morgen / DBS 
+MakeMyTrip /cleartrip 
+Morgan Stanley / Wells Fargo / JP Morgen / DBS / Citi / Visa
 Oracle
 Oxigen Wallet
 Snapdeal
@@ -55,7 +55,6 @@ aptiv
 Hotstar/ Netflix/ Sony
 Paytm / Phonepay / Airtel 
 
-Jabong
 
 verizon
 T-Mobile
@@ -68,11 +67,16 @@ https://www.spoj.com/
 Airbus
 boing air 
 
-cleartrip
+
 Epsilon
 Philips
 Samsung 
 ==
+
+==
+Lyft, Redfin, Meta, Opendoor, Stripe
+==
+
 
 
 You can target companies :
@@ -302,3 +306,7 @@ https://www.youtube.com/watch?v=rw4s4M3hFfs&t=1822s select a minimum distance ap
 
 sub array sum equal K
 Perfect sub array 
+1. Square root 
+2. Saving Gautham
+3. Loud speaker 
+4. Multiple sum set

@@ -1,0 +1,40 @@
+#### Todays work 12 november 2022
+
+1. Backtracking 
+2. Rate on Maze 
+3. Comination Sum : understood need to code on it 
+
+Recursion
+DP 
+
+Fabonachi 
+stairs 
+
+#### Tomorrows Work :- 
+1. react Redux Javascript With the Help of Kamini 
+2. Practice on Backtracking 
+    1. knight mare 
+    2. shortest path for Rate on Maze 
+    3. N queen 
+    4. https://www.geeksforgeeks.org/power-set/
+
+###14 november
+1. Recursion and backtracking Practice 
+
+###15 november
+1. System Design Basic 
+2. Started over deep dive at topics
+3. Seen a video for Amazon Interview Question 
+   1.LongestNonRepeating
+   2.Square Root 
+4. Explain Kamini LongestNonRepeating 
+
+### 16 
+1. System Design Study 
+2. New Amazon question 
+    1. Square root 
+    2. Saving Gautham
+    3. Loud speaker 
+    4. Multiple sum set
+3. Recursion DP and Backtarcking Practice 
+4. Graph Start To Revise 
