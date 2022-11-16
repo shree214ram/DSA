@@ -1,6 +1,121 @@
-https://www.youtube.com/watch?v=q0KGYwNbf-0 
-goole syaytem design interview
-========================================================Gaurav Sen 
+============================= Very Good Content (The Code Skool) High Level System ======================
+
+#### Introduction of System Design 
+https://www.youtube.com/watch?v=SsPSJvH2mew&t=433s
+
+```
+I have talked about how to learn System Design or High-Level Design(HLD) as a beginner. I have discussed what are the best resources for learning System Design like how to use educative.io courses. This will help you to transition from an SDE-1 to an SDE-2 role at any company.
+
+I have covered all the concepts that are mandatory to learn system design and the standard problems you need to know before going to the interview. 
+```
+#### Important Concepts
+1. Scalability :- How we can scale our system Or how we can build a system so millions of user can use in single time And How can so much traffic can be handle on system
+   1. Horizontal
+   2. Vertical Scaling
+   ###### https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
+    System Design
+    Gaurav Sen
+    System Design Basics: Horizontal vs. Vertical Scaling
+   
+2. Performance:- How we can increase the  performance of our system in terms of scability and traffic control 
+3. Latency and Throughput :- Response time of system and how its impacted in terms of scability and performance . Howmuch numbers of request comming in system 
+4. Consistency :- is our system consistent or not , Is our system returning same data for every api call 
+    1. strongly consistent 
+    2. weekly consistent 
+    3. eventualy consistent 
+    ###### https://www.youtube.com/watch?v=zaRkONvyGr8
+    What is Consistent Hashing and Where is it used?
+    Gaurav Sen
+
+    ###### https://www.youtube.com/watch?v=m4q7VkgDWrM
+    Data Consistency and Tradeoffs in Distributed Systems
+    1. Consistency
+    2. Availability
+    3. Partition Tolerance
+
+    Commit And Rollback 
+5. Availability
+6. Partition Tolerance
+7. CAP Theorem
+8. Domain Name System
+9. Content Delivery Network
+10. Load Balancers and Reverse Proxy
+    Load Balancing 
+    ###### https://www.youtube.com/watch?v=K0Ta65OqQkY
+    What is Load Balancing? ⚖️
+    Gaurav Sen
+11. Microservices
+12. Databases
+    # https://www.youtube.com/watch?v=5faMjKuB9bc
+    What is Database Sharding?
+    Gaurav Sen
+    745K views
+    3 years ago
+13. Caching
+    ###### https://www.youtube.com/watch?v=U3RkDLtS7uY
+    What is Distributed Caching? Explained with Redis!
+
+    1. To Save Network Call
+    2. To Avoid Recomputation 
+    3. ToReduce DB Load 
+    Redis :-
+    LRU 
+    1. Server Cheche 
+    2. Database Cheche 
+    3. Globle Chache 
+
+        Write Through 
+        Write Back
+14. Message Queues
+    ###### https://www.youtube.com/watch?v=oUJbuFMyBDk
+    What is a Message Queue and Where is it used?
+
+    With Pizza shop example and Load balancer , there is a very important thing in Sysytem Design is 
+    Task/Message Queue :- 
+
+System Design Primer - https://github.com/donnemartin/system...
+
+Standard Questions
+1. Pastebin
+2. TinyURL
+3. Uber
+4. BookMyShow
+5. Twitter Feed
+6. Facebook Messenger
+7. Search in Instagram
+8. Video Streaming Service
+
+
+Educative.io course - https://www.educative.io/courses/grok...
+
+System Design template - https://leetcode.com/discuss/career/2...
+
+Netflix Blog - https://netflixtechblog.com/
+
+Uber Engg Blog - https://eng.uber.com/
+
+Google Developers - https://developers.googleblog.com/
+
+High Scalability - http://highscalability.com/
+
+ Subscribe to my channel for more such videos :D
+
+Join my Telegram link for interview preparation material and updates:
+https://t.me/thecodeskool
+
+You can also reach me at:
+
+Instagram: 
+https://www.instagram.com/thecodeskool/
+
+Twitter: 
+https://twitter.com/theCodeSkool
+
+LinkedIn:
+https://www.linkedin.com/in/deevanksh...
+
+
+=========== Gaurav Sen System Design Introduction in term of Pizza Shop ==============
 
 # https://www.youtube.com/watch?v=SqcXvc3ZmRU
 
@@ -60,63 +175,13 @@ System Design Playlist: https://www.youtube.com/playlist?list...
 9. Logging and Matrics calculation (Any blocker like bike is got stuck , system will see the logs and findout the issue event by event debugging )
 10. Extensible (System should be large extensiable like in future any new category comes so system will easily manage . Example Swiggy easily started Swiggy Instamart because it has already system only they have to Keep some small inhancement and they were succeed )
 
-# https://www.youtube.com/watch?v=m4q7VkgDWrM
-Data Consistency and Tradeoffs in Distributed Systems
-1. Consistency
-2. Availability
-3. Partition Tolerance
-
-Commit And Rollback 
-
-# https://www.youtube.com/watch?v=U3RkDLtS7uY
-What is Distributed Caching? Explained with Redis!
-
-1. To Save Network Call
-2. To Avoid Recomputation 
-3. ToReduce DB Load 
-Redis :-
-LRU 
-1. Server Cheche 
-2. Database Cheche 
-3. Globle Chache 
-
-    Write Through 
-    Write Back
-
-# https://www.youtube.com/watch?v=oUJbuFMyBDk
-What is a Message Queue and Where is it used?
-
-With Pizza shop example and Load balancer , there is a very important thing in Sysytem Design is 
-Task/Message Queue :- 
-
-
-Load Balancing 
-# https://www.youtube.com/watch?v=K0Ta65OqQkY
-What is Load Balancing? ⚖️
-Gaurav Sen
-695K views
-4 years ago
-
 # https://www.youtube.com/watch?v=rJHTK2TfZ1I
 What's an Event Driven System?
 Gaurav Sen
 237K views
 4 years ago
 
-# https://www.youtube.com/watch?v=zaRkONvyGr8
-What is Consistent Hashing and Where is it used?
-Gaurav Sen
-567K views
-4 years ago
 
-
-
-
-# https://www.youtube.com/watch?v=5faMjKuB9bc
-What is Database Sharding?
-Gaurav Sen
-745K views
-3 years ago
 
 # https://www.youtube.com/watch?v=iRhSAR3ldTw
 System Design of Doordash: Geo-Hashing and WebSockets for Location Based Services
@@ -124,83 +189,7 @@ Gaurav Sen
 12K views
 2 days ago
 New
-============================= Very Good Content (The Code Skool) High Level System ======================
 
-#### Introduction of System Design 
-https://www.youtube.com/watch?v=SsPSJvH2mew&t=433s
-
-```
-I have talked about how to learn System Design or High-Level Design(HLD) as a beginner. I have discussed what are the best resources for learning System Design like how to use educative.io courses. This will help you to transition from an SDE-1 to an SDE-2 role at any company.
-
-I have covered all the concepts that are mandatory to learn system design and the standard problems you need to know before going to the interview. 
-```
-#### Important Concepts
-1. Scalability :- How we can scale our system Or how we can build a system so millions of user can use in single time And How can so much traffic can be handle on system
-   1. Horizontal
-   2. Vertical Scaling
-   ###### https://www.youtube.com/watch?v=xpDnVSmNFX0&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
-    System Design
-    Gaurav Sen
-    System Design Basics: Horizontal vs. Vertical Scaling
-   
-2. Performance:- How we can increase the  performance of our system in terms of scability and traffic control 
-3. Latency and Throughput :- Response time of system and how its impacted in terms of scability and performance . Howmuch numbers of request comming in system 
-4. Consistency :- is our system consistent or not , Is our system returning same data for every api call 
-    1. strongly consistent 
-    2. weekly consistent 
-    3. eventualy consistent 
-
-5. Availability
-6. Partition Tolerance
-7. CAP Theorem
-8. Domain Name System
-9. Content Delivery Network
-10. Load Balancers and Reverse Proxy
-11. Microservices
-12. Databases
-13. Caching
-14. Message Queues
-
-System Design Primer - https://github.com/donnemartin/system...
-
-Standard Questions
-1. Pastebin
-2. TinyURL
-3. Uber
-4. BookMyShow
-5. Twitter Feed
-6. Facebook Messenger
-7. Search in Instagram
-8. Video Streaming Service
-
-
-Educative.io course - https://www.educative.io/courses/grok...
-
-System Design template - https://leetcode.com/discuss/career/2...
-
-Netflix Blog - https://netflixtechblog.com/
-
-Uber Engg Blog - https://eng.uber.com/
-
-Google Developers - https://developers.googleblog.com/
-
-High Scalability - http://highscalability.com/
-
- Subscribe to my channel for more such videos :D
-
-Join my Telegram link for interview preparation material and updates:
-https://t.me/thecodeskool
-
-You can also reach me at:
-
-Instagram: 
-https://www.instagram.com/thecodeskool/
-
-Twitter: 
-https://twitter.com/theCodeSkool
-
-LinkedIn:
-https://www.linkedin.com/in/deevanksh...
 
 ============================================ Low Level Sysytem Design==========================================
 https://www.youtube.com/watch?v=W-aJ1Kp_0P8
@@ -276,12 +265,6 @@ https://www.youtube.com/watch?v=P_eh1b6vE-4
 https://www.youtube.com/watch?v=mswjnBHHd1M&t=40s
 Load Balancing and Traffic Routing Strategies Simplified | System Design Fundamentals 2022
 
-
-
-
-
-
-
 -------------------Others-----------------------
 
 https://www.youtube.com/watch?v=vge7qwCR1dA&list=PLt4nG7RVVk1g_LutiJ8_LvE914rIE5z4u
@@ -330,3 +313,8 @@ VIEW FULL PLAYLIST
 
 https://www.youtube.com/watch?v=T6n5PCYLSr0
 HLD CheatSheet of Questions to ask|High Level System Design Interview|Extensive list of Quess to ask
+
+
+======================
+https://www.youtube.com/watch?v=q0KGYwNbf-0 
+goole syaytem design interview
