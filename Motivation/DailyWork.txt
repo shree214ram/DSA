@@ -29,7 +29,7 @@ stairs
    2.Square Root 
 4. Explain Kamini LongestNonRepeating 
 
-### 16 
+### 16 Nov 2022
 1. System Design Study 
 2. New Amazon question 
     1. Square root 
@@ -38,3 +38,23 @@ stairs
     4. Multiple sum set
 3. Recursion DP and Backtarcking Practice 
 4. Graph Start To Revise 
+
+### 17 Nov 2022
+1. System Design Study 
+2. New Amazon question 
+    1. Square root 
+    2. Saving Gautham
+    3. Loud speaker 
+    4. Multiple sum set
+3. Recursion DP and Backtarcking Practice 
+4. Graph Start To Revise (Started)
+    1. Graph Theory
+    2. BFS / DFS
+    3. Find Circle in Graph undirected/directed 
+    4. Mother vertex 
+
+IS IN PROGRESS:- 
+   1.  Remove K digit and find smallest number 
+   2. Smallest Sub string whose containt all the pattern string 
+   3. Square Root
+   4. Loud speaker

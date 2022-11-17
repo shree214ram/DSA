@@ -1,4 +1,3 @@
-<script>
 //5:55
 class Graph{
 	constructor(n){
@@ -47,5 +46,3 @@ gp.add(3,0)
 gp.add(3,4)
 gp.add(4,3)
 console.log(gp.DFS(0))
-
-</script>

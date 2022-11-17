@@ -33,10 +33,6 @@
 
 ### Topological Sort in Graph :-
 
-
-
-
-
 https://stackoverflow.com/questions/59332039/is-there-an-algorithm-to-find-the-minimum-cost-path-in-a-directed-rooted-tree-a#:~:text=The%20minimum%20cost%20path%20for,for%20its%20minimum%20cost%20path.
 
 
@@ -50,16 +46,16 @@ Timestamps
   3. Queue Used in BFS 
   4. Tree
 2:13 -  Basic Terminologies
-  1. vertex and adges  
-  2. Adjency vertex
+  1. vertex and adges  A,B,C are vertex and AB , Ac, BC are adges 
+  2. Adjency vertex {A:[B,C], B:[C,A]} adjency 
   3. Path in graph
   4. Connected Graph
   5. Connected componanat in graph
   6. Directed and Undirected Graph 
   7. Weighted and unweighted Graph
 3:07 -  Representation of Graph
-  1. Adjency List
-  2. Adjency Matrix
+  1. Adjency List [] -> [] As like linked list 
+  2. Adjency Matrix : Matrix format 
   3. Edge List 
 3:47 - Basic BFS/DFS Questions
   1. Print DFS / BFS

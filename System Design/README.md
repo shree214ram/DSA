@@ -318,3 +318,7 @@ HLD CheatSheet of Questions to ask|High Level System Design Interview|Extensive 
 ======================
 https://www.youtube.com/watch?v=q0KGYwNbf-0 
 goole syaytem design interview
+
+7:30
+https://www.geeksforgeeks.org/system-design-tutorial/
+https://www.geeksforgeeks.org/getting-started-with-system-design/

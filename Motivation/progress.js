@@ -46,7 +46,7 @@ Accolite
 Adobe
 D-E-Shaw
 Payu /Paypal 
-Paytm / Phonepay / Airtel 
+Paytm / Phonepay / Airtel /payscale
 
 Zoho
 GamesCraft 
@@ -314,3 +314,9 @@ Perfect sub array
 2. Saving Gautham
 3. Loud speaker 
 4. Multiple sum set
+
+https://www.geeksforgeeks.org/amazons-most-frequently-asked-interview-questions-set-2/
+https://www.geeksforgeeks.org/amazon-interview-questions/
+https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/?ref=gcse
+
+https://www.youtube.com/watch?v=gX8ZapEkpUY&ab_channel=TECHDOSE Rod Map 

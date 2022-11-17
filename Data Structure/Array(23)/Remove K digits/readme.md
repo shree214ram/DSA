@@ -34,3 +34,31 @@ num does not have any leading zeros except for the zero itself.
 Accepted
 289,054
 Submissions
+
+
+Sunny Approach 
+//Recursion
+
+let A = "1432219", k = 3
+A= A.spit("")
+Output: "1219"
+const startIndex=0,lastIndex=A.length-k,Res=[],Target=A.length-k
+console.log("Result=",solve(startIndex,lastIndex,Res,Target,A))
+
+function solve(startIndex,lastIndex,Res,Target,A){
+    const Remaining = Target - Res.length
+    if(Remaining == 0){
+        return Res.join(",")
+    }
+    let foundMinIndex = -1, minValue=Number.MAX_VALUE,i=startIndex
+    while(i<lastIndex){
+        if(A[i]<minValue){
+            minValue = A[i]
+            foundMinIndex=i
+        }
+        i++
+    }
+    Res.push(minValue)
+    solve(foundMinIndex+1,A.length-(Target-res.length)+1,Res,Target,A)
+
+}
