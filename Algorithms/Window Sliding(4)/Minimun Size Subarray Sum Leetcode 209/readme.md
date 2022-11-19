@@ -1,6 +1,6 @@
 # Minimun Size Subarray Sum || Leetcode 209
 https://www.youtube.com/watch?v=S6Xg-0uaODc
-
+###### Two Pointer and sliding window 
 1. Two Pointer {Left and right} [initially 0 both], MinimumSum = 99999 
 2. for(i to n array){
 3. Sliding Window { variable size of window}
@@ -35,6 +35,7 @@ while (right < n) {
    2 + 3             =  5
    2 + 3 + 1        =  6
    2 + 3 + 1 + 2    =  8(we will stop because 8 > 7)
+
 
 
 3. Once Second condition not proved we will remove  elements 

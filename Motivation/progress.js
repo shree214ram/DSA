@@ -320,3 +320,6 @@ https://www.geeksforgeeks.org/amazon-interview-questions/
 https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/?ref=gcse
 
 https://www.youtube.com/watch?v=gX8ZapEkpUY&ab_channel=TECHDOSE Rod Map 
+
+1. HiLabs
+2.LeadSquare

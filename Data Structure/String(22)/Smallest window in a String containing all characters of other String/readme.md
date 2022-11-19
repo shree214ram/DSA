@@ -14,4 +14,11 @@ Output: “ksfor”
 https://www.youtube.com/watch?v=GZjW14vX2Ps&ab_channel=CodingSimplified 
 
 1. Naview Approach 3 loop
-2. Hasing 
+2. Hasing and two loop as sunny written 
+3. Two pointer and sliding window 
+    This Idea is some how similar like DSA\Algorithms\Window Sliding(4)\Minimun Size Subarray Sum Leetcode 209\readme.md
+
+    ### Need mor understanding on it 
+    https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+    see this and video again 
+https://www.youtube.com/watch?v=GZjW14vX2Ps&ab_channel=CodingSimplified 

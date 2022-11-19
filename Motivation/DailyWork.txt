@@ -53,8 +53,25 @@ stairs
     3. Find Circle in Graph undirected/directed 
     4. Mother vertex 
 
-IS IN PROGRESS:- 
+    IS IN PROGRESS:- 
    1.  Remove K digit and find smallest number 
    2. Smallest Sub string whose containt all the pattern string 
    3. Square Root
    4. Loud speaker
+5. 
+
+### 18 Nov 2022
+1. Remove K digit 
+    1.Recursion 
+    2. Optimal 
+2. find-the-smallest-window-in-a-string-containing-all-characters-of-another-string
+    Is in progress
+    1. Recursion sunny solution code baki he 
+    2. optimal solution two pointer and sliding window 
+
+
+### 19 Nov 2022
+1. Jump Game 
+    Recursion Sunny solution( Done)
+    Optiomal with Velly Hill logic 
+2. Find minimum Jump to reach at end 

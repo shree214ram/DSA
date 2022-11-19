@@ -1,9 +1,3 @@
-https://www.youtube.com/watch?v=3QJzHqNAEXs
-Remove K digits | Build lowest number | Leetcode #402
-
-402. Remove K Digits
-Medium
-
 
 Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 
@@ -36,8 +30,8 @@ Accepted
 Submissions
 
 
-Sunny Approach 
-//Recursion
+ 
+###### Sunny Approach Recursion
 
 let A = "1432219", k = 3
 A= A.spit("")
@@ -62,3 +56,15 @@ function solve(startIndex,lastIndex,Res,Target,A){
     solve(foundMinIndex+1,A.length-(Target-res.length)+1,Res,Target,A)
 
 }
+
+###### Stack Approach Surya Pratap Approach :-
+
+https://www.youtube.com/watch?v=3QJzHqNAEXs
+Remove K digits | Build lowest number | Leetcode #402
+
+1. We knows that if we want to find minimun value , so we have to findout minimum element from left 
+2. for example 19 is smaller so 91 is greater because at left----->right . If on left minimum value is there that means Minimim result will be there 
+3. We have to remove the top hill Value for finding the minimum result .
+4.we will use stack and will remove the 
+
+###### https://www.geeksforgeeks.org/largest-number-possible-after-removal-of-k-digits/ Please look it also 
