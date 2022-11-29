@@ -1,5 +1,11 @@
 //3:59
-//O(NlogN)
+//Three for loop
+//O(N3)
+
+//2 for loop and 1 Hash Table 
+//O(N2) time and space O(N)
+
+//O(N2) Sorting and Two pointer,  O(1) No extra space required 
 const A = [1, 2, 6, 4, 3, 8, 9]
 //1. Sort in ASC
 A.sort((a, b) => a - b)

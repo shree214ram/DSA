@@ -42,3 +42,7 @@ A   C  B
 1
 -   2
     1
+
+
+    https://www.youtube.com/watch?v=u-HgzgYe8KA&ab_channel=ApnaCollege
+    this is very good explanation 

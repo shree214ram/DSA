@@ -1,6 +1,9 @@
 DSA 
 System Design 
 
+Live Mock coding interview platform :-
+1. tryexponent
+2. pramp
 
 ######################## Company Roles for suitable to me  :-####################
 You can target companies :
@@ -31,9 +34,10 @@ Uber / OLA
 Attlassion /
 Atlassian /
 salesforce / 
-
+Tesla
 Apple 
 Microsoft
+Lyft
 Swiggy / Zomatto /  
 Citicorp
 Informatica
@@ -322,4 +326,15 @@ https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon
 https://www.youtube.com/watch?v=gX8ZapEkpUY&ab_channel=TECHDOSE Rod Map 
 
 1. HiLabs
-2.LeadSquare
+2. LeadSquare
+3. Luxoft 
+4. DXC 
+
+https://www.youtube.com/watch?v=jma9hFQSCDk Bloomberg Interview Sucesser serach in BST 
+
+https://www.youtube.com/watch?v=8eE9ydPJkPc 
+Goldman Sachs Interview question generate all binary strings of n bits length
+yozaam coding on leetcode binarysearch codeforces
+
+https://www.youtube.com/watch?v=NxOjGKpL9Tw&ab_channel=HrithikRaj
+Generate all binary strings without consecutive 1’s | Recursion & Backtracking

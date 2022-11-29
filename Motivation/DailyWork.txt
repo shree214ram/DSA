@@ -75,3 +75,61 @@ stairs
     Recursion Sunny solution( Done)
     Optiomal with Velly Hill logic 
 2. Find minimum Jump to reach at end 
+
+#### 20 Nov 2022 
+1. Jump Game for just check if it is possible to reach end or not 
+2. Jump game to findout minimum steps to reach end 
+    1. Recursion DP solution
+    2. O(n) is in progress 
+3. Dystem Design :- 
+    1. Message Queue 
+    2. System Design Template 
+
+#### 21/22/23 Nov 2022 
+1. Finsish Bank Related work
+2. Finish Task 
+
+=====================Planning======================= 
+
+###### Javascript / React Redux / Node / MongoDB 
+## Thusday :- 
+1. Javascript :- , 
+    1. Javascript :- << shift opertaor 
+    2. Advance Javascript ,
+    3. ECMS16 , 
+    4. Pattern Javascript,  
+    5. Web componanat 
+2. CSS :- Bootsrap , Mediaquery , positions , model boxes , Flex-Grid
+3. HTML 5 : Web Workers, web storage 
+## Friday :- 
+2. React Redux , flux , contaxt provider / thunk saga 
+## Saterday :- 
+3. Node,  Express , security , rest api , microservice 
+4. Mysql/MongoDB 
+## Sunday :- 
+###### DSA / System Design : HLD/LLD
+
+#### 24 Nov
+Start Javascript Study 
+1 DSA Problem 
+
+#### 25 Nov
+1. Start Javascript Study 
+2. 1 DSA Problem 
+3. Updated Resume 
+4. Send Quote to Tarranum 
+5. Rakuten Test push to shree214ram git 
+
+#### 26 Nov
+1. Start Javascript Study {async/Await/Promise/callback}
+2. 1 DSA Problem {Look only 1's consecutive Not done}
+3. Kamini Help to 2 Task 
+4. Hair Services  
+
+#### 27 Nov
+1. 1 DSA Problem {0/1 Knapsack Problem Not done}
+2. Mayra Photoshoot
+3. Kamini Help to Rakuten Task 
+4. Rakuten Test push to shree214ram git with some code logic updation
+5. Javascript Study {object/Prototype/Pattern}
+6. Home decoration

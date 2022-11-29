@@ -42,3 +42,18 @@ prograde
 
 25 , 60 
 
+
+====
+
+https://www.leadsquared.com/open-positions?src%3Dcareers%26p%3DeyJwYWdlVHlwZSI6ImFwcGxpY2F0aW9uIiwiY3ZTb3VyY2UiOiJjYXJlZXJzIiwicmVxSWQiOjE0NTQsInJlcXVlc3RlciI6eyJpZCI6IiIsImNvZGUiOiIiLCJuYW1lIjoiIn0sInBhZ2UiOiJjYXJlZXJzIiwiYnVmaWx0ZXIiOi0xLCJjdXN0b21GaWVsZHMiOnt9fQ==
+
+
+https://international-discovery.icims.com/jobs/33397/software-development-engineer-iii---roku/candidate?from=login&eem=4gl95kkxVcMcu4DJZukIAn1nkLvFsm90bQsYQloLTRUB4cNnr8uG%252B%252B3f%252BbPjwadW&code=80418bc42e8151fdc20482148f1be5da328c8df545c1598a577343468375b03e&ga=dce54643bc16b1cc6d2d78b792fe3dbe7b9cd0238babb19f7294fc8f516f40dc&eu_resident=1&accept_gdpr=1&mobile=false&width=1252&height=500&bga=true&needsRedirect=false&jan1offset=330&jun1offset=330
+
+
+https://careers.wbd.com/global/en/job/WAMEGLOBAL33397EXTERNALENGLOBAL/Software-Development-Engineer-III-Roku?utm_source=linkedin&utm_medium=phenom-feeds
+
+https://developers.turing.com/dashboard/turing_test?s=outbound
+
+=====
+amritha terascobe  

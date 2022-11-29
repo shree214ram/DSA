@@ -1,39 +1,10 @@
-<script>
-//8:2
-/*
-Input: nums = [2,3,1,1,4]
-Output: true
-Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
-Example 2:
+##### Recursion Method :- Sunny 
+1. we will go to every index and then we will check for how many ways we can go to next indexes 
+like  A = [1, 3, 2, 1, 5, 9] index 1 and value = 3 means we can go to next 3 types 
+    1. index 1 to index 4 using value 3 in 1 jump
+    2. index 1 to index 3 using value 2 in 1 jump
+    3. index 1 to index 2 using value 1 in 1 jump
+2. If we sucessfully reach at last index from any one of recursive ways first that mean Return True other wise False
+##### Optimal Solution :- Surya Velly Pick Technique 
 
-Input: nums = [3,2,1,0,4]
-Output: false
-*/
-//const A =  [2,3,1,1,4]
-//output true
-
-const A =  [3,2,1,0,4]
-//output false
-
-//const A =  [2,1,1,0,4]
-//output false
-if(solve(0,A[A.length-1],A)){
-	console.log("True")
-}else{
-	console.log("False")
-}
-function solve(index,target,A){
-	console.log(index,A[index],target,A)
-	if(A[index]==target){
-    	return true
-    }
-    let currentIndexValue = A[index]
-    while(currentIndexValue>0){
-    	if(solve(index+currentIndexValue,target-currentIndexValue,A)){
-        	return true ;
-        }
-        currentIndexValue--
-    }
-    return false
-}
-</script>
+https://www.youtube.com/watch?v=muDPTDrpS28&ab_channel=TECHDOSE
