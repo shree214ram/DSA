@@ -56,6 +56,7 @@ function printMinimumCoin(target, coins, value) {
     console.log(DP[coins.length][value], "DP")
 }
 
+
 const target = [1, 2, 3, 4, 5, 6];
 const coins = [1, 2, 5]
 const value = 6

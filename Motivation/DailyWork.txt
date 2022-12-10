@@ -133,3 +133,21 @@ Start Javascript Study
 4. Rakuten Test push to shree214ram git with some code logic updation
 5. Javascript Study {object/Prototype/Pattern}
 6. Home decoration
+
+#### 28/29/30/ Nov ---- 01/02 Dec
+1. 1 DSA Problem {0/1 Knapsack Problem with Recursion and DP  Not done completelly}
+2. Javascript Study {object/Prototype/Pattern}
+3. React Redux
+4. Node Js 
+5. 100 Important question over UI (javascript,react,redux)
+
+#### 03 Dec
+1. Mysql and MongoDB
+2. HTML and CSS 
+3. 100 Important question over UI (javascript,react,redux)
+
+
+#### 04 Dec
+1. HTML and CSS 
+2. 100 Important question over UI (javascript,react,redux)
+

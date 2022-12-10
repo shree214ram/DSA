@@ -4,3 +4,6 @@ System Design Interview: Architecture of Amazon, Flipkart like e-commerce system
 sudoCODE
 156K views
 9 months ago
+
+https://www.youtube.com/watch?v=EpASu_1dUdE
+Code-Karle Nice explanation 

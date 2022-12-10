@@ -54,7 +54,7 @@ I have covered all the concepts that are mandatory to learn system design and th
 13. Caching
     ###### https://www.youtube.com/watch?v=U3RkDLtS7uY
     What is Distributed Caching? Explained with Redis!
-
+    {How to reduce Network Call}
     1. To Save Network Call
     2. To Avoid Recomputation 
     3. ToReduce DB Load 
@@ -322,3 +322,4 @@ goole syaytem design interview
 7:30
 https://www.geeksforgeeks.org/system-design-tutorial/
 https://www.geeksforgeeks.org/getting-started-with-system-design/
+https://www.geeksforgeeks.org/5-common-system-design-concepts-for-interview-preparation/
