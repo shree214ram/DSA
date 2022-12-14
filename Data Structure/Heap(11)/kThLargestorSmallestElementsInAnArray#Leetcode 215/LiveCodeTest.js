@@ -64,7 +64,6 @@ function kthSmallest(arr, k) {
             mh.bubbleDown(0)
         }
     }
-
     console.log("Kth largest element is =>", mh.heap[0])
 }
 

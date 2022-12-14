@@ -4,7 +4,7 @@ System Design
 Live Mock coding interview platform :-
 1. tryexponent
 2. pramp
-
+9165227604
 ######################## Company Roles for suitable to me  :-####################
 You can target companies :
 
@@ -30,15 +30,14 @@ Salesforce - LMTS
 Amazon / flipkart / Myntra / Jabong / Jabong / Jocky / Rakuten 
 Google / 
 Facebook / Meta / Twitter
-Uber / OLA
+Uber / OLA / Lyft
 Attlassion /
 Atlassian /
 salesforce / 
 Tesla
 Apple 
 Microsoft
-Lyft
-Swiggy / Zomatto /  
+Swiggy / Zomatto / Dunzo / Zepto / BigBasket 
 Citicorp
 Informatica
 MakeMyTrip /cleartrip 
@@ -51,6 +50,17 @@ Adobe
 D-E-Shaw
 Payu /Paypal 
 Paytm / Phonepay / Airtel /payscale
+
+Cleartax, 
+BrowserStack, 
+, 
+Dream11, 
+Saavn, 
+Truecaller, 
+Postman, 
+Redmart, 
+CRED, 
+PhonePe
 
 Zoho
 GamesCraft 
@@ -109,6 +119,7 @@ Rippling
 Rubrik
 Cohesity
 ==
+
 
 
 

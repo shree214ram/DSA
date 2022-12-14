@@ -151,3 +151,12 @@ Start Javascript Study
 1. HTML and CSS 
 2. 100 Important question over UI (javascript,react,redux)
 
+#### 05/11 Dec
+1. System Design
+
+#### 12 Dec
+1. React 
+2. redux
+3. Javascript
+4. Node 
+

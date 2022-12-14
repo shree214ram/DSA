@@ -9,7 +9,7 @@ https://www.geeksforgeeks.org/convert-bst-min-heap/
                 /       \
               2          6
             /  \        /  \
-          1   3        5    7  
+          1     3      5    7  
            
             Root
      left         right 
@@ -29,8 +29,15 @@ https://www.geeksforgeeks.org/convert-bst-min-heap/
     const root = BT.root
    //2. InOrder arrat that will be sorted array 
     const inorder = inOrder(root)
+    inorder(root){
+      inorder(root.left)
+      arr.push(root.data) // prepare arr[] which is a ascending sorted order array 
+      inorder(root.right)
+    }
 
     //3. Preorder traversing of same array and update their value according to Sorted array index 
    preOrder(root,Arr){
-
+      root.data=arr[i++] //****ye line main he jo ki replace karegi preorder format me min heap banane ke liye 
+      preOrder(root.left)
+      preOrder(root.right)
    }

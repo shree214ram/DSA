@@ -44,6 +44,13 @@ I have covered all the concepts that are mandatory to learn system design and th
     ###### https://www.youtube.com/watch?v=K0Ta65OqQkY
     What is Load Balancing? ⚖️
     Gaurav Sen
+    ###### Proxy / Reverse Proxy / Load Balance :- 
+    1. what is proxy ?.
+    2. What is Reverse Proxy ?.
+    3. What is difference between Load Balancer and Reverse Proxy ?.
+    4. What is difference between VPN and Reverse Proxy ?.
+    https://www.youtube.com/watch?v=MiqrArNSxSM&ab_channel=ITkFunde
+
 11. Microservices
 12. Databases
     # https://www.youtube.com/watch?v=5faMjKuB9bc

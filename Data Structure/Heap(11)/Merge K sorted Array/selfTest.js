@@ -42,7 +42,7 @@ class MinHeap {
         }
         if (minimum !== root) {
             this.swap(minimum, root)
-            this.bubbleDown(0)
+            this.bubbleDown(0) //yaha par mistake he this.bubbleDown(minimum)
         }
     }
     empty() {

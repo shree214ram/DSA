@@ -39,7 +39,7 @@
     2. keep adding in min Heap if new elemnt is greater than top element 
     3. in last k greater values will  be there 
     4. print minHeap[0]
-3. Minimum product of k integer (Max Heap)
+3. Minimum product of k integer (Max Heap) 
     1. Add k element in max Heap
     2. keep adding in max Heap if new elemnt is smaller than top element 
     3. in last k smaller values will  be there 

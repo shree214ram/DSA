@@ -15,6 +15,7 @@ Step 1:-
 4. We will make a Node with (data, i{RowId}, j{columnID})
 
 Step 2:- 
+
 5. if next element available of same (minimum value's) array then push in min Heap 
 6. find the minimum element of minHeap via minHeap.top {minHeap[0]}
 7. tmp = minHeap.top
