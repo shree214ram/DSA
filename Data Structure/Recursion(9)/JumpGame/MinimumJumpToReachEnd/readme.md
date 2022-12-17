@@ -10,7 +10,7 @@ like  A = [1, 3, 2, 1, 5, 9] index 1 and value = 3 means we can go to next 3 typ
 
 2. Then this a very nice explanation with code dry run https://www.youtube.com/watch?v=5Du2iSRrbEw&ab_channel=FriendlyDeveloper
 
-3 variable method 
+3 variable method :- https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
 1. jump 
 2. steps
 3. MaximumRechable 

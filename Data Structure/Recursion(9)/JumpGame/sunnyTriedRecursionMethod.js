@@ -22,7 +22,7 @@ if(solve(0,A[A.length-1],A)){
 	console.log("False")
 }
 function solve(index,target,A){
-	console.log(index,A[index],target,A)
+	// console.log(index,A[index],target,A)
 	if(A[index]==target){
     	return true
     }

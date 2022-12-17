@@ -16,19 +16,19 @@ solve(0, indexArray, string, result, replaceValuesArr);
 console.log("Result=>", result)
 function solve(index, indexArray, string, result, replaceValuesArr) {
     //Base Case 
-    // if we cross the last ? index 
+    // if we cross the last "?" index 
     if (index > indexArray.length) {
         return result
     }
     //calculation and 
-    // if we completed the last ? index then push into result array 
+    // if we completed the last "?"" index then push into result array 
     if (index == indexArray.length) {
         result.push(string)
     }
     //recursion 
     let temp = ""
+    //Swaping ? with replaceValuesArr [0 and 1] 
     for (let i = 0; i < replaceValuesArr.length; i++) {
-        //Swaping ? with 0 and 1 
         temp = swap(replaceValuesArr[i], string, indexArray[index]);
         solve(index + 1, indexArray, temp, result, replaceValuesArr);
     }

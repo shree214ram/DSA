@@ -1,7 +1,7 @@
 https://www.geeksforgeeks.org/policemen-catch-thieves/
 
 1. ### Navie Approach :- we may have to see all the possible scenarios that may take exponanatials time compaxity
-2. ### We can think for "Greedy method" : it may take less time compaxity bot there are some case where it may fail like 
+2. ### We can think for "Greedy method" : it may take less time compaxity but there are some case where it may fail like 
         Like we can take either nearest theif 
         ##### “For each policeman from the left catch the nearest possible thief.” 
         it will fail in case of example 2 
@@ -10,7 +10,7 @@ https://www.geeksforgeeks.org/policemen-catch-thieves/
         this will work for exaple 2 but it will fail for example 3
 
 
-
+    example1 :-
         Input : arr[] = {'P', 'T', 'T', 'P', 'T'},
                     k = 1.
         Output : 2.
@@ -18,17 +18,25 @@ https://www.geeksforgeeks.org/policemen-catch-thieves/
         policeman catches first thief and second police-
         man can catch either second or third thief.
 
+    example2 :-
+
         Input : arr[] = {'T', 'T', 'P', 'P', 'T', 'P'}, 
                     k = 2.
         Output : 3.
+
+    example3 
+    :-
 
         Input : arr[] = {'P', 'T', 'P', 'T', 'T', 'P'},
                     k = 3.
         Output : 3.
 
 3. ### we can think for Allotment difference with hash map O(N),O(N)
-    1. staore all theif indexes in theifArray O(N)
-    2. staore all polish indexes in polishArray O(N)
+    1. staore all theif indexes in theifArray O(N) [1,3,4] {'P', 'T', 'P', 'T', 'T', 'P'}
+    2. staore all polish indexes in polishArray O(N) [0,2,5] {'P', 'T', 'P', 'T', 'T', 'P'}
+
+    k=3
+    
     if( | theifArray(theifIndex)-polishArray(polishIndex) | <= k ){
         answer++
         theifIndex++

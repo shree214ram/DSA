@@ -9,6 +9,7 @@ function solve(n,dp){
     if(DP[n] !== -1){
         return DP[n]
     }
+    //*** for more than 2 stairs jump in sinle step 
     // for(let i=1;i){
 
     // }

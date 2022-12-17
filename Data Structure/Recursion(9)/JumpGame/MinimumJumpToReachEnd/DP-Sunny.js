@@ -41,10 +41,17 @@ function solve(A, DP, index, remaining) {
     //recursion 
     let currentIndexValue = A[index]
     /* Hum self index ki value utha kar uske same number of ittration karte he ,means hum utne tarike se age 
-    Bad sakte he like  A = [1, 3, 2, 1, 5, 9] index 1 and value = 3 means hum 3 tarike se age bad sakte he 
+    Bad sakte he like  A = [1, 3, 2, 1, 5, 9] index 1 and value = 3 
+    =========>>>*****"means hum 3 tarike se age bad sakte he ""*****<<<<<========
     1. index 1 to index 4 using value 3 in 1 jump
     2. index 1 to index 3 using value 2 in 1 jump
     3. index 1 to index 2 using value 1 in 1 jump
+    
+            |------------ current Index +3|
+            |------current Index +2 |
+            |--current Index +1 |
+Values-    1   3                     
+Index- 0   1                   2   3     4
     */
     while (currentIndexValue > 0) {
         if (DP.length > index + currentIndexValue) {

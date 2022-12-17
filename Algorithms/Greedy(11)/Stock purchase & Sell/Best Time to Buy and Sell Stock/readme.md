@@ -14,7 +14,7 @@ Solution :-
 1. Using Greddy Algorithm :- find the min and max and their difference 
 2. Tricky solution but best :- this is similar to https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
 
-    difference between upcoming A[i] to old Min
+    difference between upcoming A[i] to old Min 
 
 
     

@@ -12,7 +12,7 @@ Best Explanation :- https://www.youtube.com/watch?v=LjPx4wQaRIs
 Time Complexity: O(N2)
 Auxiliary Space: O(N)
 
-1. sort array desc according to profeet as our mind force to use Greedy Approach
+1. sort array "desc" according to Profit and choose as our mind force to use Greedy Approach
 2. pick first and try to set as last as possible like [1,2,100] {will set hundred to last deadline day like 2nd }
 3. pick second and try to set as last as possible like [3, 2, 27] {will set 27 to last deadline day like 2nd but On second day 100 is already setup so will set it to 1 }
 4. pick third,fourth,and fifth, But they are having a deadline on which already a Maximum Profitable Job is sequences .
@@ -32,7 +32,7 @@ Answer ==> "127"
 {2 => 100}
 1
 : 
-{1 => 27} // ye 27 hame karna tha 2 par , but 2 already Bhara hua he to ye jaruri nahi ki hum diye hue kam ko last day means deasline wale day par hi kare Hum use us time se pahle bhi kar sakte he To Humne use 1th day hi complete kar liye . Hamara Main Maksad maximum Profit lana he . 
+{1 => 27} // ye 27 hame karna tha 2 par , but 2 already Bhara hua he to ye jaruri nahi ki hum diye hue kam ko last day means deasline wale day par hi kare Hum use us time se pahle bhi kar sakte he To Humne use 1th day hi complete kar liye . Hamara Main 'Maksad' maximum Profit lana he . 
 }
 
 let Arr = [

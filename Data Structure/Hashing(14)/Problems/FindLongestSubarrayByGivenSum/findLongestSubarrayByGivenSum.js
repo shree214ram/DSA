@@ -38,7 +38,7 @@ function lenOfLongSubarr(arr, n, k)
 }
 
 // Driver Code
-var arr = [10, 5, 2, 7, 1, 9];
+var arr = [10, 5, 2, 6, 1,0,1,9];
 var n = arr.length;
 var k = 15;
 console.log( "Length = "

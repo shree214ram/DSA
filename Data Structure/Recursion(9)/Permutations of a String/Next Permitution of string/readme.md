@@ -16,10 +16,14 @@ Example 1:
 
 Input: nums = [1,2,3]
 Output: [1,3,2]
+
+
 Example 2:
 
 Input: nums = [3,2,1]
 Output: [1,2,3]
+
+
 Example 3:
 
 Input: nums = [1,1,5]
@@ -38,12 +42,15 @@ Submissions
 [1,2,3], [1,3,2], [2, 1, 3], [2, 3, 1], [3,1,2], [3,2,1]
 
 function permute(str,l,r){
-
+    //base Case 
+    if (l == r) {
+        console.log(str)
+    }
     for(let i=1;i<=r;i++){
         //print 
         str= swap(str,l,i)
-        //permute
 
+        //Recursion permute
         permute(str,l+1,r)
 
         //backtrack
