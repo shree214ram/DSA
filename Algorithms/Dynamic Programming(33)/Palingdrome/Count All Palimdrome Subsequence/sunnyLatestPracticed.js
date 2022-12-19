@@ -24,6 +24,7 @@ const DP = new Array(str.length)
         DP[i][i+1] = 1
     }
   }
+  
 //yaha se galat he program 
   for (let i=2;i<str.length;i++){
       for(let k=i;k<i+gap;i++){

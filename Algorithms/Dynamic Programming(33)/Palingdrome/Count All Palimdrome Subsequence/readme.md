@@ -1,7 +1,7 @@
 https://www.geeksforgeeks.org/count-palindromic-subsequence-given-string/
 
 ### Recursion Solution  :- 
-1. function solve
+1. function solve(){
 2. set for single character 
 3. set for 2 length
 4. set for more than 2 length
@@ -9,6 +9,7 @@ https://www.geeksforgeeks.org/count-palindromic-subsequence-given-string/
       DP[i][j] = 1 + solve(i+1,j) + solve(i,j-1)
     2. If corners are not same 
         DP[i][j] =  solve(i+1,j) + solve(i,j-1) - solve(i+1,j-1)
+}
 
 ### DP Solution  :- 
 Time Complexity : O(N2), Auxiliary Space: O(N2)

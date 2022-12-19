@@ -15,15 +15,15 @@ function max(a, b)
 function lcs(X, Y, m, n)
 {
 	//Make a DP 
-	var L = new Array(m + 1);
-	for(var i = 0; i < L.length; i++)
+	var DP = new Array(m + 1);
+	for(var i = 0; i < DP.length; i++)
 	{
-		L[i] = new Array(n + 1);
+		DP[i] = new Array(n + 1);
 	}
 	var i, j;
 	
-	/* Following steps build L[m+1][n+1] in
-	bottom up fashion. Note that L[i][j]
+	/* Following steps build DP[m+1][n+1] in
+	bottom up fashion. Note that DP[i][j]
 	contains length of LCS of X[0..i-1]
 	and Y[0..j-1] */
 	for(i = 0; i <= m; i++)
@@ -32,19 +32,19 @@ function lcs(X, Y, m, n)
 		{
 			//If row and column value is 0 then 0
 			if (i == 0 || j == 0)
-				L[i][j] = 0;
+				DP[i][j] = 0;
 			//If left and upper values are equal than 1+ Digonal
 			else if (X[i - 1] == Y[j - 1])
-				L[i][j] = L[i - 1][j - 1] + 1;
+				DP[i][j] = DP[i - 1][j - 1] + 1;
 			//If left and upper values are not equal Max(left,upper)
 			else
-				L[i][j] = max(L[i - 1][j], L[i][j - 1]);
+				DP[i][j] = max(DP[i - 1][j], DP[i][j - 1]);
 		}
 	}
 	
-	/* L[m][n] contains length of LCS
+	/* DP[m][n] contains length of LCS
 	for X[0..n-1] and Y[0..m-1] */
-	return L[m][n]; // Last element of this table will be the Longest common subsequence 
+	return DP[m][n]; // Last element of this table will be the Longest common subsequence 
 }
 
 // Driver code

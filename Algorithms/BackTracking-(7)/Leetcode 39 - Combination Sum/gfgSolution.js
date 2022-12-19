@@ -1,4 +1,3 @@
-<script>
 // Javascript program to find all combinations that
 // sum to a given value
 
@@ -20,7 +19,7 @@ function combinationSum(arr, sum) {
 }
 
 function findNumbers(ans, arr, sum, index, temp) {
-
+	//Base Case
 	if (sum == 0) {
 
 		// pushing deep copy of list to ans
@@ -79,4 +78,3 @@ for (let i = 0; i < ans.length; i++) {
 }
 
 // This code is contributed by saurabh_jaiswal.
-</script>

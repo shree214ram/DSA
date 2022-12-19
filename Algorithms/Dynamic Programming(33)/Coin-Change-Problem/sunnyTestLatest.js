@@ -1,4 +1,3 @@
-<script>
 //4:13
 //4:37
 const A = [1,2,3, 5]
@@ -21,10 +20,9 @@ for(let i=0;i<=A.length;i++){
     if(A[i]>j){
     	DP[i][j]= DP[i-1][j] //copy the upper cell value
     }if(A[i]<=j){
-    	DP[i][j]= Math.min(DP[i-1][j],1+DP[i][j-A[i-1]])
+    	DP[i][j]= Math.min(DP[i-1][j], 1+DP[i][j-A[i-1]])
     }
     // 
  }
  }
  console.log(DP,"DP")
-</script>

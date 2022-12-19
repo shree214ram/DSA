@@ -31,9 +31,9 @@ const A = [5, 8, 7, 1, 9, 10]
 const n = A.length
 //Step 1 :-Make DP 
 
-const LIS = new Array(n).fill(0)
+const DP = new Array(n).fill(0)
 for (let i = 0; i < n; i++) {
-    LIS[i] = 1
+    DP[i] = 1
 }
 //Step 2 :- Main logic is that 
 
@@ -42,15 +42,15 @@ for (let i = 1; i < n; i++) {
     //second loop from 0 to i 
     for (let j = 0; j < i; j++) {
         //compare if (current element means 
-        if (A[i] > A[j] && LIS[j] + 1 > LIS[i]) {
-            LIS[i] = LIS[j] + 1
+        if (A[i] > A[j] && DP[j] + 1 > DP[i]) {
+            DP[i] = DP[j] + 1
         }
     }
 }
 //Step 3 :- return max value 
 let max = 0
 for (let i = 0; i < n; i++) {
-    max = Math.max(LIS[i], max)
+    max = Math.max(DP[i], max)
 }
 
 console.log("Longest Increasing Subsequence is ", max)

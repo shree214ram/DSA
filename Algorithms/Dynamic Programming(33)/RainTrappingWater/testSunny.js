@@ -45,12 +45,16 @@ while(left<right){
         } else {
             waterCntained+=leftMax-Arr[left]
         }
+        // Update left pointer
+			left += 1;
     } else{
         if(rightMax<Arr[right]){
             rightMax = Arr[right]
         } else {
             waterCntained+=rightMax-Arr[right]
         }
+        // Update right pointer
+			right -= 1;
     }
 }
 

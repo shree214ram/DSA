@@ -32,3 +32,9 @@ Constraints:
 2 <= candidates[i] <= 40
 All elements of candidates are distinct.
 1 <= target <= 40
+
+### Solution 
+1. unique array
+2. sort array
+3. recursion and backTracking
+4. 

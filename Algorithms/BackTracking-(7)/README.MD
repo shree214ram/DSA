@@ -22,6 +22,12 @@ Minimum edit distance | Dynamic programming | Backtracking
 
 ##### Imprtant Steps for solve all backtracking problems :- 
     1. set 8*8 or 4*4 
-    
+    2. set an possible ways array like 
+        In Maze :-
+        let xMove = [ 0, 0, -1, 1 ];
+	    let yMove = [ 1, -1, 0, 0 ];
+        In KnightTour :-
+        let xMove = [ 2, 1, -1, -2, -2, -1, 1, 2 ];
+	    let yMove = [ 1, 2, 2, 1, -1, -2, -2, -1 ];
     2. Recursion 
     3. backtrack

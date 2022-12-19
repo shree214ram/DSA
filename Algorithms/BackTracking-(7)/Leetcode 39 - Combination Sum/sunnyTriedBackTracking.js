@@ -1,6 +1,8 @@
 //10:20
 let A = [2,3,6,7]
 const target = 7 
+
+//prepare unique array first : Remove duplicates 
 const hash = new Set()
 
 for(let i=0;i<A.length;i++){
@@ -27,14 +29,9 @@ function solve(A,t,hash,finalResult){
         else if(hash.has(mod)){
         	const remainingIsAvailable = solve(A,t-mod,hash,finalResult)
         	const Result = []
-            
-            
-            
         }
         // mod not exist 
-
     }
 }
 
-</script>
 

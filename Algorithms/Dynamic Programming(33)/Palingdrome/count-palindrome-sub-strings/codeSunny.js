@@ -54,7 +54,7 @@ function CountPS(str, n) {
 			// substrings (- dp[i+1][j-1])
 			if (P[i][j] == true)
 				dp[i][j] = 1 + dp[i][j - 1] + dp[i + 1][j] - dp[i + 1][j - 1];
-			else
+			else 
 				dp[i][j] = dp[i][j - 1] + dp[i + 1][j] - dp[i + 1][j - 1];
 		}
 	}

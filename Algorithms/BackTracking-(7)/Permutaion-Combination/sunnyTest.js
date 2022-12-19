@@ -1,4 +1,3 @@
-<script>
 const str ="abc"
 // abc
 // acb
@@ -50,4 +49,3 @@ console.log(str,"str give before swap")
    
 
 }
-</script>

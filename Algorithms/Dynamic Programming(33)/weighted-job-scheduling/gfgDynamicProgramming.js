@@ -43,10 +43,10 @@ function findMaxProfit(arr, n){
 	arr.sort(jobComparator)
 
 	// Create an array to store solutions of subproblems.
-	// table[i] stores the profit for jobs till arr[i]
+	// DP[i] stores the profit for jobs till arr[i]
 	// (including arr[i])
-	let table = new Array(n).fill(null)
-	table[0] = arr[0].profit
+	let DP = new Array(n).fill(null)
+	DP[0] = arr[0].profit
 
 	// Fill entries in M[] using recursive property
 	for(let i=1;i<n;i++){
@@ -56,16 +56,16 @@ function findMaxProfit(arr, n){
 		let l = latestNonConflict(arr, i)
 
 		if (l != -1)
-			inclProf += table[l]
+			inclProf += DP[l]
 
 		// Store maximum of including and excluding
-		table[i] = Math.max(inclProf, table[i - 1])
+		DP[i] = Math.max(inclProf, DP[i - 1])
 	
 	}
 
 	// Store result and free dynamic memory
-	// allocated for table[]
-	let result = table[n - 1]
+	// allocated for DP[]
+	let result = DP[n - 1]
 
 	return result
 }

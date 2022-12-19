@@ -24,7 +24,9 @@ for(let i=0;i<s.length;i++){
         countP++
     }
 }
+
 //fill more than 2  length
+
 for(let gap=2;gap<=s.length;gap++){
 	for(let i=0;i<=s.length-gap;i++){
     const j = i+gap-1;

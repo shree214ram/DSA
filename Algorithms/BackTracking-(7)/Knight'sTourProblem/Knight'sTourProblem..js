@@ -18,7 +18,7 @@ function solveUtil(Board, x, y, val, xMove, yMove) {
     if (val == Board.length * Board.length) {
         return true
     }
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 8; i++) {
 
         if (isSafe(Board, x, y, val, xMove, yMove, i)) {
             console.log(Board,"I AM IN PASS")
