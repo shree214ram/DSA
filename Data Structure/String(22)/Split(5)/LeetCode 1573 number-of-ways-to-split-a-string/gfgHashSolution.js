@@ -38,8 +38,7 @@ function count(s)
 
 		// Increment result if sum equal to
 		// 2*k and k exists in mp
-		if (sum == 2 * k && mp.has(k) &&
-			i < s.length - 1 && i > 0)
+		if (sum == 2 * k && mp.has(k) && i < s.length - 1 && i > 0)
 		{
 			res += mp.get(k);
 		}

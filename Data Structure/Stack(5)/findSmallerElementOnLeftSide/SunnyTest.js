@@ -28,6 +28,7 @@ console.log(st.data,"After Remove Top ")*/
 const result =[]
 for(let i=0;i<arr.length;i++){
 	
+    
     let current = arr[i]
     while(st.data.length != 0 && st.pickTop() >= current){
     	st.removeTop()

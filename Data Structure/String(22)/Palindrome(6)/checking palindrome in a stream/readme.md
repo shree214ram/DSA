@@ -51,11 +51,11 @@ firstr’ = hash(“a”), ‘second’ = hash(“b”) Start from second charac
 
 Compare ‘firstr’ and ‘second’, they don’t match, so print no.     
 Calculate hash values for next iteration, i.e., i = 2      
-Since i is odd, ‘firstr’ is not changed and ‘second’ becomes hash(“c”) i = 2      
+Since i is ----odd----, ‘firstr’ is not changed and ‘second’ becomes hash(“c”) i = 2      
 
 Compare ‘firstr’ and ‘second’, they don’t match, so print no.     
 Calculate hash values for next iteration, i.e., i = 3      
-Since i is even, ‘firstr’ becomes hash(“ba”) and ‘second’ becomes hash(“cb”) i = 3      
+Since i is ----even----, ‘firstr’ becomes hash(“ba”) and ‘second’ becomes hash(“cb”) i = 3      
 
 Compare ‘first’ and ‘second’, they don’t match, so print no.      
 Calculate hash values for next iteration, i.e., i = 4      

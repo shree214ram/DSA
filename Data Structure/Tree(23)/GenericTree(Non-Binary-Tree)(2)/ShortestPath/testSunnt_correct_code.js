@@ -6,6 +6,7 @@ class Node{
 }
 
 function utilFn(root){
+    //base case
 	if(root.data==null){
         return 0
     }

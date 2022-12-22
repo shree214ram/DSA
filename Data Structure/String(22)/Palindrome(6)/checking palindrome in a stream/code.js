@@ -38,8 +38,7 @@ function checkPalindromes(str) {
 			using simple character by character
 			match */
 			for (j = 0; j < i / 2; j++) {
-				if (str.charAt(j) != str.charAt(i
-					- j))
+				if (str.charAt(j) != str.charAt(i- j))
 					break;
 			}
 			document.write((j == i / 2) ?
