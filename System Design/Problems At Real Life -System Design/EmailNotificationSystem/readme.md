@@ -6,3 +6,41 @@ Ability to aggregate multiple notifications into a single one to enable mail dig
 
 
 https://www.youtube.com/watch?v=CUwt9_l0DOg&ab_channel=codeKarle
+
+
+### Important Functional Requirments
+1. send notification {atevery important events}
+2. Pluggable {we can easily plug other app as well like , i want to send message on watsup}
+3. Saas {means we can track every user rate limit for sending and reciving message }
+4. Prioritization :- High:- OTP , Transection {order,dispatched,dilivered,return} , Low:- advertisement , promoting 
+
+### Important Non-Functional Requirments
+1. High Availability {Web Socket}
+2. Many Clients {so many requests can be send}
+
+### Important Contributers
+1. Client Device
+3. Load Balancer 
+4. Notification Service 
+5. Notification Priorition  
+6. user Transection Data 
+7. Rate Limiter 
+8. Notification Handlers and User Preferences 
+9. Kafka 
+10. Redis 
+11. Email Handler Service 
+12. SMS Handler Service 
+
+
+### Important Actions
+1. Read Message 
+   1. sent {1 grey tick}
+   2. recived {2 Grey tick}
+   3. read {2 Blue Tick}
+2. User Is Online/Offline 
+
+### Important Logics
+1. U1 to U2 {Normal one to one messge}
+2. U1 to G1 {Normal one to one Group messge}
+2. U1 to upload image {Normal one to upload image and send Id to another user}
+
