@@ -1,0 +1,41 @@
+1. Minimum jumps 
+2. write code for check BT is BST ??
+3. wite condition for palingdrome 
+4. write the Robin Carp code {Stream palingdrome}
+
+Theory :- 
+HTML 
+Javascript 
+css (Media Query, bootstrap)
+TypeScript
+    Theory :- what ? Interface , 
+    Practicle:- 
+Jest
+    Theory :-
+    Practicle:- 
+
+
+React Redux Hooks
+
+    Implicit Explicit Binding ?? Arrow function ?
+    what is contaxt ? 
+    diference between saga and thunk ??
+    ittrator and generator ?? async await , promise , yield and next ?
+        Theory :-
+        Practicle:- 
+    Fetch and Axios ?? 
+         Theory :-
+        Practicle:- 
+    why we have to use general normal Javascript function over Arrow Function ??
+    useStrict ??
+    Pure Componanat ??
+
+Practicle :-
+1. useIffects 
+    1. no parameter , {Always it will be called }
+    2. [], {componanatDidMount}
+    3. [count], {Third Render , ComponanatWillReciveProp}
+    4. [count] with return {componanatUnmount}
+2. custom HigherOrder Componanat 
+3. Custom Pure Componanat 
+4. React Router (From the Screch Router Switch code)

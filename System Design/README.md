@@ -25,6 +25,11 @@ I have covered all the concepts that are mandatory to learn system design and th
     3. eventualy consistent 
     ###### https://www.youtube.com/watch?v=zaRkONvyGr8
     What is Consistent Hashing and Where is it used?
+    1. make a circle and 
+    2. use hash function to distribute server 
+    3. Load balancing and availability will be improved from this 
+    4. nearest server will be reachable first by request near by 
+    5. We can add more vertual server with the help of More Hash function  
     Gaurav Sen
 
     ###### https://www.youtube.com/watch?v=m4q7VkgDWrM

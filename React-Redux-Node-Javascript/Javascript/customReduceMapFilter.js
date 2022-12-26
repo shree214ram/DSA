@@ -19,3 +19,23 @@
 
     //https://www.robinwieruch.de/javascript-map-array/
     
+
+//#### custom map reduce and filter:-
+//12:20
+Array.prototype.myCustomFun = function (callBack){
+
+	let res = [];
+    
+    for(let i=0;i<this.length;i++){
+    	res.push(callBack(this[i],this,i))
+    	
+    }
+    return res;
+}
+
+const A = [1,2,3 ]
+const result = A.myCustomFun((obj)=>{
+	return obj*2
+})
+console.log(result,"result")
+
