@@ -187,11 +187,20 @@ System Design Playlist: https://www.youtube.com/playlist?list...
 9. Logging and Matrics calculation (Any blocker like bike is got stuck , system will see the logs and findout the issue event by event debugging )
 10. Extensible (System should be large extensiable like in future any new category comes so system will easily manage . Example Swiggy easily started Swiggy Instamart because it has already system only they have to Keep some small inhancement and they were succeed )
 
+
 # https://www.youtube.com/watch?v=rJHTK2TfZ1I
 What's an Event Driven System?
 Gaurav Sen
-237K views
-4 years ago
+#### Defination :- 
+  1. Event Driven system is a system in which a main service acceot a request and transfer to "Event Bus"
+  2. Event Bus is a system which understand what is requirment and which type of service responsible for it and it transfer them and recive the response and revert back to client 
+  3. Each service(Event) has own DB which is responsible for storing the information related to that Event .
+   
+#### :- So the below banifits 
+
+1. High Availablity
+2. Easy Roll Back 
+3. Replace Ment 
 
 
 

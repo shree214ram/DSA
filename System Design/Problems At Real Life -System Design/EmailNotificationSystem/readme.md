@@ -22,9 +22,9 @@ https://www.youtube.com/watch?v=CUwt9_l0DOg&ab_channel=codeKarle
 1. Client Device
 3. Load Balancer 
 4. Notification Service 
-5. Notification Priorition  
+5. Notification Validations & Priorition  
 6. user Transection Data 
-7. Rate Limiter 
+7. Rate Limiter {user is calling me so many times , how max he can call ? }
 8. Notification Handlers and User Preferences 
 9. Kafka 
 10. Redis 
