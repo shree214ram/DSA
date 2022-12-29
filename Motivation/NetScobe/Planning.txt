@@ -1,7 +1,24 @@
+### DSA :-
 1. Minimum jumps 
 2. write code for check BT is BST ??
 3. wite condition for palingdrome 
 4. write the Robin Carp code {Stream palingdrome}
+
+### System design :-
+
+
+
+### Backend :-
+1. node Js {Basics} {DONE and Practiced some API, Promise and  }
+2. Mysql 
+3. MongoDB 
+4. Interview Question on Backend :- 
+    1. https://procoders.tech/blog/back-end-engineer-interview-questions/
+    2. https://www.fullstack.cafe/blog/backend-developer-interview-questions
+    3. https://youtu.be/7npkRw7gMRA
+
+
+### FrontEnd :-
 
 Theory :- 
 HTML 

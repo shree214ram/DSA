@@ -43,7 +43,7 @@ const result = new Promise((Resolve,Reject)=>{
     	Reject(
         //error=>{
         	console.log("Error=",error)
-            return "Error is not found "
+            //return "Error is not found "
        // }
         )
     }
@@ -63,3 +63,22 @@ const result = new Promise((Resolve,Reject)=>{
    }
 )
 result()
+
+
+////////////////////////29 Dec Practiced at Promise
+
+
+console.log("Test1")
+setTimeout(()=>{
+	console.log("test2");
+},3000)
+console.log("Test3")
+
+const myPromise = new Promise((resolve,reject)=>{
+	fetch("https://jsonplaceholder.typicode.com/posts/1")
+  
+  .then((res)=>res.json())
+    .then((data)=>resolve(data))
+    .catch((err)=>reject("error he"))
+    
+})
