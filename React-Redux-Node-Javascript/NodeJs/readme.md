@@ -58,3 +58,16 @@
     }
 }
 4. listner 
+
+#### Major Differences Between require and import in JavaScript ??
+1. Import is the new ES6 feature we can import only named function and save memory 
+2. Import is Asynchronous and perform well
+3. Import is Lexical and Require in Non-Lexical 
+4. Import can't be use as conditional but Require can be . 
+
+
+Require is more of dynamic analysis, and import is more of static analysis.
+Require Throws error at runtime and Import throws error while parsing
+Require is Nonlexical and Import is Lexical
+Requires to stay where they have put the file, and imports get sorted to the top of the file.
+Import is always run at the very beginning of the file and can’t be run conditionally. On the other hand, require can be used inline, conditionally,
