@@ -26,3 +26,15 @@
 4. What is the difference between SSL and TSL :- 
    
    https://www.geeksforgeeks.org/difference-between-secure-socket-layer-ssl-and-transport-layer-security-tls/?ref=rp
+
+      SSL	TLS
+      SSL stands for Secure Socket Layer.	TLS stands for Transport Layer Security.
+      SSL (Secure Socket Layer) supports the Fortezza algorithm.	TLS (Transport Layer Security) does not support the Fortezza algorithm.
+      SSL (Secure Socket Layer) is the 3.0 version.	TLS (Transport Layer Security) is the 1.0 version.
+      In SSL( Secure Socket Layer), the "Message digest" is used to create a master secret.	In TLS(Transport Layer Security), a "Pseudo-random function" is used to create a master secret.
+      In SSL( Secure Socket Layer), the "Message Authentication" Code protocol is used.	In TLS(Transport Layer Security), "Hashed Message Authentication" Code protocol is used.
+      SSL (Secure Socket Layer) is more complex than TLS(Transport Layer Security).	TLS (Transport Layer Security) is simple.
+      SSL (Secure Socket Layer) is less secured as compared to TLS(Transport Layer Security).	TLS (Transport Layer Security) provides high security.
+      SSL is less reliable and slower.	TLS is highly reliable and upgraded. It provides less latency.
+      SSL has been depreciated.	TLS is still widely used.
+      SSL uses port to set up "explicit connection".	TLS uses protocol to set up "implicit connection".
