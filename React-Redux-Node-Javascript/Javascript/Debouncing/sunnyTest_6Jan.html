@@ -1,0 +1,21 @@
+<input type="button" id="button">
+<script>
+	const debounce = (callback, delay) => {
+		console.log("ssss")
+		let timer;
+
+		return function (...args) {
+			clearTimeout(timer)
+
+			timer = setTimeout(() => {
+				return callback(...args)
+			}, delay)
+		}
+	}
+	const button = document.getElementById("button")
+
+	button.addEventListener("click", debounce(() => {
+		console.log("hay")
+		alert("shree")
+	}, 3000))
+</script>

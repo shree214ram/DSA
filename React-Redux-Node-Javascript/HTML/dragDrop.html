@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+const onDrag =(e) =>{
+	e.dataTransfer.setData ("text", e.target.id)
+}
+
+const ondragover =(e) =>{
+	e.preventDefault();
+}
+
+const onDrop =(e) =>{
+e.preventDefault();
+	const divID = e.dataTransfer.getData("text")
+    const data = document.getElementById(divID)
+    e.target.appendChild(data)
+}
+</script>
+<h2>JavaScript const</h2>
+
+<p id="demo"></p>
+
+<img ondragstart="onDrag(event)" dragable="true" src="" title="Image">
+<div ondrop="onDrop(event)" ondragover="ondragover(event)">
+
+
+</body>
+</html>

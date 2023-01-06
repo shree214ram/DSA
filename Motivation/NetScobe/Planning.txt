@@ -22,8 +22,8 @@
 
 Theory :- 
 HTML 
-Javascript 
-css (Media Query, bootstrap)
+Javascript :- Javascript pattern , clouser , protypes , callback , pure function , setTimeOut , curring ,array methos 
+css (Media Query, bootstrap):- Preprocessor , psudo class , flex 
 TypeScript
     Theory :- what ? Interface , 
     Practicle:- 
@@ -46,6 +46,8 @@ React Redux Hooks
     why we have to use general normal Javascript function over Arrow Function ??
     useStrict ??
     Pure Componanat ??
+    Server Side Rendering ?
+    Lesy Loading React Suspence ?
 
 Practicle :-
 1. useIffects 
@@ -53,6 +55,9 @@ Practicle :-
     2. [], {componanatDidMount}
     3. [count], {Third Render , ComponanatWillReciveProp}
     4. [count] with return {componanatUnmount}
+2. UseMemo , 
+3. UseCallback , 
+4. React.memo 
 2. custom HigherOrder Componanat 
 3. Custom Pure Componanat 
 4. React Router (From the Screch Router Switch code)
