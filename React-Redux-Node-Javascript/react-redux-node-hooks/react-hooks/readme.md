@@ -7,7 +7,30 @@
 7. useCallback
 8. useMemo
 
+### useEffect, useCallback, useMemo :- 
 
+https://codesandbox.io/s/useeffect-usecallback-usememo-reactmemo-t3v5e4
+https://www.youtube.com/watch?v=3cYtqrNUiVw&ab_channel=JustinKim
+
+1. 
+useEffect(()=>{
+
+},[])
+
+2. 
+useMemo(()=>{
+
+},[value])
+
+3. 
+const callBackFn = useCallback(()=>{
+
+},[value])
+
+<Child callBackFn={callBackFn} counter={counter}>
+
+
+### useReducer :- 
 https://atomizedobjects.com/blog/react/what-is-usereducer-in-react/
 https://www.youtube.com/watch?v=kK_Wqx3RnHk&ab_channel=WebDevSimplified
 
