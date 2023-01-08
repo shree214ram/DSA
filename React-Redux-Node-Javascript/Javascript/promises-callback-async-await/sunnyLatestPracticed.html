@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<script>
+function Add(a,b){
+  const yes = true
+  const myPromise = new Promise((Resolve,Reject)=>{
+	const c = a+b
+      if(yes){
+      		console.log("sucess")
+          Resolve(c)
+          //return c
+      }else {
+      		 Resolve(()=>{
+              console.log("Failure")
+          })
+          console.log("Failure")
+      }
+  })
+  return myPromise
+}
+const response = Add(2,3)
+console.log(response,"result")
+
+response.then(data=>{
+	console.log(data,"data")
+})
+
+</script>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 

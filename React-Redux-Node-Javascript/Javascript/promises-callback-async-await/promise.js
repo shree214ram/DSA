@@ -82,3 +82,17 @@ const myPromise = new Promise((resolve,reject)=>{
     .catch((err)=>reject("error he"))
     
 })
+
+
+/////////8Jan2022 Practiced 
+const myPromis = new Promise((resolve,reject)=>{
+	fetch("https://jsonplaceholder.typicode.com/posts/1")
+  
+  .then((res)=>res.json())
+    .then((data)=>resolve(data))
+    .catch((err)=>reject("error he"))
+    
+})
+myPromis.then(data=>{
+	console.log(data,"data")
+})

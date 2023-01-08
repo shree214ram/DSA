@@ -1,0 +1,100 @@
+<script>
+    /*
+        Requirment is Create and ShowData function and set their time delay 2000, 1000 
+        Expected output is ["A","B", "C"]
+    */
+    const data = ["A","B"]
+    
+    /*
+    1. Without Callback Function :- Error with this because of first API taking much time 
+    */
+    
+    function create(value){
+        setTimeout(()=>{
+            data.push(value)
+        },2000)
+    }
+    function showData(){
+        setTimeout(()=>{
+            console.log(data,"data")
+        },1000)
+    }
+    create("C");
+    showData()
+    
+    
+    //output  ['A', 'B'] even we are calling create function first it will show first because of 1 second time and add later in 2 second So New Updated data will not apper 
+    
+    
+    /*
+    2. Correct Answer asynchronosly callback function will help to archive this goal 
+    */
+    
+    function create(value,callBack){
+        setTimeout(()=>{
+            data.push(value)
+            callBack()
+        },2000)
+    }
+    
+    function showData(){
+        setTimeout(()=>{
+            console.log(data,"data")
+        },1000)
+    }
+    create("C",showData);
+    //output :  ['A', 'B', 'C']
+    
+    
+    //3. Promise 
+    function create(value,callBack){
+        return new Promise((resolve,reject)=>{ 
+          setTimeout(()=>{
+              data.push(value)
+              const check = true
+              if(check){
+                resolve(data)
+              }else{
+                const err = new Error("Error is there")
+                reject(err)
+              }
+          },2000)
+        })
+    }
+    
+    function showData(){
+        setTimeout(()=>{
+            console.log(data,"data")
+        },1000)
+    }
+    create("C").then(data=>showData());
+    //output :  ['A', 'B', 'C']
+    
+    
+    //4. async await :- async means that is responsible for asynchronous call and await will wait till my asyc methos is not completed 
+    function create(value,callBack){
+        return new Promise((resolve,reject)=>{ 
+          setTimeout(()=>{
+              data.push(value)
+              const check = true
+              if(check){
+                resolve(data)
+              }else{
+                const err = new Error("Error is there")
+                reject(err)
+              }
+          },2000)
+        })
+    }
+    
+    function showData(){
+        setTimeout(()=>{
+            console.log(data,"data")
+        },1000)
+    }
+    async function test(){
+        await create("C");
+        showData();
+    }
+    test();
+    </script>
