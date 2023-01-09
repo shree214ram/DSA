@@ -1,0 +1,8 @@
+### UI Architect 
+1. Server Side rendering 
+2. creatre react app from te schrech 
+3. optimise app end to end {UI-Server-Backend}
+4.Context api
+5. {useSelecter , useDispatch} from "react-redux" 
+    {useReducer} from react 
+6. Accept Encoding ??

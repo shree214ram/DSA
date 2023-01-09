@@ -1,0 +1,7 @@
+1. Node Js and its feature
+2. React Js and its feature 
+3. what is jsx 
+4. what is virtual dom
+5. What is promise 
+6. 
+

@@ -3,11 +3,12 @@ https://betterprogramming.pub/prototypes-in-javascript-5bba2990e04b
 https://www.youtube.com/watch?v=wstwjQ1yqWQ&ab_channel=AkshaySaini
 
 ### 1. We can add any new property in object with the help of prototype 
-    const myObj ={}
+    function myObj() {}
 
     myObj.prototype.firstName = "sunny"
 
-    console.log(myObj.firstName)
+	const newl = new myObj()
+    console.log(newl.firstName)
 
   ##### Polifil is the best example of prototype and inheritence 
    #### 1. we simply add a new custom map method in Array library 
@@ -25,7 +26,7 @@ https://www.youtube.com/watch?v=wstwjQ1yqWQ&ab_channel=AkshaySaini
         })
         console.log(result) //[2,4,6]
 
-   #### 2. We can Inherit any property from any Object in another object with the help of "__proto__"
+   #### 2. We can Inherit (Copy of Object)any property from any Object in another object with the help of "__proto__"
     
     const myObj = {
     name:"sunny",
