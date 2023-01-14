@@ -3,5 +3,31 @@
 3. what is jsx 
 4. what is virtual dom
 5. What is promise 
-6. 
+6. Fail in Promise code ??
 
+Fail :- 
+
+1. Kick Drum    
+    1. Code DSA : Pass
+    1. Code React Redux : Fail (Code Round)
+
+2. NetScope     
+    1. Code DSA : Pass
+    2. Syatem Design : Pass
+    3. Backend (Json Parsing): Fail (Code Round)  
+    
+3. GetMyParking  {Web Architect}   
+    1. React Redux (Theory) : Pass
+    2. Architect (Theory) React/Javascript/Microservice/ : Pass
+    2. Syatem Design : Fail {Bookmyshow}{could not coverall points , }
+
+4. Phisics Wallah 
+    1. DSA : Fail
+
+5. Samarrow 
+    1. DSA : Fail 
+
+6. Quest Global 
+    Fail in Promise code ??
+
+7. prequin :- 

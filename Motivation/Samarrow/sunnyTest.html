@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript const</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        //9:53
+        function convert(str) {
+            let res = ""
+            for (let i = 0; i < str.length;) {
+                if (str[i] >= 0 && str[i] >= 0) {
+                    const ch = str[i - 1];
+                    let latest = str[i]
+                    if(str[i + 1]){
+                      while (i< str.length && str[i + 1] && str[i + 1] >= 0 && str[i + 1] >= 0) {
+                          latest += str[i + 1]
+                          i++
+                      }
+                    }
+                    for (let j = 0; j < latest; j++) {
+                        res += str[i - 1]
+                    }
+                } else {
+                    i++
+                }
+            }
+            return res
+        }
+        const response = convert("a22b3");
+        console.log(response, "response")
+    </script>
+
+</body>
+
+</html>

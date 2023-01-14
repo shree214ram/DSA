@@ -1,0 +1,9 @@
+### UI Architect 
+1. Microservice Architecture   
+2. middleware for SSO  
+3. make a common way for Add a new feature for payment which is using in {IOS/Android/Desktop} , 
+    make a microservice middleware in between client and old existing API which will help to support all 
+4. How to improve any web application 
+5. A very big challange in your carrior 
+6. How u will make a very good engineering team . 
+

@@ -27,6 +27,7 @@
    
    https://www.geeksforgeeks.org/difference-between-secure-socket-layer-ssl-and-transport-layer-security-tls/?ref=rp
 
+
       SSL	TLS
       SSL stands for Secure Socket Layer.	TLS stands for Transport Layer Security.
       SSL (Secure Socket Layer) supports the Fortezza algorithm.	TLS (Transport Layer Security) does not support the Fortezza algorithm.
@@ -38,3 +39,6 @@
       SSL is less reliable and slower.	TLS is highly reliable and upgraded. It provides less latency.
       SSL has been depreciated.	TLS is still widely used.
       SSL uses port to set up "explicit connection".	TLS uses protocol to set up "implicit connection".
+
+5. Difference between Reverse proxy and Load Balancer 
+https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer

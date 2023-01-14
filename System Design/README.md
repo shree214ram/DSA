@@ -53,6 +53,7 @@ I have covered all the concepts that are mandatory to learn system design and th
     1. what is proxy ?.
     2. What is Reverse Proxy ?.
     3. What is difference between Load Balancer and Reverse Proxy ?.
+        https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer
     4. What is difference between VPN and Reverse Proxy ?.
     https://www.youtube.com/watch?v=MiqrArNSxSM&ab_channel=ITkFunde
 

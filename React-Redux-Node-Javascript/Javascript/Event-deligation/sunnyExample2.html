@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+    <div id="main">
+        <input id="name" data-uppercase placeholder="name">
+        <input id="city" data-uppercase placeholder="city">
+        <input id="phone" placeholder="phone">
+    </div>
+
+
+
+</body>
+<script>
+    document.getElementById("main").addEventListener("keyup", (e) => {
+   
+        if (e.target.dataset.uppercase != undefined) {
+        
+            e.target.value = e.target.value.toUpperCase();
+        }
+    })
+</script>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{
+	min-height:100px;	
+    min-width:100px;
+    padding :20px;
+    border:solid 1px #ccc
+
+}
+</style>
+
+</head>
+<body>
+
+<h2>JavaScript const</h2>
+
+<div id="gp">
+	<div id="p">
+		<div id="c">
+        
+        </div>
+     </div>
+</div>
+<div id="s">
+    <div id="c"><span class="d"><img src="" alt="" class="k"></span></div>
+</div>
+
+<div id="first">
+    <div id="secon"><span class="d"><img src="" alt="" id="im"></span></div>
+</div>
+
+<script>
+
+const gp =document.getElementById("gp")
+gp.addEventListener("click",(e)=>{
+
+	console.log("Grand Parent Click")
+    e.stopPropagation()
+},false)
+
+const p =document.getElementById("p")
+p.addEventListener("click",()=>{
+	console.log("Parent Click")
+},false)
+
+const c =document.getElementById("c")
+c.addEventListener("click",()=>{
+	console.log("Child Click")
+},false)
+</script>
+
+</body>
+</html>

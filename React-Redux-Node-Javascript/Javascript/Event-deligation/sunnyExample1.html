@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+    <ul id="main">
+        <li id="india">india</li>
+        <li id="pak">pak</li>
+        <li id="pak">pak</li>
+    </ul>
+
+
+
+</body>
+<script>
+    document.getElementById("main").addEventListener("click", (e) => {
+        if (e.target.id) {
+            window.location.href = "/" + e.target.id
+        }
+    })
+</script>
+
+</html>

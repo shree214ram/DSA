@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=CUwt9_l0DOg&ab_channel=codeKarle
 
 ### Important Non-Functional Requirments
 1. High Availability {Web Socket}
-2. Many Clients {so many requests can be send}
+2. Many Clients {so many requests can be send} {Email/Message can be sent to Millions Of user }
 
 ### Important Contributers
 1. Client Device
