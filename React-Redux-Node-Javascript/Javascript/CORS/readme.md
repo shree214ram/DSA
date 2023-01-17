@@ -1,7 +1,7 @@
 # CORS :-
 https://www.youtube.com/watch?v=tcLW5d0KAYE&ab_channel=AkshaySaini
 
-cross orgin resource sharing :- 
+### cross orgin resource sharing :- 
 
 from one domain to another doamin api calling , browser uses the cors policy to secure the api 
     https://sunny.com 
