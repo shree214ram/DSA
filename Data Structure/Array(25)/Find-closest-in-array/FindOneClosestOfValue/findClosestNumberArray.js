@@ -7,6 +7,8 @@
 //Javascript implementation of efficient algorithm to find 
 // smaller element on left side 
 
+
+
 // First Method Itrate 2 loop and 
 // Prints smaller elements on  left side of every element 
 // Time complexity of the above solution is O(n2).

@@ -1,5 +1,6 @@
 //4:50
 const A = [7, 3, 2, 4, 9, 12, 56], m = 3
+// We need to findout the m elements in which Maximum and minimum elements Different should be final minimum 
 //Output: Minimum Difference is 2 
 let finalMinDif = Number.MAX_VALUE;
 //outer for loop
@@ -9,6 +10,7 @@ for (let i = 0; i < A.length; i++) {
     let max = A[i]
     //for loop for comparation 
     console.log(fix, "fix")
+    //************why we are going to A.length-m+1 because ulte se m kam chalna padega  */
     for (let j = i + 1; j < A.length - m + 1;) {
         console.log(j, "j")
         console.log(A[j], "A[j]")

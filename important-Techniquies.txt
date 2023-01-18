@@ -70,20 +70,6 @@
 4. Print Height of tree 
 5. find max path sum in binary tree 
 
-######## Window Sliding ###########
-
-######## Two Pointer ###########
-
-######## Stack  ###########
-######## Queue  ###########
-######## Array  ###########
-######## Strings  ###########
-
-######## Recursion  ###########
-######## DP  ###########
-######## Backtracking  ###########
-
-
 ######## Greedy Method  ###########
 1. minimum room (Min Heap + Greedy):- 
     1. sort via start time {agar next ane wala meeting ka start time agar purane ke end time se bada Ya Barabar he to Hum usi room me 
@@ -118,8 +104,67 @@
    [1. That will be done via Recursion {Max(Include current Job,Exclude current Job)}
     2. Or Dynamic Programming for optimal 
    ] 
+
+######## Window Sliding ###########
+1. fixed window sliding :-
+    if we are traversing for fixed size window so 
+    for(let i=0;i<A.length;i++){
+        //window size m 
+        for(let j=i;j<i+m-1 && i + m - 1 < A.length;j++)
+
+       
+    }
+2. Dynamic Window sliding 
+     //Dynamic Window 
+        for (let j = i + 1; j < A.length - m + 1;) {
+3. 
+
+######## Two Pointer ###########
+1. Array should be sorted 
+######## Stack  ###########
+1. Last In First Out 
+######## Queue  ###########
+1. First In First Out
+######## DeQueue  ###########
+1. Add and remove from both side .
+######## Array  ###########
+1. Kadane's Algo 
+2. Commulative sum :- (comulativeSum[j]-comulativeSum[i]+A[i]) % 2 !=0 means It will increase counter1 
+3. Find Duplicate :-
+    1. Use array value as index 
+        for (i = 0; i < size; i++) 
+            { 
+                if (arr[ Math.abs(arr[i])] >= 0) 
+                    arr[ Math.abs(arr[i])] = -arr[ Math.abs(arr[i])]; 
+                else
+                    console.log(Math.abs(arr[i]) + " "); 
+            }	
+    ****But there is a problem in the above approach. It prints the repeated number more than once.****
+    2. 	 Count the frequency 
+        // count the frequency
+        for (let i = 0; i < arr_size; i++) {
+            Arr[Arr[i] % arr_size] = Arr[Arr[i] % arr_size] + arr_size;
+        }
+        document.write("The repeating elements are : " + "</br>");
+        for (let i = 0; i < arr_size; i++) {
+            if (Arr[i] >= arr_size * 2) {
+                document.write(i + " " + "</br>");
+            }
+        }
+######## Strings  ###########
+
+######## Recursion  ###########
+######## DP  ###########
+######## Backtracking  ###########
 ######## Graph  ###########
 
 ######## Searching   ###########
+1. Lenear Serch 
+2. binary Search 
 ######## Sorting   ###########
+1. selection sort 
+2. bubble sort 
+3. quick sort 
+4. merge sort
+5. heap sort 
     

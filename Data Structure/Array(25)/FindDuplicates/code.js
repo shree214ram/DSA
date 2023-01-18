@@ -7,6 +7,8 @@
 	// count the frequency
 	for (let i = 0; i < arr_size; i++) {
 		numRay[numRay[i] % arr_size] = numRay[numRay[i] % arr_size] + arr_size;
+		OR 
+		numRay[numRay[i] % arr_size] += arr_size;
 	}
 	document.write("The repeating elements are : " + "</br>");
 	for (let i = 0; i < arr_size; i++) {

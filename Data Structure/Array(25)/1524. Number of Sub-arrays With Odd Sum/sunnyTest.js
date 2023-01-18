@@ -22,7 +22,7 @@ for(let i=0;i<A.length;i++){
 //3. check  
 for(let i=1;i<A.length;i++){
 	for(let j=i+1;j<A.length;j++){
-    	if((comSum[i]-comSum[j]+A[i])%2!=0){
+    	if((comSum[j]-comSum[i]+A[i])%2!=0){
         	counter++
         }
     }
