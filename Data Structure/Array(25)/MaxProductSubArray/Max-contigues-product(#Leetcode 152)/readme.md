@@ -1,16 +1,14 @@
-https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
-
-https://www.youtube.com/watch?v=cNLHESv_XPc :-
 
 
+https://www.youtube.com/watch?v=lXVy6YWFcRM
+Maximum Product Subarray - Dynamic Programming - Leetcode 152
+
+https://leetcode.com/problems/maximum-product-subarray/
 
 Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product.
-
 The test cases are generated so that the answer will fit in a 32-bit integer.
-
 A subarray is a contiguous subsequence of the array.
 
- 
 
 Example 1:
 
@@ -30,7 +28,9 @@ Constraints:
 -10 <= nums[i] <= 10
 The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
 
+# Solution :- 
 
+https://www.youtube.com/watch?v=cNLHESv_XPc :-
 
 
 take some variable 
