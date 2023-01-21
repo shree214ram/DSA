@@ -16,20 +16,20 @@ Time, Space :-
     2. Unsorted and -ve number (insert in hash map only +ve number)
 5. Advance (n,1) :-
 
-    https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/?ref=gcse
+    https://www.geeksforgeeks.org/find-the-missing-number/
 
+    ### Use elements as Index and mark the visited places as negative
 
-    <!-- // Find the smallest positive number missing from an unsorted array | Set 1
-    TimeO(n) SpaceO(1)
-    You are given an unsorted array with both positive and negative elements. 
-    You have to find the smallest positive number missing from the array in O(n) time 
-    using constant extra space. You can modify the original array. -->
+    Approach 5 (Use elements as Index and mark the visited places as negative): Use the below idea to get the approach
 
-    ### using the logic of update the array via frequency value "Arr[(Arr[i]-1)%N]+=N" :-
-    =>Arr[(Arr[i]-1)%N]+=N
+    Traverse the array. While traversing, use the absolute value of every element as an index and make the value at this index as negative to mark it visited. To find missing, traverse the array again and look for a positive value.
 
-    Same like "Find Duplicate O(n)" frequency update logic , only small difference is there we were using 
+    Follow the steps to solve the problem:
 
-    Arr[Arr[i] % N] += N but here Arr[(Arr[i]-1)%N]+=N
-
-    
+    Traverse the given array
+    If the absolute value of current element is greater than size of the array, then continue.
+    else multiply the (absolute value of (current element) – 1)th index with -1.
+    Initialize a variable ans = size + 1.
+    Traverse the array and follow the steps:
+    if the value is positive assign ans = index + 1
+    Print ans as the missing value.

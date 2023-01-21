@@ -160,13 +160,21 @@ Start Javascript Study
 3. Javascript
 4. Node 
 
+17 18 19 20 21 {DSA }
+1. Array Related questions 
+    duplicate 
+    unique in 
+2. Searching 
+3. Sorting 
+5. Kadanes's
+6. Commulative sum 
 
 
-17 18 19 
+17 18 19 20 21 {Half day }
 #### Revision Of DSA & Practiced New 10 Problem 
-20 
+21 {Half day }
 #### Revision Of Syaytem Design & Practiced 2 New System , Networking question , Opertaing System 
-21 
-#### Revisio of Frontened :- HTML , CSS , Javascript , React ,  Redux 
 22 
+#### Revisio of Frontened :- HTML , CSS , Javascript , React ,  Redux 
+23
 #### Revisio of Backend :- Node js , Mysql , Microservice , Index , DB-Sharding  

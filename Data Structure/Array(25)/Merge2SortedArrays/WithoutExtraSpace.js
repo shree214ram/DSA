@@ -1,3 +1,4 @@
+
 // Javascript program to merge two
 // sorted arrays with O(1) extra space.
 
@@ -14,13 +15,14 @@
 			elements one position ahead till the smallest greater
 			element is not found */
 			let j, last = arr1[m-1];
-			for (j=m-2; j >= 0 && arr1[j] > arr2[i]; j--)
+            const temp = arr2[i];
+			for (j=m-2; j >= 0 && arr1[j] > temp; j--)
 				arr1[j+1] = arr1[j];
 	
 			// If there was a greater element
 			if (last > arr2[i])
 			{
-				arr1[j+1] = arr2[i];
+				arr1[j+1] = temp;
 				arr2[i] = last;
 			}
 		}

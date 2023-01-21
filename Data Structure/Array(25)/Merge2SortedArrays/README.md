@@ -11,9 +11,13 @@ https://www.geeksforgeeks.org/merge-two-sorted-arrays/?ref=gcse
 2. Insersion sort O(n^2)
     Arr3 
    (O(n1 * n2) Time and O(n1+n2) Extra Space) 
+
+    1. Create an array arr3[] of size n1 + n2.
+    2. Copy all n1 elements of arr1[] to arr3[]
+    3. Traverse arr2[] and one by one insert elements (like insertion sort) of arr3[] to arr1[]. This step take O(n1 * n2) time.
 3. Merge Sort O(mlogm+nlogn)
     Method 3 (O(n1 + n2) Time and O(n1 + n2) Extra Space) 
-    The idea is to use Merge function of Merge sort. 
+    ###### The idea is to use Merge function of Merge sort. 
 4. Hash map O(m+n)
     Method 4: Using Maps (O(nlog(n) + mlog(m)) Time and O(N) Extra Space) 
 

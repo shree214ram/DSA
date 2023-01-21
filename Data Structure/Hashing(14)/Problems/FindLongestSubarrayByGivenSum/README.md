@@ -27,17 +27,16 @@ Basically there are 2 methods same
     for(){
         sum = sum + A[i]
         if(sum==Target){
-            MaxLength= i+ 1
-        }
-
-        if(notExist In Hash){
-            Add in Hash
+            MaxLength= i+ 1 //set MaxLength with current Index + 1 
         }
         if((Sum-Target) exist in Hash){
             update maxLen :- 
             if (Value of i-Sum-Target in hash is greater than MaxLength){
-                maxLength= i - i-Sum-Target
+                maxLength= Math.max(MaxLength,hash.get(sum -Target)
             }
+        }
+        if(notExist Sum In Hash){
+            Add Sum in Hash with value currentIndex
         }
     }
 3. Variable window slide and Two pointer {This approach won’t work for negative numbers}

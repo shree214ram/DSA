@@ -44,3 +44,14 @@ start from 1
 remove back add next 
 
 https://www.youtube.com/watch?v=GrV3MTR_Uk0
+
+### Commulative sum , mod and Hashtable 
+
+1. find comulative sum at each index 
+2. find mod of comulative sum and push in modArray 
+3. if mod is not exist in Hash table insert with mod as key and index as value {
+    {mod:index}
+   }else {
+    if already exist then no need to add But Need to check 
+    MaxLength = Math.max(MaxLength,i-hash.get(modArray[i]))
+   }

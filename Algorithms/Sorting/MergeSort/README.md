@@ -11,6 +11,7 @@ If r > l
      3. Call mergeSort for second half:
              Call mergeSort(arr, m+1, r)
      4. Merge the two halves sorted in step 2 and 3:
+   ### This is the main Point of merge sort "Merge Function" 
              Call merge(arr, l, m, r)
                 1. we will make two different array Left and Right :-
                         Const L = []
