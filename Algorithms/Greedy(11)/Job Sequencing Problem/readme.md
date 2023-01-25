@@ -122,9 +122,15 @@ Sort the result array based on their deadlines.
 
 @sp latest study 
 1. make Array with node {jobId,deadline,profit}
-1. sort deadline asc
-2. loop over last to first 
-3. if(i>0){slot =A[i].deadline-A[i-1].deadline } if (i==0){slot = A[i].deadline}
+1. sort deadline asc 1,2 3....
+2. loop over last to first 3 , 2 , 1
+3. if(i>0){slot =A[i].deadline-A[i-1].deadline } 
+    {
+        Yadi 2 jobs A[i].deadline => { ('e', 3, 15)} = 3 and 
+            A[i-1].deadline => {('c', 2, 27)} = 2 ka difference 1
+            Means 1 slot Available 
+    }
+    if (i==0){slot = A[i].deadline}
 5. Make Max Heap with mind "profit" 
 6. insert default first deadline {which is Max Deadline as we have asc sorted and loop started from last to start}
 7. while(until heap not empty And timeSlot > 0{bada he 0 means ke or jagah bachi hui he jisme hum or bhi Jobs ka Profit insert kar sakte he }) like [3(deadline of last (ith) deadline job) - 2(deadline of second last (i-1)th deadline job) = 1 ]

@@ -85,6 +85,10 @@
     2. keep removing top element in min Heap if new elemnt's start time  is greater than top element 
     2. keep adding in min Heap current element end time 
     3. in last print the length of min heap remaining elements that will be the maximum room used for that meetings 
+4. Merge K sorted arrays 
+5. find minimum range from K sorted arrays 
+6. convert bst to min heap
+7. check bt is Heap
 
 ######## Tree ###########
 
@@ -161,6 +165,27 @@
 ######## Queue  ###########
 1. First In First Out
 ######## DeQueue  ###########
+    ### Minimum size sub array whose sum at least k {we have to use a Deque} 
+
+    1. prepare current sum 
+        currentSum+=A[i]
+    2. current sum if equals to target 
+        if(currentSum>=Target){
+            minLength=Math.min(minLength,i+1)
+        }
+    3. let current = {first:Number.MAX_VALUE,second:Number.MAX_VALUE}
+    4. Delete front for reduce the window size till //if currentSum > Target
+        while(!dq.empty() && (currentSum - dq.front.second) >= Target){
+            current = dq.deleteFront()
+        }
+    5. change min Length 
+            minLength=Math.min(minLength,i-current.first)
+    6. Maintain Monotonically Order {Delete rear if currentSum > Target}
+        while(!dq.empty() && ( dq.rear.second) >= currentSum){ // mistake only ( dq.rear.second) >= currentSum will come at place of (currentSum - dq.rear.second) >= currentSum
+            current = dq.deleteRear()
+        }
+    7. Add front in dequeue
+        dq.addFront({first:i,second:sum})
 1. Add and remove from both side .
 ######## Array  ###########
 1. Kadane's Algo :-

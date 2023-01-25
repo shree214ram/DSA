@@ -39,7 +39,8 @@ Basically there are 2 methods same
             Add Sum in Hash with value currentIndex
         }
     }
-3. Variable window slide and Two pointer {This approach won’t work for negative numbers}
+3. Variable window slide and Two pointer 
+### {This approach won’t work for negative numbers}
     Time Complexity: O(N), where N is the length of the given array.
     Auxiliary Space: O(1), as constant extra space is required.
 

@@ -6,7 +6,7 @@ Check if a given Binary Tree is a Heap
     if(root==null){
         return true
     }
-    //index par kar chuka he total limit se
+    //index paar kar chuka he total limit se
     if(index >= totalNode){
         return false
     }

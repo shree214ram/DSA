@@ -65,7 +65,7 @@ class Job {
         this.job_id = job_id;
         this.profit = profit;
     }
-}
+} 
 function printJobScheduling(arr) {
     var n = arr.length;
     // sorting the array on the

@@ -73,8 +73,6 @@ class DeQueue {
 }
 
 
-
-
 class Solution {
     shortestSubarray(nums, Target) {
         const n = nums.length;
@@ -101,7 +99,8 @@ class Solution {
             while (!dq.isEmpty() && sum <= dq.getRear().second){
                 dq.deleteLast();
             }
-            dq.insertLast({ first: i, second: sum });//Push i-th sum
+            dq.insertLast({ first: i, second: sum });//Push i-th sum 
+            //{first as cuttentIndex and second as sum of All element till current index }
         }
         return shortest == Number.MAX_VALUE ? -1 : shortest;
     }

@@ -1,3 +1,12 @@
+https://www.youtube.com/watch?v=8b9rwm1VsYA&ab_channel=CodeIn10-NishantChahar
+### What is Recursion :-
+
+recursion basically a procedure for call recursively a function and findout the solution 
+1. we have to findout a sub problem and 
+2. say to recursion function for remaining subproblems 
+
+
+
 https://www.youtube.com/watch?v=CY5gQBTQ6zA
 Solving Tower Of Hanoi Problem With Recursion
 

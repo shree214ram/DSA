@@ -22,7 +22,7 @@
 
 Theory :- 
 HTML 
-Javascript :- Javascript pattern , clouser , Promises , protypes , callback , pure function , setTimeOut , curring ,array methos 
+Javascript :- Javascript pattern ,SOLID Principle ,  clouser , Promises , protypes , callback , pure function , setTimeOut , curring ,array methos 
         ### {So much practice over : (String, Array , Json, object ) functions }
 css (Media Query, bootstrap):- Preprocessor , psudo class , flex 
         ### {So much practice over : (Saas , less , dynamic css) functions }
@@ -51,13 +51,7 @@ React Redux Hooks
     Server Side Rendering ?
     Lesy Loading React Suspence ?
 
-     ### {So much practice over : 
-        1. Webpack 
-        2. Microfrontend {FederationPlugin}
-        3. Style {Saas,Less, Mixin,myComp.style.js}
-        4. How To Increase the performance of React App 
-        5. how to bundle except Webpack , is there any way {esbuild}
-    }
+     
 
 Practicle :-
 1. useIffects 
@@ -71,3 +65,12 @@ Practicle :-
 2. custom HigherOrder Componanat 
 3. Custom Pure Componanat 
 4. React Router (From the Screch Router Switch code)
+
+
+### {So much practice over : 
+        1. Webpack 
+        2. Microfrontend {FederationPlugin}
+        3. Style {Saas,Less, Mixin,myComp.style.js}
+        4. How To Increase the performance of React App 
+        5. how to bundle except Webpack , is there any way {esbuild}
+    }

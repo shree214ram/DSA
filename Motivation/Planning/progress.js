@@ -45,7 +45,7 @@ Morgan Stanley / Wells Fargo / JP Morgen / DBS / Citi / Visa
 Oracle
 Oxigen Wallet
 Snapdeal
-Accolite
+Accolite / Deloitte
 Adobe
 D-E-Shaw
 Payu /Paypal 
@@ -89,7 +89,7 @@ United Health Group
 aptiv
 
 Hotstar/ Netflix/ Sony
-
+nagarro
 
 verizon
 T-Mobile

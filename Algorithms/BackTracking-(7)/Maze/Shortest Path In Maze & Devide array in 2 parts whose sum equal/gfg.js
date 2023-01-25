@@ -30,6 +30,8 @@ function findShortestPath(mat, visited, i, j, x, y,
 	// set (i, j) cell as visited
 	visited[i][j] = true;
 
+	/////@sunny### we can use for loop for access all cases like sunnyTest.js
+
 	// go to the bottom cell
 	if (isSafe(mat, visited, i + 1, j)) {
 		min_dist

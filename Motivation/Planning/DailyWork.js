@@ -178,3 +178,25 @@ Start Javascript Study
 #### Revisio of Frontened :- HTML , CSS , Javascript , React ,  Redux 
 23
 #### Revisio of Backend :- Node js , Mysql , Microservice , Index , DB-Sharding  
+
+
+DSA 
+    DONE 
+        1. Hashing 
+        2. Window Sliding 
+        3. Two Pointer 
+        4. Array 
+        5. Sorting 
+        6. Searching 
+        7. Heap 
+        8. Recursion
+        4. Greedy
+
+
+    NOT DONE 
+        1. Graph
+        2. DP
+        5. BackTracking
+        6. Queue
+        7. Stack 
+        8. Linkedlist
