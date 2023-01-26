@@ -29,5 +29,24 @@ Minimum edit distance | Dynamic programming | Backtracking
         In KnightTour :-
         let xMove = [ 2, 1, -1, -2, -2, -1, 1, 2 ];
 	    let yMove = [ 1, 2, 2, 1, -1, -2, -2, -1 ];
-    2. Recursion 
-    3. backtrack
+    3. const target = {x:3,y:4}
+    4. function solve(minDistance,x,y){ 
+            1. Base Case 
+                if(target.x==i && target.y == j){
+                    //Matlab ki hum us point par pahuch gaye he jaha hame jana tha 
+                    return true //incase of mouce /Rate can reach at Given Point 
+
+                    minDistance = Math.min(minDistance,)
+                    return minDistance 
+
+                }
+            2. Calculation 
+                visited[i][j] = 1
+            2. Recursion 
+                //Recursion for each index All possible ways 
+                for(let i=0;i<xMove.length;i++){
+                    minDistance = solve(minDistance,xMove[i],yMove[i])
+                }
+            3. backtrack
+                visited[i][j] = -1
+        }

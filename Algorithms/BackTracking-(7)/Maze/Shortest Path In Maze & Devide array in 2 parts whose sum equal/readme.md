@@ -5,4 +5,8 @@
 ######  Shortest path in maze
   https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
 
+
+
+
+
 ######  Participate array in 2 parts whose sun are equal 

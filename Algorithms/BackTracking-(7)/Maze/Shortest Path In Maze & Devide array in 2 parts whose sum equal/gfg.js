@@ -19,7 +19,7 @@ function isSafe(mat, visited, x, y)
 			&& y < mat[0].length && mat[x][y] == 1
 			&& !visited[x][y]);
 }
-
+ 
 function findShortestPath(mat, visited, i, j, x, y,
 						min_dist, dist)
 {
