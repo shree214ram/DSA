@@ -1,0 +1,48 @@
+<script>
+//function statement/function decalration 
+
+function abc (){
+
+}
+
+//function expression 
+	const myFun = function (){
+    
+    }
+    
+    //Annonmous 
+    //function expression 
+	/*function (){
+    	//it will genereate error :- VM692:15 
+        
+       Uncaught SyntaxError: Function statements require a function name
+    }*/
+    
+    
+    //named function expression 
+	const myFun2 = function xyz(){
+    	console.log("hi")
+    }
+    
+    //xyz() //it will gererate error:-  Uncaught ReferenceError: xyz is not defined
+    
+    myFun2();
+    
+    
+    //IIFE 
+    /*var sunny ="";
+    (function (name){
+    	console.log("IIFE", name, sunny)
+    })("sunny")
+    sunny ="parmar"*/
+    
+    
+    var sunny ="";
+    function check(name){
+    	console.log("IIFE", name, sunny)
+    }
+    
+    sunny ="parmar"
+    check("sunny")
+    
+</script>

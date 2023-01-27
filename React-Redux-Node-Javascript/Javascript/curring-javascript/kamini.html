@@ -1,0 +1,33 @@
+<script>
+//bind 
+/*function multiply(x,y){
+	console.log(x*y)
+}
+const multiplyBy2 = multiply.bind(this,2)
+multiplyBy2(3)
+
+
+const multiplyBy5 = multiply.bind(this,2)
+multiplyBy5(5)
+*/
+
+//closer 
+
+function multiply(x){
+	return function (y){
+    	return function (z){
+            console.log(x*y*z)
+        }
+		
+	}
+	
+}
+/*const multiplyBy2 = multiply(2)
+multiplyBy2(3)
+
+
+const multiplyBy5 = multiply(2)
+multiplyBy5(5)*/
+
+multiply(1)(2)(3)
+</script>
