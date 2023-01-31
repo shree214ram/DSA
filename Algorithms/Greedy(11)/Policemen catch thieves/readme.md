@@ -1,5 +1,6 @@
 https://www.geeksforgeeks.org/policemen-catch-thieves/
 
+
 1. ### Navie Approach :- we may have to see all the possible scenarios that may take exponanatials time compaxity
 2. ### We can think for "Greedy method" : it may take less time compaxity but there are some case where it may fail like 
         Like we can take either nearest theif 

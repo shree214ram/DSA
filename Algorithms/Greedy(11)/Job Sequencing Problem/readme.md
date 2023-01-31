@@ -12,7 +12,15 @@ Best Explanation :- https://www.youtube.com/watch?v=LjPx4wQaRIs
 Time Complexity: O(N2)
 Auxiliary Space: O(N)
 
+
 1. sort array "desc" according to Profit and choose as our mind force to use Greedy Approach
+    let Arr = [
+    [1,2,100],
+    [2,1,19],
+    [3,2,27],
+    [4,1,25],
+    [5,1,15]
+]
 2. pick first and try to set as last as possible like [1,2,100] {will set hundred to last deadline day like 2nd }
 3. pick second and try to set as last as possible like [3, 2, 27] {will set 27 to last deadline day like 2nd but On second day 100 is already setup so will set it to 1 }
 4. pick third,fourth,and fifth, But they are having a deadline on which already a Maximum Profitable Job is sequences .
@@ -43,7 +51,7 @@ let Arr = [
     [5,1,15]
 ]
 //Sort Array
-Arr.sort((a,b)=>a[2]-b[19])
+Arr.sort((a,b)=>a[2]-b[1])
 
 [1, 2, 100]
 [3, 2, 27]

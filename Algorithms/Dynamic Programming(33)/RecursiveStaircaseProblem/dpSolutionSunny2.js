@@ -1,3 +1,4 @@
+
 // dp solution
 
 function solve(n,dp){
@@ -6,7 +7,7 @@ function solve(n,dp){
     if(n<=1){
         return DP[n]=1
     }
-    if(DP[n] !== -1){
+    if(DP[n] != -1){
         return DP[n]
     }
     //*** for more than 2 stairs jump in sinle step 
@@ -18,6 +19,8 @@ function solve(n,dp){
 }
 const n = 5
 const m = 2
-const DP = new Array(n+1).fill(-1) //@Mistaken new Array(n).fill(-1) i have written only n but it should be n+1
+const DP = new Array(n+1).fill(-1)
 
-solve(n,m, DP)
+const res=solve(n,m, DP)
+console.log(DP)
+console.log(res)

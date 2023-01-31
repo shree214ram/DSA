@@ -47,7 +47,7 @@ function CountPS(str, n) {
 			// If current string is palindrome
 			if (str[i] == str[j] && P[i + 1][j - 1])
 				P[i][j] = true;
-
+ 
 			// Add current palindrome substring ( + 1)
 			// and rest palindrome substring (dp[i][j-1]
 			// + dp[i+1][j]) remove common palindrome

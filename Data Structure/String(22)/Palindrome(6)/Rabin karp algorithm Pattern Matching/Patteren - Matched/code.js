@@ -60,9 +60,9 @@ function search(pat, txt, q)
 								i + "<br/>");
 		}
 
-		// Calculate hash value for next window
-		// of text: Remove leading digit, add
-		// trailing digit
+		// Calculate hash value for next window of text :
+		// Remove leading digit {@sp Remove from left}, 
+		// addtrailing digit
 		if (i < N - M)
 		{
 			t = (d * (t - txt[i].charCodeAt() * h) +

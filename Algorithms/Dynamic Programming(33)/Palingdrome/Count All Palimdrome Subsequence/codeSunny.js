@@ -21,7 +21,7 @@ function countPS(str) {
 	// palindromic subsequence of length 1
 	for (let i = 0; i < N; i++)
 		dp[i][i] = 1;
-
+ 
 	// check subsequence of length L is
 	// palindrome or not
 	for (let gap = 2; gap <= N; gap++) {

@@ -12,8 +12,11 @@ function finding(s, p, n, m)
         abcd?a Pattern finished 
       abcdcdca String not finished 
 3. If String  finished but Pattern not finished 
+
         abcd?a Pattern not finished 
           cdca String finished 
+
+          
         //Jab tak ki pattern finish na ho jaye 
         while(m>=0){
             if (pattern[m] != "*"){

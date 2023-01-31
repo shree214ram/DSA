@@ -1,3 +1,4 @@
+
 //4:13
 //4:37
 const A = [1,2,3, 5]
@@ -12,17 +13,15 @@ for(let i=0;i<=A.length;i++){
  	//Base case 
      if(i==0){
     	DP[i][j] = Number.MAX_VALUE
-    }
-    if(j==0){
+    }else if(j==0){
     	DP[i][j] = 0
-    }
-    //coin is greater than amount 
-    if(A[i]>j){
-    	DP[i][j]= DP[i-1][j] //copy the upper cell value
-    }if(A[i]<=j){
+    }else  if(A[i-1]<=j){
     	DP[i][j]= Math.min(DP[i-1][j], 1+DP[i][j-A[i-1]])
+    }else {
+    	DP[i][j]= DP[i-1][j] //copy the upper cell value
     }
     // 
  }
  }
  console.log(DP,"DP")
+

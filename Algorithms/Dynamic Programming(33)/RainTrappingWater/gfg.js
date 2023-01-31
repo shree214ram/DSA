@@ -34,7 +34,7 @@ function maxWater(arr, n)
 			right -= 1;
 		}
 		else
-		{
+		{ 
 		
 			// Add the difference between
 			// current value and left max at index l

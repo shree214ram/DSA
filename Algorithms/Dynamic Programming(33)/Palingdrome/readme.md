@@ -18,11 +18,18 @@ In all the Palingdrome problem the main thing is that to note  below process wou
                 2. in case of counting longest paligdrome length
                     DP[i][j] = DP[i + 1][j - 1] + 2;
                     {+2 if we are counting longest palingdome } why 2 because corners will be 1+1 meanse 2 length of character
+            }else{
+				dp[i][j] = dp[i][j - 1] + dp[i + 1][j] - dp[i + 1][j - 1];
+
             }
+
         in substring :- Its mandatory to check middle should be true for palingdrom 
             if(S[i]==S[j] && DP[i+1][j-1]) //in case of 
                 1. in case of counting all paligdrome 
                     DP[i][j] =  1+ DP[i+1][j] + DP[i][j-1] - DP[i+1][j-1]
+            else 
+				dp[i][j] = dp[i][j - 1] + dp[i + 1][j] - dp[i + 1][j - 1];
+
 
 
 

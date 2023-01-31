@@ -34,7 +34,6 @@ function latestNonConflict(arr, i){
 	return -1
 }
 
-
 // The main function that returns the maximum
 // possible profit from given array of jobs
 function findMaxProfit(arr, n){

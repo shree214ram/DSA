@@ -12,7 +12,7 @@ class Job
 		this.profit = profit
 	}
 }
-
+ 
 // A utility function that is used for
 // sorting events according to finish time
 function jobComparator(s1, s2){

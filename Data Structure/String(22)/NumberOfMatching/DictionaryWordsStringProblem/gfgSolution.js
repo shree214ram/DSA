@@ -30,8 +30,7 @@ function match_words(dictionary, sentence, n, m)
 	for(let i = 0; i < m; i++)
 	{
 		if (mp.has(sentence[i]))
-			mp.set(sentence[i],
-			mp.get(sentence[i]) - 1);
+			mp.set(sentence[i],mp.get(sentence[i]) - 1);
 		else
 			return false;
 	}

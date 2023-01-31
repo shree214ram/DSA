@@ -18,14 +18,21 @@ const  words = ["a", "bb", "acd", "ace"] //str1
 const result =[]
 for (let i = 0 ; i< words.length ; i++){
     const word = words[i];
-    let k = 0;
+    let k = 0; //match hone wale bando ki sankhya 
 
     for (let j = 0 ; j< S.length && k< word.length  ; j++){
+        /*string ka ek value ko pakad kar , word me check karo yadi current element "a" 
+        work me he to word ka index k increment 
+        */
         if(word[k] == S[j]){
-            k++;
+            k++; // match hone wale bando ki sankhya 
         }
     }
-    if(word.length==k){ // k ki length agar word ki length ke barabar ho to matlab ye word string S me moujud he 
+    /*"a" word me ek bar aya and string me bhi ek bar aya matlab : 
+    word ki length and match hone wale bado ki sankhya ek ho gayi matlab 
+    */
+    if(word.length==k){ 
+        // k ki length agar word ki length ke barabar ho to matlab ye word string S me moujud he 
         result.push(word)
     }
 }

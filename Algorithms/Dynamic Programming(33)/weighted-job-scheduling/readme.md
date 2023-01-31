@@ -81,8 +81,7 @@ function latestNonConflict(arr, i){
 }
 ```
 #### Dynamic Programming Method with Lenear Search to solve it O(N*N):- 
-
-
+ 
 The above solution may contain many overlapping subproblems. For example, if lastNonConflicting() always returns the previous job, then findMaxProfitRec(arr, n-1) is called twice and the time complexity becomes O(n*2n). As another example when lastNonConflicting() returns previous to the previous job, there are two recursive calls, for n-2 and n-1. In this example case, recursion becomes the same as Fibonacci Numbers. 
 
 1. sort via end time 

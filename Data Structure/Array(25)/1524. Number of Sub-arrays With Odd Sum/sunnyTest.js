@@ -17,7 +17,6 @@ for(let i=0;i<A.length;i++){
             counter++
         }
     }
-    
 }
 //3. check  
 for(let i=1;i<A.length;i++){
