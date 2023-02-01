@@ -7,6 +7,15 @@
 7. useCallback
 8. useMemo
 
+### useState ,useRef
+1. useState is asynchronous Or synchronous ?
+    Yes this is asynchronous because in setState Or useState we can pass a callback function as second paramter 
+
+    useState()
+
+    https://javascript.plainenglish.io/why-you-shouldnt-always-use-usestate-658994693018
+2. useRef
+
 ### useEffect, useCallback, useMemo :- 
 
 https://codesandbox.io/s/useeffect-usecallback-usememo-reactmemo-t3v5e4

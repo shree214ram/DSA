@@ -48,7 +48,7 @@ So Event Loop will send first all Micro task in Call Stack and Global Excecution
 
 ###### Solution 
 
-1. change var i to let 
+1. change var i to let i // Hoisting , jab var fol loo me har ek ittration ke sath last var 4 ko hi le kar jata he jabki let inner scope he vo current value 1, 2, 3, 4 ko hi lekar jata 
 
 2. convert setTimeout to Closer function 
     1. IIFE 
@@ -56,12 +56,14 @@ So Event Loop will send first all Micro task in Call Stack and Global Excecution
 
 <script>
 for (var index = 1; index <= 3; index++) {
+    // 1. IIFE 
     /*(function (index) {
         setTimeout(function () {
             console.log('after ' + index + ' second(s):' + index);
         }, index * 1000);
     })(index);*/
     
+    // 2. Normal Function 
     function test(index) {
         setTimeout(function () {
             console.log('after ' + index + ' second(s):' + index);
@@ -70,5 +72,36 @@ for (var index = 1; index <= 3; index++) {
     test(index);
 }
 </script>
+-----------------------------------------------------------------------------------------------------------
 
 
+# Problem 2 :- 
+<script>
+
+for (var i = 0; i < 5; i++) {
+  var btn = document.createElement('button');
+  btn.appendChild(document.createTextNode('Button ' + i));
+  btn.addEventListener('click', function(){ console.log(i); });
+  document.body.appendChild(btn);
+}
+<script>
+
+
+(a) What gets logged to the console when the user clicks on “Button 4” and why?
+
+(b) Provide one or more alternate implementations that will work as expected.
+
+### addEventListener is also a Asynchronous method same like setTimeout 
+
+// Method 1.  ya to var ko let bana do 
+
+//Mathod 2 ya fir conver kardo Clouser me 
+
+for (var i = 0; i < 5; i++) {
+  var btn = document.createElement('button');
+  btn.appendChild(document.createTextNode('Button ' + i));
+  (function (i) {
+    btn.addEventListener('click', function() { console.log(i); });
+  })(i);
+  document.body.appendChild(btn);
+}
