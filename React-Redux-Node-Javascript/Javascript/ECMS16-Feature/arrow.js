@@ -1,9 +1,10 @@
 class Arrow {
     constructor(name) {
         this.name = name
-        this.bind.printNameFun = this.printNameFun()
+        this.bind.printNameFun = this.printNameFun() //Explicit binding
     }
     printNameArrow() {
+        //Implicit binding
         setTimeout(() => {
             console.log("Arr=>", this.name)
         })

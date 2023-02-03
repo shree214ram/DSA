@@ -38,4 +38,5 @@ undefined  // Why because javascript autometically adds ; , we have given Enter 
    ###  Note var a ; a is decleared   , var a=1 ; a is decalred and defined with value 1 ;
 
    ### console.log(a); var a; // it will print undefined means a is already declered but not defined any value ;
-   
+
+   ### console.log(a); let a; //Uncaught ReferenceError: Cannot access 'a' before initialization

@@ -2,17 +2,17 @@
 function Inc(N) {
 
     if (N == 1) {
-      console.log(N);
+      console.log(N);        //1 first 
       setTimeout(() => {
-        console.log(N);
+        console.log(N);      //1 Third 
       });
       return;
     }
   
     Inc(N - 1);
-    console.log(N);
+    console.log(N);          //2 second , 3 second , 4 second 
     setTimeout(() => {
-      console.log(N);
+      console.log(N);        //2 fourth , 3 fourth , 4 fourth
     });
   }
   

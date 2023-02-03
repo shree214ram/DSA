@@ -10,7 +10,7 @@ let min = Number.MAX_VALUE;
 let currentSum = 0
 while (right < A.length) {
     currentSum += A[right]
-    if (currentSum >= Target) { //I did mistaken to add this if condition 
+    if (currentSum >= Target) { //I did mistaken forget to add this if condition 
         while (currentSum >= Target) {
             currentSum -= A[left]
             left++

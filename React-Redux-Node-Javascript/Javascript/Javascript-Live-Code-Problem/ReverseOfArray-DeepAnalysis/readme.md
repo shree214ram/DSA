@@ -26,3 +26,9 @@ And a couple of side points here that can sometimes trip someone up in answering
 Passing an array to the push() method of another array pushes that entire array as a single element onto the end of the array. As a result, the statement arr2.push(arr3); adds arr3 in its entirety as a single element to the end of arr2 (i.e., it does not concatenate the two arrays, that’s what the concat() method is for).
 
 Like Python, JavaScript honors negative subscripts in calls to array methods like slice() as a way of referencing elements at the end of the array; e.g., a subscript of -1 indicates the last element in the array, and so on.
+
+### @sunny Reverse return karta he reverse array and Main Array ko bhi change karta he . Or hum jab reference me change karte he to Main Array me bhi change hoga 
+
+Jese ki hamne 
+
+arr2.push(arr3) kiya to ye arr2 me ek element add kardega last me And sath hii sath arr1 me bhi same changes karega kyunki arr2 arr1 ke reverse ka reference he . 

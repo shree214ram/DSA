@@ -1,4 +1,4 @@
-### use strict : Means when we r using this so we cant declare any variable without define for example b=3 will not work  
+### use strict : Means when we r using this so we cant define  any variable without declare for example b=3 will not work  
 
 1. case 
 <script>
