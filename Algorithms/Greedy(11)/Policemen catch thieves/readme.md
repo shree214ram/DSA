@@ -3,7 +3,7 @@ https://www.geeksforgeeks.org/policemen-catch-thieves/
 
 1. ### Navie Approach :- we may have to see all the possible scenarios that may take exponanatials time compaxity
 2. ### We can think for "Greedy method" : it may take less time compaxity but there are some case where it may fail like 
-        Like we can take either nearest theif 
+        Like we can take either nearest OR farthest theif 
         ##### “For each policeman from the left catch the nearest possible thief.” 
         it will fail in case of example 2 
 
@@ -39,6 +39,7 @@ https://www.geeksforgeeks.org/policemen-catch-thieves/
     k=3
     
     if( | theifArray(theifIndex)-polishArray(polishIndex) | <= k ){
+        
         answer++
         theifIndex++
         polishIndex++

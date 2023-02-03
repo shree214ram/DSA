@@ -6,6 +6,3 @@
 4. SCSS for css
 5. svg use at placeof jpg,png 
 6. Local storage , cheche , Server side rendering 
-
-### is there any other way to pas details from one componanat to another componanat apart from reducer , contaxt api , props ??
-LocalStorage 
