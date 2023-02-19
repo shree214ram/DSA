@@ -18,3 +18,9 @@ https://www.youtube.com/watch?v=s_Fs4AXsTnA&ab_channel=JackHerrington
 
 
     https://www.youtube.com/watch?v=D3XYAx30CNc
+
+# Micro frontend  2022:-
+Micro frontend is an architectural and organizational style (NOT a specific technology!!!) in which the front-end of the app is decomposed into individual, loosely coupled “micro apps” that can be built, tested, and deployed independently. Just like in the world of microservices where the backend is chopped into individual services.
+Micro Frontends - extending the microservice idea to frontend development (micro-frontends.org)
+https://micro-frontends.org/
+

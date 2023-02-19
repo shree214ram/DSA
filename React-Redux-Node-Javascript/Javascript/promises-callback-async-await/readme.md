@@ -1,6 +1,18 @@
 # Promise :- 
 https://www.youtube.com/watch?v=ap-6PPAuK1Y&ab_channel=AkshaySaini
 https://www.youtube.com/watch?v=U74BJcr8NeQ&ab_channel=AkshaySaini
+
+
+
+
+What is a Promise:- 2022?
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
+
+https://www.geeksforgeeks.org/javascript-promises/   -----
+
+“I Lost a Job Opportunity Just Because of Promise.all” | by fatfish | JavaScript in Plain English
+https://javascript.plainenglish.io/i-lost-a-job-opportunity-just-because-of-promise-all-be396f6efe87
+
 ### what is Promise :
 
 Promise is a object which is responsible for evantually completion of asynchronous operation .
@@ -44,3 +56,19 @@ It has 2 main things PromiseStatus and PromiseResult
    ##### Asyc also usefull for handle  asycronus call,await will wait till async call is not finished 
 
 https://www.youtube.com/watch?v=bWaucYA1YRI&ab_channel=TechnicalSuneja
+
+
+
+
+# Async Await :- 
+Differences Between Promises and Async/Await in JavaScript | JavaScript in Plain English
+https://javascript.plainenglish.io/differences-between-promises-and-async-await-in-javascript-c141abb809f7
+
+
+Understanding Node.js Async Flows: Parallel, Serial, Waterfall and Queues | by Velotio Technologies | Velotio Perspectives | Medium
+https://medium.com/velotio-perspectives/understanding-node-js-async-flows-parallel-serial-waterfall-and-queues-6f9c4badbc17
+
+## Generator Function :- 
+
+Explain Generator functions in JavaScript? (tutorialspoint.com)
+https://www.tutorialspoint.com/explain-generator-functions-in-javascript

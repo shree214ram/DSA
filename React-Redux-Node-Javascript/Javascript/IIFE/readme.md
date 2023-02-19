@@ -36,3 +36,13 @@ function (){
 
 </script>
 
+
+
+IIFEs - Immediately Invoked Function Expressions
+
+http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html
+
+https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174
+
+https://www.w3schools.com/js/js_function_definition.asp
+

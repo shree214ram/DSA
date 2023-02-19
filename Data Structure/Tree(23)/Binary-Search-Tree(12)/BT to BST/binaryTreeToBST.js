@@ -25,8 +25,6 @@ class Node {
       console.log(temp.data);
       this.inorder(temp.right);
     }
-   
-  
   
     // # Helper function to store the inroder traversal of a tree 
     storeInorder(root, inorder) {

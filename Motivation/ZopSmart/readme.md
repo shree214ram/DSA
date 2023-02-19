@@ -1,4 +1,4 @@
-
+# Exaple of closure ??
 <script>
 
 const myParent = () =>{
@@ -14,6 +14,12 @@ var name2 = "sunny"
 
 
 myParent();
+</script>
+
+# Where to use Insertion Sort and where Selection Sort ?? 
+
+
+<script>
 
 //insert 
 const A =  [2, 9 , 3 , 7]
@@ -21,6 +27,10 @@ const A =  [2, 9 , 3 , 7]
 for(){
 
 }
+</script>
+
+# Discussion Over Merge Sort ?? 
+<script>
 
 A = [1,2,3,4] 
 B = [4, 5,6 ]
@@ -41,4 +51,6 @@ l2++
 
 
 </script>
+
+
 

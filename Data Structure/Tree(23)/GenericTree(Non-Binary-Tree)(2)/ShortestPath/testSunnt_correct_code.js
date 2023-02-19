@@ -13,8 +13,11 @@ function utilFn(root){
     if(root.child.length==0){
         return root.data
     }
-    let min = root.data+root.child[0].data
     
+    //calculation 
+    let min = root.data+root.child[0].data
+
+    //recursion 
     for(let i=0;i<root.child.length;i++){
         min=  Math.min((root.data+utilFn(root.child[i])),min)
     }

@@ -113,7 +113,7 @@ class BinarySearchTree {
     else {
       // deleting rootNode with no children 
       if (rootNode.left === null && rootNode.right === null) {
-        rootNode = null;
+        rootNode = null; //delete from tree with the help of set null to it 
         return rootNode;
       }
 

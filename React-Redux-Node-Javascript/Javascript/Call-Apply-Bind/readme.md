@@ -19,6 +19,9 @@ https://www.youtube.com/watch?v=75W8UPQ5l7k
     const res = myObj.fullName.bind(myObj2) 
     console.log(res) // this will not call method , it will print fullName function 
     res(); // this will print test in console 
+
+
+    
 <!DOCTYPE html>
 <html>
 <body>
@@ -59,3 +62,29 @@ const myNewobject = {
 
 </body>
 </html>
+
+
+
+
+
+
+
+### What is the difference between using call and apply to invoke a function?
+
+    The difference is that apply lets you invoke the function with arguments as an array; callrequires the parameters be listed explicitly. A useful mnemonic is "A for array and C for comma."
+    See MDN's documentation on apply and call.
+    Pseudo syntax:
+    theFunction.apply(valueForThis, arrayOfArgs)
+    theFunction.call(valueForThis, arg1, arg2, ...)
+    There is also, as of ES6, the possibility to spread the array for use with the call function, you can see the compatibilities here.
+    Sample code:
+   <script>
+        function theFunction(name, profession) {
+            console.log("My name is " + name + " and I am a " + profession +"."); 
+        }
+        theFunction("John", "fireman"); 
+        theFunction.apply(undefined, ["Susan", "school teacher"]); 
+        theFunction.call(undefined, "Claude", "mathematician"); 
+        theFunction.call(undefined, ...["Matthew", "physicist"]); // used with the spread operator
+   </script>
+

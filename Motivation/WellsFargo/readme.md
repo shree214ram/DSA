@@ -2,4 +2,4 @@
 1. useState is asynchronous Or synchronous ?
 
 
-2. controlled and unControlled Componanat 
+2. controlled and unControlled Componanat ?

@@ -5,7 +5,7 @@ Tech Dose
 
 ### Approach :-  
     1. left and right ka jo max he usme yadi root ko add kare , yadi ye addition root se bada hoga to ye lenge other wise root ko lenge or niche wale childs ko chod denge (ms)
-    CASE 1 :- ms = max(max(left,rigt)+root.data,root.data)
+    CASE 1 :- ms = max(max(left,rigt)+root.data, root.data)
     2. Or yadi hum root khud ko lekar Add kare and sath me niche wale childs (ms)
     CASE 2 :- ms1 = max(ms, left+rigt+root.data)
     3. final result

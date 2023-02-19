@@ -18,8 +18,24 @@ https://www.freecodecamp.org/news/javascript-design-patterns-explained/
    1. Chain Responsibility Pattern 
         React Redux 
    2. Observer Pattern 
-        React Hook
+        React Hook {useEffect}
    3. Ittrator Pattern 
         map, foreach , reduce , filter 
    
     
+### What is Design pattern in Javascript ?
+
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript
+https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know
+https://blog.logrocket.com/javascript-design-pattern-214d888096a3/
+https://www.youtube.com/watch?v=xizFJHKHdHw
+
+Module Design Pattern
+            https://youtu.be/3pXVHRT-amw
+Prototype Design Pattern
+Observer Design Pattern
+Singleton
+            https://www.youtube.com/watch?v=bgU7FeiWKzc
+
+https://www.dofactory.com/javascript/design-patterns
+https://www.youtube.com/watch?v=xizFJHKHdHw

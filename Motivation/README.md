@@ -17,8 +17,7 @@ System Design Round
 Googliness Round 
 
 
-https://www.youtube.com/watch?v=__98uL6wst8
-Number of islands | Leetcode #200
+
 
 https://www.youtube.com/watch?v=vcv3REtIvEo
 Largest rectangle in Histogram | Leetcode #84
