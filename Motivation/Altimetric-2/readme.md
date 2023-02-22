@@ -5,7 +5,7 @@ useEffect(()=>{
   },[value])
 # Optimization in React Application in terms of hooks and function componenet?? 
 
-
+# wthat excect difference in custom hook and functional componanat ??
 
   [11:12 AM] Shameer Ali Baig S
     const a = 10; console.log("Hello"+ a)

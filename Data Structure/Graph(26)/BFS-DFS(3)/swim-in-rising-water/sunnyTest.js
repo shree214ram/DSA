@@ -15,7 +15,10 @@ function binarySearch(visited) {
     while (l < r) {
         let mid = Math.round((l + r) / 2)
         // 2.1. We need to reinitiate visited  again with value 0 , 
-        //@mistake :------------>>> I had mistaken here forget to reinitialized , so program was not working 
+        /*@mistake :------------>>> 
+        I had mistaken here forget to reinitialized , so program was not working .
+        it will work like backtracking .
+        */
         visited = new Array(m).fill([]).map(obj => {
             return new Array(n).fill(0)
         });

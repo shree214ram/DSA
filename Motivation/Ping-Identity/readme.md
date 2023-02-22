@@ -27,7 +27,7 @@ console.log(map1);
 
 ## Express Js , why we should use ? What is the important part 
 
-## Auth2 what it is ??
+## Auth2 what it is ?? Go Deep dive to JWT Token and Auth 
 
 ## Is there any way to communicate 2 different server apart from rest api Or Get /Post 
 
@@ -40,3 +40,7 @@ console.log(map1);
 ## Status of api response 
 
 ## Standered of api implemantation 
+
+## Open Id ??
+
+## 

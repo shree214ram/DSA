@@ -92,9 +92,10 @@ https://hackernoon.com/create-objects-in-javascript-10924cfa9fc7
     function Dog(){
         this.pupper = 'Pupper';
     };
+    
+    Dog.prototype.pupperino = 'Pups.';
 
     //Using Object.create()
-    Dog.prototype.pupperino = 'Pups.';
     var buddy = Object.create(Dog.prototype);
     console.log(buddy.pupper); //Output is undefined
     console.log(buddy.pupperino); //Output is Pups.
