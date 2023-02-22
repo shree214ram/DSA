@@ -1,6 +1,7 @@
 
 ### What is an object in JavaScript?
-    JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method.Apr 6, 2018
+    JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method.
+    Apr 6, 2018
     Working with objects - JavaScript | MDN
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/.../Working_with_Objects
     Search for: What is an object in JavaScript?
@@ -48,21 +49,27 @@
         result && typeof result === 'object' ? result : newInstance
    </script>
    ##### Using the function constructor + prototype:
+   <script>
         function myObj(){};
         myObj.prototype.name = "hello";
         var k = new myObj();
+   </script>
    ##### Using ES6 class syntax:
+   <script>
         class myObject  {
         constructor(name) {
             this.name = name;
         }
         }
         var e = new myObject("hello");
+   </script>
    ##### Singleton pattern:
+   <script>
         var l = new function(){
         this.name = "hello";
         }
         Related protips:
+   </script>
 
 
 

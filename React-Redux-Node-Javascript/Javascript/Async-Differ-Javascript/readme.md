@@ -20,7 +20,7 @@ Once we use Async loading so first HTML parsing starts and once html page found 
         HTML  |-------| |-----------|   
                 Script      Output      HTML
 ### Differ :- 
-Once we use Differ loading so first HTML parsing starts and once html page found any script tag than asynchronously starts the loading script code and then finishes HTML Parsing first and then script excecuted for output  .
+Once we use Differ loading so first HTML parsing starts and once html page found any script tag than asynchronously starts the loading script code and then finishes HTML Parsing first and then script excecuted for output  .            HTML
       |---------------|-----------|
         HTML          |-----------| |-----------|   
                       Script         Output      

@@ -28,12 +28,12 @@ const  multiply=function (x){
     }
 }
 
-///// Call Via create constant and then call 
+/////1. Call Via create constant and then call 
 const  multiplyBy2=multiply(2);
 const  multiplyBy3=multiplyBy2(3);
 multiplyBy3(5)
 
-///// Directelly Calling 
+/////2. Directelly Calling 
 //multiply(2)(3)(5)
 
 
@@ -61,6 +61,7 @@ Currying: Currying is basically transforming sum(1,2,3) into sum(1)(2)(3). I wil
 
 # Case 1: add(1)(2)(3)
 It’s basically a sequence of functions with single argument. So our approach is to return a function which in turn returns another function to accept next argument.
+   <script>
 function add(a){
  return function(b){
   return function(c){
@@ -68,9 +69,11 @@ function add(a){
   }
  }
 }
+   </script>
 
 # Case 2: add(1)(2)(3)…(n)()
 It’s basically a sequence of n+1 functions with single argument except the last one. So our approach is to return a function which in turn returns another function to accept next argument and so on till the last argument doesn’t exist.
+   <script>
 function add(a) {
   return function(b){
     if(b){
@@ -79,20 +82,24 @@ function add(a) {
     return a
   }
 }
+   </script>
 # Case 3: sum(1,2)(3,4)
 So, this is similar as above just that we are accepting two arguments in single call. So, we need to add the arguments. Let’s look at the code:
 
+   <script>
 
 function sum(a,b) {
   return function(c,d){
     return a+b+c+d
   }
 }
+   </script>
  
 So, it’s making sense now. Now let’s raise the complexity.
 
 # Case 4: add(1,2..n)(5,6…n)…(n)()
 Now in this case, everything is infinite. We already know infinite currying, let’s focus on infinite arguments.
+   <script>
 
 function add(...args) {
   let a = args.reduce((a, b) => a + b, 0)
@@ -104,4 +111,5 @@ function add(...args) {
     return a
   }
 }
+   </script>
 So this is complex, right? You won’t be asked this question during your initial years of Javascript Interview but you never know. So, what’s happening here is, we are using inbuilt rest operators to take infinite arguments and then calculating the sum of all arguments. Rest remains the same as case 2.
