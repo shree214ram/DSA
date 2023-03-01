@@ -22,3 +22,11 @@ This will return [3,4,5]. The original array is NOT affected with resulting in a
 The splice() method returns the removed item(s) in an array and slice() method returns the selected element(s) in an array, as a new array object.
 The splice() method changes the original array and slice() method doesn’t change the original array.
 The splice() method can take n number of arguments and slice() method takes 2 arguments.
+
+1. ittration loops : for/while/dowhile/ map {}
+2. key in /key Of 
+3. map
+4. filter 
+5. reduce 
+
+

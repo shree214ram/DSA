@@ -6,12 +6,17 @@ Sr.No
 Slice
 Substring
 Substr
-(7,12)
+
+
+# (7,12)
 str.slice(7,12) (Start Index, To Index) = Banana
 str.substring(7,12) (Start Index, To Index) = Banana Same
 str.substr(7,12) (Start Index, To length {How much we have to run from start index}) = 
 Banana, Kiwi
-(-6,-12)
+
+
+
+# (-6,-12)
 str.slice(-6,-12) (Start Index from end, To Index from end ) 
 
 "Apple, Banana, Kiwi"
@@ -24,7 +29,7 @@ str.substring(-6,-12) negative always understand the 0
 = null (Nothing will print)
 
 
-(-4)
+# (-4)
 str.slice(-4)= Kiwi , why because 
 Start from -4 and not defined  last index so (0 because this is negative direction)
 str.substring(-4)= Apple, Banana, Kiwi

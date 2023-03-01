@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=SHINoHxvTso&ab_channel=AkshaySaini
 2. This is same like nrmal function expression only the difference is that at place of annonumus function we will use Named Function in expression  
 3. But we cant use xyz() out side , this will give error "Uncaught reference error : xyz is not defined"
     Only we can use inside 
-    ```
+    ``` 
     const b = function xyz(){
         console.log(xyz) // Only we can use inside 
     }

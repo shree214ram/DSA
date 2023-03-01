@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p id="demo"></p>
+
+<script>
+//merge sort
+//2:21
+const arr = [33, 78, 9, 2, 78, 11, 1]
+
+//1. merge sorst function 
+function merge(A,left,mid,right){
+	//1
+    const B = []
+    let k = left
+    let i = left;
+    let j = mid+1;
+    //loop over left to right 
+    while(i<=mid && j<=right){
+        if(A[i]<=A[j]){
+            // while(left<mid){
+                B[k] = A[i]
+                
+            // }
+            i++
+        }else{
+            // while(mid<right){
+                B[k] = A[j]
+                
+            // }
+            j++
+        }
+        k++
+    }
+    if(i>mid){
+        while(i<=right){
+            B[k] = A[j]
+            k++
+            j++
+        }
+    }else{
+        while(i<=mid){
+            B[k] = A[i]
+            k++
+            i++
+        }
+    }
+    
+    for(let i=0;i<B.length;i++){
+    	A[i]=B[i]
+    }
+}
+
+//2. devide and concure 
+function mergeSort(A,left,right){
+	let mid = Math.round((left+right)/2);
+    mergeSort(A,left,mid);    
+    mergeSort(A,mid+1,right);
+	merge(A,left,mid,right);
+}
+
+</script>
+
+</body>
+</html>

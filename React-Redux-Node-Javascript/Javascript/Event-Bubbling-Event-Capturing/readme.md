@@ -5,38 +5,44 @@
     1. Event Bubbling Goes from Bottom to Top {no any parameter Or false}
     2. Event Capturing Goes from Top to Bottom {no any parameter Or false}
     3. First Event Capturing covers and then Event bubbling 
-
+    4. By default it understand "false" which is event bubbing
+    ```
+    Event Capturing              Event Bubbling
+                                    ^
+        |                           | 
+        |                           |
+        |                           |
+        |                           |
+          | | | | | | | | | | | | |
+    ```
+   <script>
     const gp = document.getElementById("gp")
     gp.addEventListener("click",()=>{
         console.log("GrandParent Clicked")
     },true)
+    </script>
 
-    Case 1 (Event Capturing - Click At inner most Child):- 
+   #### Case 1 (Event Capturing - Click At inner most Child):- 
         GrandParent-true,Parent-true,Child-true
 
         output :- GrandParent Clicked,Parent Clicked,Child Clicked
-    Case 2 (Event Bubbling - Click At inner most Child):- 
+   #### Case 2 (Event Bubbling - Click At inner most Child):- 
         GrandParent-false,Parent-false,Child-false
 
         output :- Child Clicked, Parent Clicked, GrandParent Clicked
-    Case 3 (Mixin):- 
+   #### Case 3 (Mixin):- 
         GrandParent-true,Parent-false,Child-true
 
         output :- GrandParent Clicked, Child Clicked, Parent Clicked
 
         {why because first cover the event capturing and then event bubbling}
-    Case 4 (Mixin):- 
+   #### Case 4 (Mixin):- 
         GrandParent-true,Parent-false,Child-false
 
         output :- GrandParent Clicked, Child Clicked, Parent Clicked
         {why because first cover the event capturing and then event bubbling start with inner most clicked child first }
 
-                  ^
-        |         | 
-        |         |
-        |         |
-        |         |
-          | | | | 
+      
 
 ### Stop propogation :- 
     We can stop propogation at any event .

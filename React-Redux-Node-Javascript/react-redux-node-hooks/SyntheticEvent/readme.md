@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/what-are-synthetic-events-in-reactjs/

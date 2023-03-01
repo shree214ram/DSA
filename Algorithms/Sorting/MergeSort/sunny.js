@@ -46,6 +46,8 @@ function mergeSort(Arr, lb, up) {
 }
 
 const arr = [33, 78, 9, 2, 78, 11, 1]
+
+
 console.log(arr.length)
 mergeSort(arr, 0, (arr.length - 1))
 document.write("Result=>", arr);

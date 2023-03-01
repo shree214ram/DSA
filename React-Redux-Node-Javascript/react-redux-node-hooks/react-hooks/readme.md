@@ -6,7 +6,7 @@
 6. useEffect
 7. useCallback
 8. useMemo
-
+ 
 ### useState ,useRef
 1. useState is asynchronous Or synchronous ?
     Yes this is asynchronous because in setState Or useState we can pass a callback function as second paramter 
@@ -25,6 +25,18 @@ https://www.youtube.com/watch?v=3cYtqrNUiVw&ab_channel=JustinKim
     useEffect(()=>{
 
     },[])
+    ### useIffects 
+    1. no parameter , {Always it will be called }
+    2. [], {componanatDidMount}
+    3. [count], {Third Render , ComponanatWillReciveProp}
+    4. [] with return a  {componanatUnmount}
+        https://stackoverflow.com/questions/55139386/componentwillunmount-with-react-useeffect-hook
+
+        useEffect(() => {
+            return () => {
+                console.log(props);
+            };
+        }, []);
 
 2. useMemo
     useMemo(()=>{
@@ -38,12 +50,35 @@ https://www.youtube.com/watch?v=3cYtqrNUiVw&ab_channel=JustinKim
 
 <Child callBackFn={callBackFn} counter={counter}>
 
+### useSelector && useDispatch
+<script>
+import {incrementF,decrementF} from "./action"
+import {useSelector,useDispatch} from "react-redux"
+
+ const FunctionBased = () => {
+    const dispatch = useDispatch()
+    const data= useSelector(state=>state)
+    const Add = () => {
+        dispatch(incrementF())
+    }
+    const Minus = () => {
+        dispatch(decrementF())
+    }
+    return (<div>
+        <div>{data.value}</div>
+        <button onClick={Add}>Increment</button>
+        <button onClick={Minus}>Decrement</button>
+    </div>)
+}
+export default FunctionBased
+</script>
+
 
 ### useReducer :- 
 https://atomizedobjects.com/blog/react/what-is-usereducer-in-react/
 https://www.youtube.com/watch?v=kK_Wqx3RnHk&ab_channel=WebDevSimplified
 
-
+<script>
 import react , {useReducer} from "react"
 
 const myReducer = (state,action) =>{
@@ -64,6 +99,7 @@ const myFn = (props)=>{
         <div>{state.value}</div>
     )
 }
+</script>
 
 # custom hook
 https://www.freecodecamp.org/news/how-to-create-react-hooks/

@@ -12,7 +12,7 @@
 //     })
 // }).listen(8000)
 
-
+ 
 const express = require("express")
 const app = express()
 const fetch = require('node-fetch')
@@ -29,6 +29,7 @@ app.get("/user", (req, res) => {
 })
 
 app.get('/listUsers', function (req, res) {
+    console.log("check")
     // fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
     //    console.log( data );
     //    const data = {
@@ -56,6 +57,7 @@ app.get('/listUsers', function (req, res) {
     //    res.end( JSON.stringify(data));
     // });
 
+//     fetch("https://www.googleapis.com/books/v1/volumes?key=<VALID_API_KEY>&q=something")
     fetch("https://jsonplaceholder.typicode.com/posts/1")
         .then((response) => response.json())
         .then((data) => {
@@ -86,5 +88,5 @@ app.get('/listUsers', function (req, res) {
 })
 
 app.listen(8000, (req, res) => {
-    console.log("server started")
+    console.log("server started2 at url http://localhost/8000")
 })

@@ -200,3 +200,10 @@ DSA
         6. Queue
         7. Stack 
         8. Linkedlist
+
+
+        ### 1 March 
+
+        1. Deque system 
+        2. Recursion related all question . 
+        

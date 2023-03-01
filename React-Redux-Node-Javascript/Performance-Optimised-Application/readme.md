@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=Mff7H1c6-hY&ab_channel=QAInsights
 Webwidal ,light house 
     https://www.perfmatrix.com/ui-performance-testing-tools/
     https://www.debugbear.com/blog/devtools-performance
-
+ 
     Now a days so many web dev tools are available for check webpage loading and performance .
 
     Light house is a very good tool for checking the performance 

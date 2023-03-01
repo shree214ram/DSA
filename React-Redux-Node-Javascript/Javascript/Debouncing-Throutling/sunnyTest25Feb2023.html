@@ -1,0 +1,19 @@
+<input type="button" id="main">
+<script>
+    //2:30 , 2;38 //2:42
+    const debouncing = function (func, delay) {
+        //l
+        let timer;
+        return function (...args) {
+            clearTimeout(timer);
+            timer = setTimeout(() => func(...args), delay)
+        }
+    }
+    const button = document.getElementById("main");
+
+    button.addEventListener("click", debouncing(() => {
+
+        console.log("clicked")
+    }, 3000))
+
+</script>

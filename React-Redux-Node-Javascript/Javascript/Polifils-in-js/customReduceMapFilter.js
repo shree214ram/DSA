@@ -39,3 +39,27 @@ const result = A.myCustomFun((obj)=>{
 })
 console.log(result,"result")
 
+
+
+//#### custom  filter:-
+//12:20
+
+Array.prototype.myCustomFilterFun = function (callBack){
+
+	let res = [];
+    
+    for(let i=0;i<this.length;i++){
+        if(callBack(this[i],this,i)){
+    	    res.push(this[i])
+        }
+    	
+    }
+    return res;
+}
+
+const A = [1,2,3,4 ]
+const result = A.myCustomFilterFun((obj)=>{
+	return obj%2 ==0
+})
+console.log(result,"result")
+

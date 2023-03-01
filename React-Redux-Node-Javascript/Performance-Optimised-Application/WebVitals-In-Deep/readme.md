@@ -23,25 +23,22 @@
         If in our web page so much script which is taking so much time to load . Or any loop code is there which is holding our page Or block for for some time , So we can unblock and we can excecute in last .
 
    <script> 
-    for(let i=0;i<100000;i++){
-        console.log(i)
-    }
-   </script>
+            for(let i=0;i<100000;i++){
+                console.log(i)
+            }
+    </script>
 
    ###### We can unblock via add above script in Asynchrounus call : 
-    1. First calculate the time , how much time needed for load our page .
-    2. For Example 2000 milisecond OR 2 minit 
+            1. First calculate the time , how much time needed for load our page .
+            2. For Example 2000 milisecond OR 2 minit 
 
    <script>
-   setTimeout(()=>{
-        for(let i=0;i<100000;i++){
-            console.log(i)
-        }
-   },2000) 
-
-   
-    
-   </script>
+        setTimeout(()=>{
+                for(let i=0;i<100000;i++){
+                    console.log(i)
+                }
+        },2000) 
+    </script>
 
 
 
