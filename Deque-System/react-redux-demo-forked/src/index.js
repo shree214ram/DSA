@@ -4,11 +4,11 @@ import store from "./store"
 import FunctionBased from "./FunctionBased"
 const App = () => {
     return (
-  // <StrictMode>
-         <FunctionBased />
-// </StrictMode>
+        // <StrictMode>
+        <FunctionBased />
+        // </StrictMode>
     )
 }
 
-ReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById("root"))
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById("root"))
 
