@@ -11,7 +11,7 @@ const n = grid[0].length;
 const visited = new Array(m).fill([]).map(obj=>new Array(n).fill(0))
 const res = main(grid);
 console.log(res,"res");
-//1. dfs
+//1. dfs 
 function dfsUtil(visited,grid,i,j){
     if(!visited[i][j] && grid[i][j] ==1){
         visited[i][j] = 1;
