@@ -88,5 +88,5 @@ app.get('/listUsers', function (req, res) {
 })
 
 app.listen(8000, (req, res) => {
-    console.log("server started2 at url http://localhost/8000")
+    console.log("server started2 at url http://127.0.0.1:8000")
 })

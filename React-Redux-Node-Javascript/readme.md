@@ -27,8 +27,9 @@
     Solution :- I exit from git bash and then again started . It was working and showing the Node and npm version 
 5. Now NPM , Node and NVM are ready 
 6. Git CMD/bash/ are mendetory 
+7. Online POST Man or HTTP client for testing RestAPI 
 https://chrome.google.com/webstore/detail/reqbin-http-client/gmmkjpcadciiokjpikmkkmapphbmdjok/related
-
+https://reqbin.com/
 https://github.com/coreybutler/nvm-windows
 
 

@@ -207,3 +207,10 @@ DSA
         1. Deque system 
         2. Recursion related all question . 
         
+
+        # 5 march 
+        1. Rotten ornage practice 
+        2. find circle in graph 
+        3. sort color 
+        4. move all 0 in end 
+        5. LRU Chache

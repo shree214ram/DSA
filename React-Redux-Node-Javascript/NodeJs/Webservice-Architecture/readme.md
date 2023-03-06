@@ -125,7 +125,7 @@ updateWiki(wikiArticleId) {
       .then((response) => {
         console.log(response.data.response);
       })
-      .catch((err) => {
+      .catch((err) => {  
         if (err) {
           console.log(err);
         }
@@ -169,3 +169,54 @@ https://stackoverflow.com/questions/1087031/whats-the-difference-between-openid-
 
 ### Apart from OTP is there any way to re-authointicate use ??
     yes via some already existing question's answer user written at the time of registration 
+
+
+    
+### What is difference between PUT and PATCH ??
+https://www.geeksforgeeks.org/difference-between-put-and-patch-request/
+PUT and Patch basically used for update the data in DB 
+
+1. Put is same like POST ,in which we have to send payload . But in PUT we have to send other details also in payload which will not be updated .
+    {
+      email: "hello@geeky.com",
+      first_name: "Geeky",
+      id: 21,
+      avatarlast_name: "test"
+    }
+    If we will not pass so other fields maight be updated with email and firstname . 
+
+2. In Patch only those perticuler details are required only which needs to be updated . 
+    {
+      email: "hello@geeky.com",
+      first_name: "Geeky",
+    }
+<script>
+    let PutRequest = () => {
+    // Sending PUT request with fetch API in javascript
+    fetch("https://reqres.in/api/users/2", {
+      headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json"
+      },
+      method: "PUT",
+
+      // Sending only the fields that to be updated
+      body: JSON.stringify({	
+      email: "hello@geeky.com",
+      first_name: "Geeky",
+      id: 21,
+      avatarlast_name: "test"
+      })
+    })
+      .then(function (response) {
+
+      // Console.log(response);
+      return response.json();
+      })
+      .then(function (data) {
+      console.log(data);
+      });
+    };
+
+    PutRequest();
+</script>
