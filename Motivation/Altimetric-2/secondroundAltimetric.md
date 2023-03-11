@@ -1,3 +1,8 @@
+1. Asked Jquery questions ?
+
+2. Object recursion 
+
+
 category:
 {
 "towel":"bath&body",
@@ -30,6 +35,18 @@ const obj = {
     clothing: "30"
   }
 };
+
+function test(obj,key){
+  if(obj.category[key] && obj.coupen[obj.category[key]]){
+    return obj.coupen[obj.category[key]]
+  }else if(obj.category[key] && obj[obj.category[key]]){
+    return test(obj,obj[obj.category[key]])
+  }else{
+    return null
+  }
+}
+
+
 
 /*input - towel , o/p - 20
 input - denim, o/p - 30

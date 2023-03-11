@@ -18,6 +18,8 @@ const A = [3,4,5,1,1,2,1,2];
 // 333 
 // answer : 1, 2
 // count = [1:3,]
+
+//Max Heap Approach discussed 
 // value : 3
 // count : 1
 

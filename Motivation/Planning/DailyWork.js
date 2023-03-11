@@ -214,3 +214,29 @@ DSA
         3. sort color 
         4. move all 0 in end 
         5. LRU Chache
+
+        # 7 march 
+        1. Most Frequent element {UIPath interview} [Map and Indexed Array]
+        1. Most Frequent element {Ping Identity interview} 2 methods [Map and Indexed Array,Max Heap ]
+        3. sort color 
+        4. move all 0 in end 
+        5. LRU Chache
+
+        # 8 march 
+        1. find duplicate in O(1)  {is in progress}
+        2. find missing element UseElementsAsIndex  {is in progress}
+        3. sort color 
+        5. LRU Chache {DONE self program}
+        6. House Robber {Tried but failed } [Need Brushnup at DP and Recursion]
+
+        # 11 march 
+        1. find duplicate in O(1)  {is in progress}
+        2. find missing element UseElementsAsIndex  {is in progress}
+        3. House Robber {Tried but failed } [Need Brushnup at DP and Recursion]
+
+        4. Graph BFS
+        5. Diskja Algorithm and code implementation
+            1. adjency metrics and leaner search
+            2. Adjency List And Heap for search
+        6. Word Ladder
+        7. Tolpological Sort 

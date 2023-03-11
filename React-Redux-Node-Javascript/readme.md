@@ -1,4 +1,4 @@
-
+### Steps to Build a Enviornmenet for React Application 
 1. https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 2. https://github.com/nvm-sh/nvm
 
@@ -28,9 +28,9 @@
 5. Now NPM , Node and NVM are ready 
 6. Git CMD/bash/ are mendetory 
 7. Online POST Man or HTTP client for testing RestAPI 
-https://chrome.google.com/webstore/detail/reqbin-http-client/gmmkjpcadciiokjpikmkkmapphbmdjok/related
-https://reqbin.com/
-https://github.com/coreybutler/nvm-windows
+    https://chrome.google.com/webstore/detail/reqbin-http-client/gmmkjpcadciiokjpikmkkmapphbmdjok/related
+    https://reqbin.com/
+    https://github.com/coreybutler/nvm-windows
 
 
 React Redux tips :-
@@ -61,3 +61,47 @@ https://www.youtube.com/watch?v=ZYb_ZU8LNxs&ab_channel=freeCodeCamp.org
 ❑ Node.js /AngularJS
 ❑ TypeScript
 ❑ Jest / Babel
+
+
+# Latest Tech stuff for React Application Architect 
+
+1. Architecture {Compassite Task Folder} :-
+    1. Webpack
+    2. Babel 
+    3. Enviornment dev/production/qa
+    4. SCSS /LESS 
+    5. eslint 
+    6. Jest
+    7. ModuleFedrationPlugin {Microfrontend}
+2. Latest Feature for batter Optimization{React Redux demo forked} :-
+    1. React Hook {useCallback,useEffect,useState,useReducer}
+    2. Functional Componenet
+    3. Context API
+    4. Provider 
+    5. Pure componenet , High Order Componenent , React.Memo
+3. Testing :-
+    1. Unit Testing {Jest}
+    2. Visual Testing {Cypress}
+4. Performance :-
+    1. Google light house {Web vitals}
+    2. Javascript ES 6 feature : {lodash,spread operator,rest operator , hoisting}
+
+# Latest Tech stuff for Node Application Architect 
+
+1. Architecture 
+    1. CI/CD :- 
+    2. Jenkins :- 
+    3. Cloud AWS :-
+            EKS, ECS, ECR, Fargate, EC2, Lambda, ALB
+    4. Docker :- 
+    5. Devops :- 
+    6. CORS /Throttling 
+    7. Authointication :- OPEN ID 
+    8. Authorization :- OAuth2.0
+    9. Kubernatives :- 
+    10. Kafka 
+    11. Message Queue 
+    12. Microservice Architecture 
+    13. Swagger {Designing Developer Portal}
+
+        

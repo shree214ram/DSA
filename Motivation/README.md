@@ -17,8 +17,6 @@ System Design Round
 Googliness Round 
 
 
-
-
 https://www.youtube.com/watch?v=vcv3REtIvEo
 Largest rectangle in Histogram | Leetcode #84
 
@@ -71,8 +69,11 @@ https://www.youtube.com/watch?v=I65quKey1EM
 
 
 
-Problem :- 
+### Problem {Not able to solve DSA Problem} :- 
 https://www.quora.com/I-am-not-able-to-solve-problems-even-after-I-have-practiced-quite-a-bit-I-know-the-basic-algorithms-and-data-structures-but-cannot-think-when-a-new-problem-comes-What-should-I-do
+
+https://www.youtube.com/watch?v=VPMV7x3nZoo&ab_channel=NishankGargIITMadras
+https://www.youtube.com/watch?v=j6vS0DFa6ec&ab_channel=NishankGargIITMadras
 
 
 https://www.youtube.com/watch?v=qO3aNAovBCU

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p id="demo"></p>
+
+<script>
+//5:48 //5:51
+const A = [11,14,13,11,15]
+const n = A.length
+
+for(let i=0;i<A.length;i++){
+
+	A[A[i]%n]+=n
+
+}
+
+for(let i=0;i<A.length;i++){
+
+	if(A[i] >= n*2){
+    	console.log("Repeated Value is =",i)
+    }
+
+}
+
+///
+
+let numRay =  [11,14,13,11,15];
+	let arr_size = numRay.length;
+	
+	
+	// count the frequency
+	for (let i = 0; i < arr_size; i++) {
+		//numRay[numRay[i] % arr_size] = numRay[numRay[i] % arr_size] + arr_size;
+		//OR 
+		numRay[numRay[i] % arr_size] += arr_size;
+	}
+	document.write("The repeating elements are : " + "</br>");
+	for (let i = 0; i < arr_size; i++) {
+		if (numRay[i] >= arr_size * 2) {
+			document.write(i + " " + "</br>");
+		}
+	}
+
+</script>
+
+</body>
+</html>

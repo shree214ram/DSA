@@ -15,7 +15,9 @@ LeetCode 1557 Minimum Number of Vertices to Reach All Nodes - Google Question So
 
 # Steps :-
 1. Given adge array = [[0, 1], [2, 1], [3, 2], [4, 3]] and 
-    create 2 Map() Array 1. graph 2. indegree and 
+    create 2 Map() Array 
+    1. graph 
+    2. indegree and 
     Result Array []
 2. ittrate adge loop as object  
     { //for loop start
