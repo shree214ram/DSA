@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p id="demo"></p>
+
+<script>
+//3:50 //4:04 //5:39 Not working need to debug
+//9:37
+function shortestPath(start,end,wordList){
+
+	const mySet = new Map();
+    let check = false
+     for(let value of wordList){
+     	if(value==end){
+        	check = true
+        }
+        mySet.set(value,1)
+    }
+   
+    if(!check){
+    	console.log("Not possible");
+        return 
+    }
+   
+    const q = [];
+    q.push(start);
+    let depth = 0;
+    while(q.length!==0){
+    	depth++
+        let size = q.length;
+        
+        while(size--){
+            let old = q[0] //convert string to array because in string we can't replace 
+        	q.shift()
+            //check for permitution of all words 
+            for(let i=0;i<old.length;i++){ //check each character of first queue element 
+            	for(let j=0;j<26;j++){ //update each character with another alphbate 
+                	const element = String.fromCharCode(97+j); //a,b,c,d alphbates
+                    const newV = old.split("")
+                    newV[i] = element //updated new label
+
+                    const newValue = newV.join("")
+                    
+
+                    if(newV == old){
+                        continue
+                    }
+                    if(newValue == end){
+                        return depth+1;
+                    }
+
+                    if(mySet.get(newValue)){
+                       q.push(newValue);
+                        mySet.delete(newValue) //delete 
+                    }
+                }
+            }
+        }
+        
+    }
+}
+const res =shortestPath("hit","cog",["hot","dot","lot","log","cog"])
+console.log("Minimum Length is ", res)
+</script>
+
+</body>
+</html>

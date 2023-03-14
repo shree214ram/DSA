@@ -1,16 +1,3 @@
-https://www.cuelogic.com/blog/microservices-with-node-js
-
-#### What is webservice ?
-    Web service the group of collections of so many small services 
-#### whatis rest api :-
-    Rest  is the "Representational state transfer "
-    API is "Application Programming Interface" 
-
-##### How To implement SSO (Single Sign on) In Microservice Architecture?
-    https://stackoverflow.com/questions/25595492/single-sign-on-in-microservice-architecture
-
-    Amazon has a central SSO which is usable in Amazon Storefront , Alexa,Amazon Prime , Amazon Music 
-    Google has a central SSo which is usable for Gmail,Youtube,GoogleMap, 
 
 ###### Best Practice for Implement Rest API 
 https://scalans.com/9-best-practices-to-follow-for-a-perfect-restful-api-design
@@ -66,13 +53,7 @@ https://identitymanagementinstitute.org/difference-between-authentication-and-au
 
 #### What is accesibility in backend ? 
 
-#### Way to transfer information from one server to another Or One Application to Another Application ?
-1. Rest API {Payload}
-2. Message Queue 
-2. Message Stream 
-2. Shared Database 
-2. S3 Bucket (Cloud Storage)
-https://medium.com/codex/sending-data-between-applications-e08fb0028a71
+
 
 ### How many ways to pass data in rest api :-
 https://customercare.igloosoftware.com/support/developers/kb/articles/different_ways_to_pass_data_in_your_api_calls

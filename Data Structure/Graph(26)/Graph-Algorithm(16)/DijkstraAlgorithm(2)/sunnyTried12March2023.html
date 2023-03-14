@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p id="demo"></p>
+
+<script>
+//1:22 //1:39 //1:55
+
+class graph{
+	constructor(length){
+    	this.vertex = new Map();    	
+        this.value = new Array(length).fill(Number.MAX_VALUE);
+    }
+    addEdge(u,v,w){
+    //mistake i have forget to add first value in array format 
+    this.vertex.set(u,this.vertex.get(u) ? [...this.vertex.get(u),[v,w]]: [[v,w]]);    					
+        this.vertex.set(v,this.vertex.get(v)? [...this.vertex.get(v),[u,w]]:[[u,w]]);
+    }
+    
+    bfs(min,src){
+    	this.bfsUtil(min,src)
+    }
+    
+    bfsUtil(minValue,src){
+    	
+        const pq = [];
+        pq.push([minValue,src]);
+        this.value[src]=minValue
+        //mistake 2
+        while(pq.length!==0){
+        	const U = pq[0][1]
+            pq.shift();//mistake i have used pop but we need to remove smallest one so this will be first so shift will be usable for remove first element 
+             
+            const values = this.vertex.get(U);
+
+            for(let value of values){
+            //mistake 1
+            	const V = value[0];            
+                const weight = value[1];
+                if(this.value[V]>this.value[U]+weight){
+                	this.value[V] = this.value[U]+weight;
+                    pq.push([this.value[V],V]);
+                    pq.sort((a,b)=>{
+                    	if(a[0]==b[0]) return a[1]-b[1];
+                         return a[0]-b[0];
+                    });
+                }
+
+            }
+            
+        }
+    	this.print()
+    }
+     print(){
+    	console.log(this.value)
+    }
+}
+
+const g = new graph(9);
+
+g.addEdge(0, 1, 4);
+g.addEdge(0, 7, 8);
+g.addEdge(1, 2, 8);
+g.addEdge(1, 7, 11);
+g.addEdge(2, 3, 7);
+g.addEdge(2, 8, 2);
+g.addEdge(2, 5, 4);
+g.addEdge(3, 4, 9);
+g.addEdge(3, 5, 14);
+g.addEdge(4, 5, 10);
+g.addEdge(5, 6, 2);
+g.addEdge(6, 7, 1);
+g.addEdge(6, 8, 6);
+g.addEdge(7, 8, 7);
+
+g.bfs(0,0);
+//g.print()
+
+</script>
+
+</body>
+</html>

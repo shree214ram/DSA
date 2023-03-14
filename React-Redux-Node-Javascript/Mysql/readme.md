@@ -4,13 +4,16 @@ Mysql Study start
 1. W3school is the best for learning and practice Mysql Queries 
 
     MySQL HAVING Clause (w3schools.com)
+https://www.w3schools.com/mysql/mysql_having.asp
 
 2. Tutorial point also good for learning Mysql 
 
     MySQL - Transactions (tutorialspoint.com)
+https://www.tutorialspoint.com/mysql/mysql-transactions.htm
 
 Mysql query online test and learning  
 MySQL online - Test SQL queries (extendsclass.com) 
+https://extendsclass.com/mysql-online.html
 
 3. What is Master Slave 
 The Master-Slave Database Concept For Beginners - DEV Community 👩‍💻👨‍💻
@@ -23,10 +26,22 @@ https://www.techopedia.com/definition/2235/masterslave
 4. In MySQL what is the difference between != NULL and IS NOT NULL? (tutorialspoint.com)
 https://www.tutorialspoint.com/in-mysql-what-is-the-difference-between-null-and-is-not-null
 
+
+
+# MongoDB Interview Question Answer
+Tutorial Point MongoDbTutorials 
+        
+Compare beetween Mysql and MongoDB :-
+
+https://www.mongodb.com/compare/mongodb-mysql
+https://hackernoon.com/mongodb-vs-mysql-comparison-which-database-is-better-e714b699c38b
+
+
+
 ### Interview question 
 https://www.fullstack.cafe/blog/mysql-interview-questions
 
-### Find the country whose customers count is more than 5 BW ?
+### Find the country whose customers count is more than 5 ?
 1. having 
 2. GroupBy 
 
@@ -80,13 +95,50 @@ group by Price
 order by Price desc  
 limit 1,1;
 
-#### Most efficient way to search test from multiple column in SQL?
-1. https://stackoverflow.com/questions/9589813/most-efficient-way-to-search-in-sql
+https://www.youtube.com/watch?v=OIRy7ZFSudA&ab_channel=CrackConcepts
 
-Solution :-  Add FULLTEXT INDEX AT (TITLE,DESCRIPTION)
+### Increase All employee salary 5% ?
 
-#### Most efficient way to Fast Hotel Room Searching in SQL?
+### Find the all employee name whose starting with "A"?
 
-2. https://dba.stackexchange.com/questions/258191/mysql-query-of-hotel-database
+### Find the number of employee who are working in department "ABC" ?
 
-<img src="Fast_Hotel_Room_Searching.png"/>
+### Print details of employee whose first name ends with "A" and contains 6 alphabates ?
+
+### Print the details of employees whose salary lies between 10000 and 50000 ?
+
+### Fetch only the firstname from fullname of employee table 
+ex: fullname "sunny parmar" it should print sunny
+
+### Fetch duplicate record from table ?
+
+### remove duplicate records ?
+
+### Create Empty Table with same structure?
+
+### Fetch Common Records from 2 tables ?
+
+### write the query for get current dat ?
+
+### Write the query for retrive the first two character of employee last name from employee table 
+
+### Create duplicate Table with same structure and data ?
+
+### write the query for get first 5 records ?
+
+### write the query for get firstname and lastname same like {sunny parmar} as fullname ?
+
+### Print details of employee whose last name ends with "A" and contains 4 alphabates ?
+-----------------------------------------------------------------------------------------------------
+# Index Related Queries 
+
+   #### Most efficient way to search test from multiple column in SQL?
+    1. https://stackoverflow.com/questions/9589813/most-efficient-way-to-search-in-sql
+
+    Solution :-  Add FULLTEXT INDEX AT (TITLE,DESCRIPTION)
+
+   #### Most efficient way to Fast Hotel Room Searching in SQL?
+
+    2. https://dba.stackexchange.com/questions/258191/mysql-query-of-hotel-database
+
+    <img src="Fast_Hotel_Room_Searching.png"/>

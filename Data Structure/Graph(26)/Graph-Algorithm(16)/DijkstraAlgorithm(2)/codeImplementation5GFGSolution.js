@@ -54,15 +54,15 @@ class Graph {
 			// in pair)
 			let u = pq[0][1];
 			pq.shift();
-
+ 
 			// 'i' is used to get all adjacent vertices of a
 			// vertex
 			for(let i = 0; i < this.adj[u].length; i++){
 				
 				// Get vertex label and weight of current
 				// adjacent of u.
-				let v = this.adj[u][i][0];
-				let weight = this.adj[u][i][1];
+				let v = this.adj[u][i][0]; //u se jude hue adjency vertex ka label
+				let weight = this.adj[u][i][1]; //u ka weight
 
 				// If there is shorted path to v through u.
 				if (dist[v] > dist[u] + weight) {

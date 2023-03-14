@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript const</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        //6;45 //6:57 //8;01 //8:02
+
+
+        function print(start, end, A) {
+
+            //1. set and check availa
+            let check = false
+            const hash = new Map()
+            for (let val of A) {
+                hash.set(val, 1)
+                if (val == end) {
+                    check = true
+
+                }
+            }
+            console.log(hash)
+            if (!check) {
+                console.log("Not Possible");
+                return
+            }
+
+            const q = []
+            q.push(start)
+            let length = 0
+
+            while (q.length !== 0) {
+                length++
+
+                const old = q[0]
+
+                let size = q.length
+
+                q.shift();
+
+                while (size--) {
+                    for (let i = 0; i < old.length; i++) {
+                        const newValue = old.split("");
+
+
+                        for (let j = 0; j < 26; j++) {
+
+                            newValue[i] = String.fromCharCode(j + 97);
+
+                            if (newValue.join("") == old) {
+                                continue;
+                            }
+                            if (newValue.join("") == end) {
+                                return length + 1
+                            }
+                            if (hash.get(newValue.join(""))) {
+                                q.push(newValue.join(""));
+                                hash.delete(newValue.join(""))
+                            }
+                        }
+                    }
+                }
+            }
+            console.log(length, 'length')
+        }
+        const res = print("hit", "cog", ["hot", "dot", "lot", "log", "cog"])
+        console.log("Minimum Length is ", res)
+    </script>
+
+</body>
+
+</html>

@@ -149,6 +149,69 @@ cat.jumps()
 let c = new cat()
 c.jumps()
 
+//
+Latest Interview topics in react.js and javascript: 20 Oct 2022→ Kamini Edited
+>>
+https://dev.to/frontendengineer/top-10-javascript-interview-questions-and-answers-you-should-know-junior-and-senior-3943
+Must Watch^^^^^^   https://dev.to/frontendengineer/css-and-html-interview-questions-and-answers-270l
+
+
+*Script sync and ScriptDefer 
+
+
+Improve react application performance:::---
+https://www.codementor.io/blog/react-optimization-5wiwjnf9hj
+New  Topics:
+1.       Throttling and debouncing
+2.       React currying
+3.       Prop drilling
+4. React state lifting up → https://reactjs.org/docs/lifting-state-up.html
+
+
+
+
+react memoization-> https://reactjs.org/docs/react-api.html
+https://konstantinmuenster.medium.com/how-to-plan-and-organize-a-react-project-by-building-a-weather-app-95175b11bd01https://konstantinmuenster.medium.com/how-to-plan-and-organize-a-react-project-by-building-a-weather-app-95175b11bd01
+**** Script async and defer?
+https://javascript.info/script-async-defer
+
+
+*** how to find and remove unused CSS ?
+*** What is the latest in react 18 version that differs from other versions ?
+
+
+https://www.linkedin.com/pulse/top-10-tricky-javascript-questions-i-used-ask-interviews-amit-pal/
+https://in.indeed.com/career-advice/interviewing/tricky-javascript-interview-questions
+https://plainenglish.io/blog/10-tricky-javascript-coding-interview-question-with-solution
+
+
+https://www.sitepoint.com/5-typical-javascript-interview-exercises/
+
+
+           Commonly asked question in all interviews:
+
+
+HTML Web Components, Audio, Video, I frames, WebStorage
+Css Flexbox, grid, positions, box modal, opacity, Sass/less features, mixins, selectors
+Closure in deep with example
+Hoisting
+Currying
+Prototype
+Polyfills
+Higher order functions
+Promises
+CallBacks
+
+
+Let, const, var concepts and practicals
+ES6 feature: spread, rest and destructuring
+Event loops,
+Call, apply and bind in deep with example
+Most Important: Custom filter, map, reduce method via prototype 
+
+
+
+
 
 
 

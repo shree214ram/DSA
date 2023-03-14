@@ -236,7 +236,33 @@ DSA
 
         4. Graph BFS
         5. Diskja Algorithm and code implementation
-            1. adjency metrics and leaner search
-            2. Adjency List And Heap for search
+            1. adjency metrics {ittrate over each value of matrics}and leaner search
+            2. Adjency List {BFS logic with queue}And Heap for search
         6. Word Ladder
         7. Tolpological Sort 
+
+
+        # 13 march 
+        1. find duplicate in O(1)  {is in progress}
+        2. find missing element UseElementsAsIndex  {is in progress}
+        3. House Robber {Tried but failed } [Need Brushnup at DP and Recursion]
+
+        4. Graph BFS
+        5. Diskja Algorithm and code implementation
+            1. adjency metrics {ittrate over each value of matrics}and leaner search
+            2. Adjency List {BFS logic with queue}And Heap for search
+        6. Word Ladder {DONE}
+        7. Tolpological Sort 
+        8. Microservice Architecture principles 
+        9. devops
+
+        # 14 march 
+            1. Mysql queries {Mysql basics and other interview questions like acid , index and mysql engines }
+            2. ci/cd - jenkins - build and deploy Git , how to check logs and what is diffenece between jenkins and docker
+            3. devops
+            4. docker ; how to check logs at Docker , what is kubernatives ? what is diff docer and kubernatives 
+            5. microservice related question {one microservice project with node and type script and docker}
+            6. Sysytem Design ; Revise all old theory and live system  {kafka ,bigData, apache spark}
+            7. jest 
+            8. Typescript 
+            9. 

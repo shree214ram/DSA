@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p id="demo"></p>
+
+<script>
+//11:25
+class graph{
+	constructor(length){
+    	this.vertex = new Map()
+        this.visited = new Array(length).fill(false)
+        this.value = new Array(length).fill(Number.MAX_VALUE);
+        this.parent = new Map();
+    }
+    //@mistake 1 forget to add weight
+ add(u,v,w){
+    //@mistake 2 forget to add weight with both u and v , at te time of u as key push [v,w] and at the time of v [u,w]
+        	this.vertex.set(u,[...this.vertex.get(u), [v,w]])
+        	this.vertex.set(v,[...this.vertex.get(v), [u,w]])
+	}
+   bfs(src){
+   	
+    bfsUtil(src)
+   }
+   
+   bfsUtil(src){
+   	const pq = [];
+    //@mistake 3 forget to add distance and source label
+    pq.push([0,src]); //0: distance , 1: source label
+    
+    while(pq.length!==0){
+    	const U = pq[0][1]
+        pq.pop();
+        // this.visited[min] = true
+        //@mistake 4 forget to no need of maintain visited because visited can be again update for minimum value
+        const vertex = this.vertex.get(U);
+        for(let value of vertex){
+        	// if(!this.visited[value]){
+        //@mistake 5 forget to no need of maintain visited because visited can be again update for minimum value
+        
+        const V = value[1]
+        const weight = value[0]
+        if(this.value[V] > weight+this.value[U]){
+            this.value[V]= weight+this.value[U]
+        	pq.push([this.value[V],V]); //mistake only value i have inserted instead i need to push[ distance and lable ]
+            pq.sort((a,b)=>{
+                if(a[0] == b[0]) return a[1]-b[1]
+                return a[0]-b[0]
+            })
+            }
+        }
+    }
+   }
+}
+ //abhi print ka code and test karna baki he and debug karna 
+</script>
+
+</body>
+</html>
+
+
