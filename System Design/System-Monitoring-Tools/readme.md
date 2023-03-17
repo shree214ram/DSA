@@ -1,7 +1,7 @@
 1. Kafka
 2. Grefana 
 3. Metrics
-4. Monitoring {HealthChecks to check Hart Bits of Systems} Kubernativs 
+4. Monitoring {HealthChecks to check Hart Bits of Systems} Kubernativs , docker 
 5. Mechanism to send Alerts at below 
     1. Disk Memory Utilization 
     2. Redis Utilization
@@ -28,8 +28,7 @@
     Apache Kafka Basics - A Layman's guide for beginners | Explained with real life examples - YouTube 
     https://www.youtube.com/watch?v=0V9SK6jmDPk&ab_channel=ITkFunde
 
-    Apache Kafka is Distributed  and Message Streaming Platform
-    Apache kafka is implemented via Linked in for 
+   ### Apache Kafka is Distributed and Message Streaming Platform, Apache kafka is implemented via Linked in for 
    1. Fast Live streaming 
     2. Data transformation 
     3. Millions of message in microsecond 
@@ -61,7 +60,7 @@ https://medium.com/@sannidhi.s.t/dead-letter-queues-dlqs-in-kafka-afb4b6835309
 #### Way to transfer information from one server to another Or One Application to Another Application ?
 1. Rest API {Payload}
 2. Message Queue 
-2. Message Stream 
+2. Message Stream {Kafka}
 2. Shared Database 
 2. S3 Bucket (Cloud Storage)
 https://medium.com/codex/sending-data-between-applications-e08fb0028a71

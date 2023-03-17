@@ -42,3 +42,4 @@ for(let i=0;i<Arr.length;i++){
     st.add(Arr[i])
 }
 console.log(result,"result")
+//output [-1,1,1,3]

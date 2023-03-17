@@ -257,12 +257,39 @@ DSA
         9. devops
 
         # 14 march 
-            1. Mysql queries {Mysql basics and other interview questions like acid , index and mysql engines }
+            1. Mysql queries [Mysql basics and other interview questions like acid , index and mysql engines ]
+                {theory done need to write query and practiced} 
             2. ci/cd - jenkins - build and deploy Git , how to check logs and what is diffenece between jenkins and docker
-            3. devops
+                {understand the theory of docer }
+            3. devops 
+                {understand the theory of docer }
             4. docker ; how to check logs at Docker , what is kubernatives ? what is diff docer and kubernatives 
-            5. microservice related question {one microservice project with node and type script and docker}
-            6. Sysytem Design ; Revise all old theory and live system  {kafka ,bigData, apache spark}
+                {understand the theory of docer, upper question needs to be understand }
+            5. microservice related question [one microservice project with node and type script and docker]
+            6. Sysytem Design ; Revise all old theory and live system  [kafka ,bigData, apache spark]
             7. jest 
             8. Typescript 
-            9. 
+            9. Tolpological Sort 
+                {theroy done need to code self}
+                also seend BFS, Stack and one stack problem . 
+
+        # 15 march 
+            1. Mysql queries [Mysql basics and other interview questions like acid , index and mysql engines ]
+                {theory done need to write query and practiced} 
+            2. ci/cd - jenkins - build and deploy Git , how to check logs and what is diffenece between jenkins and docker
+                {understand the theory of ci/cd }
+            3. devops 
+                {understand the theory of docer }
+            4. docker ; how to check logs at Docker , what is kubernatives ? what is diff docer and kubernatives 
+                {understand the theory of docer, upper question needs to be understand }
+            5. microservice related question 
+                
+            6. Sysytem Design ; Revise all old theory and live system  [kafka ,bigData, apache spark]
+            7. jest 
+            8. Typescript 
+            9. Tolpological Sort 
+                {Code done}
+                also seend BFS, Stack and one stack problem . 
+            10. Interview done Applied Material and Code practice. 
+            11. Practice one microservice project with node , typescript, mysql/MongoDB  and docker
+  

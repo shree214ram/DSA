@@ -97,6 +97,9 @@ limit 1,1;
 
 https://www.youtube.com/watch?v=OIRy7ZFSudA&ab_channel=CrackConcepts
 
+https://www.youtube.com/watch?v=zfN6CguL8Xo&ab_channel=CrackConcepts
+
+
 ### Increase All employee salary 5% ?
 
 ### Find the all employee name whose starting with "A"?
@@ -107,6 +110,7 @@ https://www.youtube.com/watch?v=OIRy7ZFSudA&ab_channel=CrackConcepts
 
 ### Print the details of employees whose salary lies between 10000 and 50000 ?
 
+https://www.youtube.com/watch?v=h8Zbw3hRphE&ab_channel=CrackConcepts
 ### Fetch only the firstname from fullname of employee table 
 ex: fullname "sunny parmar" it should print sunny
 
@@ -129,6 +133,20 @@ ex: fullname "sunny parmar" it should print sunny
 ### write the query for get firstname and lastname same like {sunny parmar} as fullname ?
 
 ### Print details of employee whose last name ends with "A" and contains 4 alphabates ?
+
+### Print details of employee whose excludes the firstname "john" and "smith" ?
+
+### Write the query to fetch the department-wise count of employee sorted by department count in descending order ?
+https://www.youtube.com/watch?v=sa6_kqlglLs&ab_channel=CodingGlitz
+importantMySqlQuery.png
+importantMySqlQuery2.png
+### print the last month today's date day ?
+select to_char(add_month(sysdate()-1),day)
+
+### print the last month ladt date day ?
+select to_char(last_day(add_month(sysdate()-1)),day)
+SELECT TO_CHAR(LAST_DAY(ADD_MONTHS(SYSDATE,-1)),'DAY') FROM DUAL
+
 -----------------------------------------------------------------------------------------------------
 # Index Related Queries 
 

@@ -37,7 +37,7 @@ LeetCode 1557 Minimum Number of Vertices to Reach All Nodes - Google Question So
 4. Fill Indegree Map with the help of current vertex adge array "value" [0,1] mean "1" 
    if(exist DT[value means 1]) then increment 1 in existing other wise add 1
 5. } // for loop end 
-6. Now ittrate the graph map entries 
+6. Now again ittrate the graph map entries : yadi koi graph ki key Indegree Array me nahi he matlab ki us key ka Indegree value 0 he to vaha se easily out side dusri vertex cover ho sakti he 
     for(const dt of graph.entries()){
     current entry = [key,value]
      and check if entry key is not exist in "Indegree" keys then 
