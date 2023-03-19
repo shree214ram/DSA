@@ -113,3 +113,21 @@ function  myCustomHook = () => {
     return [count,myHook]
 }
 export myCustomHook;
+
+# useMemo vs React.memo vs pureComponent [duplicate]
+https://stackoverflow.com/questions/69783722/usememo-vs-react-memo-vs-purecomponent
+
+We can use useMemo and React.memo inside the functional component
+
+React.memo: Used to memoize components.
+Suppose you have two components, two of which are on the same level, and the other component is the parent of these two components. We pass our states from the parent component to the children. When a change is made to one of the child components, the other child component is re-rendered. React.memo is used to prevent this re-rendering.
+
+Sorry about the painting
+
+React.useMemo: Used to memoize value
+When our calculations are allowed in an over function, this function is rendered with each re-rendering of the component. Using useMemo, we set the useMemo to be re-rendered only in certain cases
+
+# React Momo Vs useMemo
+https://blog.logrocket.com/react-memo-vs-usememo/
+
+Below is how a PureComponent is defined using ES6 class. React.memo is the functional component equivalent of React.PureComponent. It is a higher-order component. If React.memo wraps a component, it memoizes the rendered output and skips subsequent renders if state, props, or context have not changed.

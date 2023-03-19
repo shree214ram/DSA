@@ -39,18 +39,6 @@ Application Designer
             Node + Express + MSSQL + Swagger API + API Docs
             https://loopback.io/doc/en/lb4/todo-tutorial.html
 ()
-# Microservice development using Node Js and Docker 
-
-https://tudip.com/blog-post/how-to-create-microservice-in-nodejs-with-docker/
-How to build a microservices architecture with Node.Js? (cuelogic.com)
-
-# Microservice Using Node , Docker, Mysql , Typescript  
-Very good guide to understand the Basic Microservice architecture for any node js application 
-How we can design a system for Microservice architecture in node js 
-How to use redis , mongodb , mysql , docker , NGINX 
-https://www.youtube.com/watch?v=jcoVTgLmY14&ab_channel=Codewithtkssharma
-Building a Baseline Template for Microservice - Express Typescript #08 - YouTube
-
 
 # Difference between Jenkins and Docker   
 https://www.gangboard.com/blog/jenkins-vs-docker/
