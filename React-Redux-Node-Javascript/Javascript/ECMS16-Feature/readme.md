@@ -84,4 +84,7 @@ console.log(otherInfo);
  2. It can be assigned to any variable 
  3. Implicit binding , no need to bind that function to this 
 
+ ### 7-differences-between-arrow-functions-and-regular-functions :- 
+ https://levelup.gitconnected.com/7-differences-between-arrow-functions-and-regular-functions-in-javascript-9152883a839f
+
  

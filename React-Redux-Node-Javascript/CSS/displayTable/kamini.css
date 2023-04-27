@@ -1,0 +1,32 @@
+.table{
+    margin:20px auto;
+    text-align: left;
+    width: 75%;
+    display: table;
+    border-spacing: 10px;
+}
+
+.table-row{
+    display: table-row;
+}
+
+.table-cell{
+    display: table-cell;
+    border:solid 1px #ccc;
+    padding: 5px;
+}
+
+@media (max-width:450px){
+    .table-cell{
+        display: inline-block;
+        margin: 0px 4px 4px 4px;
+    }
+}
+
+@media (max-width:650px){
+    .table-cell{
+        display: inline-block;
+        margin: 0px 4px 4px 4px;
+    }
+}
+

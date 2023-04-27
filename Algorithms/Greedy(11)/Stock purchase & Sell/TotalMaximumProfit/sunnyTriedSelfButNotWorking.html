@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript const</h2>
+
+<p id="demo"></p>
+
+<script>
+/*
+Input: prices = [7,1,5,3,6,4]
+Output: 7
+Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
+Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
+Total profit is 4 + 3 = 7.
+Example 2:
+
+Input: prices = [1,2,3,4,5]
+Output: 4
+Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.
+Total profit is 4.
+Example 3:
+
+Input: prices = [7,6,4,3,1]
+Output: 0
+*/
+
+//8:11 8:20 8:28
+const A = [7,1,5,3,6,4]
+let profit = 0;
+let left = 0
+for(let i=1;i<A.length;i++){
+	let right = i;
+    console.log(A[right],"A[right]");    
+    console.log(A[left],"A[left]");
+
+	if(A[right]>A[left]){
+    	while(right<A.length && A[right]>A[right-1]){
+        console.log("in wile")
+        	i++;
+            right++;
+        }
+        console.log(A[right],"A[right]>>");
+        console.log(A[left],"A[left]>>");
+        console.log(A[right]-A[left],"profit>>");
+        profit+= A[right]-A[left]
+    }else{
+    	left++
+    }
+    
+}
+console.log("Total Profit =", profit )
+</script>
+
+</body>
+</html>

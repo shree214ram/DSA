@@ -1,0 +1,29 @@
+.table{
+    display: table;
+    width: 75%;
+    margin: 25px auto;
+    border-spacing: 5px;
+}
+.row{
+    display: table-row;
+
+}
+.cell{
+    display:table-cell;
+    border: solid 1px #ccc;
+}
+.cell span{
+    display: block;
+    min-width: 70px;
+    margin: 1px;
+    padding: 6px;
+}
+@media screen and (max-width: 479px) {
+    .table, .row {
+        display: block;
+    }
+    .cell {
+        display:inline-block;
+        margin-bottom: 5px;
+    }
+}

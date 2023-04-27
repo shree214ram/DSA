@@ -38,6 +38,7 @@ Most Used API Codes
                             1. You are normal user you cant do Admin Activity .
         404 - Not Found :- /users/1234  , 1234 user not found . 
         405 - Method not allowed :- If you have a POST /users and a GET /users but do not have a DELETE /users, then if I try to DELETE /users you should return a 405 status code to me, this status code
+        406 - If an HTTP Accept header can't be satisfied, return a 406. If an Accept-Language header can't be satisfied, what's the proper response code? 406
         429 - Too many requests
     500x
         500 - Internal Server Error :- server throws exception error 
@@ -53,7 +54,98 @@ https://identitymanagementinstitute.org/difference-between-authentication-and-au
 
 #### What is accesibility in backend ? 
 
+### What are IDEMPOTENT and/or SAFE methods?
+https://restcookbook.com/HTTP%20Methods/idempotency/
 
+GET , HEAD and OPTION are the safe methods ,Safe method means they will not update the resource . 
+
+Idempotent Means it will not change the resource even so many times called the method 
+
+for example 
+
+```a=4 is idempotent a will be remain same if we call 10 times 
+``` 
+
+```a++ is not idempotent a will be change if we call 10 times it will be 10 if we starts from 1 
+``` 
+
+### What is HATEOAS and why is it important for my REST API?
+https://restcookbook.com/Basics/hateoas/
+
+Hypertext as the Engine of Application State , is used to findout the way 
+
+1. for example 
+
+GET /account/12345 HTTP/1.1
+
+HTTP/1.1 200 OK
+<?xml version="1.0"?>
+<account>
+    <account_number>12345</account_number>
+    <balance currency="usd">100.00</balance>
+    <link rel="deposit" href="/account/12345/deposit" />
+    <link rel="withdraw" href="/account/12345/withdraw" />
+    <link rel="transfer" href="/account/12345/transfer" />
+    <link rel="close" href="/account/12345/close" />
+</account>
+balance is 100 usd so it might be deposite , withdraw transfer Or close .
+
+2. for example 
+GET /account/12345 HTTP/1.1
+
+HTTP/1.1 200 OK
+<?xml version="1.0"?>
+<account>
+    <account_number>12345</account_number>
+    <balance currency="usd">-25.00</balance>
+    <link rel="deposit" href="/account/12345/deposit" />
+</account>
+balance is -25 usd so it can be only deposite not other  .
+
+
+#### Unsatisfied Accept Language (406) ? 
+If an HTTP Accept header can't be satisfied, return a 406. If an Accept-Language header can't be satisfied, what's the proper response code?
+https://restcookbook.com/HTTP%20Headers/acceptlanguage/
+
+#### I want to figure out which methods are supported on a resource. ? 
+
+https://restcookbook.com/HTTP%20Methods/options/
+ Please also see "cors policy" C:\Users\Ambika\Desktop\ShreePrep\DSA\React-Redux-Node-Javascript\Javascript\CORS\readme.md
+
+
+### I want users to login into my RESTful API so only they can see (protected) resources. What is the correct way to do this?
+https://restcookbook.com/Basics/loggingin/
+1. Basic Authentication {Using HTTP basic authentication}
+
+GET / HTTP/1.1
+Host: example.org
+Authorization: Basic Zm9vOmJhcg==
+
+   1. Username and password will be sent in Authorization in base 64 incrupted format 
+   2. this work only in SSL Or TLS not in simple HTTP
+   3. 
+2. HMAC {Hypertext Message Authointication}:-
+   1. In Basic Authentication there is one drawback basecode password can be easily tracked .
+   2. With the help of HMAC we can more secure with some cutom hash protected version 
+3. OAUTH {}:-
+   1. IN HMAC also a drawback we have to send password in each api call so it can be easily tracked .
+   2. So we need to think for teperory password so token is the correct way to introduced more security so OAUTH will be the best way . 
+   3. token and secret are the two important values will go to server and safe the API  
+
+### What is the correct way to version my API?
+https://restcookbook.com/Basics/versioning/
+
+1. The "URL" way
+
+A commonly used way to version your API is to add a version number in the URL. For instance:
+/api/v1/article/1234
+To "move" to another API, one could increase the version number:
+/api/v2/article/1234
+
+2. The hypermedia way
+
+GET /api/article/1234 HTTP/1.1
+Accept: application/vnd.api.article+xml; version=1.0
 
 ### How many ways to pass data in rest api :-
 https://customercare.igloosoftware.com/support/developers/kb/articles/different_ways_to_pass_data_in_your_api_calls
@@ -152,7 +244,19 @@ https://stackoverflow.com/questions/1087031/whats-the-difference-between-openid-
     yes via some already existing question's answer user written at the time of registration 
 
 
+### When should we use PUT and when should we use POST?
+
+https://restcookbook.com/HTTP%20Methods/put-vs-post/
+PUT and POST are both unsafe methods. However, PUT is idempotent, while POST is not.
+
+
+
+### When should we use the PATCH HTTP method?
+
+https://restcookbook.com/HTTP%20Methods/patch/
     
+Patch is only for partial data needs to be update . Patch is neighter Idempotennt nor safe 
+
 ### What is difference between PUT and PATCH ??
 https://www.geeksforgeeks.org/difference-between-put-and-patch-request/
 PUT and Patch basically used for update the data in DB 

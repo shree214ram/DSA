@@ -19,9 +19,9 @@ ReactDOM.render(
   <StrictMode>
     <div>
     <Switch>
-    <Route exact path="/"><App/></Route>
-    <Route  path="/home"><Home/></Route>
-    <Route  path="/about"><About/></Route>
+      <Route exact path="/"><App/></Route>
+      <Route  path="/home"><Home/></Route>
+      <Route  path="/about"><About/></Route>
       </Switch>
       </div>
 </StrictMode>

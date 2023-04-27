@@ -11,7 +11,7 @@ https://stackoverflow.com/questions/1724469/difference-between-single-responsibi
 Single Responsibility Principle (SRP)- give each class just one reason to change; and “Reason to change” == “responsibility”. In example: Invoice class does not have a responsibility to print itself.
 
 Separation of Concerns (since 1974). Concern == feature of system. Taking care of each of the concerns: for each one concern, other concerns are irrelevant. Hiding implementation of behavior.
-
+ 
 # architecture 
 
 1)      Have you worked on any complex architecture

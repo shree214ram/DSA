@@ -54,14 +54,19 @@ I have covered all the concepts that are mandatory to learn system design and th
     2. What is Reverse Proxy ?.
     3. What is difference between Load Balancer and Reverse Proxy ?.
         https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer
+
+        
     4. What is difference between VPN and Reverse Proxy ?.
     https://www.youtube.com/watch?v=MiqrArNSxSM&ab_channel=ITkFunde
+
     5. What is the difference between API Gatway and Ngnix 
         
         Nginx has full support on Unix systems, but only has limited support on Microsoft Windows machines. API Gateway integrates well with AWS Lambda. This allows us to build a web server in the language and framework of our choice, deploy it as a Lambda function, and expose it through API Gateway. API Gateway manages API keys.
 
     https://www.trustradius.com/compare-products/amazon-api-gateway-vs-nginx
-    
+
+    6. difference-between-api-gateway-and-load-balancer 
+    https://levelup.gitconnected.com/system-design-interview-basics-difference-between-api-gateway-and-load-balancer-60260b568121
 
 11. Microservices
 12. Databases

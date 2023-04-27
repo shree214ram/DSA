@@ -47,6 +47,7 @@ Html
 
 
   <script src="src/index.js">
+
   </script>
 </body>
 
@@ -65,7 +66,12 @@ var obj = {
 };
 
 const findPath = (object, path) => {
-    
+    const values = path.split(".")
+    for(let value of values){
+
+      object = object[value]
+    }
+    return object
 };
 
 

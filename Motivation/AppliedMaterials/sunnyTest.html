@@ -1,0 +1,32 @@
+<script>
+//4;22 4:39
+
+let S = "AAAAbbbCCCDDDD"
+
+for(let i=0;i<S.length;){
+	let start = i; end =i
+	while(i<S.length && S[i]==S[i+1]){
+    	i++;
+        end++
+    }
+    let newS = "";
+    if(end-start+1 > 9){
+    	newS+= 9+S[start];
+        
+        if(end-start+1-9 > 1){
+    		newS+= end-start+1-9+S[start]
+    	}	else {
+            newS+= S[start]
+        }
+    } else if(end-start+1 > 1){
+    	newS+= end-start+1+S[start]
+    } else {
+    	newS+= S[start]
+    }
+    S = S.substr(0,start)+newS + S.substr(end)
+}
+
+console.log(S)
+
+
+</script>

@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+    text-align: center;
+    background-color: aqua;
+}
+
+/* main */
+.mainul {
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    /* position: relative; */
+}
+
+.mainul li {
+    display: flex;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    height: 36px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainul li:hover {
+    background-color: blue;
+    border-radius: 1px;
+}
+
+.mainul li:hover .secondul {
+    display: block;
+}
+
+/* second */
+.secondul {
+    display: none;
+    position: absolute;
+    top: 57px;
+    left: 5px;
+}
+
+.secondul li {
+    width: 100px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: solid 1px #fff;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.secondul li:last-child {
+    border-bottom: none;
+}
+
+.secondul li:hover {
+    background-color: blue;
+    border-radius: 1px;
+}
+
+.secondul li:hover .thirdul {
+    display: block;
+}
+
+/* third */
+
+.thirdul {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 111px;
+}
+
+.thirdul li {
+    width: 100px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: solid 1px #fff;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.thirdul li:last-child {
+    border-bottom: none;
+}
+
+.thirdul li:hover {
+    background-color: blue;
+    border-radius: 1px;
+}
+
+.thirdul li:hover .thirdul {
+    display: block;
+}
+.ptext{
+    color:green
+}
+.ptext:before {
+    color:red;
+    content: "Hi";
+}
+
+.word {
+    color: #000;
+  }
+  .word:before {
+    color: #f00000;
+    content: "Lorem";
+  }

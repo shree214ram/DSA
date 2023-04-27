@@ -18,7 +18,11 @@ https://www.youtube.com/watch?v=t2d-XYuPfg0&ab_channel=TECHDOSE
       2. We  neet to keep tracke of parent Array
       3. We  need Value Array 
    2. check condition will be so much complax 
-   if(!visited && graph[u][j] !=0 && Value[U] != Number.MAX_VALUE && Value[j] > Value[U] + graph[U][j]){
+   if(!visited && 
+   graph[u][j] !=0 && 
+   Value[U] != Number.MAX_VALUE && 
+   Value[j] > Value[U] + graph[U][j]
+   ){
       Value[j] = Value[U] + graph[U][j];
       Parent[j] = U
    }

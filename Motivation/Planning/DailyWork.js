@@ -292,4 +292,40 @@ DSA
                 also seend BFS, Stack and one stack problem . 
             10. Interview done Applied Material and Code practice. 
             11. Practice one microservice project with node , typescript, mysql/MongoDB  and docker
+
+        # 28/29/30 March 
+        1. Study about Heap , Gridy{questions and code practice}, 
+        2. Minimum Spanning Tree , 
+            Topological sort , 
+            Disjkstras Algo , {Shortest Distance Path}
+            Krushkal Algo {MST} union find algo ,
+        3. Node , Rest API , Microservice , Architectural Principle, Design Pattern Related questions 
+        4. System Design diagram for Eccomerse Website like Amazon 
+
+        # 31 march
+        1. DFS /BFS , Topological , Diskja Algo , Krushkal , prims and dusjoint uniion find algo 
+        2. CSS Grid and flax tutorial Akshay saini 
+
+        # 7 April 
+        1. Advance currying 
+        2. Memoization
+        3. Multilevel custom navigation 
+        4. CSS : Notes 
+
+
+        # 27 April
+        1. Reviosion of CSS 
+        1. Reviosion of JS 
+        1. Reviosion of React 
+        1. Reviosion of Node 
+        1. Reviosion of Mysql 
+        1. Reviosion of DSA 
+        1. Reviosion of System Design 
+            1. Microservice 
+            2. Rest API 
+            3. Distributed System 
+
+
+
+
   

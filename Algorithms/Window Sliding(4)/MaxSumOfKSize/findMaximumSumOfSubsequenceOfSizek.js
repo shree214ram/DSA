@@ -70,7 +70,7 @@ Basically there are 2 methods
          {7, 0} => 7 (oldMax+ A[j] - A[j-k]) */
 
       for(j=k;j<Arr.length;j++){
-         currentMax = currentMax + Arr[j] - Arr[j-k]
+         currentMax = currentMax + Arr[j] - Arr[j-k] //Add new and remove last 
          oldMax = Math.max(currentMax,oldMax)
       }
       console.log("Maximum Sum is =>", oldMax )

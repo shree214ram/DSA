@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=ryoiPjjIHhM&t=27s
+1. Top,Bottom,Left,Right not applicable untill Position {Relative,Absolute,Fixed} , Only Margin and padding will be applicable 
+2. Static is default same like normal behaivor 
+3. 
+
+
+https://www.youtube.com/watch?v=b8VzVQ_PgyM
+
+# Relative :- It will hold the place of self after giving some calculation in top,left,right,top.
+    1. relative.png
+# Absolute :- 
+ 1. It will not hold the place of self after giving some calculation in top,left,right,top.
+    1. absoluteWithoutAnyTopThirdDivWillTaketheSecondDivSpace.png 
+    2. absolute.png
+ 2. It will start the calculation {in top,left,right,top} according to find the "nearest parent div position" .If any parent div not having position so it will take the position of parent . 
+
+ # Sticky
+ https://www.youtube.com/watch?v=yBL_MqUGBgo 
+ 

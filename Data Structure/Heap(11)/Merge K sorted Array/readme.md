@@ -22,8 +22,8 @@ Step 2:-
     minHeap.push(tmp.data)
     i= temp.row
     j= temp.col
-    //check karo ki same row me Or koi element exist he kya ??
-    //kese ? j++ means next value in same Row A[i]
+    //we need to check in the same row any element exist or not ??
+    //How ? j++ means next value in same Row A[i]
     if(j++ < A[i].length){
         newNode = new Node(A[i][j++], i, j++)
         minHeap.push(newNode)

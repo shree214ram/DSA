@@ -1,0 +1,44 @@
+<script>
+//10:27 10:40
+function mergeSort(A,l,r){
+	const mid = Math.round((l+r)/2);
+    mergeSor(A,l,mid);    
+    mergeSor(A,mid+1,r);
+    merge(A,l,mid,r)
+
+}
+function merge(A,l,mid,r){
+	const L = [];	
+    const R = [];
+    let i=0,k=0,j=0;
+    while(i<=mid){
+    	L[i]=A[left+i]
+    	i++
+    }
+	while(j<=r){
+    	L[j]=A[mid+1+j]
+    	j++
+    }
+    let i=0,j=0;
+    while(i<=mid && j<=r){
+    	if(L[i]<=R[j]){
+    		A[k]=L[i]
+    		i++;
+        }else{
+    		A[k]=R[j]
+    		j++;
+        }
+        k++;
+    }
+	while(i<=mid){
+    	A[k]=L[i]
+    	i++;
+        k++;
+    }
+	while(j<=r){
+    	A[k]=R[j]
+    	j++;
+        k++;
+    }
+}
+</script>
