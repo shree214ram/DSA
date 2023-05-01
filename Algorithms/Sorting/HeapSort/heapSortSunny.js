@@ -21,8 +21,13 @@ class HeapSort {
       }
       //delete root
       for (let i = n - 1; i > 0; i--) {
-        const swappedArray = this.swap(this.heapArray, 0, i); // Swap between always 0 and  i th index of array 
-        this.maxHeapify(swappedArray, i, 0) // i is the size of array and always 0 
+        const swappedArray = this.swap(this.heapArray, 0, i);
+         // @sunny very very very important :- Swap between always 0 and  i th index of array 
+        this.maxHeapify(swappedArray, i, 0) 
+        /* @sunny  very very very important :-  hepify the reduced array , 
+        i will be the `n of maxHeapify` function argument ("max size") of reduced array and always 
+        0 is the `i of maxHeapify` function argument ("start point") 
+        */
       }
     }
     swap(heapArray, x, y) {

@@ -1,3 +1,5 @@
+https://www.geeksforgeeks.org/searching-algorithms-for-a-2d-arrays-matrix/
+
 # Broute force Solution {using two for loop} {O(n*n)}:-
     const target = 12;
     const A = [ [ 1, 2, 3, 4 ],

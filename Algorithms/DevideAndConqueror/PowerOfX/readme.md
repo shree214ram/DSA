@@ -1,3 +1,5 @@
+https://www.geeksforgeeks.org/write-a-c-program-to-calculate-powxn/
+
 (20 points) Give an algorithm that takes as input a positive integer n
 and a number x, and computes x
 n
@@ -29,7 +31,7 @@ for example we have to calculate 2 to the power 5 so 2*2*2*2*2
 
 it will take O(n)
 
-### Solution3. O(nlogn)/O(n):- 
+### Solution3. O(n)/O(n):- 
 We can use Devide and conqueror techniques to solve this problem 
 
 1. make a function power , pow().
@@ -43,6 +45,7 @@ We can use Devide and conqueror techniques to solve this problem
 5. if n is odd 
     pow(x,n) = x* pow(x,n/2)* pow(x,n/2)
 
-### Solution4. O(nlogn) optimised version :-
+### Solution4. O(logn)/O(logn) optimised version :-
 
-we can store the pow(x,n/2) in a variable and we can reuse . Because its taking unnecessory time compaxity 
+we can store the pow(x,n/2) in a variable and we can reuse . Because its taking unnecessory time compaxity .
+Its computing 2 times so we can compute 1 and reuse . so it will convert O(n) to O(logn)

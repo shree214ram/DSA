@@ -1,6 +1,18 @@
 //https://www.geeksforgeeks.org/heap-sort/
 //https://www.youtube.com/watch?v=Q_eia3jC9Ts
 
+Most Important asked in below componies :- 
+
+Amazon
+Microsoft
+Samsung
+24*7 Innovation Labs
+Oracle
+Visa
+Intuit
+SAP Labs
+Belzabar
+
 Basically Heap Sort work on 
 1. Build a Max Heap.
 2. Delete a node one by one at root and heapify recurcively . 

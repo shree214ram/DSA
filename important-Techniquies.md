@@ -19,16 +19,60 @@
     1. currentSum == Target {maxLength=Math.max(maxLength,i+1)} , 
     2. if( hash.get( currentSum - Target )) {
         maxLength=Math.max(maxLength,i-get(currentSum - Target))
-    }  
+        // (currentSum - Target) isliye kyonki hash map me is key par us time ka i index store liya tha 
+    }                                                                            |       
+                                                                                 |
+                                                             |-------------------|                   
     3. if( ! hash.has( currentSum )  )  {set((currentSum), i)} 
-   
+6. Longest subarray with sum divisible by K :-
+    1. prepare currentSum +=A[i] 
+    2. prepare modArray by modArray[i] = ((currentSum % k) + k) % k
+    3. if(modArray[i] == 0 ){
+         maxLength = i+1
+        }else if(!Hash.has(modArray[i])){
+            Hash.set(modArray[i],i)
+        }else {
+            maxLength = Math.max(maxLength, i-Hash.get(modArray[i]))
+        }
+7. https://www.geeksforgeeks.org/count-ways-to-split-a-binary-string-into-three-substrings-having-equal-count-of-zeros/
+
+    1. prepare currentSum +=1   if S[i] 0 
+		// Increment count if 0 appears
+		sum += (s[i] == '0') ? 1 : 0;
+
+	2. Increment result if sum equal to
+		// 2*k and k exists in mp
+		if (sum == 2 * k && mp.has(k) && i < s.length - 1 && i > 0)
+		{
+			res += mp.get(k);
+		}
+		
+	3. Insert sum in mp
+		if(mp.has(sum))
+			mp.set(sum, mp.get(sum)+1)
+		else
+			mp.set(sum, 1);
+	}
+	
+	4. Return result
+	return res;
+
 4. Count no of sub array whose sum is equal to target
-    1. currentSum == Target {res++} , 
-    2. if( hash.has(currentSum - Target) ) {res +=  get(currentSum - Target) }  
-    3. if( hash.has(currentSum)  ) {set((currentSum), get(currentSum)+1) } else {set((currentSum), 1)} 
+    1. if(currentSum == Target) 
+        {res++} , 
+    2. if( hash.has(currentSum - Target) ) 
+        {res +=  get(currentSum - Target) }  
+    3. if( hash.has(currentSum) ) 
+        {set((currentSum), get(currentSum)+1) } 
+       else 
+        {set((currentSum), 1)} 
+
 5. Longest consecutive 
     1. Longest consecutive sub array 
-    ### Agar current element se chota koi nahi ho to use first element samajh kar age ek ek index badate jao jab tak ki A[i+1] hash tableme mojud ho { currentLength +1} and maxLength bhi update kar lo is currentLength se 
+    ### Agar current element se chota koi nahi ho to use first element samajh kar age ek ek index 
+    badate jao jab tak ki A[i+1] hash tableme mojud ho { currentLength +1} and maxLength bhi update 
+    kar lo is currentLength se 
+    
         1. add all in hash table 
         2. maximumLength = Number.MIN_VALUE
         2. for (let i=0){ 
@@ -53,16 +97,7 @@
                     j++
                 }
             4. maximumLength = Math.max(maximumLength,currentLength)
-6. Longest subarray with sum divisible by K :-
-    1. prepare currentSum +=A[i] 
-    2. prepare modArray by modArray[i] = ((currentSum % k) + k) % k
-    3. if(modArray[i] == 0 ){
-         maxLength = i+1
-        }else if(!Hash.has(modArray[i])){
-            Hash.set(modArray[i],i)
-        }else {
-            maxLength = Math.max(maxLength, i-Hash.get(modArray[i]))
-        }
+
 ######## Heap ###########
 1. Kth Smallest in array (Max Heap)
     1. Add k element in Max Heap
@@ -144,7 +179,7 @@
     2. Or Dynamic Programming for optimal 
    ] 
 
-######## Window Sliding ###########
+######## Window Sliding ########### 
 1. fixed window sliding :-
     if we are traversing for fixed size window so 
     for(let i=0;i<A.length;i++){
@@ -153,9 +188,13 @@
 
        
     }
+    1. Maximum Sum of k size window 
 2. Dynamic Window sliding 
      //Dynamic Window 
         for (let j = i + 1; j < A.length - m + 1;) {
+    1. Minimum Size Sub Array whose sum greater than or equal to Target
+    2. Shortest sub array having Anagram of pattern string 
+    3. Longest unique substring 
 3. 
 
 ######## Two Pointer ###########
@@ -191,8 +230,13 @@
 1. Kadane's Algo :-
     {Find the Maximum Sum Array}
 2. Commulative sum :- 
-    {Find the numbers of All Odd sum arrays}
-    (comulativeSum[j]-comulativeSum[i]+A[i]) % 2 !=0 means It will increase counter1 
+    1. {Find the numbers of All Odd sum arrays}
+        1. commulativeSum+=1
+        2. if(current CommulativeSum %2 ==0){
+            counter++
+        }
+        3. Two for loop on commulative Sum Array 
+            (comulativeSum[j]-comulativeSum[i]+A[i]) % 2 !=0 means It will increase counter1 
 3. Find Duplicate :-
     1. Use array value as index 
         for (i = 0; i < size; i++) 

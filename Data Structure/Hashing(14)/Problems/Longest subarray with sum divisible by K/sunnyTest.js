@@ -9,7 +9,7 @@ const hash = new Map();
 let Max = 0
 for(let i=0;i<A.length;i++){
 //1.find currentSum array
-currentSum+= A[i]
+currentSum+= A[i] 
 //2.find mod array  
 	modArray[i]= ((currentSum%k)+k)%k
  

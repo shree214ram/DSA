@@ -1,6 +1,22 @@
 
 https://www.youtube.com/watch?v=QN9hnmAgmOc
 
+Most Important asked in below componies :- 
+
+VMWare
+Amazon
+Microsoft
+Samsung
+Hike
+Ola Cabs
+Goldman Sachs
+Adobe
+SAP Labs
+Qualcomm
+HSBC
+Grofers
+Target Corporation
+
 # Quick Sort 
 
 ```

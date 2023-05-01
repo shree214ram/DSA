@@ -326,6 +326,41 @@ DSA
             3. Distributed System 
 
 
+        DSA 
+            DONE 
+                1. Hashing 
+                2. Window Sliding 
+                3. Two Pointer 
+                5. Sorting 
+                    1. insertion sort 
+                    2. selection sort 
+                    3. heap sort 
+                    4. Merge sort 
+                    5. quick sort 
+                5. Devide and Conquare  
+                
+            NOT DONE 
+                4. Array 
+                6. Searching 
+                7. Heap 
+                8. Recursion
+                4. Greedy
+
+                1. Graph
+                2. DP
+                5. BackTracking
+                6. Queue
+                7. Stack 
+                8. Linkedlist
+
+   ### May 1 
+                1. DSA {Sorting}
+                2. React syllabus and send 
+                3. install app for digital app and start video. 
+
+                
 
 
+
+  
   

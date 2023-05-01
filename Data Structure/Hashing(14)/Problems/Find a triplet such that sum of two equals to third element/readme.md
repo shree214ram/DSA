@@ -31,7 +31,7 @@ const Arr = [6,1,2,3,4,5].sort((a,b)=>a-b)
 3. while loop until left < right 
     1. A[i]+A[l] == A[r]{ print these 3 elements }
     1. A[i]+A[l] < A[r]{ r-- }
-    1. A[i]+A[l] > A[r]{ l-- }
+    1. A[i]+A[l] > A[r]{ l++ }
 
 
 

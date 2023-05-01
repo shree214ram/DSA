@@ -18,7 +18,7 @@ Steps:-
 5. if currentSum == TargetSum then Counter++
 6. check if current sum is greater than Targetsum then check in hashTable 
    "currentSum-TargetSum" is already there then increment Counter 
-7. check if currentSum is already exist in HashTable then set currentSum to currentSum++
+7. check if currentSum is already exist in HashTable then set currentSum to currentSum+1
 8. Return Counter  
 
 counter = 0
@@ -29,7 +29,7 @@ for(){
    }
 
    if(currentSum-Target exist in Map){
-      counter=get(currentSum-Target)+1)
+      counter+= get(currentSum-Target)
    } 
 
    if(currentSum exist in Map){

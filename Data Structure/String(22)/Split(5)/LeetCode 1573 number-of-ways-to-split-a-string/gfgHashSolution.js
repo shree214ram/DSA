@@ -32,7 +32,7 @@ function count(s)
 	// ways to split string
 	for(var i = 0; i < s.length; i++)
 	{
-		
+		 
 		// Increment count if 0 appears
 		sum += (s[i] == '0') ? 1 : 0;
 
