@@ -59,7 +59,7 @@ A technique using partial evaluation. Currying refers to the process of transfor
 
 Currying: Currying is basically transforming sum(1,2,3) into sum(1)(2)(3). I will be covering currying in details in another post. Let’s look at the code:
 
-# Case 1: add(1)(2)(3)
+# Case 1: add(1)(2)(3) {Normal Multi Argument}
 It’s basically a sequence of functions with single argument. So our approach is to return a function which in turn returns another function to accept next argument.
    <script>
 function add(a){
@@ -71,7 +71,7 @@ function add(a){
 }
    </script>
 
-# Case 2: add(1)(2)(3)…(n)()
+# Case 2: add(1)(2)(3)…(n)() {multiple argument with Recursion}
 It’s basically a sequence of n+1 functions with single argument except the last one. So our approach is to return a function which in turn returns another function to accept next argument and so on till the last argument doesn’t exist.
    <script>
 function add(a) {
@@ -83,7 +83,7 @@ function add(a) {
   }
 }
    </script>
-# Case 3: sum(1,2)(3,4)
+# Case 3: sum(1,2)(3,4) {multiple argument with Multiple Parameter}
 So, this is similar as above just that we are accepting two arguments in single call. So, we need to add the arguments. Let’s look at the code:
 
    <script>
@@ -97,7 +97,7 @@ function sum(a,b) {
  
 So, it’s making sense now. Now let’s raise the complexity.
 
-# Case 4: add(1,2..n)(5,6…n)…(n)()
+# Case 4: add(1,2..n)(5,6…n)…(n)() {multiple argument with Multiple Parameter with recursion}
 Now in this case, everything is infinite. We already know infinite currying, let’s focus on infinite arguments.
    <script>
 

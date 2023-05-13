@@ -354,13 +354,161 @@ DSA
                 8. Linkedlist
 
    ### May 1 
-                1. DSA {Sorting}
-                2. React syllabus and send 
-                3. install app for digital app and start video. 
+   1. DSA {Sorting, Devide and concuere}
+    2. React syllabus and send 
+    3. install app for digital app and start video. 
+        1. Installed One Note , But Its required Digital pen for Batter Writing 
+        2. White Board and Marker but when we would required Big explanation we have to be Erase and once i need to show old part then we can not do it 
+        3. Batter to use white Paper with scach color and Simple one Mobile for virtual Explanation and for code we can represent the Laptop screen with the help of OBS Software . 
+        4. Once we will have budget we will perchase 
+            1. Light 
+            2. I pad with Pen 
+            3. Android Mobile Pen 
+        5. I am not sure should i represent Face in initial video or not , buti am not showing in initial video 
+    4. Discuss with companies for Job 
 
-                
+
+ ### May 2
+   1. DSA {  ,  }
+       Devide and concuere :-
+       1. Closest Pointer 
+       Array :-
+        1. Choclate Distribution 1 and 2 
+        2. Commulative sum {Find all Odd Sum}
+        5. Sift all 0 at last 
+       Two Pointer :-
+        3. Trapping Rain Water
+        4. Most Water Contained 
+        6. Three Sum 
+       Moore Algo for majority element :-
+        1. Find The Mejority Element
+        
+    2. Node Microservice syllabus and send 
+    3. install app for digital app and start video. 
+        https://www.youtube.com/watch?v=WkfhPakmSYU
+        https://www.youtube.com/watch?v=Sts2k-sC544
+        1. Installed One Note , But Its required Digital pen for Batter Writing 
+        2. White Board and Marker but when we would required Big explanation we have to be Erase and once i need to show old part then we can not do it 
+        3. Batter to use white Paper with scach color and Simple one Mobile for virtual Explanation and for code we can represent the Laptop screen with the help of OBS Software . 
+        4. Once we will have budget we will perchase 
+            1. Light 
+            2. I pad with Pen 
+            3. Android Mobile Pen 
+        5. I am not sure should i represent Face in initial video or not , buti am not showing in initial video 
+    4. Discuss with companies for Job 
+        1. reply at emails 
+        2. 1 interview call 
+        3. 1 Assignment 
+
+
+    
+    ### May 3
+   1. DSA {  ,  }
+       Binary Search :-
+       1. Find one closest in Array {Binary Search and Two pointer }
+       2. Find k closest in Array 
+            1. Heap
+            2. Binary Search and Two pointer 
+       Array :-
+        1. Find Duplicate {use element as index}
+        2. Find Missing {use element as index}
+        5. Second max  
+       Two Pointer :-
+        3. Trapping Rain Water
+        4. Most Water Contained 
+        6. Three Sum 
+       Moore Algo for majority element :-
+        1. Find The Mejority Element
+        
+    2. Node Microservice syllabus and send {sent and discussed , not replied by him self}
+    3. start Making Youtube video. 
+       1. Start 1 Video Over Insertion Sort 
+    4. Discuss with companies for Job 
+        1. reply at emails 
+        2. 1 interview call {Canceled }
+        3. 1 Assignment {Not Started}
 
 
 
-  
+    ### May 4
+   1. DSA {  ,  }
+       Binary Search :-
+       1. Find one closest in Array {Binary Search and Two pointer }
+       2. Find k closest in Array 
+            1. Heap
+            2. Binary Search and Two pointer 
+       Array :-
+        1. Find Maximum Sum subarray {Devide and concure , Kadane Algo}
+        1. Find Maximum Sum circuler {Kadane Algo updation}
+        2. Max Product
+            1. {Find Max Product subsequence of k element }
+            2. {Find Max Product subarray of k element }
+            3. {Find Maximum Product subarray including nagative and 0 }
+            4. {Find Product array except itself }
+        5. Second max  
+
+       Two Pointer :-
+        3. Trapping Rain Water
+        4. Most Water Contained 
+        6. Three Sum 
+       Moore Algo for majority element :-
+        1. Find The Mejority Element
+        
+    2. Node Microservice syllabus and send {sent and discussed , not replied by him self}
+    3. start Making Youtube video. 
+       1. Start 1 Video Over Insertion Sort 
+    4. Discuss with companies for Job 
+        1. reply at emails 
+        2. 1 interview call {Canceled }
+        3. 1 Assignment {Not Started}
+
+# 6 May 
+    1. code test 
+    2. DSA Revision 
+    3. Jest study and help 
+
+# 6 May 
+    1. New Training Hydrabad
+    2. DSA Revision 
+    3. Jest study and help {New Training Jest}
+
+# 7-8 May 
+    1. New Training Hydrabad
+    2. DSA Revision {2 Program}
+    3. Jest study and help {New Training Jest} [New Project for Jest Testing Libraray , AG -grid ]
+    4. Email Reply 
+
+# 9-11 May 
+    1. 4 Interview 
+    2. DSA Revision {2 Program}
+    3. Jest study and help {New Training Jest} [New Project for Jest Testing Libraray , AG -grid ]
+    4. Email Reply 
+    5. TypeScript 
+    6. AWS Study
+
+# 13 May
+### New 
+    Typescript
+    Aws
+    Jest 
+    # Run Typescript SCSS  React Redux and Jest in Live Project 
+    Export Codesandbox into Git 
+    https://www.youtube.com/watch?v=RuM4JIoO0lQ&pp=ygUWdHlwZXNjcmlwdCBjb2Rlc2FuZGJveA%3D%3D
+    cashe in javascript
+    Node+Mysql+API Integration 
+### Revision 
+    DSA 
+    {
+        React :- React Dev Tool 
+    
+        Javascript, Node, Mysql , System Design 
+    }
+    Security in Backend ??
+    Kafka ?
+    How Redis cache works 
+    Video : Architect Interview Question ? How To Architect a system 
+
+    
+    
+    
   

@@ -175,3 +175,9 @@ yozaam coding on leetcode binarysearch codeforces
 
 https://www.youtube.com/watch?v=NxOjGKpL9Tw&ab_channel=HrithikRaj
 Generate all binary strings without consecutive 1’s | Recursion & Backtracking
+
+C:\Users\Ambika\Desktop\ShreePrep\DSA\Data Structure\Array(25)\Find-Union-Intersection-2-Array\readme.md
+
+C:\Users\Ambika\Desktop\ShreePrep\DSA\Data Structure\Array(25)\Sum of All Odd Length Subarrays LeetCode 1588\readme.md
+
+C:\Users\Ambika\Desktop\ShreePrep\DSA\Data Structure\Array(25)\SplitArray\readme.md

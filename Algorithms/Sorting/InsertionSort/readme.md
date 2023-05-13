@@ -1,4 +1,4 @@
-### insertion Sort 
+### insertion Sort O(N x N)
 Devide array into two part 
     first for loop i start from 1{
         let temp = A[i]

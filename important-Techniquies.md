@@ -125,6 +125,8 @@
 6. convert bst to min heap
 7. check bt is Heap
 
+
+
 ######## Tree ###########
 
 ## Generic Tree ##
@@ -185,8 +187,6 @@
     for(let i=0;i<A.length;i++){
         //window size m 
         for(let j=i;j<i+m-1 && i + m - 1 < A.length;j++)
-
-       
     }
     1. Maximum Sum of k size window 
 2. Dynamic Window sliding 
@@ -196,15 +196,29 @@
     2. Shortest sub array having Anagram of pattern string 
     3. Longest unique substring 
 3. 
+    1. https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
+    2. https://www.geeksforgeeks.org/find-number-times-string-occurs-given-string/
+    3. https://www.geeksforgeeks.org/count-gfg-subsequences-given-string/?ref=lbp
+    4. https://www.geeksforgeeks.org/print-concatenation-of-zig-zag-string-form-in-n-rows/
+    5. Find All Anagrams in a String | Sliding window | Leetcode #438 // https://www.youtube.com/watch?v=fYgU6Bi2fRg
+    6. Sliding Window Maximum | Leetcode #239  // https://www.youtube.com/watch?v=LiSdD3ljCIE
+    7. Sliding Window Maximum - Leetcode 239 //https://www.youtube.com/watch?v=DfljaUwZsOk
+    7. Sortest Sub array with sum at least K || Leetcode #862 - Monotonic Queue //https://www.youtube.com/watch?v=K0NgGYEAkA4
+    8. Minimun Size Subarray Sum || Leetcode #209
+    9. Permutation in String | Anagram of string s1 in string s2 | Leetcode #567
+
 
 ######## Two Pointer ###########
-1. Array should be sorted 
+### Array should be sorted 
+   1. 3 Sum closest 
+   2. Most containing water 
+   3. Trappinng rain water {total water to be collected}
 ######## Stack  ###########
 1. Last In First Out 
 ######## Queue  ###########
 1. First In First Out
 ######## DeQueue  ###########
-    ### Minimum size sub array whose sum at least k {we have to use a Deque} 
+   ### Minimum size sub array whose sum at least k {we have to use a Deque} 
 
     1. prepare current sum 
         currentSum+=A[i]
@@ -226,6 +240,10 @@
     7. Add front in dequeue
         dq.addFront({first:i,second:sum})
 1. Add and remove from both side .
+
+
+
+
 ######## Array  ###########
 1. Kadane's Algo :-
     {Find the Maximum Sum Array}
@@ -303,16 +321,33 @@
             }
         }
 
-######## Strings  ###########
 
-######## Recursion  ###########
-######## DP  ###########
-######## Backtracking  ###########
-######## Graph  ###########
 
 ######## Searching   ###########
 1. Lenear Serch 
 2. binary Search 
+
+
+######## Devide and Conquare   ###########
+1. Find in 2D Matrix
+2. Find Mejority Element {Count of Element should be greater than N/2}
+    mej = 0
+    count = 1
+    for(i=1){
+        if A[i] == mej{
+            count++
+        }else{
+            count--
+        }
+        //agar ittrate karte vakt again count reached at 0 
+        if(count==0) {
+            mej = i //new index
+            count = 1
+        }
+    }
+3. Power of X
+4. Find the closest pair in N points 
+
 ######## Sorting   ###########
 1. insertion sort ;- 
     Devide array into two part 
@@ -340,4 +375,10 @@
     Delete from Top 
         1. Call hepify function recursivelly till last child until Max Heap {parent should be greaterthan childs}
 
+
+######## Strings  ###########
+######## Recursion  ###########
+######## DP  ###########
+######## Backtracking  ###########
+######## Graph  ###########
     

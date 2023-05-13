@@ -23,7 +23,7 @@ for(let i=0;i<Arr.length;i++){
 ###### Note :- this method for print all matched  
 https://www.geeksforgeeks.org/find-triplet-sum-two-equals-third-element/
 
-const Arr = [6,1,2,3,4,5].sort((a,b)=>a-b) 
+const Arr = [6,1,2,3,4,5].sort((a,b)=>a-b)) 
 
 1. Sort array 
 2. for loop i  will be fixed point 

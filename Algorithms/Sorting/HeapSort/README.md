@@ -1,4 +1,4 @@
-//https://www.geeksforgeeks.org/heap-sort/
+//https://www.geeksforgeeks.org/heap-sort/ O(N x Logn)
 //https://www.youtube.com/watch?v=Q_eia3jC9Ts
 
 Most Important asked in below componies :- 

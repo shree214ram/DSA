@@ -27,10 +27,10 @@
    ##### Using a function constructor
    <script>
         var Obj = function(name) {
-        this.name = name
+          this.name = name
         }
         var c = new Obj("hello"); 
-        // What the new operator does is call a function and setting this of the function to a fresh new Object, and binding the prototype of that new Object to the function's prototype. As is:
+        // What the new operator does is call a function and setting "this" of the function to a fresh new Object, and binding the prototype of that new Object to the function's prototype. As is:
 
         function f {};
 
@@ -66,11 +66,10 @@
    ##### Singleton pattern:
    <script>
         var l = new function(){
-        this.name = "hello";
+          this.name = "hello";
         }
         Related protips:
    </script>
-
 
 
 creating an Object constructor,prototype,factory method
@@ -79,9 +78,6 @@ https://www.youtube.com/watch?v=xizFJHKHdHw
 https://coderwall.com/p/p5cf5w/different-ways-of-creating-an-object-in-javascript
 
 https://hackernoon.com/create-objects-in-javascript-10924cfa9fc7
-
-
-
 
 ### difference between object.create and new Keyword object create 
     http://frontendnotes.net/what-the-difference-between-object-create-and-new-keyword/

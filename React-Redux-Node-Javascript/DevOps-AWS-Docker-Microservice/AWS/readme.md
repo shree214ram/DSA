@@ -1,0 +1,1 @@
+Working knowledge in AWS Services - S3/Lambda/Dynamo DB etc

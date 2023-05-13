@@ -74,7 +74,7 @@ https://www.youtube.com/watch?v=MSkk49c0U04
     ```
 
 
-## Divide and Conquer 
+## Divide and Conquer O(nLogn)
 
 See MaximumSubArraySum-Devide&Conquer
 

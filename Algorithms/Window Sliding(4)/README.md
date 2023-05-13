@@ -91,8 +91,8 @@ Basically there are 2 methods
 // 4. https://www.geeksforgeeks.org/print-concatenation-of-zig-zag-string-form-in-n-rows/
 // 5. Find All Anagrams in a String | Sliding window | Leetcode #438 // https://www.youtube.com/watch?v=fYgU6Bi2fRg
 // 6. Sliding Window Maximum | Leetcode #239  // https://www.youtube.com/watch?v=LiSdD3ljCIE
-// 7. Sliding Window Maximum - Monotonic Queue - Leetcode 239 //https://www.youtube.com/watch?v=DfljaUwZsOk
-// 7. Sortest Sub array with sum at least K || Leetcode #862 //https://www.youtube.com/watch?v=K0NgGYEAkA4
+// 7. Sliding Window Maximum  - Leetcode 239 //https://www.youtube.com/watch?v=DfljaUwZsOk
+// 7. Sortest Sub array with sum at least K || Leetcode #862 - Monotonic Queue //https://www.youtube.com/watch?v=K0NgGYEAkA4
 // 8. Minimun Size Subarray Sum || Leetcode #209
 // 9. Permutation in String | Anagram of string s1 in string s2 | Leetcode #567
 

@@ -10,7 +10,7 @@ Basically there are 2 methods same like Median of 2 array (../MedianOf2Arrays/Me
     The naive method is to run two loops. The outer loop picks the beginning element, the inner loop finds the maximum possible sum with first element picked by outer loop and compares this maximum with the overall maximum. Finally return the overall maximum. The time complexity of the Naive method is O(n^2).
 2. Divide and Conquer :- 
     Using Divide and Conquer approach, we can find the maximum subarray sum in O(nLogn) time. Following is the Divide and Conquer algorithm.
-
+ 
     1) Divide the given array in two halves
     2) Return the maximum of following three
     ….a) Maximum subarray sum in left half (Make a recursive call)

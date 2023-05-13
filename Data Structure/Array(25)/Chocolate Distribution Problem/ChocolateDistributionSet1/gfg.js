@@ -8,7 +8,7 @@
 // maximum and minimum values of
 // distribution.
 function findMinDiff(arr, n, m)
-{
+{ 
 	
 	// If there are no chocolates or
 	// number of students is 0

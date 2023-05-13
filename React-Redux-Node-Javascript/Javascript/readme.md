@@ -109,4 +109,6 @@ Frameworks vs VanillaJS
 Every word you say will be or can be used as a counter question so don’t bring any new topic that you aren’t confident about.
 
 
+# Experience with browser APIs and optimizing front-end performance
+
 

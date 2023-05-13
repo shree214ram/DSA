@@ -10,6 +10,8 @@ from one domain to another doamin api calling , browser uses the cors policy to 
             3. Same Domain different Port :- sunny.com/3000 {fail}
             4. different Domain :- kamini.com {fail}
 
+   Option Method :- 
+        same like Get/Post/Patch/Put/Delete a Option Method also is there wich is usefull for Security Test and Check Access Controll Allow Origin
 
             A      Preflight/Option Call             B
                     ---------------->

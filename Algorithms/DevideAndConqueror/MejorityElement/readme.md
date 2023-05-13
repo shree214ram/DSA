@@ -42,6 +42,8 @@
 
 
 ### Solution4. Using Moore’s Voting Algorithm: O(n)/O(1):- 
+Step 1 :-Find the candidate for Mejority 
+Step 2 :-Check the candidate is Mejority 
 
 1. Maintain 2 variable count=1 and mejority index maj_index=0.
 2. ittrate 1 for loop i=1 to n times and  

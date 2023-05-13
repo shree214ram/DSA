@@ -6,6 +6,7 @@
     2. Event Capturing Goes from Top to Bottom {no any parameter Or false}
     3. First Event Capturing covers and then Event bubbling 
     4. By default it understand "false" which is event bubbing
+    
     ```
     Event Capturing              Event Bubbling
                                     ^

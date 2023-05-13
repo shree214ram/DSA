@@ -88,5 +88,8 @@ Space Complexity : O(m) As we are using Extra space for strings temp and sortedp
 
 SunnyPracticedLatest.js see this file for correct code 
 
+### Additional problem on top of that if Pattern having Repeated character Approach 3 will fail in that case 
+additionCode.js
+
 
 https://gist.github.com/SuryaPratapK/93905c88c3e23477e4c3451d0db90a82

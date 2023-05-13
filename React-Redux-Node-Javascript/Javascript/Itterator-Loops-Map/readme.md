@@ -11,3 +11,26 @@ foreach: This iterates over a list and applies some operation with side effects 
 map: This iterates over a list, transforms each member of that list, and returns another list of the same size with the transformed members (example: transforming list of strings to uppercase)
 For more explanation visit the below link:
 https://codeburst.io/javascript-map-vs-foreach-f38111822c0f
+
+<script>
+let arr = [1, 2, 3, 4, 5];
+ForEach:
+
+Note that you would never return from a forEach function as the return values are simply discarded:
+
+arr.forEach((num, index) => {
+    return arr[index] = num * 2;
+});
+Result:
+
+// arr = [2, 4, 6, 8, 10]
+Map:
+
+let doubled = arr.map(num => {
+    return num * 2;
+});
+Result:
+
+// doubled = [2, 4, 6, 8, 10]
+
+</script>

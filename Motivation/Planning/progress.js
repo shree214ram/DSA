@@ -37,7 +37,7 @@ salesforce /
 Tesla
 Apple 
 Microsoft
-Swiggy / Zomatto / Dunzo / Zepto / BigBasket 
+Swiggy / Zomatto / Dunzo / Zepto / BigBasket / Curl.fit
 Citicorp
 Informatica
 MakeMyTrip /cleartrip 

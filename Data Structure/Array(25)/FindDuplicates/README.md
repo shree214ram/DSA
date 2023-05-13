@@ -7,9 +7,13 @@
 4. XOR O(n),O(1) (Non 0 and Non repeated more than 2 value )
 5. Method 5 (Use array elements as index) 
     https://www.youtube.com/watch?v=iiYc32-4ZJY&t=954s
-
+        const numArray = [1,4,6,7,1]
     1. think array itself like Hash map 
-    2. A[A[i]%n]+=n (n is the total size of array)
+    2. Ittrate array once and update numArray[numArray[i]%n]+=n (n is the total size of array)
+    3. check for each element  
+        if(numArray[i] >= n*2){
+            print A[i] that is repeatable 
+        }
 
     code :- please look code.js
 

@@ -12,7 +12,7 @@ Your program should make the "minimum" number of comparisons.
     ```
     min = 999999,  max=-1
     Arr = [12,3,34,90,2,1]
-
+ 
     if(A[0]<A[1]){
         min = A[0]
     } else {
@@ -89,3 +89,16 @@ https://www.youtube.com/watch?v=p_Gvzo0iNPE
             2. Increment by 2 i+2 for skip i+1 which is already encountered .
          }
     ```
+
+    Time Complexity: O(n)
+    Auxiliary Space: O(1) as no extra space was needed.
+
+    The total number of comparisons: Different for even and odd n, see below: 
+
+        If n is odd:    3*(n-1)/2  
+        If n is even:   1 Initial comparison for initializing min and max, 
+                            and 3(n-2)/2 comparisons for rest of the elements  
+                        =  1 + 3*(n-2)/2 = 3n/2 -2
+    The second and third approaches make an equal number of comparisons when n is a power of 2. 
+    In general, method 3 seems to be the best.
+    Please write comments if you find any bug in the above programs/algorithms or a better way to solve the same problem.

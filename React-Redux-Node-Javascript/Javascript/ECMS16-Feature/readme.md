@@ -18,6 +18,7 @@ Object.Assign (...old)
 const arr = [22,1,33,6,9];
 const arr2 = [...arr];//spread 
 
+
 arr[1] = "kamini";
 console.log(arr2, "arr2")
 spread operator property: regarding shallow and deep copy
@@ -87,4 +88,28 @@ console.log(otherInfo);
  ### 7-differences-between-arrow-functions-and-regular-functions :- 
  https://levelup.gitconnected.com/7-differences-between-arrow-functions-and-regular-functions-in-javascript-9152883a839f
 
- 
+   # Syntax
+    Some Syntax difference 
+   # No arguments (arguments are array-like objects)
+    Array function does not have arguments But its works with rest parameter 
+    const myFn =() =>{
+       console.log(arguments.length) //undefined
+    }
+    const myFn =(...numbers) =>{
+       console.log(numbers.length) //4
+    }
+   # No prototype object for the Arrow function
+    Array function does not have prototype But its works with rest parameter 
+    const myFn =() =>{
+       
+    }
+    myFn.prototype.name = "Sunny" 
+    console.log(myFn.prototype)//undefined
+    function myFn(...numbers){
+       
+    }
+    console.log(myFn.prototype)//constructor
+   # Cannot be invoked with a new keyword (Not a constructor function)
+   # No own this (call, apply & bind won't work as expected)
+   # It cannot be used as a Generator function
+   # Duplicate-named parameters are not allowed

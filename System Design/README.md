@@ -68,6 +68,17 @@ I have covered all the concepts that are mandatory to learn system design and th
     6. difference-between-api-gateway-and-load-balancer 
     https://levelup.gitconnected.com/system-design-interview-basics-difference-between-api-gateway-and-load-balancer-60260b568121
 
+    ======================Interview Question===
+
+    System Design Master Template: How to Answer Any System Design Interview Question.
+
+    https://levelup.gitconnected.com/system-design-master-template-how-to-answer-any-system-design-interview-question-ee5dc332acd5
+
+    https://levelup.gitconnected.com/system-design-interview-survival-guide-2023-preparation-strategies-and-practical-tips-ba9314e6b9e3
+
+    https://levelup.gitconnected.com/system-design-interview-basics-difference-between-api-gateway-and-load-balancer-60260b568121
+
+    
 11. Microservices
 12. Databases
     # https://www.youtube.com/watch?v=5faMjKuB9bc
@@ -186,7 +197,7 @@ Health checks: https://youtu.be/lWE_UIbm8NA
 Designing Data Intensive Applications - https://amzn.to/2yQIrxH
 
 System Design Playlist: https://www.youtube.com/playlist?list...
-
+ 
 
 1. Vertical Scalling (Single Chef)
 2. Pre Request Preparation (Single Chef with more work in extra working hours and give him extra {Cron Jobs})
@@ -356,3 +367,4 @@ goole syaytem design interview
 https://www.geeksforgeeks.org/system-design-tutorial/
 https://www.geeksforgeeks.org/getting-started-with-system-design/
 https://www.geeksforgeeks.org/5-common-system-design-concepts-for-interview-preparation/
+

@@ -16,5 +16,6 @@ https://www.geeksforgeeks.org/how-to-position-a-div-at-the-bottom-of-its-contain
 7. What Is the difference between Flex and Grid Difference between CSS Grid and CSS Flexbox - GeeksforGeeks
 Mixin in css 
 
-
+HTML/CSS experience, including concepts like layout, specificity, cross-browser
+compatibility, and accessibility
 

@@ -4,7 +4,7 @@
 const A = [2, 3, 1, 0, 2, 2, 4, 2, 1] // output 3
 
 const Target = 7
-
+ 
 let left = right = 0;
 let min = Number.MAX_VALUE;
 let currentSum = 0

@@ -1,0 +1,1 @@
+C:\Users\Ambika\Desktop\ShreePrep\DSA\Data Structure\Hashing(14)\Problems\Find a triplet such that sum of two equals to third element\readme.md

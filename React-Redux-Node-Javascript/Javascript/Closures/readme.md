@@ -3,7 +3,10 @@
 2. when we reurn a function in a function then it remember all the laxical scope variable 
 
 # What is a closure in Javascript?
-A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.Feb 2, 2013
+A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: 
+1. it has access to its own scope (variables defined between its curly brackets), 
+2. it has access to the outer function's variables, and 
+3. it has access to the global variables.Feb 2, 2013
 Understand JavaScript Closures With Ease | JavaScript is Sexy
 javascriptissexy.com/understand-javascript-closures-with-ease/
 Search for: What is a closure in Javascript?

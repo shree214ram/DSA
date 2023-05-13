@@ -31,7 +31,7 @@ https://webdesign.tutsplus.com/tutorials/javascript-debounce-and-throttle--cms-3
 			timer =  setTimeout(()=> func(...args),delay)
 		} 
 		 
-	}
+	} 
 	//@mistake 1 at place of button.addEventListener i have written window
 	//@mistake 2 at place of addEventListener i have written addEventlitner
 	button.addEventListener("click",debounceFn(()=>{

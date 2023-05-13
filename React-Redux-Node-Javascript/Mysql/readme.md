@@ -6,6 +6,10 @@ Mysql Study start
     MySQL HAVING Clause (w3schools.com)
 https://www.w3schools.com/mysql/mysql_having.asp
 
+Practice :-
+https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_having
+https://www.w3schools.com/mysql/func_mysql_period_add.asp
+
 2. Tutorial point also good for learning Mysql 
 
     MySQL - Transactions (tutorialspoint.com)

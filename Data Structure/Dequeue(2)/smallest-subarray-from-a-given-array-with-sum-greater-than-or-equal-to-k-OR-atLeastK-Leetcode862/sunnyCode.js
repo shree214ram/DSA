@@ -71,13 +71,14 @@ class DeQueue {
         return str;
     }
 }
+ 
 
 
 class Solution {
     shortestSubarray(nums, Target) {
         const n = nums.length;
         // creating object for queue class 
-        var dq = new DeQueue(); //index,sum
+        var dq = new DeQueue(); 
         let sum = 0;
         let shortest = Number.MAX_VALUE;
 
@@ -86,7 +87,7 @@ class Solution {
             if (sum >= Target) shortest = Math.min(shortest, i + 1);//Sum from start to i-th index
 
             //Reduce window size to find minimum window with sum>=Target
-            let curr = { first: Number.MAX_VALUE, second: Number.MAX_VALUE };
+            let curr = { first: Number.MAX_VALUE, second: Number.MAX_VALUE }; //index,sum
             while (!dq.isEmpty() && (sum - dq.getFront().second >= Target)) {
                 curr = dq.getFront();
                 dq.deleteFront();

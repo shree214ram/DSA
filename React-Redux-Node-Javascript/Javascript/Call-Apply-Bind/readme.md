@@ -2,12 +2,20 @@ https://www.youtube.com/watch?v=75W8UPQ5l7k
 
 1. Call :-
     1. Call a method by self reference 
-        const myObj = {fullName:()=>{console.log("test")}}
-        myObj.fullName.call(myObj)
+        const myObj = {
+            fullName:()=>{console.log("test")},
+            firstname: "sunny"
+            lastname: "parmar"
+            
+            }
+        myObj.fullName.call(myObj) //sunny parmar
     2. Borrow function from one object and call in another object 
         const myObj = {fullName:()=>{console.log("test")}}
-        const myObj2 = {}
-        myObj.fullName.call(myObj2)
+        const myObj2 = {
+            firstname: "kamini"
+            lastname: "pawar"
+            }
+        myObj.fullName.call(myObj2,city=banglore)  //kamini pawar
 
 
 2. Apply :-
