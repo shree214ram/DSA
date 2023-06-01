@@ -19,7 +19,7 @@ const memoize = (fn) => {
       cache[n] = result;
       return result;
     }
-  }
+  } 
 }
 // creating a memoized function for the 'add' pure function
 const memoizedAdd = memoize(add);

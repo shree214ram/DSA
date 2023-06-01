@@ -3,7 +3,7 @@
 https://www.javatpointcom/css-interview-questions
 https://career.guru99.c.om/top-50-csscascading-style-sheet-interview-questions/
 
-1. pseudo element in css =====> {p::first-line} 
+1. pseudo  element in css =====> {p::first-line} 
 2. display inline / display block in css (display: inline-block;)
 3. how can u make Triangle via css  How to Create Triangle in CSS ? - GeeksforGeeks
 4. how can u make Circle via css 

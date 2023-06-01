@@ -1,5 +1,5 @@
-const A = "qwabcsdyu";
-const P = "abcd";
+const A = "abdfcbak"
+const P = "abc"
 //10:02 //10:14 //10:23
 const hashP = new Map();
 const hash = new Map();
@@ -23,8 +23,8 @@ for(let i=0;i<A.length;i++){
     }else{
     	hash.set(A[i].charCodeAt(0),1)
     }
-    
-    if(hashP.get(A[i].charCodeAt(0)) ){
+    //Mistake bahut badi
+    if(hashP.get(A[i].charCodeAt(0)) >=hash.get(A[i].charCodeAt(0)) ){
     	counter++
     }
     console.log(counter,"countter");    

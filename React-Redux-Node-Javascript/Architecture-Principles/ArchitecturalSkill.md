@@ -27,18 +27,6 @@ Knowledge of user authentication and authorisation between multiple systems, ser
 Code optimization for better performance of the tool and software
 Working directly with the team leads and architects to complete the assigned tasks
 
-# AWS
-
-Experience with cloud-based infrastructure such as AWS (including EC2, S3, SQS, SNS,
-DocumentDB, OpenSearch) and containerization technologies such as Docker and
-Kubernetes
-
-Understanding of core AWS services, uses, and basic AWS architecture best practices
-
-9)Proficiency in developing, deploying, and debugging cloud-based applications using AWS
-
-10)Should have knowledge on AWS services like AWS – SNS, SQS,WAT, ELB, Rest API, VPC,      Cloudfront,secretManager,CloudTrail,Load Balancers, Route53
-
 11)Proficiency in AWS Services like ECS,EC2,S3,Lambda,APIgateway,Cloudwatch,Cloud Formation & Dynamo DB
 
 12)Ability to rapidly learn and take advantage of new concepts, business models, and technologies

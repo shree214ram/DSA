@@ -14,6 +14,11 @@ Jest is a Javascript Testing Framework by Facebook. It is used most commonly for
 testForAdd: (a, b) => { return (a + b) },
 
 //index.test.js
+
+    import testForAdd from "./index"
+
+    const testFns = jest.fn((a,b)=>a+b)
+
 test('test adding two positive nums', function() {
     expect(testFns.testForAdd(4, 5)).toBe(9);
 });

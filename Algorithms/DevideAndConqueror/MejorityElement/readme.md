@@ -47,7 +47,7 @@ Step 2 :-Check the candidate is Mejority
 
 1. Maintain 2 variable count=1 and mejority index maj_index=0.
 2. ittrate 1 for loop i=1 to n times and  
-3. if array of last mejority index value == a[i] increment count by 1 else decrement count by 1
+3. if array of last mejority index "value" == a[i] increment count by 1 else decrement count by 1
 4. if count is 0 then replace maj_index with i and count by 1 
 5. in last we will check mejority value is greater than N/2 or not with the help of function isMajority
 

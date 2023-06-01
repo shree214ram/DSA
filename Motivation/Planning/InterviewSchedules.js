@@ -102,3 +102,30 @@ indus
 
 ahtree --
 
+===
+kohler 
+
+accordis == Monday 12 to 12:30
+
+expressitmanpower == aafine == 
+
+cme 
+
+==
+ymedianlab 
+==
+
+skydio
+
+==
+meetings 
+5 hr 
+
+10 am to 6 pm {5 hr}
+
+80 k 2% deducted 
+
+
+apptio 
+
+unifitech 

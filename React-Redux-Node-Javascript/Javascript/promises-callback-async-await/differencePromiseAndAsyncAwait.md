@@ -36,7 +36,8 @@ That is a very general question and there are both cases we might need to use wh
 
 If you are using another asynchronous function which is depending on the first asynchronous function, you should use await to wait first one to finish instead of promise chaining.
 Await keyword blocks the execution for the next lines until it finishes. If you don’t need to block the execution you can call the async function without await. (For example, push notifications, if you don’t want to check the status of a push notification has been delivered or not you can skip await keyword, and code execution will continue asynchronously)
-If there are multiple asynchronous functions that can be run in parallel, you can use promise.all([promise1,promise2]) to run them in parallel.
+If there are multiple asynchronous functions that can be run in parallel, 
+you can use promise.all([promise1,promise2]) to run them in parallel.
 Using async/await definitely will help you to understand asynchronous processes much faster.
 Instead of using promise chaining async / await provides a much cleaner code.
 If you are using many microservices and asynchronous functions using async / await will help you to debug your code much faster. Generating the breakpoints in the promise chaining can be really tricky.
@@ -46,7 +47,31 @@ Async await can be written in the try-catch block along with all other codes.
 Conclusion:
 Using async / await while dealing with promises brings so much flexibility, clean code, and much more easy debugging.
 
-Except than using Promise.all() to run parallel asynchronous executions you can accomplish all the other asynchronous tasks with async / await.
+Except than using Promise.all() to run parallel asynchronous executions you can 
+ all the other asynchronous tasks with async / await.
 
 Using async/await definitely will provide you with many benefits while you are working on big projects and it makes your and other developer's life easy.
 
+
+https://www.youtube.com/watch?v=59PZr-2Mi90&ab_channel=RethinkingUI
+# Promise.all :-
+    If we have 3 promises and we want all the promises should run and complete then return result in the array format 
+
+    const P1 = new Promise()
+    const P2 = new Promise()
+    const P3 = new Promise()
+
+    Promise.all([p1,p2,p3] , (result) => {
+        console.log(result)
+    })
+
+   1. Print in same format :- Same format me hi response dega yadi P2 pahle hua ho bhale hi par ve [p1,p2,p3] format me hi print karge
+    2. Task are dependent on each other :- Yadi ek bhi fail ho gaya to Jaha par fail hua us error ko show karte hue Ruk Jayega 
+
+# Promise.allSettles :-
+   1. Task are not dependent on each other:-  Isme dependent nahi he jiska jo output hoga vo sath me dikhayega , Rukega nahi 
+
+# Promise.any :-
+   1. Jo bhi pahla sucessed hoga print kardega  
+# Promise.race :-
+   1. Jo bhi pahla sucessed/Failure  hoga print kardega 

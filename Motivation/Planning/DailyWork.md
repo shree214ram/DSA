@@ -508,7 +508,96 @@ DSA
     How Redis cache works 
     Video : Architect Interview Question ? How To Architect a system 
 
-    
+    # 17 May
+        1. Reviosion of CSS {DONE}
+        1. Reviosion of JS {DONE} 
+            Promise All,serial,any paralal .
+        1. Reviosion of React {DONE}
+        1. Reviosion of Node {DONE} 
+        1. Reviosion of Mysql {Indexing, Query}/ MongoDB
+        1. Reviosion of Backend 47 Questions  
+        1. Reviosion of DSA 
+        1. Reviosion of System Design 
+            1. Microservice 
+            2. Rest API 
+            3. Distributed System 
+            4. Learn Something New :-  
+                Kafka , {How to add Kafca in AWS https://aws.amazon.com/blogs/compute/using-self-hosted-apache-kafka-as-an-event-source-for-aws-lambda/}
+                API Gateway , 
+                Load Balancer , 
+                Apache spark , 
+                Big Data , 
+            1. Reviosion of Devops Docker and Mocroservice  
+            1. Reviosion of AWS  
+                1. Intro 
+                2. Benifits 
+                3. Services 
+                    1. Elastic Computing Cloud EC2 
+                    2. Elastic Container Repository 
+                    3. AWS Lambda 
+                        1. Lambda Functions
+                        2. Benifits 
+                        3. Drawbacks / Limitation 
+                        4. Difference between EC2 Vs ECR Vs Lambda
+                    4. API Gateway 
+                    5. Load Balancer 
+                    6. AWS Storage 
+                        1. S3
+                        2. Multimedia 
+                        3. Application Data 
+                        4. Database 
+                        5. Glaciar [Birth Certificate]
+                    7. Elastic Search {Kibana Dashboard}
+                    8. Benstalk 
+                    
+        1. Reviosion of Behavioral Question   
+        1. Reviosion of Architectural Principle    
+        1. Reviosion of Jest   
+        1. Reviosion of TypeScript    
+        1. Reviosion of OOPS    
+        1. Reviosion of Testing-Improvement    
+        1. Reviosion of Performance-Optimised-Application   
+        
+    # Live Project :- Typescript,SCSS,React,Redux and Jest , NodeJs , Express Js , MongoDB, Rest API , Swagger , JWT , 
+
+    https://codesandbox.io/s/tt02f?file=/package.json
+    https://codesandbox.io/s/rest-api-b7vql?file=/db.sqlite
+    https://codesandbox.io/s/github/TomDoesTech/REST-API-Tutorial-Updated/tree/main/?file=/src/utils/swagger.ts 
+    https://codesandbox.io/p/sandbox/rest-api-example-starter-lng0o?file=%2Fpackage.json%3A1%2C1
+
+    https://codesandbox.io/s/yezcb?file=/src/index.js  {Express and mongoDB}
+     
+
+
+   1. System Design
+       1. Doind study Revision Of 
+          1. CAP Theoram {DONE}
+          2. All Important Tools and Tech stuf {DONE}
+
+          3. Practice at All Live Application System Design 
+       2. UML Diagram and sequence flow diagram class diagram practice {How to make each diagram}
+       3. 
+   2. Microservice Architecture {Theory}
+   3. Mysql and MongoDB 
+   4. Backend 
+   5. practice at POST API 
+   6.  XSS 
+   7. Serverside Rendering {DONE}
+
+   React Routing Navigatio 
+   Kafka ?
+    How Redis cache works 
+    1. banifits of context over redux 
+        1. what is context
+        2. what is consumer hell 
+        3. how can we resolve consumer hell 
+        4. what is useContext
+        5. what is benifits of useContaxt Over Redux 
+    2. benifits of middleware in redux 
+
+
+31752339533
+
     
     
   

@@ -18,3 +18,6 @@ What are the important Point we should keep in mind at the time of building a sy
 9. Communication {TCP/IP,HTTP , TSL , Web Socket }
 10. Explain for single point failure handling {TCP and DB sharding}with Load Balancing 
 
+
+### Step by steps for How to Creak the System Design Interview {Follow the best rules and Basic Template }
+https://www.youtube.com/watch?v=i7twT3x5yv8&ab_channel=ByteByteGo

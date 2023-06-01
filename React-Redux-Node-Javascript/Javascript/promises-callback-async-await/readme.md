@@ -2,9 +2,6 @@
 https://www.youtube.com/watch?v=ap-6PPAuK1Y&ab_channel=AkshaySaini
 https://www.youtube.com/watch?v=U74BJcr8NeQ&ab_channel=AkshaySaini
 
-
-
-
 What is a Promise:- 2022?
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 

@@ -7,6 +7,7 @@ https://www.youtube.com/watch?v=2Np2lxYx0l4&ab_channel=Cybernatico
     
 1. Micro :-  console.log,promise 
 2. Macro :- setTimeout,setTimeinterval
-    
+
+
     
     

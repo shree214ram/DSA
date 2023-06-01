@@ -1,10 +1,33 @@
+#### whatis rest api :-
+    Rest  is stands for  "Representational state transfer"
+
+    REST is a web based architecture for representing data in different Format like Json,XML,HTML .
+    Rest basically uses HTTP Protocol to perform different behavior and events Like 
+    
+    app.get
+    app.post
+    app.delete
+    app.put
+
+    Rest is a very good tool for transfer information from one source to destination .
+    Rest is platform and language independent it can be supportable in any Opertaing system OS/Windows/Linux and supportable in all Programming Lannguage like Java/Python/Javascript/PHP
+
+    API is "Application Programming Interface" 
+
+#### What is webservice ?
+    Web service the group of collections of so many small services 
 
 ###### Best Practice for Implement Rest API 
 https://scalans.com/9-best-practices-to-follow-for-a-perfect-restful-api-design
 1. Security :-
-    1. Use SSO and Token Auth V2 
-    2. Validate all input variales with all SQL Injections 
-    3.  
+  
+    1. HTTP and SSL and TSL 
+    2. Cross Site Scripting (XSS)
+    3. API GetWay {Reverse Proxy}
+    4. Oauth {JWT Token} (Authointication And Authorization)
+    5. Prioritize vulnerabilities 
+    6. Validate all input variales with all SQL Injections :- Validation at each field from client/server side 
+
 2. Use JSON for REQUEST/RESPONSE Payload/response
 3. Avoid Using Verbs in Rest API Path :-
     "POST: /user" is correct at place of "POST: /user/createUser" 

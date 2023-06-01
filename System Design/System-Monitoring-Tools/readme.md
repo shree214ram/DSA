@@ -59,7 +59,7 @@ https://medium.com/@sannidhi.s.t/dead-letter-queues-dlqs-in-kafka-afb4b6835309
 
 #### Way to transfer information from one server to another Or One Application to Another Application ?
 1. Rest API {Payload}
-2. Message Queue 
+2. Message Queue {RebbitMQ}
 2. Message Stream {Kafka}
 2. Shared Database 
 2. S3 Bucket (Cloud Storage)
@@ -67,3 +67,6 @@ https://medium.com/codex/sending-data-between-applications-e08fb0028a71
 
 #### How to build Analytical Dashboard  ?
 Big Data Hadoop Apache spark 
+
+#### How to build Kibana Dashboard  ?
+AWS Elastic Search 

@@ -1,0 +1,20 @@
+<script>
+//6:44
+const A = [1,2,3,8,9,10,2,3,4];
+const k = 3;
+let maxSum = Number.MIN_VALUE;
+let currentWindowSum = 0
+for(let i=0;i<k;i++){
+	currentWindowSum+=A[i]
+}
+maxSum= Math.max(maxSum,currentWindowSum)
+
+for(let i=k;i<A.length;i++){
+//add from front and remove from rear 
+	currentWindowSum= currentWindowSum +A[i]-A[i-k];
+    
+    maxSum= Math.max(maxSum,currentWindowSum);
+}
+console.log(maxSum)
+how many mistakes ??explain me 
+</script>

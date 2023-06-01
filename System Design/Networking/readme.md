@@ -42,3 +42,12 @@
 
 5. Difference between Reverse proxy and Load Balancer 
 https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer
+
+
+SSL, TLS, HTTPS Explained
+
+https://www.youtube.com/watch?v=j9QmMEWmcfo
+
+
+How TLS Works :-
+https://www.youtube.com/watch?v=THxIyHz191A

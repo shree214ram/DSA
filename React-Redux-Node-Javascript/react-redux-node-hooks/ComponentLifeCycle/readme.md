@@ -9,7 +9,7 @@ In React 16.8
 
 ### Updating :- 
 1.  getDerivedStateFromFrom {ComponanatWillReciveProp}  ,
-2. shouldUpdateComponanat, render ,
+2. shouldComponanatUpdate, render ,
 3. getSnapShotBeforeUpdate {ComponanatWillUpdate},
 4. componanatDidUpdate
 

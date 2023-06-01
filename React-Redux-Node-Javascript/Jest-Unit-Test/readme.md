@@ -25,7 +25,6 @@ https://github.com/jmarceli/mock-window/blob/master/src/existing-variable/index.
 
 https://remarkablemark.org/blog/2018/11/17/mock-window-location/
 
-https://jestjs.io/docs/mock-functions#mocking-modules
 
 https://stackoverflow.com/questions/64889165/fireevent-click-is-not-directing-me-to-another-page
 
@@ -38,6 +37,7 @@ https://www.freecodecamp.org/news/testing-react-hooks/
 Jest And Enzyme
  
 https://jestjs.io/docs/en/getting-started
+https://jestjs.io/docs/mock-functions#mocking-modules
 
 https://pusher.com/tutorials/react-jest-enzyme
 

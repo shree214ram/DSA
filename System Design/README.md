@@ -37,14 +37,14 @@ I have covered all the concepts that are mandatory to learn system design and th
     1. Consistency
     2. Availability
     3. Partition Tolerance
-
+ 
     Commit And Rollback 
 5. Availability
 6. Partition Tolerance
 7. CAP Theorem
-8. Domain Name System
-9. Content Delivery Network
-10. Load Balancers and Reverse Proxy
+8. Domain Name System {DNS: AWS Route53}
+9. Content Delivery Network {CDN}
+10. Load Balancers , Reverse Proxy and API Gatway
     Load Balancing 
     ###### https://www.youtube.com/watch?v=K0Ta65OqQkY
     What is Load Balancing? ⚖️
@@ -54,8 +54,6 @@ I have covered all the concepts that are mandatory to learn system design and th
     2. What is Reverse Proxy ?.
     3. What is difference between Load Balancer and Reverse Proxy ?.
         https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer
-
-        
     4. What is difference between VPN and Reverse Proxy ?.
     https://www.youtube.com/watch?v=MiqrArNSxSM&ab_channel=ITkFunde
 
@@ -86,7 +84,7 @@ I have covered all the concepts that are mandatory to learn system design and th
     Gaurav Sen
     745K views
     3 years ago
-13. Caching
+13. Caching {Redis}
     ###### https://www.youtube.com/watch?v=U3RkDLtS7uY
     What is Distributed Caching? Explained with Redis!
     {How to reduce Network Call}
@@ -101,12 +99,18 @@ I have covered all the concepts that are mandatory to learn system design and th
 
         Write Through 
         Write Back
-14. Message Queues
+    ### https://www.youtube.com/watch?v=dGAgxozNWFE&ab_channel=ByteByteGo
+    Deep dive in Cache
+14. Message Queues {RebbitMQ}
     ###### https://www.youtube.com/watch?v=oUJbuFMyBDk
     What is a Message Queue and Where is it used?
 
     With Pizza shop example and Load balancer , there is a very important thing in Sysytem Design is 
     Task/Message Queue :- 
+
+    https://dev.to/karanpratapsingh/system-design-message-queues-k9a#:~:text=Following%20are%20some%20widely%20used,ActiveMQ
+
+
 
 System Design Primer - https://github.com/donnemartin/system...
 
@@ -119,35 +123,6 @@ Standard Questions
 6. Facebook Messenger
 7. Search in Instagram
 8. Video Streaming Service
-
-
-Educative.io course - https://www.educative.io/courses/grok...
-
-System Design template - https://leetcode.com/discuss/career/2...
-
-Netflix Blog - https://netflixtechblog.com/
-
-Uber Engg Blog - https://eng.uber.com/
-
-Google Developers - https://developers.googleblog.com/
-
-High Scalability - http://highscalability.com/
-
- Subscribe to my channel for more such videos :D
-
-Join my Telegram link for interview preparation material and updates:
-https://t.me/thecodeskool
-
-You can also reach me at:
-
-Instagram: 
-https://www.instagram.com/thecodeskool/
-
-Twitter: 
-https://twitter.com/theCodeSkool
-
-LinkedIn:
-https://www.linkedin.com/in/deevanksh...
 
 
 =========== Gaurav Sen System Design Introduction in term of Pizza Shop ==============
@@ -207,7 +182,7 @@ System Design Playlist: https://www.youtube.com/playlist?list...
 6. Distrubuted System (2 more shops so we will not blocker because of 1 system )
 7. Load balancer (Route the request according to system nearest(Time) and avalability status )
 8. Decoupling (According to Item send the request in their shop means a shop having burger available so will take the order and send back to shop2 )
-9. Logging and Matrics calculation (Any blocker like bike is got stuck , system will see the logs and findout the issue event by event debugging )
+9. Health checks :- Logging and Matrics calculation (Any blocker like bike is got stuck , system will see the logs and findout the issue event by event debugging )
 10. Extensible (System should be large extensiable like in future any new category comes so system will easily manage . Example Swiggy easily started Swiggy Instamart because it has already system only they have to Keep some small inhancement and they were succeed )
 
 
@@ -296,13 +271,6 @@ https://www.youtube.com/watch?v=NFzHTqbd8GU
 Caching Simplified for Beginners 2021 | Introduction to Caching | System Design Fundamentals
 
 
-https://www.youtube.com/watch?v=8UryASGBiR4
-CAP Theorem Simplified 2021 | System Design Fundamentals | Distributed Systems | Scaler Academy
-
-Consistency :- 
-Availability :- 
-Letency :- 
-
 
 https://www.youtube.com/watch?v=P_eh1b6vE-4 
 
@@ -310,7 +278,7 @@ https://www.youtube.com/watch?v=mswjnBHHd1M&t=40s
 Load Balancing and Traffic Routing Strategies Simplified | System Design Fundamentals 2022
 
 -------------------Others-----------------------
-
+ 
 https://www.youtube.com/watch?v=vge7qwCR1dA&list=PLt4nG7RVVk1g_LutiJ8_LvE914rIE5z4u
 Basics of System Design
 Coding Simplified

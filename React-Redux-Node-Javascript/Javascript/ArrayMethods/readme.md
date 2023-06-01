@@ -53,7 +53,35 @@ const data = A.join(",")
 ### What is difference between foreach and Map 
 1. map returns a new array 
 2. foreach can not return a new array its modified on same array 
+3. foreach always invoke callback function even map return always new elements of array 
+4. map() allocates memory and stores return values. forEach() throws away return values and always returns undefined.
+https://codeburst.io/javascript-map-vs-foreach-f38111822c0f
+<script>
+    const A = [1,2,3]
+    const B = A.forEach((obj,index)=>{
+    return obj*2})
+    console.log(B); //undefined // forEach() throws away return values and always returns undefined.
+    console.log(A) [1,2,3]
+</script>
 
+<script>
+    const A = [1,2,3]
+    const B = A.forEach((obj,index)=>{
+    return A[index]=obj*2} //foreach always invoke callback function even map return always new elements of array 
+    )
+    console.log(B); //undefined // forEach() throws away return values and always returns undefined.
+    console.log(A) [2,4,6] // foreach can not return a new array its modified on same array 
+</script>
+
+
+<script>
+    const A = [1,2,3]
+    const B = A.map((obj,index)=>{
+    return obj*2}
+    )
+    console.log(B); [2,4,6] // map returns a new array 
+    console.log(A) [1,2,3]
+</script>
 
 ### Reduce :- Always Returns a single value after some calculation
  const A = [1,2,3]

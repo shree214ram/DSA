@@ -2,6 +2,14 @@
 
 https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles
 
+1. Single Responsibility Principle 
+2. Saperation of concern 
+3. Dont repeat your self 
+4. Incapsulation 
+5. Dependency Inversion 
+6. Explicit dependencies
+
+
 # Fundamentals of Software Architecture 
 https://www.geeksforgeeks.org/fundamentals-of-software-architecture/
 
@@ -33,3 +41,16 @@ Separation of Concerns (since 1974). Concern == feature of system. Taking care o
 9)      How can you implement vertical scaling.
 
 10)   How can you ensure availability  of services
+
+# How actually architect work
+    Solution Architect 
+    https://www.youtube.com/watch?v=zB9WuYE1REI&ab_channel=AltexSoft
+    1. contact with Interprice architecture and business architecture collect all requirments 
+    2. understand the requirement 
+    3. Design a High Level Design In terms of UML 
+    4. Deside all Tech Stacks {A Well stablished version of tech stacks like MERN Stack, Database, }
+    5. Cost Prospective Solution in terms of Scalling , Security , Flexibility {CLoud Services which is good feet as per the requirments and cost prospective}
+# How Actually architect design a system HLD LLD 
+# Promise ,All ,any ,Serial paralal 
+# Real Project Over React Redux Node Typescript Jest 
+# Kafka , Elastic search and Kibana Dashboard 
