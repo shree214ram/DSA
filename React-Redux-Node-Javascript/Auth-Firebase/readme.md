@@ -47,6 +47,8 @@ https://firebase.google.com/docs/functions
     4. !!  functions: Failed to load function definition from source: FirebaseError: There was an error reading functions\package.json:
     functions\lib\index.js does not exist, can't deploy Cloud Functions
     # npm run-script build 
+# for fetching the storage folders and files recursivly 
+https://firebase.google.com/docs/storage/web/list-files
 
 # Difference between Google Cloud Vs Google Firebase 
 https://blog.back4app.com/firebase-vs-google-cloud/
