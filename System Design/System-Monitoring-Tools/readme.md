@@ -1,5 +1,5 @@
 1. Kafka
-2. Grefana 
+2. Grefana , New Relic 
 3. Metrics
 4. Monitoring {HealthChecks to check Hart Bits of Systems} Kubernativs , docker 
 5. Mechanism to send Alerts at below 

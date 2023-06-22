@@ -64,12 +64,29 @@ https://www.youtube.com/watch?v=RZc4QSRRk98&ab_channel=CrackConcepts
 https://www.youtube.com/watch?v=s1QkS4PfiFg&ab_channel=CrackConcepts
 
 1. Difference between JOIN/UNION
+    join : works upon columns , increase the table horizontally
+    union : works upon rows , increase the table vertically
 2. Difference between WHERE/HAVING
+    where : filter table rows with simple where condition
+    having : works on aggregate like avg, max, min 
 3. Difference between UNION/UNION All 
+    condition :
+       1. column numbers should be same in 2 tables  
+       2. column data types should be same in 2 tables  
+
+    union basically used for grouping two or more table and union will give distinct records
+    unionll basically used for grouping two or more table and unionll will give all records
 4. Difference between GROUP BY/ORDER BY
+    Order by : just ordering ascending or decending order
+    group by : grouping the rows having same value in single row , for example find the student of same city and group by offens with aggregate fuction like {sum,avg,min,max}
 5. Difference between JOIN/SUBQUERY
+    subquery : for example IN and exist used for subquery . can print first table data 
+    join : can print both the table data 
 6. Difference between IN/EXISTS
 
+    In : used when outer query is big, compare one value to several value
+    Exist : used when inner query is big, tells you a query returned any result 
+ 
 ### Find the Second Largest Salary in mysql ?
 https://www.geeksforgeeks.org/sql-query-to-find-second-largest-salary/
 1. If AS Working

@@ -40,11 +40,9 @@
       SSL has been depreciated.	TLS is still widely used.
       SSL uses port to set up "explicit connection".	TLS uses protocol to set up "implicit connection".
 
-5. Difference between Reverse proxy and Load Balancer 
-https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer
 
 
-SSL, TLS, HTTPS Explained
+# SSL, TLS, HTTPS Explained
 
 https://www.youtube.com/watch?v=j9QmMEWmcfo
 

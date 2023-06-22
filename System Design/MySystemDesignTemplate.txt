@@ -71,7 +71,7 @@
                         > SSL
                         > TSL
                 j) Monitoring /Health Checks /Alert
-                        > Grefana
+                        > Grefana, New Relic 
                 k) Search Engion 
                         > Elastic/Open Search {Kibana Dashboard}
                 l) Data Streaming

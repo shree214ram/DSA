@@ -20,7 +20,7 @@ automatically restarting the node application when file changes in the directory
 
 https://www.npmjs.com/package/nodemon
 
-# Rest API Development 
+# Rest API Development  
 
 https://vmokshagroup.com/blog/building-restful-apis-using-node-js-express-js-and-ms-sql-server
 
@@ -40,9 +40,6 @@ Application Designer
             https://loopback.io/doc/en/lb4/todo-tutorial.html
 ()
 
-# Difference between Jenkins and Docker   
-https://www.gangboard.com/blog/jenkins-vs-docker/
-
 # Microservice And API Difference
 Difference between Microservice and API - GeeksforGeeks
 https://www.geeksforgeeks.org/difference-between-microservice-and-api/
@@ -61,45 +58,6 @@ What is web socket and how it is different from the HTTP? - GeeksforGeeks
 https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/
 
 
-
-
-# What is XSS Cross Site Scripting ?
-What is Cross Site Scripting (XSS) ? - GeeksforGeeks
-https://www.geeksforgeeks.org/what-is-cross-site-scripting-xss/
-
-# Cross Site Scripting in HTML/JS/React/Node : 2022:-
-https://knowledge-base.secureflag.com/vulnerabilities/cross_site_scripting/cross_site_scripting_frontend.html
-
-# Cross-Site Scripting in Frontend | SecureFlag Security Knowledge Base
-Cross Site Scripting (XSS) Prevention Techniques - GeeksforGeeks
-https://www.geeksforgeeks.org/cross-site-scripting-xss-prevention-techniques/
-
-
-
-
-
-# Securing Node.js RESTful APIs with JSON Web Tokens( jWT Tokens:-  2022)
-
-https://www.freecodecamp.org/news/securing-node-js-restful-apis-with-json-web-tokens-9f811a92bb52/
-
-# JWT Authentication with Node.js - GeeksforGeeks
-https://www.geeksforgeeks.org/jwt-authentication-with-node-js/
-
-# How to implement JWT authentication in Express.js app ? - GeeksforGeeks
-https://www.geeksforgeeks.org/how-to-implement-jwt-authentication-in-express-js-app/?ref=rp
-
-
-# How to Build an Authentication API with JWT Token in Node.js | Engineering Education (EngEd) Program | Section
-https://www.section.io/engineering-education/how-to-build-authentication-api-with-jwt-token-in-nodejs/
-
-
-# Form Data Validation in Node.js with express-validator
-https://stackabuse.com/form-data-validation-in-nodejs-with-express-validator/
-
-# 5 ways to prevent code injection in JavaScript and Node.js
-
-https://www.geeksforgeeks.org/how-to-prevent-sql-injection-in-php/
-SELECT * FROM users WHERE username = “abc” AND password =”' or 'a'='a"
 
 H1B visa sponsors database
 companies that sponsor H1B visas

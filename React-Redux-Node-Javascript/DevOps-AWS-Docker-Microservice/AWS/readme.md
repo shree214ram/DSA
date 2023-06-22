@@ -65,10 +65,12 @@ https://www.youtube.com/watch?v=3Ar1ABlD_Vs&ab_channel=TinyTechnicalTutorials
 ### AWS LAMBDA Vs AWS EC2
 https://www.youtube.com/watch?v=e8Vh9-hsRBo&ab_channel=BeABetterDev
 
-### AWS LAMBDA Vs ECR Docker Vs AWS EC2
+### AWS LAMBDA Vs ECR Docker Vs AWS EC2 
 https://www.tinystacks.com/blog-post/choosing-between-aws-lambda-and-docker/
 https://www.youtube.com/watch?v=-L6g9J9_zB8&ab_channel=BeABetterDev
 
+# When we should not use AWS Lambda Over EC2 
+https://www.sentinelone.com/blog/serverless-architecture/ 
 
 ### Amazon Elastic Container Registry
 https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html
@@ -85,8 +87,10 @@ Amplify --> API Gateway--> Lambda --> DynamoDB
 2. Health Check :- If any health check outage issue detected it redirects to appropriate server 
 3. Geolocation Routing Policy :- Once go to the other Region its autometically change region 
 
-### AWS Disaster Recovery option 
-https://www.youtube.com/watch?v=8IJUHf5cdbc&ab_channel=GoCloudArchitects
+### AWS Disaster Recovery option And Solution Architect Interview Qestion
+https://www.youtube.com/watch?v=8IJUHf5cdbc&ab_channel=GoCloudArchitects 
+
+https://www.youtube.com/watch?v=AGdb7SNGOXo
 
 1. Backup (Synchronization):- Backup from data center and keep at cloud 
 2. Backup (Synchronization + Transection) :- This is more frequent rather than first approach . 

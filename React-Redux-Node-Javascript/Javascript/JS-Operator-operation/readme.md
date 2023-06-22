@@ -15,3 +15,5 @@ k = k + 1
 a[k] = 4
 
 # Note :- A[++k] pahle increement karega fir latest incremented index ki value print karega ,A[k++] pahle A[k]value print karega fir increement karega   ,  
+
+# <> means not equal to 

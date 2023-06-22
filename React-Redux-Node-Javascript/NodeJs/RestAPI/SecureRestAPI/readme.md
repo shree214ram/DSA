@@ -21,6 +21,21 @@ https://www.keycdn.com/blog/web-application-security-best-practices
     UX :- How to Understanding the UX Mockups zeplin/figma and implement the UI accordiangly 
     UI :- React Redux Javascript Jest Typescript 
 
+# What is XSS Cross Site Scripting ?
+What is Cross Site Scripting (XSS) ? - GeeksforGeeks
+https://www.geeksforgeeks.org/what-is-cross-site-scripting-xss/
+ 
+# Cross Site Scripting in HTML/JS/React/Node : 2022:-
+https://knowledge-base.secureflag.com/vulnerabilities/cross_site_scripting/cross_site_scripting_frontend.html
 
+# Cross-Site Scripting in Frontend | SecureFlag Security Knowledge Base
+Cross Site Scripting (XSS) Prevention Techniques - GeeksforGeeks
+https://www.geeksforgeeks.org/cross-site-scripting-xss-prevention-techniques/
 
-daily 8hrs training for a period of 5 days ea
+# Form Data Validation in Node.js with express-validator
+https://stackabuse.com/form-data-validation-in-nodejs-with-express-validator/
+
+# 5 ways to prevent code injection in JavaScript and Node.js
+
+https://www.geeksforgeeks.org/how-to-prevent-sql-injection-in-php/
+SELECT * FROM users WHERE username = “abc” AND password =”' or 'a'='a"

@@ -14,3 +14,7 @@ https://codesandbox.io/p/sandbox/sunny-typescript-ydutoj?file=%2Fpackage.json%3A
 "@types/react": "^18.2.6",
 "@types/react-dom": "^18.2.4",
 
+
+https://www.youtube.com/watch?v=BCg4U1FzODs&ab_channel=TraversyMedia
+
+https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&ab_channel=TheNetNinja

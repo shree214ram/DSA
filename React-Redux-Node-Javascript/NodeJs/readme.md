@@ -1,11 +1,12 @@
 ### Node Js 
 1. Node Js is Server side Enviornment , for fast scalling app for real time 
 2. I/O application , live streaming , event driven , Event Loop , Asyncrhronous , V8 Engine , CallBack 
+3. Event Loop:- https://www.tutorialspoint.com/nodejs/nodejs_event_loop.htm
 3. EventEmitter:-
     Node js having some object which is emiting the events . All the object emits event are the instance of EventEmitter 
 
-    Event Emiter is the class of event module , which is having some methods like On and Emit 
-    On is for adding new events and emit is for firing the vent . 
+    Event Emiter is the class of event module , which is having some methods like "On" and "Emit" 
+    On is for "adding new events" and emit is for "firing the event" . 
 
     For example once we open a file with the help of fs.readStream() an event is emited 
 
@@ -111,6 +112,7 @@
     fs = require fs 
     fs.open(path,flag,callback)
     fs.write(path,data,callback)
+
     1. fs.readFile(path,callback(err))
     2. fs.open(path,flag,mode,callback(fd,err))
     3. fs.writeFile(path,buffer,option,callback(err))
@@ -130,7 +132,8 @@
     3. OS module 
     4. Domain Module
 
-
+### import and export in node js 
+https://www.geeksforgeeks.org/import-and-export-in-node-js/
  
 ##### Creeate Virtual Server :-
 1. require http 
@@ -161,8 +164,8 @@
     http.createServer(req,res)=>{
         if(req.url!="/upload"){
             res.writeHead(200,{"content-type":"text/html"})
-            res.write(<Form enctype="multipart/form-data" action="upload" method="post">)
-            res.write(<input type="file" name="file">)
+            res.write(<Form enctype="multipart/form-data" action="upload" method="post"/>)
+            res.write(<input type="file" name="file"/>)
             return res.end()
         }else {
             const form = new formidable.IncomingForm()
@@ -184,7 +187,7 @@
     </script>
 4. listner 
 
-### Form data Post API 
+### Form data Post API https://riptutorial.com/node-js/example/20967/post-api-using-express
 <script>
     var express = require('express');
     var app = express();
@@ -195,24 +198,24 @@
 
     app.use(express.static('public'));
     app.get('/index.htm', function (req, res) {
-    res.sendFile( __dirname + "/" + "index.htm" );
+        res.sendFile( __dirname + "/" + "index.htm" );
     })
 
     app.post('/process_post', urlencodedParser, function (req, res) {
-    // Prepare output in JSON format
-    response = {
-        first_name:req.body.first_name,
-        last_name:req.body.last_name
-    };
-    console.log(response);
-    res.end(JSON.stringify(response));
+        // Prepare output in JSON format
+        response = {
+            first_name:req.body.first_name,
+            last_name:req.body.last_name
+        };
+        console.log(response);
+        res.end(JSON.stringify(response));
     })
 
     var server = app.listen(8081, function () {
-    var host = server.address().address
-    var port = server.address().port
-    
-    console.log("Example app listening at http://%s:%s", host, port)
+        var host = server.address().address
+        var port = server.address().port
+        
+        console.log("Example app listening at http://%s:%s", host, port)
     })
     </script>
 

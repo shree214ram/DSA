@@ -584,7 +584,7 @@ DSA
    6.  XSS 
    7. Serverside Rendering {DONE}
 
-   React Routing Navigatio 
+      
    Kafka ?
     How Redis cache works 
     1. banifits of context over redux 
@@ -597,6 +597,18 @@ DSA
 
 
 31752339533
+
+1. System Design revision 
+2. again see the video of System design basic template 
+3. React custom Tabs 
+4. React custom Navigation 
+5. React Auth0 
+6. Deep dive API Gateway , Kafka , Message Q {rabbitMQ}
+7. React JWT 
+
+
+1. graymatter test
+2. 
 
     
     

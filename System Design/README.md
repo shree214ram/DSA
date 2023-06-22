@@ -54,6 +54,7 @@ I have covered all the concepts that are mandatory to learn system design and th
     2. What is Reverse Proxy ?.
     3. What is difference between Load Balancer and Reverse Proxy ?.
         https://www.nginx.com/resources/glossary/reverse-proxy-vs-load-balancer
+        
     4. What is difference between VPN and Reverse Proxy ?.
     https://www.youtube.com/watch?v=MiqrArNSxSM&ab_channel=ITkFunde
 
@@ -110,7 +111,7 @@ I have covered all the concepts that are mandatory to learn system design and th
 
     https://dev.to/karanpratapsingh/system-design-message-queues-k9a#:~:text=Following%20are%20some%20widely%20used,ActiveMQ
 
-
+    https://dev.to/karanpratapsingh/system-design-message-queues-k9a
 
 System Design Primer - https://github.com/donnemartin/system...
 

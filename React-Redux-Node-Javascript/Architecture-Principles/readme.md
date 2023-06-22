@@ -22,25 +22,73 @@ Separation of Concerns (since 1974). Concern == feature of system. Taking care o
  
 # architecture 
 
-1)      Have you worked on any complex architecture
+1)      Have you worked on any complex architecture:-
 
-2)      Have you used Separation of concerns principal in any of designing
+       Yes , In the last company many complex applications were worked over them . 
+
+2)      Have you used Separation of concerns principle in any of designing
+
+       Yes , In the last company many modules I have used Separation of Concern design principle  . 
 
 3)      Have you used Don't repeat yourself (DRY) principal in any system designing  and architecture
 
+       Yes , so many applications we have used DRY concept , means repeated code should not be in our application .
+
 4)      How do you apply the SOLID principles to functional programming and deep-level system architecture
+
+       Yes , I know all the internal parts of Solid Principle very deep dive in various projects I have used  the same principle . 
+
+       1. Single responsibility principle 
+
+       2. Open/Close : Open for extension and close for update in existing code flow .  
+
+       3. Liskew Substitution Principle 
+
+       4. Interface Segregation 
+
+       5. Dependency Inversion 
 
 5)      When would you use a component-based design
 
+       Yes , in all the react applications mostly component based architecture i have used   . 
+
 6)      How do you ensure security in design and solution of any system
+
+       Yes , i used some security points at the time of implementing any api  . 
+
+       1. HTTPS / SSL / TSL Protocol use in api 
+
+       2. Authorization {Security web token like Oauth JWToken} / Authentication {OPEN ID }
+
+       3. Security validation at each side client/server 
+
+       4. API Gateway 
+
+       5. Prioritise vulnerability : As per the Role assign the operations 
 
 7)      How do you achieve resiliency ,fault tolerance and availability of designing a services  .
 
+      Yes I know all the important points of system design in which CAP theorem is the main point , which is responsible for fault tolerance and availability . 
+
 8)      How do you manage data concurrency during auto scaling  
 
-9)      How can you implement vertical scaling.
+      Yes , data concurrency is related to data consistency. There are 3 ways to handle these things at the time of auto scaling .
+
+      1. AWS EC2 auto scaling 
+
+      2. AWS ECR docker containerization 
+
+      3. AWS Lambda function is the most beneficial with respect to serverless cloud for low cost auto scaling 
+
+9)      How can you implement vertical scaling?
+
+    Yes , Vertical scaling is the option for scaling and increasing the size of the same machine once load increases . 
+
+      
 
 10)   How can you ensure availability  of services
+
+Yes , With the help of Distributed System and Auto Scaling is a good way to ensure availability . 
 
 # How actually architect work
     Solution Architect 
@@ -54,3 +102,8 @@ Separation of Concerns (since 1974). Concern == feature of system. Taking care o
 # Promise ,All ,any ,Serial paralal 
 # Real Project Over React Redux Node Typescript Jest 
 # Kafka , Elastic search and Kibana Dashboard 
+
+### Solution Architect Interview Qestion
+https://www.youtube.com/watch?v=8IJUHf5cdbc&ab_channel=GoCloudArchitects 
+
+https://www.youtube.com/watch?v=AGdb7SNGOXo
