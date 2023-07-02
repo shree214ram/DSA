@@ -610,6 +610,30 @@ DSA
 1. graymatter test
 2. 
 
+# 29 June 2023
+1. Task for Project praveen 
+2. Help to Miti Student
+3. Help to Kamini 
+4. Help to Sapna {DONE}
+5. Atul {DONE}
+6. Keep account amount for EMI {DONE}
+7. call for Plot Sell and Home for Vidur nagar . {STARTED}
+8. ITR Form Fill
+9. HDFC RD Rupesh 
+10. Ritesh Bill 
+6604
+
+
+ 
+Date    go        return        
+14      302       gpay 115      cme
+19      284       397           cme
+20      400 gpay  395           cme
+23      170       425           ironhill
+26      277       283           cme   
+
+Total 3048
+
     
     
   

@@ -50,6 +50,14 @@ https://firebase.google.com/docs/functions
 # for fetching the storage folders and files recursivly 
 https://firebase.google.com/docs/storage/web/list-files
 
+# set extra field in auth 
+https://stackoverflow.com/questions/57026198/adding-extra-profile-information-in-firebaseauth-android
+
+not possible we have to use DB and Auth together 
+
+# update user profile 
+https://firebase.google.com/docs/auth/android/manage-users#update_a_users_profile
+
 # Difference between Google Cloud Vs Google Firebase 
 https://blog.back4app.com/firebase-vs-google-cloud/
 https://medium.com/google-developers/whats-the-relationship-between-firebase-and-google-cloud-57e268a7ff6f
