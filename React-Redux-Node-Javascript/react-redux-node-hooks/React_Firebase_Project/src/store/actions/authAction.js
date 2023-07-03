@@ -82,7 +82,10 @@ export const authLogin = (formState) => {
             .then((userCredential) => {
                 // Signed in 
                 const user = userCredential.user;
-                dispatch({ type: 'LOGIN_AUTH_SUCCESS', payload: { snapshotStateMsg: "Upload is paused", progress: 1 } });
+                dispatch({
+                    type: 'LOGIN_AUTH_SUCCESS',
+                    payload: { snapshotStateMsg: "Upload is paused", progress: 1 }
+                });
 
                 //   navigate("/");
                 // ...
@@ -102,8 +105,7 @@ export const authLogout = () => {
             .then(() => {
                 // Signed out 
                 dispatch({
-                    type: 'SET_AUTH_USER_DATA_SUCCESS',
-                    payload: { isCheckLoggedIn: false, userData: null }
+                    type: 'SYSTEM_LOGOUT',
                 });
             })
             .catch((error) => {

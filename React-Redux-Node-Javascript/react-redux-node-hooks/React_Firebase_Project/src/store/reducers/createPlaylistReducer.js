@@ -50,6 +50,8 @@ const playListReducer = (state = initState, action) => {
       return { ...state, err: action.payload, loading: false };
     case 'GET_PLAYLIST_INPROGRESS':
       return { ...state, ...action.payload, loading: true };
+    case 'SYSTEM_LOGOUT':
+        return { ...state, ...initState };
     default:
       return state;
   }

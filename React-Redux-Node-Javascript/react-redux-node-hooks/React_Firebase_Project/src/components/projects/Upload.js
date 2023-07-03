@@ -6,7 +6,7 @@ import { storage } from "../../firebase"
 import Select from 'react-select'
 
 const Upload = ({ userData }) => {
-    const { progress, downloadURL, snapshotStateMsg, loading,err } = useSelector(state => state.upload)
+    const { progress, downloadURL, snapshotStateMsg, loading, err } = useSelector(state => state.upload)
     const dispatch = useDispatch()
     const fileInputRef = useRef();
     const [fileData, setFileData] = useState([]);
@@ -126,14 +126,14 @@ const Upload = ({ userData }) => {
                         />
                         {fileHTML}
                     </section>
-                </div>) : ""} 
+                </div>) : ""}
                 {
                     loading &&
                     <div className="input-field">
                         Loading...
                     </div>
                 }
-                {err && 
+                {err &&
                     <h5 className='error'>{err}</h5>
                 }
                 {progress != 0 &&
@@ -150,7 +150,6 @@ const Upload = ({ userData }) => {
                     })
                     : ""
                 }
-
                 {!!fileData && (<div className="input-field">
                     <button className="btn pink lighten-1 z-depth-0">Upload</button>
                     <button className="btn lighten-1 z-depth-0" onClick={resetFileData} >Reset</button>

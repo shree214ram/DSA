@@ -6,7 +6,7 @@ import { db, collection, addDoc, getDoc, getDocs } from "../../firebase"
 
 const CreateDisplay = ({ userData }) => {
   const navigate = useNavigate();
-  const { progress, downloadURL, snapshotStateMsg, loading , statusOfCreate, err } = useSelector(state => state.display)
+  const { progress, downloadURL, snapshotStateMsg, loading, statusOfCreate, err, displays } = useSelector(state => state.display)
   const dispatch = useDispatch()
   const fileInputRef = useRef();
   const [fileData, setFileData] = useState([]);
@@ -47,7 +47,6 @@ const CreateDisplay = ({ userData }) => {
     //once file uploaded need to be save
     var imageFile = fileData[0];
     dispatch(uploadTitleImageAndCreateDisplay(imageFile, userData.uid, formState))
-
   }
   const fileHTML = []
   if (fileData) {
@@ -66,16 +65,15 @@ const CreateDisplay = ({ userData }) => {
       )
     }
   }
-  
+
   useEffect(() => {
-    if(statusOfCreate){
-      setTimeout(()=>{
+    if (statusOfCreate) {
+      setTimeout(() => {
         dispatch(resetFile())
         navigate("/");
-      },3000)
+      }, 3000)
     }
   }, [statusOfCreate])
-  
   return (
     <div className="container">
       <form className="white" onSubmit={handleSubmit}>
@@ -88,7 +86,6 @@ const CreateDisplay = ({ userData }) => {
           <textarea id="content" className="materialize-textarea" onChange={handleChange}></textarea>
           <label htmlFor="content">Display Content</label>
         </div>
-
         {(formState.title !== "" && formState.content !== "") ? (<div className="input-field">
           <section className="file-upload">
             <label
@@ -119,8 +116,8 @@ const CreateDisplay = ({ userData }) => {
             Loading...
           </div>
         }
-        {err && 
-            <h5 className='error'>{err}</h5>
+        {err &&
+          <h5 className='error'>{err}</h5>
         }
         {progress != 0 &&
           <div >
@@ -136,7 +133,6 @@ const CreateDisplay = ({ userData }) => {
           })
           : ""
         }
-
         {fileData && fileData[0] && (<div className="input-field">
           <button className="btn pink lighten-1 z-depth-0">Create</button>
           <button className="btn lighten-1 z-depth-0" onClick={resetFileData} >Reset</button>

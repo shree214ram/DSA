@@ -5,17 +5,27 @@ import { collection, doc, setDoc, addDoc, getDocs } from "firebase/firestore";
 import { storage } from "../../firebase"
 import { db } from "../../firebase"
 
-export const getData = () => {
+export const getData = (uid) => {
     return async (dispatch, getState, { getFirestore }) => {
         dispatch({ type: 'SET_DISPLAY_INPROGRESS' });
         const todoRef = collection(db, 'displays');
+        const organizationName = getState().auth?.userData?.profileData?.data?.org
+        // ==
+        // db.collection('families')
+        // .where('users_exists.john', '==', true)
+        // ==
         try {
             let allTodos = await getDocs(todoRef);
             const data = []
             allTodos.forEach((doc) => {
-                data.push({ id: doc.id, data: doc.data() })
+                if (doc.id === organizationName) {
+                    data.push({ id: doc.id, data: doc.data() })
+                }
             });
-            dispatch({ type: 'SET_DISPLAY_SUCCESS', payload: { snapshotStateMsg: "get display successfully done!.", displays: data } });
+            dispatch({
+                type: 'SET_DISPLAY_SUCCESS',
+                payload: { snapshotStateMsg: "get display successfully done!.", displays: data }
+            });
         } catch (error) {
             dispatch({ type: 'SET_DISPLAY_ERROR', payload: error.message });
         }
@@ -24,7 +34,7 @@ export const getData = () => {
 
 export const resetFile = (file) => {
     return (dispatch, getState, { getFirestore }) => {
-        dispatch({ type: 'RESET_UPLOAD' });
+        dispatch({ type: 'RESET_UPLOAD_DISPLAY' });
     }
 }
 
@@ -79,23 +89,40 @@ export const uploadTitleImageAndCreateDisplay = (file, uid, display) => {
             },
             () => {
                 // Upload completed successfully, now we can get the download URL
-                getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+                getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
                     const newDownloadURL = [...getState().upload.downloadURL, downloadURL]
-                    dispatch({ type: 'UPLOAD_TITLE_IMAGE_SUCCESS', payload: { snapshotStateMsg: "Upload is done!.", downloadURL: newDownloadURL } });
-                    addDoc(collection(db, "displays"), {
+                    dispatch({
+                        type: 'UPLOAD_TITLE_IMAGE_SUCCESS',
+                        payload: { snapshotStateMsg: "Upload is done!.", downloadURL: newDownloadURL }
+                    });
+                    // ==new
+                    dispatch({
+                        type: 'CREATE_DISPLAY_INPROGRESS',
+                        payload: { snapshotStateMsg: "Upload is done!.", downloadURL: newDownloadURL }
+                    });
+                    const organizationName = getState().auth?.userData?.profileData?.data?.org
+                    const data = {
                         content: display.content,
                         displayName: display.title,
                         fileLocation: downloadURL,
-                        storeName: "Target",
-                        title: "titletest",
+                        storeName: display.title,
+                        title: display.title,
                         uid: uid
-                    })
-                        .then(() => {
-                            dispatch({ type: 'CREATE_DISPLAY_SUCCESS', payload: { snapshotStateMsg: "create display successfully done!.", statusOfCreate: true } });
-                        })
-                        .catch((err) => {
-                            dispatch({ type: 'CREATE_DISPLAY_ERROR', payload: err.message });
+                    }
+                    // return
+                    const newData = [...getState()?.display?.displays[0]?.data?.data, data]
+                    try {
+                        let allTodos = await setDoc(doc(db, "displays", organizationName), { data: newData });
+                        dispatch({
+                            type: 'CREATE_DISPLAY_SUCCESS',
+                            payload: {
+                                snapshotStateMsg: "create display successfully done!.",
+                                statusOfCreate: true
+                            }
                         });
+                    } catch (error) {
+                        dispatch({ type: 'CREATE_DISPLAY_ERROR', payload: error.message });
+                    }
                 });
             }
         );

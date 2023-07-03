@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProjectSummary = ({display}) => {
+const ProjectSummary = ({ display }) => {
   return (
     <div className="card z-depth-0 display-summary">
       <div className="card-content grey-text text-darken-3">

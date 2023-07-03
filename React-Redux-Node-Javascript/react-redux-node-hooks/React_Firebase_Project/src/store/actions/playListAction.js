@@ -252,9 +252,8 @@ export const saveMediaInDB = (uid, playlist, display) => {
         }
     }
 }
-export const getPlaylistData = () => {
+export const getPlaylistData = (organizationName) => {
     return async (dispatch, getState, { getFirestore }) => {
-        const organizationName = getState().auth?.userData?.profileData?.data?.org
         dispatch({ type: 'GET_PLAYLIST_INPROGRESS' });
         const todoRef = collection(db, organizationName);
         try {

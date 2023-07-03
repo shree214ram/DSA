@@ -23,14 +23,15 @@ const authReducer = (state = initState, action) => {
       return { ...state, err: action.payload, loading: false };
     case 'RESET_FORM':
       return { ...state, ...initState, userData: state.userData, isCheckLoggedIn:state.isCheckLoggedIn  };
-      // return { ...state, ...initState };
     //setGalleryData
-    case 'SET_AUTH_USER_DATA_SUCCESS':
+    case 'SET_AUTH_USER_DATA_SUCCESS': 
       return { ...state, ...action.payload, loading: false };
     case 'SET_AUTH_USER_DATA_ERROR':
       return { ...state, err: action.payload, loading: false };
     case 'SET_AUTH_USER_DATA_INPROGRESS':
       return { ...state, ...action.payload, loading: true };
+    case 'SYSTEM_LOGOUT':
+        return { ...state, ...initState };
     default:
       return state;
   }
