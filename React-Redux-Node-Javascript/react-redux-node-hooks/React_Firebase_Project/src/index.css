@@ -22,6 +22,16 @@ form button, form h5{
   margin: 20px 0;
 }
 
+/* Custom Form */
+.customForm{
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.customForm button, .customForm h5{
+  margin: 20px 0;
+}
+
 input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=email]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),

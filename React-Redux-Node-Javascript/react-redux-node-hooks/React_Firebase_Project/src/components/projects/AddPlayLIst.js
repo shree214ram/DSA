@@ -64,7 +64,6 @@ const CreatePlayList = ({ userData }) => {
   const addImageToNewFn = () => {
     dispatch(addImageToNew())
   }
-
   const setGallaryImageForRemoveFn = (id, value) => {
     dispatch(setGallaryImageForRemove(id, value))
   }
@@ -83,21 +82,27 @@ const CreatePlayList = ({ userData }) => {
       setFileData(file);
     }
   };
-
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!fileData) return
+    const existingData = finalGalleryData.filter(obj => !obj.manualImage)
+    if (finalGalleryData.length === 0) return
     //Get files
-    for (var i = 0; i < fileData.length; i++) {
-      var imageFile = fileData[i];
-      const check = (i == fileData.length - 1)
-      const result = await dispatch(uploadGalleryAndCreatePlaylist(imageFile?.file,
-        userData.uid,
-        formState,
-        display,
-        check
-      ))
+    if (fileData.length > 0) {
+      let lastFileName = fileData[fileData.length - 1]?.file?.name || null
+      lastFileName = lastFileName.replace(/ /gi, "%20")
+      for (var i = 0; i < fileData.length; i++) {
+        var imageFile = fileData[i];
+        const check = (i == fileData.length - 1)
+        const result = await dispatch(uploadGalleryAndCreatePlaylist(imageFile?.file,
+          userData.uid,
+          formState,
+          display,
+          check,
+          lastFileName
+        ))
+      }
+    } else if (existingData.length > 0) {
+      dispatch(saveMediaInDB(userData.uid, formState, display))
     }
   }
 
@@ -127,10 +132,9 @@ const CreatePlayList = ({ userData }) => {
       setFileData(finalGalleryData.filter(obj => obj.file))
     }
   }, [finalGalleryData])
-
   return (
     <div className="container">
-      <form className="white" onSubmit={handleSubmit}>
+      <div className="customForm white">
         <h5 className="grey-text text-darken-3">Create a new playlist</h5>
         <div className="input-field">
           <input type="text" id='title' onChange={handleChange} />
@@ -186,10 +190,10 @@ const CreatePlayList = ({ userData }) => {
           : ""
         }
         {finalGalleryData && finalGalleryData[0] && (<div className="input-field">
-          <button className="btn pink lighten-1 z-depth-0">Create</button>
+          <button className="btn pink lighten-1 z-depth-0" onClick={handleSubmit}>Create</button>
           <button className="btn lighten-1 z-depth-0" onClick={resetFileData} >Reset</button>
         </div>)}
-      </form>
+      </div>
     </div>
   )
 }

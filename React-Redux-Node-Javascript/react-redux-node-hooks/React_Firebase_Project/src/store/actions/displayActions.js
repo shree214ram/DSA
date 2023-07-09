@@ -110,7 +110,8 @@ export const uploadTitleImageAndCreateDisplay = (file, uid, display) => {
                         uid: uid
                     }
                     // return
-                    const newData = [...getState()?.display?.displays[0]?.data?.data, data]
+                    const oldData = getState()?.display?.displays[0]?.data?.data || []
+                    const newData = [...oldData, data]
                     try {
                         let allTodos = await setDoc(doc(db, "displays", organizationName), { data: newData });
                         dispatch({

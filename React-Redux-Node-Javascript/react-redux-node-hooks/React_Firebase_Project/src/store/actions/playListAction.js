@@ -151,7 +151,7 @@ export const setManualFileData = (data) => {
     }
 }
 
-export const uploadGalleryAndCreatePlaylist = (file, uid, playlist, display, check) => {
+export const uploadGalleryAndCreatePlaylist = (file, uid, playlist, display, check, lastFileName) => {
     return async (dispatch, getState, { getFirestore }) => {
         const organizationName = getState().auth?.userData?.profileData?.data?.org
         const galleryType = display.value
@@ -170,7 +170,7 @@ export const uploadGalleryAndCreatePlaylist = (file, uid, playlist, display, che
         const uploadTask = uploadBytesResumable(storageRef, file, metadata);
 
         // // Listen for state changes, errors, and completion of the upload.
-        uploadTask.on('state_changed',
+        await uploadTask.on('state_changed',
             (snapshot) => {
                 // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
                 const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
@@ -210,12 +210,16 @@ export const uploadGalleryAndCreatePlaylist = (file, uid, playlist, display, che
             () => {
                 getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
                     const newDownloadURL = [...getState().playList.downloadURL, downloadURL]
+                    const finalGalleryData = getState().playList?.finalGalleryData;
+                    const filterData = newDownloadURL.filter(obj => obj.indexOf(lastFileName) !== -1)[0]
                     dispatch({
                         type: 'ADD_DOWNLOAD_URL_SUCCESS',
                         payload: {
                             snapshotStateMsg: "Upload is done!.",
                             downloadURL: newDownloadURL,
-                            statusOfAddDownload: check
+                            statusOfAddDownload: filterData &&
+                                // check && 
+                                newDownloadURL.length === finalGalleryData.length
                         }
                     });
                 });
@@ -226,6 +230,7 @@ export const uploadGalleryAndCreatePlaylist = (file, uid, playlist, display, che
 
 export const saveMediaInDB = (uid, playlist, display) => {
     return async (dispatch, getState, { getFirestore }) => {
+        dispatch({ type: 'CREATE_PLAYLIST_INPROGRESS' });
         const finalGallery = getState().playList?.downloadURL;
         const finalGalleryData = getState().playList?.finalGalleryData;
         const organizationName = getState().auth?.userData?.profileData?.data?.org
@@ -235,20 +240,24 @@ export const saveMediaInDB = (uid, playlist, display) => {
         finalGalleryData.filter(obj => !obj.manualImage).map(obj => {
             finalGallery.push(obj.src)
         })
-        try {
-            let allTodos = await setDoc(doc(db, organizationName, organizationTitleName), {
-                Pictures: finalGallery
-            });
-            dispatch({
-                type: 'CREATE_PLAYLIST_SUCCESS',
-                payload: {
-                    snapshotStateMsg: "create playlist successfully done!.",
-                    statusOfCreate: true,
-                    statusOfAddDownload: false
-                }
-            });
-        } catch (error) {
-            dispatch({ type: 'CREATE_PLAYLIST_ERROR', payload: error.message });
+        if (finalGalleryData.length === finalGallery.length) {
+            try {
+                let allTodos = await setDoc(doc(db, organizationName, organizationTitleName), {
+                    Pictures: finalGallery
+                });
+                dispatch({
+                    type: 'CREATE_PLAYLIST_SUCCESS',
+                    payload: {
+                        snapshotStateMsg: "create playlist successfully done!.",
+                        statusOfCreate: true,
+                        statusOfAddDownload: false
+                    }
+                });
+            } catch (error) {
+                dispatch({ type: 'CREATE_PLAYLIST_ERROR', payload: error.message });
+            }
+        } else {
+            dispatch({ type: 'CREATE_PLAYLIST_ERROR', payload: "Length mismatch issue!." });
         }
     }
 }

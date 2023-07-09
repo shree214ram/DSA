@@ -21,8 +21,8 @@ const Dashboard = () => {
     }
     if (organizationName) {
       dispatch(getPlaylistData(organizationName))
-      setOrganization(organizationName)
     }
+    setOrganization(organizationName)
   }, [userData])
   return (
     <div className="dashboard container">
@@ -48,9 +48,11 @@ const Dashboard = () => {
             <DisplayList displays={displays[0] || []} />
           </div>
         }
-        <div className="col s12 m6">
-          <Plalist playlists={playListData} />
-        </div>
+        {playListData && playListData.length > 0 &&
+          <div className="col s12 m6">
+            <Plalist playlists={playListData} />
+          </div>
+        }
         {/* <div className="col s12 m5 offset-m1">
           <Notifications />
         </div> */}
