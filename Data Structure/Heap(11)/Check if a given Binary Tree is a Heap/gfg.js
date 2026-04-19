@@ -4,12 +4,11 @@ binary tree is max heap or not
 
 // A Binary Tree node
 class Node {
-constructor(k)
-{
-	this.key = k;
-	this.left = null;
-	this.right = null;
-}
+	constructor(k){
+		this.key = k;
+		this.left = null;
+		this.right = null;
+	}
 }
 
 /* This function counts the number

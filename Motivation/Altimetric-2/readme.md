@@ -16,7 +16,18 @@ useEffect(()=>{
 
 
     Destructure the following object and console log the name and city properties  const user = {  name: 'John',  age: 30,  address: {  city: 'New York',  state: 'NY'  }  }; 
-
+***Object Destructuring:
+const user = {  
+  name: 'John',  
+  age: 30,  
+  address: {  
+    city: 'New York',  
+    state: 'NY'  }  
+}; 
+let {name, age, address} = user;
+let {address:{city,stata}}=user;
+console.log(city,"city");
+console.log(name,"name");
 
     [11:21 AM] Shameer Ali Baig S
     Console.log(name); Console.log(city); 
@@ -50,6 +61,24 @@ const {...user} = user
 console.log(name)
 console.log(city)
 
+
+Relevant yrs of experience in React:
+
+Relevant yrs of experience in JavaScript:
+
+Current CTC : 
+
+ETC : 
+
+Notice period : 
+
+Current Location: 
+
+Preferred location:
+
+If Yes Please provide me tentative Joining date: 
+
+Available for Vcon (MS Teams) discussion on 20th/21st Jan Saturday/Sunday 10am-5pm (30mins) Yes/No? If yes, Date & Time:
 
 
 

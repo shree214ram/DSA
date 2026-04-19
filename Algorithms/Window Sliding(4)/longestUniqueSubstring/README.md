@@ -14,7 +14,7 @@ Set map with current window
 
 
 k = size of sub sequent 
-n = size of array
+n = size of array 
 
 Basically there are 3 methods 
 1. Itrate 3 times loop:-

@@ -39,7 +39,7 @@
 	}
 
 	// function to convert the given BST to MIN HEAP
-	// performs preorder traversal of the tree
+	// performs "preorder traversal" of the tree
 	function BSTToMinHeap(root) {
 		if (root == null) return;
 

@@ -1,21 +1,24 @@
-// const http =require( "http");
-// const fs = require("fs")
-// http.createServer((req,res)=>{
-//     console.log("server started")
-//     fs.readFile('test.txt',(err,data)=>{
-//         // console.log(err,"err")
-//         // res.end()
-//         res.writeHead(200, {'Content-Type': 'text/html'});
-//         res.write(data);
-//         console.log(data,"data")
-//         return res.end();
-//     })
-// }).listen(8000)
+const http =require( "http");
+const fs = require("fs")
+const app = http.createServer((req,res)=>{
+    console.log("server started")
+    fs.readFile('test.txt',(err,data)=>{
+        // console.log(err,"err")
+        // res.end()
+        res.writeHead(200, {'Content-Type': 'text/html'});
+        res.write(data);
+        console.log(data,"data")
+        return res.end();
+    })
+});
+app.listen(8000, (req, res) => {
+    console.log("server started by kamini at url http://127.0.0.1:8000")
+})
 
- 
+ /*
 const express = require("express")
 const app = express()
-const fetch = require('node-fetch')
+// const fetch = require('node-fetch')
 const fs = require("fs")
 
 app.get("/", (req, res) => {
@@ -80,7 +83,7 @@ app.get('/listUsers', function (req, res) {
     //     .then((data) => {
     //         res.setHeader('Content-Type', 'application/json')
     //         res.end(JSON.stringify(data))
-    //     })
+    //     })n
     // console.log(json) // use it somehow 
     // // res.end(json)
     // // }
@@ -89,4 +92,4 @@ app.get('/listUsers', function (req, res) {
 
 app.listen(8000, (req, res) => {
     console.log("server started2 at url http://127.0.0.1:8000")
-})
+})*/

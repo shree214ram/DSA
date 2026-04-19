@@ -29,7 +29,7 @@ for(let i=0;i<pat.length;i++){
 if(compare(sHash,pHash)){
 	count++
 }
-
+//window sliding technique@KP
 
 const m = pat.length;
 for(let i=m;i<txt.length;i++){

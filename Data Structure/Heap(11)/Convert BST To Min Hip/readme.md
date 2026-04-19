@@ -3,7 +3,7 @@ https://www.geeksforgeeks.org/convert-bst-min-heap/
 
 1. Structure will be same as given because its complete Binary Tree 
 2. first take Inorder and store in an array A[1,2,3,4,5,6,7]
-3. then take elemnt of array one by one and prefer folrmula of Pre Order traverse on same tree and update the value of them 
+3. then take elemnt of array one by one and prefer folrmula of "Pre Order traverse" on same tree and "update the value" of them BY array's ith Value 
    N L R [1,2,3,4,5,6,7] 
                     4
                 /       \

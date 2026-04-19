@@ -10,7 +10,7 @@ d. The game should be able to be reset to start a new game.
 
 <script>
 import React, { useState } from 'react'
-import './App.css'
+import './App.css' 
 
 function App() {
   const [place,setPlace] = useState(null)

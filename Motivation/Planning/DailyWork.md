@@ -634,6 +634,29 @@ Date    go        return
 
 Total 3048
 
+
+# 3 September 2023 
+DSA 
+    DONE 
+        1. Hashing 
+        2. Window Sliding 
+        3. Two Pointer 
+ 
+    NOT DONE 
+        4. Array 
+        5. Sorting 
+        6. Searching 
+        7. Heap 
+        8. Recursion
+        4. Greedy
+
+        1. Tree
+        1. Graph
+        2. DP
+        5. BackTracking
+        6. Queue
+        7. Stack 
+        8. Linkedlist
     
     
   

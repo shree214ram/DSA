@@ -18,7 +18,7 @@
 3. Find Longest Sub array whose sum is equal to target 
     1. currentSum == Target {maxLength=Math.max(maxLength,i+1)} , 
     2. if( hash.get( currentSum - Target )) {
-        maxLength=Math.max(maxLength,i-get(currentSum - Target))
+        maxLength=Math.max(maxLength,i-Hash.get(currentSum - Target))
         // (currentSum - Target) isliye kyonki hash map me is key par us time ka i index store liya tha 
     }                                                                            |       
                                                                                  |
@@ -97,7 +97,8 @@
                     j++
                 }
             4. maximumLength = Math.max(maximumLength,currentLength)
-
+ 
+ 
 ######## Heap ###########
 1. Kth Smallest in array (Max Heap)
     1. Add k element in Max Heap
@@ -197,7 +198,7 @@
     3. Longest unique substring 
 3. 
     1. https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
-    2. https://www.geeksforgeeks.org/find-number-times-string-occurs-given-string/
+    2. https://www.geeksforgeeks.org/find-number-times-string-occurs-given-string/ Recursion sesolve 
     3. https://www.geeksforgeeks.org/count-gfg-subsequences-given-string/?ref=lbp
     4. https://www.geeksforgeeks.org/print-concatenation-of-zig-zag-string-form-in-n-rows/
     5. Find All Anagrams in a String | Sliding window | Leetcode #438 // https://www.youtube.com/watch?v=fYgU6Bi2fRg

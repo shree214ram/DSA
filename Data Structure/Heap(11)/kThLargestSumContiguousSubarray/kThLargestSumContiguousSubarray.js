@@ -14,6 +14,7 @@ function kthLargestSum(arr, n, k)
 	sum[1] = arr[0];
 	for (var i = 2; i <= n; i++)
 		sum[i] = sum[i - 1] + arr[i - 1];
+		        //  piche wale bande ka sum + piche wale bande ki value
 
 	// priority_queue of min heap
 	var Q = [];
@@ -29,7 +30,8 @@ function kthLargestSum(arr, n, k)
 		{
 			// calculates the contiguous subarray
 			// sum from j to i index
-			var x = sum[j] - sum[i - 1];
+			var x = sum[j] - sum[i - 1]; //ye samajh nahi aaya tha pahle kyu?? i-1
+			// (kurrent bande j  tak ka sum) - (i-1 index tak ka sum)
 
 			// if queue has less then k elements,
 			// then simply push it

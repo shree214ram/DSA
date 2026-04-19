@@ -20,7 +20,7 @@ class minHeap {
         return newObj;
     }
     add(value) {
-    const AA = []
+        const AA = []
         console.log(this.heap,"this.heap before add new element node ");
         console.log(value,"value");
         //this.heap.push(value);

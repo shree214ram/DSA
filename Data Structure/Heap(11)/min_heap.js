@@ -16,7 +16,6 @@
 // - extract_min takes O(logn) time
 //     - replace min with bottom right
 //     - bubble down until it meets requirements
-
 // MinHeap class 
 class MinHeap {
 
@@ -61,7 +60,7 @@ class MinHeap {
   };
   bubbleDown(index) {
 
-    while (true) {
+    while (true) { 
       var child = (index + 1) * 2;
       var sibling = child - 1;
       var toSwap = null;

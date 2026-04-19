@@ -8,16 +8,16 @@ https://www.youtube.com/watch?v=G91C-eJHNjM&ab_channel=StrongCoffeeCode
 4. The Banifit of this iife is its Secure our data from laxical scope 
 5. Please See index.html 
 
-
+ 
 
 <script>
 
 function abc(){
-	console.log("Normal function statement/declaration")
-}
+	console.log("Normal function statement/declaration")   
+} 
 
 const xyz = function abc(){
-	console.log(" function expression with named function")
+	console.log("function expression with named function")
 }
 
 const kml = function (){
@@ -26,6 +26,7 @@ const kml = function (){
 
 /*
 function (){
+
 	console.log("this will give error:  function statement require a function name")
 }*/
 
@@ -44,5 +45,4 @@ http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-inv
 
 https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174
 
-https://www.w3schools.com/js/js_function_definition.asp
-
+https://www.w3schools.com/js/js_function_definition

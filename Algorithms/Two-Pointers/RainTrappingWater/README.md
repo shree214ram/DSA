@@ -21,7 +21,7 @@ TECH DOSE
 
 
 https://www.geeksforgeeks.org/trapping-rain-water/
-Main Logic :- Hame left max nikalna padta he and right max , and Dono ka jo min hota he usko final Minimum man kar usme se current element ki height ko minus karte he to water level nikal aata he current building ka 
+Main Logic :- Hame left max nikalna padta he and right max , and Dono ka jo minimum hota he usko final Minimum man kar usme se current element ki height ko minus karte he to water level nikal aata he current building ka 
 ### 1. Navie Approach O(N*N),O(1)
     2 for loop :- 1 for outer for all elements of array second for set left Max and right Max 
     for(i=1){
@@ -35,19 +35,23 @@ Main Logic :- Hame left max nikalna padta he and right max , and Dono ka jo min 
         }
         res+=Math.min(left,right)-A[i]
     }
-### 2. Otimal Solution O(N),O(N):- (Pre Calculation of Left and right values in 2 different array)
+### 2. Optimal Solution O(N),O(N):- (Pre Calculation of Left and right values in 2 different array)
     pura code upper wala hi hota he bus hum 2 for loop ki jagah 1 loop ittrate karte he 
     and Precalculation (Pahle se hi) karke leftMax and rightMax Nikal lete he 
     left[0] = A[0]
     for(let j=1;j<i;i++){
-        left = Math.max(left[j-1],A[j])
+        // left = Math.max(left[j-1],A[j])  
+        //mistake found by sunny it should be  left[j] why because we are preparing left array
+        left[j] = Math.max(left[j-1],A[j])  
     }
     right[n-1] = A[n-1]
-    for(let j=n-2;j>=0;i++){
-        right = Math.max(right[j+1],A[j])
+    for(let j=n-2;j>=0;j--){
+        // right = Math.max(right[j+1],A[j])
+        //mistake found by sunny it should be  right[j] why because we are preparing right array
+        right[j] = Math.max(right[j+1],A[j])
     }
     for(i=0){
-        res+=Math.min(left[i],right[i])-A[i]
+        res+=Math.min(left[i],right[i])-A[i] //left max and right max me se maximum nikal kar Usme se current element ki height 
     }
 ### 3. Batter Optimal Solution O(N),O(1) :- Two pointer 
     leftMax

@@ -20,7 +20,7 @@ Basically there are 2 methods
       let latestMax = 0
       for(i=0;i<Arr.length-1;i++){
          let currentMax =0 
-         for(j=i;j<=k;j++){
+         for(j=i;j<=i+k;j++){
             currentMax = currentMax + Arr[j]
          }
          latestMax = Math.max(currentMax,latestMax)

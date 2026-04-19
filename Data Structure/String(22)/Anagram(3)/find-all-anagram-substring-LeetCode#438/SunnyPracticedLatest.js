@@ -26,8 +26,10 @@ for (let i = pat.length; i <= txt.length; i++) {
         res++
         console.log("Found at index ,", i - pat.length)
     }
-    cp2[txt[i - pat.length].charCodeAt(0) - "A".charCodeAt(0)] = 0
+    //Add current element to current window
     cp2[txt[i]?.charCodeAt(0) - "A".charCodeAt(0)] = 1
+    //Remove first character from previous window
+    cp2[txt[i - pat.length].charCodeAt(0) - "A".charCodeAt(0)] = 0
 }
 
 console.log(res, "count of total anagram");

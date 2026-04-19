@@ -1,4 +1,4 @@
-//https://www.youtube.com/watch?v=XFPHg5KjHoo
+z//https://www.youtube.com/watch?v=XFPHg5KjHoo
 
 // https://www.geeksforgeeks.org/longest-sub-array-sum-k/
 
@@ -16,7 +16,7 @@ Basically there are 2 methods same
              //update maxLength
              maxLength = Math.max(sum.length,maxLength)
          }
-     }
+     } 
      calculate the sum of all the element one by one in Sub Array and update the maximum Array Size and print the maxLength
 2. Hash Map  :- 
     Time Complexity: O(N), where N is the length of the given array.

@@ -72,7 +72,13 @@ https://www.youtube.com/watch?v=I65quKey1EM
 ### Problem {Not able to solve DSA Problem} :- 
 https://www.quora.com/I-am-not-able-to-solve-problems-even-after-I-have-practiced-quite-a-bit-I-know-the-basic-algorithms-and-data-structures-but-cannot-think-when-a-new-problem-comes-What-should-I-do
 
+
+How to solve 500 Data Structures and Algorithms Question | Strategy for Coding Practice
+
 https://www.youtube.com/watch?v=VPMV7x3nZoo&ab_channel=NishankGargIITMadras
+
+How to use LeetCode to Crack Product Based Companies Interviews | My Strategy
+
 https://www.youtube.com/watch?v=j6vS0DFa6ec&ab_channel=NishankGargIITMadras
 
 

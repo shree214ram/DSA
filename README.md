@@ -1,3 +1,11 @@
+# DSA 
+
+# Why DSA is so Imortant 
+https://youtube.com/shorts/ewN7p5vBzyA?feature=share
+https://youtube.com/shorts/26KjbbauFUI?feature=share
+https://www.youtube.com/watch?v=EAboufQv2XA
+https://www.youtube.com/watch?v=Y8iSU_5keAg
+
 Data Structure And Algorithm In Javascript.
 
 ## Available Codes for DSA in Javascript 

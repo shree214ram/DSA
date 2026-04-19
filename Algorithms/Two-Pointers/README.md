@@ -47,3 +47,4 @@ More problems based on two pointer technique.
 4. Find a triplet that sum to a given value
 5. Find a triplet such that sum of two equals to third element
 6. Find four elements that sum to a given value
+7. Check if string is Palingdrome DSA\Data Structure\String(22)\Palindrome(6)\1checkStringIsPalindrome\readme.md

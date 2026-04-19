@@ -1,5 +1,5 @@
 
-<script>
+{/* <script> */}
 //7:17 , 7:42
 //
 class maxHeap {
@@ -42,7 +42,7 @@ class maxHeap {
     	let leftIndex = this.left(root);    	
         let rightIndex = this.right(root);
         
-        let max= root ;
+        let max= root ; 
         
         if(this.data[leftIndex]>this.data[root]){
         	max = leftIndex
@@ -84,5 +84,5 @@ while(!hp.empty() && j< A.length ){
 }
 console.log(hp.data)
 console.log("kth smallest element is =", hp.data[0])
-</script>
+// </script>
 

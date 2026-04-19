@@ -20,3 +20,12 @@ for (let i = 0; i < A.length; i++) {
     }
 }
 console.log("maxLength= ", maxLength)
+//very important
+// t = su
+// cost A = [{key:'Au',va:'23'}],{key:'Au',va:'23'},{key:'Au',va:'23'},{key:'Au',va:'23'}]
+
+
+// const newA = A.filter(obj=>obj.key == t)
+//  if(newA.length == 0){
+//      A.push({key:'su'})
+//  }

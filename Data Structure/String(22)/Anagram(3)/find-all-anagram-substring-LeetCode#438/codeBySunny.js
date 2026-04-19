@@ -8,6 +8,7 @@ const MAX = 26;
 // are same, otherwise false.
 function compare(arr1, arr2) {
     for (var i = 0; i < MAX; i++) {
+        //ye ascendinng order me keys jam jayengi kyunki ye ek array he 
         if (arr1[i] !== arr2[i]) {
             return false;
         }
