@@ -18,7 +18,7 @@ Basically there are 2 methods same
          }
      } 
      calculate the sum of all the element one by one in Sub Array and update the maximum Array Size and print the maxLength
-2. Hash Map  :- 
+2. Hash Map and Prefix Sum  :- 
     Time Complexity: O(N), where N is the length of the given array.
     Auxiliary Space: O(N), for storing the maxLength in the HashMap.
 
@@ -39,6 +39,7 @@ Basically there are 2 methods same
             Add Sum in Hash with value currentIndex
         }
     }
+    # Batter Optimized solution see Leetcode-325 and Leetcode-560 md files code 
 3. Variable window slide and Two pointer 
 ### {This approach won’t work for negative numbers}
     Time Complexity: O(N), where N is the length of the given array.

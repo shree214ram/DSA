@@ -6,7 +6,7 @@
 
 <p id="demo"></p>
 
-<script>
+<script> 
 const A = "GEEKSFORGEEKS"
 //2:25 //2:34 36
 let maxLength = Number.MIN_VALUE;

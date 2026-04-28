@@ -12,6 +12,30 @@ Explaination: The subarray is {7, 6, 1, 4} with sum 18, which is divisible by 3.
 Input: arr[] = {-2, 2, -5, 12, -11, -1, 7}, k = 3
 Output: 5
 
+
+
+let sum=0;
+let maxLen=0;
+let hash={};
+for(let i=0;i<arr.length;i++){
+    sum+=arr[i];
+    let mod=sum%k;
+    if(mod<0){
+        mod+=k;
+    }
+    if(mod===0){
+        maxLen=i+1;
+        continue;
+    }
+    if(hash[mod]===undefined){
+        hash[mod]=i;
+    }else{
+        maxLen=Math.max(maxLen,i-hash[mod]);
+    }
+}
+return maxLen;
+
+
 Solution :-
 
 const arr = [2, 7, 6, 1, 4, 5], k = 3

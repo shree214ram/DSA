@@ -15,9 +15,9 @@ for(let i=0;i<P.length;i++){
 let counter = 0;
 let start = 0;
 let minLength = Number.MAX_VALUE;
-
+ 
 //string
-for(let i=0;i<A.length;i++){
+for(let i=0;i<A.length;i++){ 
 	if(hash.get(A[i].charCodeAt(0))){
     	hash.set(A[i].charCodeAt(0), hash.get(A[i].charCodeAt(0))+1)
     }else{

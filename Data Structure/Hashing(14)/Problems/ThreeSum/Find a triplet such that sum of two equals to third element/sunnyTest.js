@@ -29,7 +29,7 @@ function find3Numbers(A, arr_size, sum)
 		
 	// index of the last element
 		r = arr_size - 1;
-		while (l < r) {
+		while (l < r) { 
         	console.log(A[i],A[l],A[r])
 			if (A[i] + A[l] == A[r] )
 			{

@@ -21,3 +21,6 @@ for(let i=0;i<A.length-k+1;i++){
 console.log(result,"result")
 </script>
 
+This solution giving  Time Limit Exceeded Error
+
+so we need to use Monotonic Deque Logic : 

@@ -6,7 +6,7 @@
 //O(N2) time and space O(N)
 
 //O(N2) Sorting and Two pointer,  O(1) No extra space required 
-const A = [1, 2, 6, 4, 3, 8, 9]
+const A = [1, 2, 6, 4, 3, 8, 9] 
 //1. Sort in ASC
 A.sort((a, b) => a - b)
 // find 3 elements 2 elements sum is equal to third 

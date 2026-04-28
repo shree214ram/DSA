@@ -1,3 +1,5 @@
+Leetcode-76
+
 https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
 
 Given two strings, string and pattern, the task is to find the smallest substring in string containing all characters of pattern. 
@@ -23,7 +25,7 @@ https://www.youtube.com/watch?v=GZjW14vX2Ps&ab_channel=CodingSimplified
     see this and video again 
     https://www.youtube.com/watch?v=GZjW14vX2Ps&ab_channel=CodingSimplified 
     
-   ### @sunny Analysis 
+   ### @sunny Analysis  
     1. make 1 hash map of  Pattern pHash
     2. ittrate over string and push each element of string in sHash 
     3. if current element of array A[i]'s value is low Or Equal to Pattern pHash same A[i]'s value then increment conter 
