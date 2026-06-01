@@ -38,4 +38,10 @@ https://www.youtube.com/watch?v=GZjW14vX2Ps&ab_channel=CodingSimplified
     7. Print the substr (start , minWindow)
 
    ### I have understood the Approach but i have done 2 times big mistake step 3 in sunnyTest23May.js and sunnytest20March2023.js
+
+   # Latest 2026 Work 
+
+   1. gfg.js is the Solution with 2 hash array which can be work if interviewer dont want space low it O(N). Its easy to explain and Implementation 
+
+   2. optimized_solution_2026_April_22.js is the More Optimised with single storage array 
     

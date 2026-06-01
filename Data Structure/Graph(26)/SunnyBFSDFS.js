@@ -27,14 +27,22 @@ class Graph{
             this.vertex.set(a,[b])
         }
     }
-    BFS(start){
+    /*
+ 	 A
+    /| \
+   B_C_D 
+   \ | /
+     E
+ */
+    BFS(start){ // let say start is A
+        //maping first all element visited false 
     	const visited={};
     	for(let key of this.vertex.keys()){
         	visited[key] = false
         }
         
         //first 
-        visited[start] = true
+        visited[start] = true //visited of A would be true 
         const q = new Queue();
         q.enqueue(start);
         

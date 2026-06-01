@@ -24,7 +24,7 @@ class Maxheap {
             this.swap(parentIndex, current)
             current = parentIndex
         }
-
+ 
     }
     swap(parentIndex, current) {
         let temp = this.data[parentIndex];

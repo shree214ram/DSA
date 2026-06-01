@@ -68,7 +68,7 @@ class MinHeap {
       // if current is greater than child
       if (this.data[index] > this.data[child]) {
         toSwap = child;
-      }
+      } 
 
       // if sibling is smaller than child, but also smaller than current
       if (this.data[index] > this.data[sibling] && (this.data[child] == null || (this.data[child] !== null && this.data[sibling] < this.data[child]))) {

@@ -67,6 +67,8 @@ class BinaryTree {
       this.printGivenLevel(this.root, i);
   }
 
+
+
   /* Compute the "height" OR "maxDepth" of a tree -- the number of 
   nodes along the longest path from the root node 
   down to the farthest leaf node.*/
@@ -87,6 +89,9 @@ class BinaryTree {
 
   /* Print nodes at the given level */
   printGivenLevel(root, level) {
+    // root,1
+    // let say height 1 
+    // let say height(level) 2
     if (root == null)
       return;
     if (level == 1)

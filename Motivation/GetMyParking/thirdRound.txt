@@ -1,2 +1,14 @@
 ### UI Architect 
-1. Design : Book My show 
+1. Requirment -> Design : Book My show (User can book the Sit and get message and email after payment)
+2. I used Each and Every expensive tools (Like Kafka and CND and Other ) and make Over complicated System at Place of 
+    1. Simple 
+    2. Cheap 
+    3. Fast Delivered 
+
+    Actually Enterviewer asked me to make a system for Startups and fast delivery 
+
+    So he was expecying like 
+
+    1. Simple (easy to understand)
+    2. Cheap (Low Cost)
+    3. Fast Delivered (If Its possible to deliver in one week like wordpress or any other quick Later we can think for Scale and High Performance )

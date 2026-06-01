@@ -1,5 +1,13 @@
 https://www.youtube.com/watch?v=8b9rwm1VsYA&ab_channel=CodeIn10-NishantChahar
 ### What is Recursion :-
+    we need to findout the the main things in our function then Recursion would work autometically 
+fn(){
+    //base case 
+
+    //calculation 
+
+    //recursion 
+}
 
 recursion basically a procedure for call recursively a function and findout the solution 
 1. we have to findout a sub problem and 

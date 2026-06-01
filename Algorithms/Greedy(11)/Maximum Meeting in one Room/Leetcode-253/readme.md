@@ -1,0 +1,1 @@
+1. solved with sweep line algorithm and then moved to heap becuse of some importnat Meta data questions 

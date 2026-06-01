@@ -30,3 +30,6 @@ class stack{
 2. Find Smaller on right side (Leetcode 1475 Discount for each elemet)
 3. Nearest Greater element on Left Side (Leetcode 901)
 3. Nearest Smallest element on Left Side (Leetcode 84: Largest Rectangle in Histogram)
+5. Remove K digit Leetcode 402
+6. LeetCode #739: Daily Temperatures. 
+7. Valid Paranthesis Leetcode 20

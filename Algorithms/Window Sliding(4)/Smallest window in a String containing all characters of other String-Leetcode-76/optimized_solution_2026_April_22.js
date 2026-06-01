@@ -23,7 +23,7 @@ var minWindow = function(s, t) {
         
         // Decrease the debt for this character (can go negative)
         map[charEnd] = (map[charEnd] || 0) - 1;
-
+ 
         // While the window is "valid" (all characters found)
         while (required === 0) {
             // Update the global minimum
