@@ -42,7 +42,6 @@ Actually i dodnt want to merge DSA FAANG work with Exaple.com here but there is 
 
 # 30 May 2026
 
-
 1. Kronos Migration to GCP and download all folders and DBS 
 2. Leetcode Problems regarding Tree and 2 Old problems with hash and prefix sum 
 3. Video Shree Tech work 
@@ -71,3 +70,12 @@ without getting the help of other direct how can ?
 # 1 May 
 1. Worked for 862 Shortest Array Window sidin deque and Prefix sum [but-not-worked] 
 2. Make common DSA Tracking Sheet (upload all and make beutiful DSA,Daily Activity , )
+3. Graph Theory 
+4. Worked for Shree Video Pipelining 
+
+# 2 May 
+1. Setup of DSA Repo in Mac [Linked In Blog for Sunny]
+2. Setup of ShreeTech Video in Git Repo 
+    1. (locked sync_agent) 
+    2. [think for AI autometic video like Jaggannath/Poti-aa-rahi/]
+3. Goal Gaurdian App 
