@@ -71,3 +71,11 @@ without getting the help of other direct how can ?
 # 1 May 
 1. Worked for 862 Shortest Array Window sidin deque and Prefix sum [but-not-worked] 
 2. Make common DSA Tracking Sheet (upload all and make beutiful DSA,Daily Activity , )
+
+# 3 may 
+1. Delete node BST 
+2. Insert interval 
+3. Video Idea 
+    1. my watsup video in You Juggi facebook url 
+    2. AI videos like Jaggannath and Potti aa rahi , Megha 
+
