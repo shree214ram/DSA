@@ -79,3 +79,11 @@ without getting the help of other direct how can ?
     1. (locked sync_agent) 
     2. [think for AI autometic video like Jaggannath/Poti-aa-rahi/]
 3. Goal Gaurdian App 
+
+# 3 may 
+1. Delete node BST 
+2. Insert interval 
+3. Video Idea 
+    1. my watsup video in You Juggi facebook url 
+    2. AI videos like Jaggannath and Potti aa rahi , Megha 
+
