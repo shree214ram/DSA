@@ -68,14 +68,50 @@ without getting the help of other direct how can ?
 1. worked for Delete Node [but-not-worked] 
 2. Worked for ShreeTech Video 
 
-# 1 May 
+# 1 June 
 1. Worked for 862 Shortest Array Window sidin deque and Prefix sum [but-not-worked] 
 2. Make common DSA Tracking Sheet (upload all and make beutiful DSA,Daily Activity , )
 
-# 3 may 
-1. Delete node BST 
-2. Insert interval 
+# 3 June 
+1. Delete node BST [NotDoneYet]
+2. Insert interval [NotDoneYet]
 3. Video Idea 
     1. my watsup video in You Juggi facebook url 
-    2. AI videos like Jaggannath and Potti aa rahi , Megha 
+    2. AI videos like Jaggannath and Potti aa rahi,  (Anil Mindi links of insta), Megha 4 videos [2MoreNew]
+    3. Mayras Blog and video 
+    4. Sindrella Book to video (Mayra's Book) [Story telling type]
+    5. 6 Category already working on , [inProgress]
+    6. Sunny's DSA Material ----> Blog----> Sunny's Twin + Video + Board Representaion for live explanation (how like color representation we asked from gemini for Orange Rotten (water waves moving from all 4 direction in single minute {hidden thing which not given in Problem}) and Iland Problem for color and visual undersyanding ) [WillTakeAiHelpForMakingItAltraBeautifulWhichDoesNotExistOnYoutube-Easy-Visual]
+    7. GCP MIgration Kronos, ShreeTechNewWebsite at GCP , Some Genral learning from our GCP like cost , big query and other important services we are using we will not show our full ShreeTech Business Idea But some small small Important Steps which we followed we can share (GKE,Cloud-comuting ,vm, Cost Saved [kafka-punsub,Oracle-Postgres,Mongo-Firebase,BigQuery(Cost-Analytics),Splunk-GCP-logs,GKE(Autp-Pilot,Auto-Scale,Reduced-Cost),Nginx-customRouting,GCP-LoadBalancer(No-Need-of-external-E5orOtherLoadBalancer),Security-Serviceaccount,RBAC,Vault] )[AsWeHaveLotsOfImagesSoWecanHideOurInformationAndMakeOneBeautifulVideoWithAllScreenShots]
 
+# 4-7 June 
+
+1. Schedule the course Or detect cycle in Drected Graph 207 [notDone]
+2. Detect cycle in Undirected graph [notDone]
+3. Color the Graph 1034 [notDone]
+3. No of Iland 200 [notDone]
+4. Kamini feedback on that day Discussion :
+    1. Chalanges to migrate 
+    2. Is it possible in one month 
+    3. Cost Saved [kafka-punsub,Oracle-Postgres,Mongo-Firebase,BigQuery(Cost-Analytics),Splunk-GCP-logs,GKE(Autp-Pilot,Auto-Scale,Reduced-Cost),Nginx-customRouting,GCP-LoadBalancer(No-Need-of-external-E5orOtherLoadBalancer),Security-Serviceaccount,RBAC,Vault]
+5. ShreeTech Frontened Discussion [Done]
+
+# 8 June 
+
+1. 2 Big Graph Problem [Iland-Rotten] [HIGH]
+    1. Ilan [withHelpOf4HintWorkedButNoHire]
+    2. Rotten 
+2. 100 blog and share them on (Linked In , FB, Quora , )
+3. 10 types of video Making [HIGH] (shared on youtube/Insta)
+4. UI ready [HIGH]
+5. Research at US Job again [HIGH] 
+
+
+
+1. You have been lernt Architect : [what u should say ]
+    RDK , Graphql, nextjs 
+2. Migration [] some new Features 
+    frontened extpert 
+    web accasibiity 
+
+3. Next roles and expectation 

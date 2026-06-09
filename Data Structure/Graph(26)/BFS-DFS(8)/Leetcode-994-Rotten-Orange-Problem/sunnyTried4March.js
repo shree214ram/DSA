@@ -39,7 +39,7 @@ while (q.length !== 0) {
     //@mistake at place of call BFS I have called here DFS call so because of this It was not working 
 
     //callBFS
-
+ 
     for (let i = 0; i < mNext.length; i++) {
         const upcomingX = mNext[i] + temp[1];
         const upcomingY = nNext[i] + temp[2];
@@ -59,18 +59,18 @@ if(noOfConvertedOrange === noOfFreshOrange){
     console.log("Not Possible");
 }
 
-function rec(i, j, visited, top) {
-    console.log(i, "i")
-    if (!visited[i][j]) {
-        visited[i][j] = 1
-        if (grid[i][j] == 1) {
-            grid[i][j] = 2
-            q.push([top + 1, i, j])
-        }
-        if (i + 1 < grid.length) rec(i + 1, j, visited);
-        if (i - 1 > 0) rec(i - 1, j, visited);
-        if (j + 1 < grid[0].length) rec(i, j + 1, visited);
-        if (j - 1 > 0) rec(i, j - 1, visited);
-    }
-    return
-}
+// function rec(i, j, visited, top) {
+//     console.log(i, "i")
+//     if (!visited[i][j]) {
+//         visited[i][j] = 1
+//         if (grid[i][j] == 1) {
+//             grid[i][j] = 2
+//             q.push([top + 1, i, j])
+//         }
+//         if (i + 1 < grid.length) rec(i + 1, j, visited);
+//         if (i - 1 > 0) rec(i - 1, j, visited);
+//         if (j + 1 < grid[0].length) rec(i, j + 1, visited);
+//         if (j - 1 > 0) rec(i, j - 1, visited);
+//     }
+//     return
+// }
