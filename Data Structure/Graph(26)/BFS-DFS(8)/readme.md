@@ -14,4 +14,4 @@
 <p align="center">
   <img src="Graph-BFS-Queue.png">
   <br/>
-</p>
+</p> 
