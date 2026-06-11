@@ -114,6 +114,12 @@ without getting the help of other direct how can ?
 4. UI ready [HIGH]
 5. Research at US Job again [HIGH] 
 
+# 9Nune 
+1. Iland 
+2. Rotten 
+3. Clone Graph 
+6. Research at All new Video Category [HIGH] [DONE]
+
 
 
 1. You have been lernt Architect : [what u should say ]
