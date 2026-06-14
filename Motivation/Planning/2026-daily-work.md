@@ -129,3 +129,72 @@ without getting the help of other direct how can ?
     web accasibiity 
 
 3. Next roles and expectation 
+
+===
+
+# 10-12 June
+1. Grapgh Fundamemtals 
+2. Video work for shreetech 
+3. Documentation 
+
+
+
+Now i think i will do best in next question one line ? and can u please give me a document for Important Tips and where i did mistaken and u corrected so i will Print and paste at wall for long life set in memmory like you given me : 
+
+### Why DFS Does Not Fit here
+
+
+
+DFS is a "tunnel vision" algorithm. If you have a rotten orange at `(0,0)`, DFS will pick *one* path (like going all the way down the left wall) and turn those oranges rotten one by one, racked up to 5 or 6 minutes deep.
+
+
+
+Meanwhile, a completely different rotten orange at the opposite corner of the grid is supposed to be rotting its own neighbors at the exact same time. DFS cannot jump back and forth between separate islands of rot to process them in parallel. It computes the time for one deep branch sequentially before starting the next, completely wrecking the "simultaneous, minute-by-minute" rule.
+
+ and 2. at the time of where is should nested loop and where single connected : #### Very IMPORTANT
+
+
+
+in some of the problem we direct used tha tpmlate just DFS call and here we required down 2 for loop may i know how to know where we shpuld call for Individual like for(let i=0;i<m;i++){
+
+        for(let j=0;j<n;j++){
+
+            dfs(i,j)
+
+        }
+
+    }  ? just one line 
+
+
+
+===
+
+Use the **nested loops** when a grid can contain *multiple, disconnected components* (like separate islands or isolated networks) so you can scan and find every single starting point; you only skip the loops if you are given a *guaranteed single entry point* (like a designated starting cell `(0,0)` to find a single path to the exit).
+
+==
+
+3. and where to use BFS and where DFS as i  mistaken in one of the queston and u suggested 4. where to use djency List prepare first and where 2D array i think in Cource Schedule Problem Or Any important things which i have mistaken and you corrcted so in future i would keep in my mind and that document would be very helpfull for quick 2 min Revision Specificly for Graph . Make in Gdrive so i will keep updating you can maintain the Excel Sheet so i thing would be batter Or Word Document think as per you . Heading Graph Theory and Mistakes (think as per you title )Column should be Problem Leetcode No with shorttitle like Ilnd Or Rotten Ortange , What i applied in first attempt , and then what wa the Mistaken and in second attempt what i applied what was the mistakes and What is Important thing i should in my mind for next time then third and fourth attempt Keep all the Graph Problem there from the start to till date you can mensioned the date column also for our tracking which date first attemp , which date second attempt . and u can take help from this https://docs.google.com/document/d/1KqPHte-s-upM14qoYwHVjFmUBVhDzOHj-o-CwBPl5Dw/edit?tab=t.0 and our old conversation from this Leetcode DSA Prepartion . One question why cant we mantain a single douement like https://docs.google.com/spreadsheets/d/1waOznrkFCX7RFPjvMmu--OKNDyMbxnsBt3kokY_S7t8/edit?gid=0#gid=0 (if u see it i have handled and maintained very beautifuly all the Progress in Single document so i would not have to gomuch here and there for Heap,Hash,Stack and windowsliding and greedy ) Alst time also asked you to continue this sheet for for Tree and Other work what is did but u made new document https://docs.google.com/document/d/1P8cyJ47HeEcww_GRdv3JL2C28K20CnBQ8FtpPb_GGuQ/edit?tab=t.0 for Recursion and Backtracking and then we again back to Tree and Graph So can we make single Document for all The Progress ? Before make any document just think and let me know one line ? and then in net i would ask for document 
+
+
+Do both the things 1. Old Existing DSA Prepartion +plus all new work after that with date and other infoemation like Problem no , pattern , Note , attemps , dates , status 
+
+
+please do it both the work but please keep maintained the same sturtcure for 
+
+
+
+
+
+Hi, I am trying for word letter problem and I have understood some of the things and some of the still remaining. Could you please help me to do it actually the Problem says we need to check start. Word and need to start with that word and one by one in the all the world list and then in the last sequence should have and work if in the and is not there that means this is invalid second if we have reached to the hand work with minimum 2 minimum number so that will be the number. Start should not be include in the list and we should check one by one number. And we need to finish on and word.Example 1:
+
+Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]Output: 5Explanation: One shortest transformation sequence is "hit" -> "hot" -> "dot" -> "dog" -> cog", which is 5 words long.
+
+Example 2:
+
+Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]Output: 0Explanation: The endWord "cog" is not in wordList, therefore there is no valid transformation sequence. in first example it starts with hot then dot then how it reachecd from "hit" -> "hot" -> "dot" -> "dog" -> cog" , dog to cog direct missing log and reurnedd 5 length help me to undersrand plese as interviewer dont show me solution or code just as interviewer trit me as Mock interview 
+
+# 13 June 
+
+1. Need to make blog like screenshot of Google without Copyright
+2. Aunty cook blog 
+3. Need to discuss Subscription For AI Live Mock Interview  (Tough UK/US Excent which i may have to suffer in Real Google Interview Because in last company i suffered for understanding to UK Excent my 2 Product Owner from London and i was only able to understand them 40 to 50 % that was very embarasing and its go got verydifflt to my Job even I was so much Strong in Technical but sometime because of Communication Gap its given Bad Impression even my Director given only that one Feedback in the last day of PIP )
