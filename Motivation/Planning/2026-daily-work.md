@@ -85,11 +85,25 @@ without getting the help of other direct how can ?
 2. Insert interval [NotDoneYet]
 3. Video Idea 
     1. my watsup video in You Juggi facebook url 
-    2. AI videos like Jaggannath and Potti aa rahi,  (Anil Mindi links of insta), Megha 4 videos [2MoreNew]
-    3. Mayras Blog and video 
+        1. https://www.facebook.com/reel/1496615878875735/
+        2. https://www.facebook.com/reel/1022669763527920/
+    2. AI videos like Jaggannath and Potti aa rahi,  
+        1. https://www.youtube.com/shorts/AT63H_k3ykQ 
+        2. https://www.youtube.com/shorts/bJlJA0HXu7g
+        3. https://www.youtube.com/shorts/h6TGhhjcxa0 
+        (Anil Mindi links of insta)
+           1. https://www.instagram.com/reel/DW1R20JDU-o/?igsh=MTR6aTAzZjN3bDBtOA%3D%3D
+           2. https://www.instagram.com/reel/DY4tvPGtd__/?igsh=enR2MTEwcmRuYWky
+           3. https://www.instagram.com/tinytoddlesanimation/reel/DZPuvCwOwUR/
+        , Megha 4 videos [2MoreNew]
+
+    3. Mayras/Mywife Blog and video [Same like Sunny's Twin Mayra's/My wife Twin ] and video from there content
     4. Sindrella Book to video (Mayra's Book) [Story telling type]
+        sindrella Images from book 
+        https://www.youtube.com/watch?v=UcE0kqBwB_U&pp=ygUfamFnZ2FuYXRoIGphZ2dhbmF0aCBzaG9ydCBjbGlwcw%3D%3D
+
     5. 6 Category already working on , [inProgress]
-    6. Sunny's DSA Material ----> Blog----> Sunny's Twin + Video + Board Representaion for live explanation (how like color representation we asked from gemini for Orange Rotten (water waves moving from all 4 direction in single minute {hidden thing which not given in Problem}) and Iland Problem for color and visual undersyanding ) [WillTakeAiHelpForMakingItAltraBeautifulWhichDoesNotExistOnYoutube-Easy-Visual]
+    6. Sunny's DSA/System Design/Old Interview Material ----> Blog----> Sunny's Twin + Video + Board Representaion for live explanation (how like color representation we asked from gemini for Orange Rotten (water waves moving from all 4 direction in single minute {hidden thing which not given in Problem}) and Iland Problem for color and visual undersyanding ) [WillTakeAiHelpForMakingItAltraBeautifulWhichDoesNotExistOnYoutube-Easy-Visual]
     7. GCP MIgration Kronos, ShreeTechNewWebsite at GCP , Some Genral learning from our GCP like cost , big query and other important services we are using we will not show our full ShreeTech Business Idea But some small small Important Steps which we followed we can share (GKE,Cloud-comuting ,vm, Cost Saved [kafka-punsub,Oracle-Postgres,Mongo-Firebase,BigQuery(Cost-Analytics),Splunk-GCP-logs,GKE(Autp-Pilot,Auto-Scale,Reduced-Cost),Nginx-customRouting,GCP-LoadBalancer(No-Need-of-external-E5orOtherLoadBalancer),Security-Serviceaccount,RBAC,Vault] )[AsWeHaveLotsOfImagesSoWecanHideOurInformationAndMakeOneBeautifulVideoWithAllScreenShots]
 
 # 4-7 June 
@@ -129,6 +143,24 @@ without getting the help of other direct how can ?
     web accasibiity 
 
 3. Next roles and expectation 
+
+======
+
+# 10 
+1. Graph Problems 
+2. 
+    1. Clean video for 20 second 
+    2. delete code for unnecessory files on server 
+    3. 20 second merge FFMPEG program 
+    4. Research at Mindi AI Talking video category 4 
+
+# 11 
+
+Perfect, let's keep it laser-focused: you can deploy this single live production video today, and tomorrow we will build out the fully automated background music and AI research agent pipelines.
+
+
+
+It will look completely production-grade and seamless because your code will generate 4 distinct, highly relevant visual scenes matching each individual subtitle segment, which mimics the natural jump-cuts used in professional viral editing.
 
 ===
 
@@ -198,3 +230,4 @@ Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","
 1. Need to make blog like screenshot of Google without Copyright
 2. Aunty cook blog 
 3. Need to discuss Subscription For AI Live Mock Interview  (Tough UK/US Excent which i may have to suffer in Real Google Interview Because in last company i suffered for understanding to UK Excent my 2 Product Owner from London and i was only able to understand them 40 to 50 % that was very embarasing and its go got verydifflt to my Job even I was so much Strong in Technical but sometime because of Communication Gap its given Bad Impression even my Director given only that one Feedback in the last day of PIP )
+
