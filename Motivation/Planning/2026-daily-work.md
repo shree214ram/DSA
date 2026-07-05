@@ -198,3 +198,256 @@ Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","
 1. Need to make blog like screenshot of Google without Copyright
 2. Aunty cook blog 
 3. Need to discuss Subscription For AI Live Mock Interview  (Tough UK/US Excent which i may have to suffer in Real Google Interview Because in last company i suffered for understanding to UK Excent my 2 Product Owner from London and i was only able to understand them 40 to 50 % that was very embarasing and its go got verydifflt to my Job even I was so much Strong in Technical but sometime because of Communication Gap its given Bad Impression even my Director given only that one Feedback in the last day of PIP )
+
+# 14 June 
+Graph Problems 
+1. maximum distance from water to land [BFSQueueSnapShotLogic] [DONEIn3RdAttempt]
+2. Minimum count Word Ladder [Done3RdAttempt]
+
+
+# 15 
+1. Stack Revision 
+2. Next Greater Element 2 [503] [triedButFailedBecaueForgetMonotonicStackLogic]
+3. 1475,402,84 
+4. 901 , 496,739 
+5. Story type of video https://youtu.be/L5yKfZPB3jY?si=KFOaOil0UhnmOKqy 
+6. UK accent :  https://www.youtube.com/shorts/G2TNCdj6iIQ  https://www.youtube.com/shorts/a8BQBtbW0uE
+7.  [London] , 
+     Stuarts , Patrick , David , Adam ,PrachiBrother , MyntraUI-London-Amazon,
+     Suraj-gaurav Sharma [Belfast]
+    [NewYork] 
+     Karan,Suvra, Michal 
+    [Chicago]  
+     Devendra , Priti singh 
+
+
+# 16-17 
+
+1. Stack 
+    1. Monotonic Stack (Next Greater 2 circuler) 
+2. Two pointer 
+    1. Rain Trapping water
+    2. circuler Tour 
+    3. Started study at Graph 
+3. Two pointer 
+    1. Max container water 
+4. Sliding window , Prefix Sum , Hash Map 
+    1. 560. Subarray Sum Equals K
+    2. Leetcode-862-ShortestArraySumAtleastK
+5. Documentation 
+
+==
+
+can you pplease prepare the same type of Excel sheet in Gdrive not here with excat same column and if need more for 3rd , 4th , 5th attemppt with all my existing work + on top of that till the date all the work what is did like Tree, Graph , DP , Backtracking , 
+
+
+i need in excel sheet not word doc ? and please maintain the same thng for other questions i just as an example explained 862 or 560  
+
+# 18 
+
+1. Window Sliding 209, 325, 3, 643 ,506 ,76[NeedMore]
+
+# 19 - 20 
+
+236 [ThirdAttemptnotDoneNeedRevisit]
+103 [FirstAttemptNeedRevisit]
+104 [Done]
+226 [DONE]
+
+297 [ThirdAttemptnotDoneNeedRevisit]
+
+543 [DONE]
+
+124 [in45MinNotDoneTodaySecondAttempt18MayFirstAttempt]
+
+==
+
+# 21 
+
+1. DSA [TreeRevision]
+2. ITR[ThinkingToDoSameAIWork]/Vakil/Olive[Interior]
+3. ShreeTech [Video/UI/Domain-Renewal]
+4. KronosMigrate [DownloadAllBackup]
+
+# 22
+1. Tree Revision
+    1. BT Problems Revision 
+
+2. Graph Revision : Rotten,Iland, 
+    Rotating Digit 788
+
+# 23 
+    DP Started :-
+    1. 0/1 Knapsack [Revision]
+    2. 416 Partition Equal Subset Sum [given2-3Hrs]
+    3. 333 BST max [NeedtoRevisit-AlmostDone-3testcase-Passed-Missed-Max-Min-Logic-even-kept-argument-but-not-worked]
+    4. 128- Longest consecutive [PassedButNoHireBecaueIshouldUseHashMapBecauseO(n)Required]
+
+
+    Recursion :-
+        1. Fectorial
+        2. Reverse Strng 
+        3. Permitution L46 , L47 Permitution 2 
+        4. Power Set 78 and 90 
+        5. Total Sum (CombinationSum L-39)
+        6. Nth Stairs (L70)
+        7. Is Palingdrme 
+        8. Phone Number Combination (KeyPad Mobile) L17
+        9. NQueue 1524
+        10. Word Search 79
+    DP :-
+        Kanpsack 0/1 [top-down/botton-up] 
+        416 [NeedToRevist] [Dec1stAttempt-23JuneSecondRevisit]
+        322 min coin 
+        longest common subsequent 1143
+        count all palingdrome subsequence 
+        count distinct 730
+        longest palingdrome 5 
+        longest palingdrom subsequence 516
+        longest repeating character replacement 424
+        coin chnge 2 (518)
+        House Robber 198 [Max-sum]
+        Shortest Path 747 
+        Delete and Earn 740
+        House Robber 2 - 213
+        253 
+        139
+        44 Wild Card Matching 
+        1235
+        842 Split Array into Fabonaci
+        Restore the IP Address 
+        2484 
+
+        424,847,9,943
+
+
+        Longest Consecutive 128
+
+        496,1475,LandLord Problem -221 ,85 
+
+        221 , 20 
+
+        LeetCode 392: Is Subsequence (checking if one string is a subset/subsequence of another) and 
+        the classic DP problem LeetCode 1143: Longest Common Subsequence!"
+
+# 24 
+   1. Recursion Revisio  
+   2. Delete Node BST 450 [DoneWithSmallBug]
+   3. Is Palingdrme [DoneButFaangNeedModApproachRejected-NeedtoRevist]
+
+# 25 
+   1. CKA Study Started [Pod]
+   1. Permitution L46 [Done] [18Min]
+   2. Power Set 78 [Done] [18Min]
+   3. Total Sum (CombinationSum L-39) 
+   4. Phone Digit L17 [AppliedMergedButMIstakeToUnderstandTheProblem]
+
+# 26 
+   1. CKA Replicasets and ReplicaController 
+   2. Phone Digit 
+   3. Communication Skill Practice 
+   4. Tried NQueen Problem [45min]
+
+# 27 June 
+   1. CKA Replicasets and Deployment  
+   2. Phone Digit 
+   3. Communication Skill Practice 
+   4. Tried NQueen Problem [45min]
+   5. Worked For ShreeTeck Funding part
+As per our last discussion i have setupped Priorities and started work on that 
+
+https://docs.google.com/document/d/1U4r3jiCDISvjNAEN0PJTJf6tpZvXZ1anAz_uDkJyPdk/edit?tab=t.0
+
+1. CKA [1 or 2 hr] today was third day to continue practice on that
+2. DSA Recursion and Backtracking Revision is going on [daily 3 to 4 Problems if revision if new then 1 or 2 ]
+3. Commmuncation and Publick speaking with [1hr]
+    1. started speaking with AI studio 
+    2. Started write new Vocans 
+    3. Started work on Pronounciation 
+    4. started work at Grammer Mistakes 
+4. Gym [3/4DaysinWeek]
+5. ShreeTech[HoldOnlyWeekend]
+
+AI fear :- 
+    yesterday i went to one of my Aprtment event where all the Profession get togethered and they all are very experienced 2 from HR , 2 from Manager roles and one from cyber Security , one from Staff Engineer . 
+    1. Like every one is afraid from AI only talking about there Job Fear , one HR said from his company they fired from 280 to 80 now and He is doing 3 people work alone 
+    2. One SRE Manager or Lead told in his company also only 60 employee remaining and they are working so much because of AI they have to work too much 
+    3. One Cyber Security person told , in his company also so much work load and Some Audit work is going on and saterday sunday they have to work , to less work force .  So much work they have to do 
+    4. One AI engineer also was there but he did not talk any negative talk even he shared one Own Buildup Model of AI where he told we can build Video of any Product with Model , like automate Video or Image via tool so no need for Model cost for Advertisement , just upload the Item like Cloths , watch or shoose Video Or Image would automatic come via Tool , no need to pay To Designer and Photographer Or video maker and Models 
+    5. One Cyber secuity men was saying Cloud so powerful we just upload our documnet so he will prepare the Reports in Year what where did u spent  your money [SamelikeOurFinGaurdian-But-He-not-mensioned-about-Tax-and-other.AndHewasAlsoTalkingAboutCRED-CEO-joined-Meta{SoIWasSoMuchDemolerisedLikePeopleAreSoSmartMyFinGardianWillDefinietelyFail}]
+    6. One HR told they are again Hiring but very difficlut to find out the people like some are fail in HLD and Some are fail in LLD , but he talked one very interesting talk that gives me some little Hint
+        1. He told before some time he joined one company where only 19,23,25 yrs 3 boys made a Startups and they got some 21 Millions Or some thing around 2400 Crs company and individually having 800 CR , Thay just had some Good Idea and they Got Funding of that much Big Amount So 
+        2. I was thinking How this Funding Things work 
+        3. Where they tin age guy shown there Idea and Got that Much Big Bund ?
+        4. Who are the Investers they can Pay that much Fund ? 
+        5. What they Prepared Or what they Shown so they got that much Big Amount , and then that HR told might be they are IITians or BittsPlani so because of  that ?
+        6. Can't we get that much Big fund , where are we behind? [asWeAre3ReadyToWorkDayNight(NotDoingJob)IamTechnicalSmartAsUSeenGCPAI-Java-Spring-React-PWA]
+        7. Is any one of our Product become like that [shreeTech-Blog-Video/FinGaudian] can it be funded and ?
+        8. Or do we need to think any other more Interetsing Idea aprt from shreeTech Or FnGardian ?  what are the steps we have to takes to become like funded ? 
+    7. One Thing that i was thinking every one was afraid and talking Negatively , and I was Just listioning and little bit Demolerizing but bot so much Because Of My Prepartion [CKA-DSA-ShreeTech]
+        only one or 2 are from all of them are Developer others Like HR , Business Analyst , SRE Only Me and 2 more were there me and my firend Has same Staff Engineer Core Coding Work [developement] and one AI Engineer who shared that Model of video Making . May be they are seeing so much Insta and news so afried from AI and they are not Core Engineer like Me and my Fried , But i am not sure . I was also tenssed and afried somehow . 
+are we going correct ? 
+Startup Funding how works above point no 6 ? 
+
+Please Help me on the Above points and Let me motivate in this Difficult afried Situation . 
+
+
+
+# 28 June 
+   1. CKA Replicasets and Deployment  
+   3. Communication Skill Practice 
+   4. Tried NQueen Problem [NeedToDo]
+   4. 79 Word Search Problem [45min-2Blog]
+   4. Revised the Graph Important Tips []
+   4. Revised the Recursion Important Tips []
+   5. Worked For ShreeTeck Funding part
+
+   # 29
+   1. 3115 passed but [needToRevisit] because I have Learnt isPrime number function first time and smart technique : need to stop immidietelly once left or right foung 
+   2. 784 : isNAN , Number,  Object.entries(obj) [NeedToRevisit] smart technique : No need of Map object for store a,b,c we can simply do toUppoerCase and toLowercae 
+   3. N Queen Problem [DoneButNeededTwoHints]
+   3. CKA 2 hrs study 
+   4. CKA 1 hr [TaintTolerance,LebelAndSelector]
+
+# 30 
+   1. Knighmare Problem [FailedBecauseHeuristicSolutionWhichCanSaveUsFromExponential$O(8^{N^2})$TLE]
+    2. Kronos Backup 
+    3. VXmare kronos 
+    4. Renewal of shree 
+    5. Test the Redirecting to GCP kronos 
+
+    ShreeTech :- in our last discussion : You cannot easily build your own custom code to replace ElevenLabs or Replicate for free, because running the massive AI models that power realistic voice cloning and high-quality video generation requires thousands of dollars in high-end cloud GPUs (like NVIDIA H100s) that will cost you far more than their $10 subscription fees. I have some points - Please analysis on that :- we are using the GCP then why can't we make own Video and Audio atplace of Replicate and Elevent Lab if (We are using the Gemini API and we are already paying in GCP cost and Gemini API LLM). Now AI is super powerfull and My Purpose is totally Build My Own Engine without dependent on third Party API , Because If i will sold out my subscription then I need to Include my all the cost [likeGCPBilling-Domain-My-Team-Salary-Replicate+Elevent+Talking-AI+orOthersifRequiredInFuture] Similar to canva or Other AI tool they are already buildup their own so why cant we build own ? Because If u seen my last Replicate Billing Every 50 second video took 0.90 means around 85 INR rs ? So why people would purchase my tools subscription why they would not purchase Other ? We need to think in very depth I am ready to do lot of Coding work (because that is the Primarly Skill I have ) But I can not west money into that and I want to make User friendly so user would perchanse the Subscription from us and World best Tool which is not available . In one single button , low cost and Quality what is high nich required in Public . Just think if i would keep cost like [likeGCPBilling-Domain-My-Team-Salary-Replicate+Elevent+Talking-AI+orOthersifRequiredInFuture] then it would be very costly for me it self and if i would that cost then people would not purchase . Please Think for me as my Gaudian and Please Think fr Custom Own Engin so  we can chess our Market and can make "8 hrs manual work in Seconds" (ThatWouldBeTheMainNichAndOurWin) , perhaps then we can get VC Fund because , if i will go with all this expensive things [like3rdPartyAPI] they would say its alrady available and u are using 3rd party so it would be very cosstly and low benifit . Please think Market Alreay know AI Era is there every one is aware of every thing we need to thnk on top of that so we can win . Other Wise Bootstraping like Get some Income from Video (Youtube/Insta) and fetch Croud on Landing and Click to Pay and Lead Geeration would be treditional way an that may take Lot of time . But if we think on top of all API and with the help of AI make our Own Engine then that Would Be Exponential Win , what VC Board are looking . And we can Become Millinior right ? 1 to 5 line max 
+
+    # 1July 
+
+    1. Rate Maze problem [ResolvedWithRecursionButFailedBecauseNeededMemoization] 
+    2. Revidse of Knightmare And N Queen Problem 
+    3. CKA Practice  1 Hr 
+    4. Video Shree Tech PodRun Architecture 
+
+    # July 2 
+    1. Permutation 2 
+    2. Trying for Shortest Path Maze Matrix with 0 value L1091 
+    3. 
+
+    # July 3 
+    1. Revision of Graph [DONE]
+    2. 417 Revisit [NeedToRevisit]
+    3. uniquePaths Leetcode 62 Rate in Maze [NeedtoRevisit]
+    3. Word Ladder Leetcode 127  [NeedtoRevisit] [DoneButTookSomeExtraTime]
+    3. Chepest Fligh Leetcode 787  [NeedtoRevisit] [oneTimeAttemptFailed]
+    4. Documents for DSA Tracking
+
+    == 5th is last date 
+    2. Kronos Backup 
+    3. VXmare kronos 
+    4. Renewal of shree 
+    5. Test the Redirecting to GCP kronos 
+    6. Try to collect the Elevent Money and delete subscription 
+
+    ==31 July ITR Return 
+
+
+    # July 4
+    1. Chepest Fligh Leetcode 787  [NeedtoRevisit] [SecondTimeAttemptFailed]
+

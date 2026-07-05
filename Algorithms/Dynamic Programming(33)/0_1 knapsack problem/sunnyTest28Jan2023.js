@@ -27,7 +27,7 @@ for(let i=0;i<=Weight.length;i++){
         if(i==0||j==0){
             DP[i][j] = 0
         }else if(Weight[i-1] <= j){//Mistale 2 i-1 at place of i 
-            DP[i][j] = Math.max(DP[i-1][j], Value[i-1] + DP[i-1][j-Weight[i-1]]) //copy upper 
+            DP[i][j] = Math.max(DP[i-1][j], Value[i-1] + DP[i-1][j-Weight[i-1]]) //copy upper  
         }else if(Weight[i] > j){
             DP[i][j] = DP[i-1][j] //copy upper 
         }

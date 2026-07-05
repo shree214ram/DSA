@@ -22,3 +22,6 @@
 }
 
 
+# Important This Solution would be rejected in Faang because Its Exponential Solution like 8 to the Power 2 to the power n So please go through 2026-30-June.md 
+
+## The standard GeeksforGeeks solution has an exponential time complexity of $O(8^{N^2})$ because it brute-forces up to 8 moves for all $N^2$ cells, causing a Time Limit Exceeded (TLE) error for a standard $8 \times 8$ board. Warnsdorff’s Rule sits right on top of this by sorting those 8 directions to visit the tightest spots first—drastically reducing the time complexity to an incredibly fast $O(N^2)$ in practice!

@@ -57,7 +57,7 @@ for (let i = 0; i <= Weight.length; i++) {
         // ==
         else if (j >= Weight[i]) { //Weight[i] should be Weight[i-1] 
             //upper wali row me se DP[i-1][w-Weight[i]] 
-            DP[i][j] = Math.max(Value[i - 1] + DP[i - 1][j - Weight[i]], DP[i - 1][j]) 
+            DP[i][j] = Math.max(Value[i - 1] + DP[i - 1][j - Weight[i]], DP[i - 1][j])  
             
             // Weight[i] should be Weight[i-1]
         } else {

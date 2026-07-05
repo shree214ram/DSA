@@ -93,7 +93,7 @@ for (let i = 0; i < s.length; i++) {
             if (pMap.get(s[start].charCodeAt(0)) < sMap.get(s[start].charCodeAt(0))) {
                 sMap.set(s[start].charCodeAt(0), sMap.get(s[start].charCodeAt(0)) - 1)
             }
-            start++
+            start++ 
         }
         minLength = Math.min(minLength, i - start + 1)
     }

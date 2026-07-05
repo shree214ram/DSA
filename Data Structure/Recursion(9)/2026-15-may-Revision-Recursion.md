@@ -8,6 +8,18 @@ fn(){
 
     //recursion 
 }
+
+### Here are the core FAANG recursion patterns you need to master before DP:
+
+1. The Include/Exclude Pattern (Subsets/Combinations): Making a binary decision for each element—either take it or leave it.
+
+2. The Permutation Pattern (Arrangements): Swapping or tracking visited elements to find all unique orderings of a sequence.
+
+3. The Divide and Conquer Pattern (Tree/Merge): Splitting a problem into independent subproblems, solving them, and combining results (e.g., Merge Sort, Binary Tree traversals).
+
+4. The Backtracking/Exploration Pattern (Grid/Paths): Modifying a state, moving forward to explore paths, and explicitly undoing the choice if it hits a dead end (e.g., N-Queens, Flood Fill).
+
+# Some Basic Recursion Problem 
 <script>
 //12:51 //12:59 
 /*

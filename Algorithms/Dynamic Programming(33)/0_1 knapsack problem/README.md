@@ -26,8 +26,8 @@ https://www.youtube.com/watch?v=WNkqbqyvR_0
             }
         4. else {
                 // Min Nikalo (upper wale row same column ki value , Upper wali in Row me se jis amount ki value ka coin pata karna he {j} - Pichle wale Weight  {Weight[i-1]} Wale collumn ki value  )
-                DP[i][j] = Math.min(DP[i-1][j], DP[i-1][j-Weight[i-1]])
-            }
+                DP[i][j] = Math.max(DP[i-1][j], Value[i-1](Upper wale ki value)+ DP[i-1][j-Weight[i-1]])
+            } 
             35      45 -->j
                         _____________
             |    10    |
