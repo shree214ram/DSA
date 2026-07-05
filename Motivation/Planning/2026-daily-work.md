@@ -231,3 +231,57 @@ Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","
 2. Aunty cook blog 
 3. Need to discuss Subscription For AI Live Mock Interview  (Tough UK/US Excent which i may have to suffer in Real Google Interview Because in last company i suffered for understanding to UK Excent my 2 Product Owner from London and i was only able to understand them 40 to 50 % that was very embarasing and its go got verydifflt to my Job even I was so much Strong in Technical but sometime because of Communication Gap its given Bad Impression even my Director given only that one Feedback in the last day of PIP )
 
+# 14 
+
+1. WP ready for Blog 
+2. Video Engin Ready 80% 
+3. UI ()
+
+
+content -> Blog 
+
+
+==
+
+Given the upcoming festivals like Ganesh Chaturthi, Durga Puja, Garba, Dussehra, and Diwali,  
+
+
+you should absolutely change the priority to High 
+
+because your existing local FFMPEG logic covers 70% of the core structural work, leaving only 30% of remaining API-integration work that can be finished in just 2 to 5 days of hard coding for a final combined Talking AI 
+
+
+
+
+cost of only $0.30 to $0.45 (₹25 to ₹37) per video.
+
+==== 22 June 
+
+1. FAANG (Staff-Engineer):- [FullTimeWorkingAsNoJobRightNow]
+    1. DSA [goingOn] [PlanningForUKJobFromIndia-Actually-I-am-40-this-is-the-pick-time-to-go-other-wise-it-wont-possible] 
+        1. As i know for UK/Us Onsite Job DSA and System Design are must as well as Staff engineer Skill So working on that and my Primarly Goal is UK Or ISA first because i have 15 Yrs of Experience with MERN+Java/Spring+GCP+GKE (I have tried to clear CKA 3 times but just 5% less it was required 65 and i had 50 first attemp , 55 second attempt, 60 third attempt . I have one more Attempt renainig [PIP-and-OfficeWork-and-DSA-Prepartion-So-I-Hold-that])
+            If CKA and GCP certificates are helpful for UK Job Filteration I will retry (as i have little info for On site job that certification actually helps)
+            2. As in current company i worked on GCP Big Enterprice level of Application and in Kronos (Wordpress)Migration and ShreeTech [SameLikeInstaApp-VideoBackendWithSpringPWAinFrontend-With-All-GCP-Services] and Mind Agentic AI for Thinking and Give analysis System for Automate Video Creation Pipeline and Grow Business 
+        2. Public Speaking and Communication [goingOn]
+            1. going to class , daily learning 
+            2. Started Some Google AI Studia Real time conversation for UK accent [suggested need to work at 
+                1. Vocab Power 
+                2. Some Grammer Mistakes 
+                3. Pronounciation 
+                ] 
+                working on that [Daily Practicing on that] 
+        3. Going GYM for my Health and Keep my Mind Active 
+    2. System Design :- Need to start theory part and Mock Interview , as some thing already started in SchreeTech [LikeGCPLOwCostLowLatency-Spring-java/PWA-React-NextJs]
+2. ShreeTech:- [WeekendWorking-For-My-ATM-Machine]
+    1. kronos migration [NeedToDownloadallbackupFromCpanel-And-Redirect-to-GCP-July5Deadline]
+    2. shreeTech Blog [Wordpress-Theme-Setting-Remaining-and-shresTo-LinkedIn-FB-And-Other-Social-Media-Remaining]
+    3. shreeTech Videos [3 category done , 3rd one required some polish for word overlay] 
+        1. Should WeStart Work At Background Music Service ? 
+        2. Should We start Sharing the upper 3 Videos after finish the Polish Work ?
+        3. Should we start work at category 3 Or Category 4 ?
+    4. shreeTech UI [NeedToStartOnlyDocumentReady] [PWA-React-App-Like-Insta]
+    
+
+Question 1. Can i approach UK/US Job with current Skill Set and is this is the Best time ? 
+Question 2. Could you please Help me to Prioritized the above things ? 
+
