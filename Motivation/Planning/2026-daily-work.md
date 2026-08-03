@@ -540,3 +540,214 @@ Please Help me on the Above points and Let me motivate in this Difficult afried 
     # July 5
     1. Chepest Fligh Leetcode 787  [NeedtoRevisit] [SecondTimeAttemptFailed]
 
+    # july 6 
+    1. Started DP Revision [StudiedAtPatterns]
+        1. House Robber 1 - 198 [DONE]
+        2. House Robber 2 - 213 [NeedToRevist]
+        1. Delete and Earn - [740] [NeedToRevist]
+    2. Sudied at CKA Multiple Scheduler , need tosudy at Administrator Controller 
+    3. Kronos Website [NeedtoFix]
+
+
+    1. ShreeTech Sunny Blogs and share at Linked In 
+    2. Share 3 Videos at youtube and Insta 
+    3. ITR Fin Gardian Work [onlyPrepareDocument,WhyMicrosoftAPItoShareCan'tWeMakeOurSelfSoIgNoreOurPrivateDateToMicrosift]
+    4. CKA Platform [canWeDoAtGCPAsSomeCodeAlreadyThereAndOnlyNeedToSyncWithLinuxandAI]
+
+    # July 7 
+    1. 322, [CoinChangeKnapSackPattern-1D]
+    
+
+    # July 8 
+    DSA:- 
+    I have to do so many things But DSA Is Taking Lot of TIme last 3 Month Completely Went on DSA , I know Its So valuable One time Efforts and It will Distinguish from Other Engineers and Become Me World Class Engineer . 
+        As u seen my progress on DSA Leetcode Prepaion :  Array,String,Hash,two pounter , Window Sliding , Greedy ,Stack, Queue ,  Heap , Tree , Recursion/Backtrack , Graph , DP [currentlyRevisionIsGoingOnDP]
+    One of my freind total Now a days Mostly companies asking DP/Graph so focusing on that . 
+
+    U can see some of the Graph problems done at BFS and DFS but not started for Grapgh Algorithms .
+    DP Revision STarted after December now , doing today is 2nd day It May take some more days . As U seen todays Screenshot for DP i have around 30 Question all has to be done because I dont Which one is related to which Pattern Because Last time I studied Randomly and this Time Doing Pattern Wise . 
+    Trie I havemt Explored even I dont know 
+    Matrix , Array and String and LinkedList Need to Revise . 
+
+    English [GoingOnNewVocabsLearningGoingOn]
+        Google AI Studi Suggested to Work at : 1. Pronunciation , 2. Vocab Power 3. Grammer Mistake 
+        What are the Good techniques to learn New Vocans to increase the Vocab Power , As my tutor told to write 5 times each new vocab and try to make different sentances from them , and do daily revision . So i made one copy and writing new vocabs with thier Hindi Meaning and synonyms which normaly used in daily conversation for Example Meticulous : telented , genius , logical . Articulate : Expressed , Explained , evaluate 
+    CKA [GoingOnAsRevisingAllAfter6MonthSotakingTimeAndThisTimeDoingEveryTopicVerySenciarlyBecauseAnyHowIHaveToPass] [AsusuggestedItWillHelpMetoFilteroutInUK-MarketAndFAANG-What-do-u-think?]
+
+    System Design [NeedtoStartWorkOnMockPRacticeAndBeforeThatStudyAllConceptLikeConcurrencyAvalabilityPartioning]
+
+    GCP [NeedToPrepareSomeTheoryQuestionsAsRealPracticeIdidInKronosandShreeTechAndLastCompanyWork]
+
+    MERN and Java Spring [NeedToStart]
+
+    ITR FinGardian [NeedToWorkAsJuly31IsLastDate]
+    Kronos [MigrationIsInProgress] [SoMuchDemotivatedAllWorkDoneButStillWebsiteNotLoading]
+    ShreeTeck [TotallyOnHold] [TotallyHoldBecauseOfDSAandCKAAndEnglishWork]
+
+    Most Important :- I have Done my Garden Leave in June now July STarted and I dont have Any Income source Now and as explained above there are somany things I have to Do and because of that I am little Tensioned and stressed , And I am Targetting UK FAANG Job . So please first motivate me and . I am little worried because So many things and little Worried about e=Revision Of MERN  Study as I havn't touch after 3 yrs as i studied last 3 yr back when i was giving Interviews and Java/Spring as recentally added in Skills from December some work done in Comoany and ShreeTech Work in Spring Java . 
+    What to do so overcome my stress and Become Interview Ready 
+
+    I was thnking
+    Study :-  first I will Do staudy in DSA and System Design 
+    Network Building :- and In Background Some Beautifull Attractive Blog on Shreetech By My Content (DSA/JS/SystemDesign/Old-Experienced/AI) and share at ShreeTech and Then copy Link and share at Linked in so Three things will done 1. ShreeTech Agentic AI 2. Post At ShreeTech wordpress GlobalQuery 3. Share At Linked In so People wold Jump On ShreeTech and My Linked In Profile Would Populer . What do u think ? 
+    Resume Building : Need To Prepare WorldClass Staff Engineer Resume ATS Friendly . Dont Build the Resume now I will work on that separately . 
+
+    ### Keyboard is must 
+
+    1. 312 Interval DP [Ballon]
+    2. 1043
+
+    Worked For Interval DP Pattern for 3 Palingdrome Problem 
+
+    Other work:
+    1. Vakil
+    2. HDFC Life Insurance 
+
+    1. Interval Pattern 
+   Count All Palindromic Subsequences (both for total and unique variations) earlier today,
+   2. Sequencel Pattern 
+    Longest Common Substring and Longest Common Subsequence 
+
+    # July 9 
+    1. Documentaton for DP Tracker 
+
+    # July 10 
+
+    1. Revisit of 730 count of Distinct Palingdrom subsequences L730 {Mod Vaue Missed Need to Revisit }
+    2. Revist of Count all Palingdrome subsequences GFG
+    3. Longest Increasing SubSequences L300
+        1. 2D DP method 
+        2. Binary Search with NlogN method 
+    4. Minimum Traingular Poygone :- Understanding [NeedtoDo]
+
+    https://www.youtube.com/watch?v=2r2qr0-NZFc Video Making Via Content 
+
+    # July 11
+
+    Sequence DP ;- 
+
+    the classic DP problem LeetCode 1143: Longest Common Subsequence!" [DoneWith1D-DP]
+    Longest increasing subsequence 300 [SolvedWithNLogN]
+
+    Edit Distance [SequenceDPPattern]
+
+    MCM Pattern :- 
+    1039. Minimum Score Triangulation of Polygon [PartionDP+IntervalDP] [UnderstandNeedToRevisit] 
+    Burst Baloon 
+
+    # July 12 
+    1. Kronos Launch 
+    2. 
+
+    # July13 
+    1. Kronos hacking experience 
+<!-- ==== -->
+    Edit Distance 
+
+
+   1. Ballon 
+    2. Traingle 
+
+
+    max partition 
+    Integer Break 
+<!-- ====  -->
+
+ # july 14 
+   1. 1039. Minimum Score Triangulation of Polygon [PartionDP+IntervalDP] [UnderstandNeedToRevisit]  [SecondAttemptFailedNeedtoRevisit]
+   2. 343. Integer Break [SecondAttemptFailedNeedtoRevisit] 
+   3. 1043. Partition Array for maximum sum [SecondAttemptFailedNeedtoRevisit]
+ # July 15 
+   1. Multiple chain Matrix [NeedToRevist]
+   2. Bank Work 
+   3. Email Prepartion 
+   3. GYM 
+   4. Class 
+
+# July 16
+   1. Integer Break [ThirdAttempt:NeedtoRevist]
+   2. Bank Work 
+   3. Email Prepartion 
+   3. GYM 
+   4. Class 
+
+1. 16 July Email to HDFC Ergo [Kamini]
+6. Nitya Need to followup [Kamini]
+2. Olive Demand Latter Request [Kamini]
+4. Master Spell and Math [Kamini]
+6. Tata AIG refund Kamini and Mummy  [Kamini]
+
+
+1.
+Kamini Google Interview 1simple , 1 medum , 1 hard Problem 
+769. Max Chunks To Make Sorted
+768. Max Chunks To Make Sorted II
+1395. Count Number of Teams
+
+# 17 Juy 
+
+# Sequence DP plus Empty strin compare Pattern [fillInadJ]
+72. Edit Distance [triedThirdTimeWith2D-DP]
+583. Delete Operation for Two Strings [onlyDelete]
+https://leetcode.com/problems/delete-operation-for-two-strings/ : [NO-DP-asOnTime-so-only-one-forloop]
+
+# 18 July 
+1. DP plus Binary search 
+    1. Max Profit 1235 (DP plus Binary search ) N*N
+    2. Russian Doll Envolop (DP plus Binary search  but LIS 300 tails Pattern fon nlogn)
+
+# 19 July 
+1. Russion Doll [Done]
+2. LIS 300 with Binary Search [DONE]
+3. Job Sequence Max profit [3rdAttemptButSMallMistakeNeedToRevist]
+
+# 20 July 
+1. https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ 698. Partition to K Equal Sum Subsets
+2. Krons , shretech loading issue fixed 
+3. Fin Gardian [APIImplementation]
+4. HDFC Argo 
+
+# 21
+1. 698. Partition to K Equal Sum Subsets [secondAttemptButDidMistakesNeedToRevist]
+2. 847.  Bitmask / State Compression LC 847 Shortest Path Visiting All Nodes 
+3. Bitmask / State Compression GFG Travelling Salesman Problem
+
+disguised : Disguised का हिंदी में मुख्य अर्थ "भेस बदला हुआ", "प्रच्छन्न", "गुप्त", "छिपा हुआ"
+retrenchment: छटनी 
+
+# 22 Knapsack Pattern and 5 Problem Revision and studied at Bitmask and State comaration DP 
+
+# 23 House Robber Patterns and 5 Problems Revision 
+
+   Peiority :- Last time we discussed for Priority and u suggested 
+    ### 1. The Priority Matrix (What to do first)
+
+    * **Critical (Income & Deadlines):** 
+    * **High (Interview Core):** 
+    * **Medium (The Rest):** 
+    ### 2. Your Blog & LinkedIn Strategy 
+
+    1. It acts as active revision for your own DSA and System Design concepts.
+    2. It creates a public portfolio that builds authority for your LinkedIn profile to attract UK recruiters.
+    3. It breathes immediate life and traffic back into the ShreeTech ecosystem without taking time away from your core studies.
+
+    ### 3. Quick English Vocab Tip 
+
+ ## 24 
+    Interval DP  gap stratgy + Center Expand Around technique and kmp pattern 
+ # 25 July 
+    Interval DP gap startgy 
+
+    https://leetcode.com/u/shree214ram/
+    https://github.com/shree214ram 
+    https://leetcode.com/problems/maximum-product-of-two-digits/description/
+    https://leetcode.com/problems/design-hashset/description/
+    https://leetcode.com/problems/combination-sum-iii/description/
+
+
+# 26/27/28/29 
+    Interval DP , Sequence DP , DP+Binary Search , House Robber 
+
+    The remaining topics to cover include **Trie**, **Segment Trees / Fenwick Trees**, **Advanced Graph algorithms** (Union-Find, Topological Sort, Dijkstra), and **Bitmask / State Compression DP**.
+
+    Advanced Graphs (Topological Sort, Union-Find, Dijkstra, and Bitmask BFS), Trie, and Segment / Fenwick Trees

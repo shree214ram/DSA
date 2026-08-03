@@ -16,7 +16,7 @@ function countPS(str) {
 		for (let j = 0; j < N; j++) {
 			dp[i][j] = 0;
 		}
-	}
+	} 
 
 	// palindromic subsequence of length 1
 	for (let i = 0; i < N; i++)

@@ -33,4 +33,4 @@ https://www.youtube.com/watch?v=WNkqbqyvR_0
             |    10    |
             |    20    |          DP [i-1 Upper wali row] [45  - 10 = 35 Coins[i-1] upper wali row ka amount ]
             |    30    |
-        Amount 
+        Amount  
