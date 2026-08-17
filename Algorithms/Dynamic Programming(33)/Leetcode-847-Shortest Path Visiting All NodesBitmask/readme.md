@@ -84,6 +84,72 @@ In LC 698, you iterated `index` from $0 \to N-1$. Here, because BFS moves level 
 * You use a 2D boolean array or Set called `visited[node][mask]` to track whether you have seen this exact combination of `(current_node, set_of_visited_nodes)` before.
 * If `visited[neighbor][newMask]` is already `true`, you skip pushing it to the queue. This prevents infinite loops when backtracking through already visited nodes!
 
+
+
+my approach :- 
+
+/**
+ * @param {number[][]} graph
+ * @return {number}
+ */
+var shortestPathLength = function(graph) {
+    /*
+        bitmask and state comparation 
+        I have solved : devide array in k parts of equal sum try logic but there is one special thing is that that was single traversing because we have to traverse from each index only one 
+
+        BUt Here we have lot of diffeent path because in problem it states that we can start from anay where 
+
+        so 
+
+        we will use BFS 
+        and we will use an Trey of node let say 
+
+        0,1,2,3 are nodes then i am at index 0 so We have to use the Memoization to save our Time cmpaxity because there is exponenxial traversing 
+
+        we will use the DP 
+
+        BFS 
+
+        and trey logic but Bitmask 0000 and i am at index 1 so thus will fill 0001
+
+
+    */
+
+
+    const visited=Array(graph.length).fill(0)
+    //BFS and Queue snapshot technique for calculate water wave 
+    const q=[{node:0,adj:graph[0]}] //queue with first graph node inserted 
+    let count=0;
+    const map=new Map() // just to 
+    while(q.length!==0){
+        const size=q.length
+
+        for(let i=0;i<size;i++){
+            const top=q[i]
+            const currentNode=top["node"]
+            const currentNodeAdj=top["adj"]
+            q.shift()
+            if(!visited[currentNode]){
+                //play on adjecent 
+                //eg: node 0 and adj =[1,2,3] , so the try would full fill like 0001 default as currentNode is 0 
+                const trey=Array(graph.length).fill(0)
+                trey[trey.length-1]=1;
+                for(let j=0;j<currentNodeAdj.length;j++){
+                    // bit mask trey fill logic need to write 
+                }
+                //if(trey elements summ== try length) means 1111 which will try length 4 then we can immidietely come out with counter 
+                q.push()
+            }
+        }
+        count++
+    }
+    return count
+};
+
+thats wrong : 
+
+
+
 ---
 
 ### Your BFS Structure Blueprint

@@ -1,0 +1,3 @@
+# THIS IS WRONG SOLUTION  in testSunny.md , correct solution in C:\Users\admin\Documents\Sunny-Ki-Mehnat\DSA\Data Structure\Graph(26)\BFS-DFS(8)\Leetcode-200-No-Of-Island\2026-4-august.md file only but its a small twist having like 8 direction at place of 4 
+
+You simply expand your direction array from 4 offsets [[-1,0], [1,0], [0,-1], [0,1]] to 8 offsets by adding the 4 diagonal pairs: [[-1,-1], [-1,1], [1,-1], [1,1]].

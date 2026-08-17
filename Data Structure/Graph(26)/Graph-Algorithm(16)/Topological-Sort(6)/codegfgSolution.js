@@ -70,7 +70,7 @@
 				console.log(stack.pop() + " ")
 			}
 		}
-	}
+	} 
 
 	// Driver Code
 	var g = new Graph(6)

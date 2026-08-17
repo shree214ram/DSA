@@ -47,7 +47,7 @@ CKA tool
     GCP [DisasterRecovery,RegionalDeployment,Argo,SLO-SLI,Cloud-Armer,FirewallRulles,TrafficManagement,]
     [in my last company for mongo/postgres(cloudsql)/UI+bcakend docker Images via YAML files Repo every thing they were doing from that and they given like one KATA tranng for just attach image in yaml and deply and for services, networking,cloudarmer, network plocy ingress every thing was separet Repo and once we do some KRM so it  goes deploy and een Dev to QA , QA to UT , ut to prod and DR also every thing  they were mainiging via single Repo only because that was Big Interprice so ? one line :==========
 
-    That is GitOps with KRM and continuous delivery (like ArgoCD or Anthos), which automates everything for scale, whereas building from scratch lets you start simple with direct kubectl and GCP commands before building out full pipeline repos.]
+    That is GitOps Kata with KRM and continuous delivery (like ArgoCD or Anthos), which automates everything for scale, whereas building from scratch lets you start simple with direct kubectl and GCP commands before building out full pipeline repos.]
      
     [service_account or IIM  , Or vault for connectivity from one pod to another like cloud shell to GCP VM PG]
 
@@ -61,6 +61,12 @@ CKA tool
     Mongo-> Firebase 
 
     ### Attcah Leetcode profile url
+        
+        https://leetcode.com/u/shree214ram/
+        https://github.com/shree214ram 
+        https://leetcode.com/problems/maximum-product-of-two-digits/description/
+        https://leetcode.com/problems/design-hashset/description/
+        https://leetcode.com/problems/combination-sum-iii/description/
     ### Make Own page like Kamini
     ### Add all portfolio Projects into that 
     ### Add medium,Quora and other Links 
@@ -87,15 +93,19 @@ CKA tool
     1. VM Issue : [Resolved-Kronos-andshree-workingnow] [#####DONE#####]
     ShreeTech 
     Globel Query :-
+    # phase 1 (GCP chat kronos )
     1. Secure as Kronos 
-        (wp-admin hide, 
+        (wp-admin hide and custome url for wp-admin , 
         apply some rules for restrictions, 
-        apply ssl , 
+        apply ssl , file Access restrction , htaccess rules for restric 
         Will apply some cross site scripting/ Security Injections and Other cyber security terms
         need tocheck why kronos hacked last time either Database / Or Import Plugin / Or Bigrock 
         )
     2. Redirect domain to GCP website 
-    3. Theme correction 
+
+    # phase 2 (GCP chat shreeTech )
+    3. Theme correction and Recommended blog theme setting 
+    4. We have already main user admin but we would required Normal User Module for Normal user can comment,share,likes SO that would look like Live Forum 
     4. Create Some dummy User with kronos email Ids and 
     5. Start Sharing Blogs for each category 
     6. Think like why cant we make Blogs Like Screenshots 

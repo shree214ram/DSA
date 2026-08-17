@@ -52,7 +52,7 @@ class Graph {
 			// has to be done this way to keep the vertices
 			// sorted distance (distance must be first item
 			// in pair)
-			let u = pq[0][1];
+			let u = pq[0][1]; //source
 			pq.shift();
  
 			// 'i' is used to get all adjacent vertices of a
@@ -70,8 +70,9 @@ class Graph {
 					dist[v] = dist[u] + weight;
 					pq.push([dist[v], v]);
 					pq.sort((a, b) =>{
-						if(a[0] == b[0]) return a[1] - b[1];
-						return a[0] - b[0];
+						//a[0] means 0 index is distance means weight , and 1 index is u source from where we have started 
+						if(a[0] == b[0]) return a[1] - b[1]; // by chance if both distance(weight) are equal then sort by source 
+						return a[0] - b[0]; //sother wise simply sort by weight 
 					});
 				}
 			}

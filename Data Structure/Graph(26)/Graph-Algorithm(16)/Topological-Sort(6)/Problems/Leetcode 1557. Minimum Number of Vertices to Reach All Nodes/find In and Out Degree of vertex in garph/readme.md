@@ -6,7 +6,7 @@ https://www.geeksforgeeks.org/finding-in-and-out-degrees-of-all-vertices-in-a-gr
 <img src="self.jpeg">
 </br>
 </p>
-
+ 
 # steps :-
 1. Add all the adge one by one in Array like 0 index [1,2] why because from 0th vertex two vertex are going out side 
    So Array would be like 

@@ -11,7 +11,7 @@ Applications of Disjoint set Union: Rank & Path comparation
     https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/
 7. https://www.geeksforgeeks.org/find-the-number-of-islands-set-2-using-disjoint-set/
 
-
+ 
 Related Articles: 
 Union-Find Algorithm | Set 1 (Detect Cycle in an Undirected Graph) 
 Union-Find Algorithm | Set 2 (Union By Rank and Path Compression)
@@ -20,6 +20,7 @@ https://www.youtube.com/watch?v=Kptz-NVA2RE&ab_channel=AnujBhaiya
 Good explanation 
 
 ### Introduction :- 
+# In this union and find two main function are there and Its Time compaxity is much less then Graph and Metrix 
 
 1. Union :- join 2 vertex in one set
 2. Find :- find 2 vertex in single set or not 
@@ -51,6 +52,10 @@ Good explanation
     7 ---> 2, 0, 1
 
 ### Important methods :- 
+    1. we will make one parent array and initially we will set each numner to its parent 
+
+
+        and then in find function we check if current element x == its parent then return x other wise find(P[x])
 
     find(x){
         if(P[x] == x) return x 
@@ -65,6 +70,15 @@ Good explanation
         }
         P[y] = x
     }
+<p align="center">
+  <img src="theory.png">
+  <br/>
+</p>
+
+<p align="center">
+  <img src="theory2.png">
+  <br/>
+</p>
 
 3. Rank :- Time complaxity is equal to height of tree , which is used in recursion function from leaf to root , so we can reduce time complaxity with the help of reduce height of tree . 
 
@@ -82,9 +96,36 @@ Good explanation
             6(height = 0)
          
 
-         Union function me hum bina computation ke dusre ka parent pahle ko de dete the . 
-
+    # Union function me hum bina computation ke dusre ka parent pahle ko de dete the . 
+    yadi hum 1,5 ko union karte he to 5 ko 1 ka parent bana denge 
          to is hisab se 1 ka parent 5 ho jayega and 1 more timr traverse karna padega 
+
+                             5(height = 1)
+                      /                      \
+                                                6(height = 0)
+            1(height = 3)
+           /
+          2(height = 2)
+         /
+        3(height = 1)
+       /
+      4(height = 0)    to again if we want to find the parent of 4 then we have to travwers 4->3->2->1 and one more stp 5 so hiegt or badti chali jayegi and Time ciomplaxity or badti chali jayegi to hum Rank ki madad loenge 
+
+        jiski rank jyada he usi ko parent banayege like 1 ki rank 5 ki rank se jyada he to 5 ka parent 1 ko banayenge 
+
+                        1(height = 3)
+                    /                    \
+          2(height = 2)               5(height = 1)
+         /                                  \
+        3(height = 1)                   6(height = 0) 
+       /
+      4(height = 0) 
+
+        then Tree ki hight still 4 hi he to time compaxity remains same 
 
          Note :- Yadi hum Rank ka use kare to ye problem solve ho jayegi 
       
+<p align="center">
+  <img src="rank.png">
+  <br/>
+</p>

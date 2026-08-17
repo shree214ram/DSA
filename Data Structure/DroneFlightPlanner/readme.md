@@ -7,6 +7,10 @@ For simplicity, every 3D point will be represented as an integer array whose len
 
 Explain your solution and analyze its time and space complexities.
 
+
+1 kwh for every mile 
+
+
 Example:
 
 input:  route = [ [0,   2, 10],

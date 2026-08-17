@@ -738,16 +738,154 @@ retrenchment: छटनी
  # 25 July 
     Interval DP gap startgy 
 
-    https://leetcode.com/u/shree214ram/
-    https://github.com/shree214ram 
-    https://leetcode.com/problems/maximum-product-of-two-digits/description/
-    https://leetcode.com/problems/design-hashset/description/
-    https://leetcode.com/problems/combination-sum-iii/description/
 
 
 # 26/27/28/29 
     Interval DP , Sequence DP , DP+Binary Search , House Robber 
 
-    The remaining topics to cover include **Trie**, **Segment Trees / Fenwick Trees**, **Advanced Graph algorithms** (Union-Find, Topological Sort, Dijkstra), and **Bitmask / State Compression DP**.
+  
 
-    Advanced Graphs (Topological Sort, Union-Find, Dijkstra, and Bitmask BFS), Trie, and Segment / Fenwick Trees
+# 30/31/1/2
+
+    DP+ Binary Search 
+    Bit mask DP 
+
+# 3 August 
+    Traversinng Salesman Problem :
+        Revisipon of Complete all the nodes BFS+ Bitmask
+        DP+ Bitmask because , there is Restriction alsways start from 0 and again come back to 0 
+    Longest Increasing Subs sequence :
+        Revision of 300 Tail Binary Search but here It wont work because we need counter 
+        1DP for mainitain the increasing frequency 
+        1 DP for maintain the count 
+    Topological Sort, Dijkstr:-
+        1. Revision of Topological Sort {DFS+Stack+Detect Cycle DAG }
+        2. Revision of Course schedule 1
+        3. Revision of Course schedule 2 
+        4. Khans algo
+
+Tomorrow plan :
+Traversal Salesman Problem 
+Revisit of Complete all the node [DONE]
+Longest Increasing Subs sequence [NeedToRevisit]
+courece sheculde 1 with detect cyle  [DoneButNeedToRevisitAsBasicTemplatewasNotWrittenCorrect]
+courece sheculde 2 with khan [TomorowAgainTryWithKhansAlgo]
+
+6. System Design : Leetcode application Design for latherboard 
+
+
+# 05 August 
+1. course schedule 2 by Khans BFS done [needOneMoreRevisyt]
+2. Find In and Out Degree concept [ReviseOfTopology]
+3. 1557 : minimum number of nodes for reach other Nodes[ItsKindOfInOutButHereDirectGiven---u->v-sodirect-we-can-make]
+[FindOutOneOptimizationForUint8Array,simpleittration,simplearrayvaluechangeOverallMemoryAllocationGame]
+4. Rotten Orange with More FAANG optimization [atplaceofusingthetempArrayassignmentWeShouldUsecounter,reduceFresh,inWhileLoopHeadCheckWithQueueLengthAndFreshAvailable]
+
+5. Chepest Fligh : when i am comparing with your last time solution around july 3 to 10 , i missed 1. memoization and 2. missed the immidiettely brak the loop if we reached the destination , 3. i followed the water wave logic but for get to keep while loop til wave<k+1 , 4. in Adjency list i did little mistake I should make destination + cost also save in adjency list so no need to mainitain the costArray , 5. in memoisation we replace only when if (nextCost < memo[neighbor]) { . Apart from it Any mistake . I think Basic Template like BFS + water wave snapshpot + Adjency list + cost minimum replace ment I think more than 30% I wrote correctelly ? what did u say ? one line [NeedToRevist]
+
+6. System Design : Stock market application Design
+
+# 06 August 
+1. L792 : find the count of substring matched in wordlist [Queue-Bucket] [NeeToRevist]
+2. Word Ladddr [SolvedWith3HintWithBFS] [LearntNeBiduerctional]
+    Lernt js solid way to prepare a..z array 
+    Uint8Array
+    Head technique 
+    const nextWord = word.slice(0, i) + 
+                        String.fromCharCode(c) + 
+                        word.slice(i + 1);
+
+
+ 
+# 7 August 
+Tomorrow'sPlan: 
+1. L792 [DoneButTookLotTimeToDebug] [totalCompleteNewPatternQueueBucketDrainAndRefillNextIndex]
+2. Word Ladder with Bidirectional Method for Optimised way [TriedBidirectionalMethodButFullyNotAbletoWriteNeedtoAgainTry] [NeedToRevist]
+3. 1162 As far from Land [findOptimizationLike1.Head2.selfPlace]
+4. cource 2 with khan [NeedToRevist] [DONE]
+
+# 8th August 
+1. Detect cycle in Directed Graph cource 2 with khan [NeedToRevist] [DONE]
+2. Detect cycle in Undirected Graph
+    1. BFS [NeedToImplement]
+    2. DFS [NeedToImplement]
+
+3. Diskja Algo 
+    1. DFS [3Array-1.Parent,2.Visited,3.Value] [understoodButV*VSoSkippedImplementation]
+    1. BFS Priority Queue [(V+E)logv]
+    2. $O((V+E)\log V)$), and the top must-know FAANG problems for this pattern are 
+
+    Chepest Flights Within K Stops (LeetCode 787), 
+    Path with Maximum Probability (LeetCode 1514), 
+    Swim in Rising Water (LeetCode 778), 
+    and Shortest Path in Binary Matrix (LeetCode 1091).
+
+    Look for specific graph structure and constraint keywords: 
+    use Topological Sort + DP if the graph is a DAG; 
+    use BFS + Bitmask DP if you must visit all nodes/cities (Travelling Salesperson, $N \le 15$); and use Dijkstra if finding the shortest path between nodes on a weighted graph with non-negative edges.
+
+    Yes, Dijkstra always requires a starting **source node**, and optionally a **destination node** (to stop early once reached) or it will compute the shortest distance from that source to *all* reachable nodes in the graph.
+
+
+# 9th August
+Tomorrows Plan :- 
+
+1. Detect cycle in Undirected Graph will take any Important faang question for Practice below concept
+    1. BFS [NeedToImplement]
+    2. DFS [NeedToImplement]
+2. Network Delay Time Leetcode #743 [TriedButNotAbleTowriteFromOwn=NeedToRevist] [DiskjaAlgoRivision]
+3. Longest/Shortest Path in a Directed Acyclic Graph
+4. Studied :- DisJoint Union Set | Rank | 
+5. Revised Diskja in 743 Problem 
+
+
+# 10 nAugust 
+
+1. Quick and Merge Sort Algo practice
+2. Network Delay Time Leetcode #743 [Wrote80%NeedToRevist] [Diskjs-BFS-PriorityQueue]
+3. Cheapest Flight 787 [AttemptedButConfussedFromBidirectionalExpansionFromWordLadder-NeedToRevist] [QsnapShotBFS] [DoneinFourthAttempt]
+4. Revision Of Iland Problem with little veriation , at place of 4 direction check in 8 direction like 
+
+# 11 
+   Automation [******]
+    Drone Problem [NeedToRevist]
+
+
+# 12 
+
+1. Krsuskals Algo 
+2. Prims Algo 
+   ATM Machine [***MONEY***] : Need to think how the Money would come from my work
+   
+
+# 13
+   1. heap sort practice [someErrors] 
+    2. Range Problem 632 tried but Failed [NeedToRevist]
+
+  
+
+# 14 
+1. Revision of krushkal/DisjointSet/ and worked for 1584 [NeedToRevist]
+2. Revision of Diskja/Prims 
+3. Bellman ford 
+4. 1042 New Algo Coloring the Graph [TotalNewAlgoNeedToRevist]
+3. Graph Document and Tracking sheet [notDone]
+4. 743 and 787 [NeedToRevist]
+
+
+
+
+# 15 
+1. Pen Paper Kruskal/Prims/unionSet/Disktra/BellmanFord Heap/Quick/Merge
+Kronos  dev setup
+
+# 16 August :-
+Pen Paper , Chipest flight , cource shedule 2 DFS and Khan BFS Indegree  
+
+# 17 August 
+1. 2 Graph question 
+    269 Alien Dictinary [NewProblem-FisrtAttempt-NeedToRevist]
+    1091 [ThirdAttempt-NeedToRevist]
+ 
+
+
