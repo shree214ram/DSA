@@ -887,5 +887,81 @@ Pen Paper , Chipest flight , cource shedule 2 DFS and Khan BFS Indegree
     269 Alien Dictinary [NewProblem-FisrtAttempt-NeedToRevist]
     1091 [ThirdAttempt-NeedToRevist]
  
+# 18 August 
+1. 1631 : Path with minimum effort [2HrGivenFreshProblem-NeedToRevist-60%] [NeedToRevist]
+2. 847 [23June-21July-18August-70%] [NeedToRevist]
+3. Resume / Apply on Some Jobs 
+
+# 19 August 
+1. 973. K Closest Points to Origin [FirstTried2HrsFromOwnThen] [LearntNewMaxPriorityQueueClass] [NeedToRevist]
+2. 692. Top K Frequent Words [TriedFromOwn45MinThen] [LearntNewCustomPriorityQueueWhereWeCanWriteTwoCompareOneFrequencyCountSecondLaxiocalOrder]
+3. Leetcode 23. Merge k Sorted Lists [NeedToRevist]
+
+# 20 August 
+1. 215 [LearntQuickSelectTechnique-] [tried to write Qucik sort from own]
+2. Resume , update at all platform , and Apply 
+3. is it palingdrome mod method 
+
+215, 973, 347
+
+give me the code qith quick select technique and which one is best for FAANG ? one line 
 
 
+As per our last Discussion we have prepared the Resume : https://docs.google.com/document/d/1j9XVMzNfAe7tW9OjOpH4JAVYuiQxC63a8f5BjkaGacs/edit?tab=t.0 
+
+
+# 21 August 
+1. 632 [mergingKList-main-Learnt-the-Next-Row-Column-Ittration-Logic]
+2. 23 [MergeKSortedLinkedList] [nextLogicOfLinkedList]
+3. 215 [RevisedTheDutchAlgo3WayPart]
+
+ShreeBlog Work :-
+
+# 22/23/24/25 
+1. Quick Select 
+2. Dutch National 
+3. 658 Find K closest 
+2. 480 
+4. 703 
+295 Median of Stream 
+
+# 26/27/28 
+
+
+39,47,78,79 [NeedToRivisit]
+
+784 [NeedTorevist]
+
+1. How End To End Debug an prod Issue with AI , as in last company i have solve some code related Issue , with AI gemini code assistence , But If the Problem in DataBase (Let say some wrong data Or duplicate entry inserted in DB )Or from the User Input Or like Cookie Or Cahche Or Css Related Issue which Code Assistence not able to recognize But From the User Interface its coming then ? How we can do in this AI ERA , 
+
+Like how we can add that thing for UI optimization 
+    1. FCP
+    2. LCP 
+    3. INS 
+    4. CLS 
+    5. TTFB
+    6. API Latency 
+    Web Witels Google light House 
+
+2. What are the New Tools Or Techniques runing in market which i should have some knowledge before Interview Or Join a company because Since last 6 month I am not working in An Organization might be some New Things Came And I am not aware 
+    Like one thing I got to know before one wek like Claude Code , Index 
+    One more thing i got from one of my firend Enthropy 
+
+    Apart from my tech stack any thing Which i should Aware ? 
+
+    
+
+    131. Palindrome Partitioning
+    40. Combination Sum II
+
+    RateMazeGFG-Sep2 letterCasePermutation 
+
+
+    # 4 Sep 
+    1. 2 DSA 
+    2. Core Java OOPS 
+    3. Resume/Blog 
+
+    isPalingDrom 9 
+    132 Center Around Palingdrome with DP 
+    find duplicate 

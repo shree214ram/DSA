@@ -8,4 +8,5 @@ https://www.educba.com/javascript-design-patterns/
 2. Factory method
 3. Abstract Factory Method
 4. Builder Pattern 
-4. Prototype 
+5. Prototype 
+6. Object Pool

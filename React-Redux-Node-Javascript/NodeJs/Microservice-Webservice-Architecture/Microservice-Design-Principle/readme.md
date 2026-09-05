@@ -16,4 +16,4 @@ https://medium.com/javarevisited/10-microservices-design-principles-every-develo
 
 https://medium.com/javarevisited/50-microservices-interview-questions-for-java-programmers-70a4a68c4349
 
-please see this link for batter understanding with some diagram explanation 
+please see this link for batter understanding with some diagram explanation  

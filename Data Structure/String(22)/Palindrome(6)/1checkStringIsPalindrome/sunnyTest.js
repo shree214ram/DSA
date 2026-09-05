@@ -20,7 +20,7 @@ function isPalindrome(str)
 
 // Driver program to test above function
 
-	isPalindrome("abba");
+	isPalindrome("abba"); 
 	isPalindrome("abbccbba");
 	isPalindrome("geeks");
 	return 0;

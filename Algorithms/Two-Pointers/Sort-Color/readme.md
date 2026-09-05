@@ -1,7 +1,7 @@
 <script>
  
 //https://leetcode.com/problems/sort-colors/
-
+https://www.youtube.com/watch?v=6sMssUHgaBs
 const A = [2,0,2,1,1,0]
 //Output: [0,0,1,1,2,2]
 

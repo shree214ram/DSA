@@ -15,3 +15,18 @@ https://www.youtube.com/watch?v=qgzgcVQqk6g
 https://www.youtube.com/watch?v=EHCJ4wO5MTY&pp=ugUEEgJoaQ%3D%3D 
 
 https://www.youtube.com/watch?v=FrRjf9muIyY just Google Video 
+
+# system Design 
+https://www.youtube.com/watch?v=s9Qh9fWeOAk [all the concept in one video]
+
+https://www.youtube.com/watch?v=OeWLeEiqMhQ Google Staff Engineer 
+
+https://www.youtube.com/watch?v=qy7IHg_uAaM What is the Principle Engineer 
+
+# Rate Limiter 
+https://www.youtube.com/watch?v=7y0KWxaUn-E
+https://www.youtube.com/watch?v=2Mban8M1zxo
+
+
+
+

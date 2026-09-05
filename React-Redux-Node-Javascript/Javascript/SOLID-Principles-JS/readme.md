@@ -145,7 +145,7 @@ https://www.youtube.com/watch?v=m2GCb-x8e5s&ab_channel=RethinkingUI
                 window.location.href = "/dashboard"
             }
         }
-### D :- Dependency Inversion 
+### D :- Dependency Inversion  
 
     TV Remote only need Battery . Battery can be of any company which is not dependent on any company specific . 
 

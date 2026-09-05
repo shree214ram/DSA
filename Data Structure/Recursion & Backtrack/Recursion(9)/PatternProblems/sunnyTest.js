@@ -1,7 +1,7 @@
 const string = "1??0?101"
 /*
     Prepare the indexed array on which ? is found
-*/
+*/ 
 const indexArray = []
 const arr = string.split("")
 for (let i = 0; i < arr.length; i++) {

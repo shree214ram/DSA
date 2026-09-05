@@ -28,8 +28,20 @@
 
     *   $0 \le start_i < end_i \le 10^6$
 
+  Approach: 
+  sort via start time and then set in heap if current start > min heap end dequeue other wise enque 
 
+    const sort=intervals.sort((a,b)=>a[0]-b[0])
+    //[[0,30],[5,10],[15,20]]
+    const pq=MinPriorityQueue((a,b)=>a[1]-b[1]) //max heap via end time Min Heap [5,10] [0,30]
+    for(const [start,end] of sort){
+        if(start>=pq.front()[1]){
+            pq.dequeue() //when 15,20 would come then start 15 > Top of Min Heap end 10 then [5,10] room will free soon 
+        }
+        pq.enqueue([start,end])
+    }
 
+    return pq.size()
 
 
 */

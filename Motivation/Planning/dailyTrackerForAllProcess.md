@@ -43,7 +43,7 @@ CKA tool
 3. Resume : 
     # New Skills to be add ad forget to mesnsioned erlier :- 
     Add Data Structure and Algorithms , 
-    System Design [cap], 
+    System Design [cap, Distributed System , capability to design a scalable system , cost optimised , cache , CND , Load balancing , storage s3 bucket , Server sent event , websocket , High level low level design , ], 
     GCP [DisasterRecovery,RegionalDeployment,Argo,SLO-SLI,Cloud-Armer,FirewallRulles,TrafficManagement,]
     [in my last company for mongo/postgres(cloudsql)/UI+bcakend docker Images via YAML files Repo every thing they were doing from that and they given like one KATA tranng for just attach image in yaml and deply and for services, networking,cloudarmer, network plocy ingress every thing was separet Repo and once we do some KRM so it  goes deploy and een Dev to QA , QA to UT , ut to prod and DR also every thing  they were mainiging via single Repo only because that was Big Interprice so ? one line :==========
 
@@ -53,33 +53,44 @@ CKA tool
 
     PGAdmin / Postgres ,BigQuery , vertex AI , Analytics and Elastic Search 
 
+    In last company Migrated one Onprem application to GCP and did huge cost cutting with below migration 
     Oracle -> Postgres
     Splunk -> GCP logs 
     Elastic Search -> Vertext AI 
     Kafka -> Pubsub 
     nginx-> Nodejs Passport API custom routing 
     Mongo-> Firebase 
+    And converted in to GKE Pod autoscal secured (IIM ,valut,Service account)
 
     ### Attcah Leetcode profile url
         
         https://leetcode.com/u/shree214ram/
         https://github.com/shree214ram 
+        https://medium.com/@shree214ram
+        https://github.com/shree214ram/finguardian
+
         https://leetcode.com/problems/maximum-product-of-two-digits/description/
         https://leetcode.com/problems/design-hashset/description/
         https://leetcode.com/problems/combination-sum-iii/description/
-    ### Make Own page like Kamini
-    ### Add all portfolio Projects into that 
-    ### Add medium,Quora and other Links 
+   
 
     ### add CKA & GCP certificates 
+        Similar to GKE need to add GCP certification pursuing like : Handson Experiance of GCP cloud services as 1. in CME Migrated 2 Big interprice application one in MERN and One in Java Spring 
+        2. and also Migrated one Wordpress  Website kronos 
+        3. and Made One Portfolio Project just to share technical blogs shreetech [As u said erlier you can share this running Project so HR would impress]
+        4. Fin Guardian [Should we share this Project : GCP , GKE , GCE , Low Cost , Low latency High Performance Java/Spring ,React, Next Js , PWA , Postgres Vertex , AI Gemnini LLM integartion for Tax Sheet Prepare from just Upload document and show Tax and ] https://github.com/shree214ram/finguardian u can add short description of this Project in Resume [FinGuardian is an enterprise-grade financial intelligence platform designed to automate document parsing, complex tax calculations, and dynamic report generation. Built using modern cloud-native architectures, standard compliance controls, and privacy-preserving AI orchestration, FinGuardian processes sensitive tax assets with sub-second retrieval latency while adhering to strict data sovereignty mandates.]
 
-
+    Agentic AI : Aider CLI and Playwrite 
 
     1. DR 
     2. Multi Regional deployment , Data Partitioning, Data Sharding 
     3. Multiple environment handling like dev/qa/ut/prod
     4. Vault 
     5. GKE 
+
+    ### Make Own page like Kamini
+    ### Add all portfolio Projects into that 
+    ### Add medium,Quora and other Links 
 4. CKA :-
     stopped practice now a days mainly focusing AT DSA and July ITR platform Automation Project as 30 July is the Deadline 
 
@@ -94,6 +105,11 @@ CKA tool
     ShreeTech 
     Globel Query :-
     # phase 1 (GCP chat kronos )
+    1. Kronos 
+        1. kronos_bigrock_db clear 
+        2. Deployed theme and db on Prod with Home and Site url 
+        3. Remove the Subscription Feature Remove Or Apply Some 
+            Add CAPTCHA verification (like Cloudflare Turnstile or reCAPTCHA v3) and rate limiting to that subscription form endpoint to block automated bot submissions.
     1. Secure as Kronos 
         (wp-admin hide and custome url for wp-admin , 
         apply some rules for restrictions, 
